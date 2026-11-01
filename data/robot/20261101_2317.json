@@ -5,8 +5,7 @@
   "sources": [
     "로봇신문",
     "전자신문",
-    "지디넷코리아",
-    "The Robot Report"
+    "지디넷코리아"
   ],
   "articles": [
     {
@@ -162,14 +161,6 @@
       "summary": "자동차 램프 기업 에스엘이 로봇 사업으로 넓히고 있어요. 현대차 이동형 로봇 모베드에 라이다 모듈·배터리관리시스템을 공급하고, 보스턴다이내믹스 4족 로봇 다리 모듈도 수주했습니다.",
       "source": "전자신문",
       "time": "11/01 11:17"
-    },
-    {
-      "category": "business",
-      "title": "피지컬 AI가 다음 수익 시장인 이유",
-      "url": "https://www.therobotreport.com/why-physical-ai-next-lucrative-frontier/",
-      "summary": "PitchBook에 따르면 로봇·피지컬 AI 스타트업은 2025년 1,009건 투자로 사상 최대인 276억 달러를 모았어요. 전년의 두 배가 넘는 규모로, 글쓴이는 AI 에이전트 다음으로 크게 성장할 시장이 피지컬 AI라고 봅니다.",
-      "source": "The Robot Report",
-      "time": "11/01 22:30"
     },
     {
       "category": "policy_event",

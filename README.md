@@ -1,23 +1,40 @@
 # 뉴스레터
 
-원하는 주제의 최근 24시간 뉴스를 모아 메일로 보내는 뉴스레터예요.
+원하는 주제의 최근 24시간 뉴스를 모아 메일로 보내는 뉴스레터예요.    
 먼저 아래 변수값을 결정하고 진행하세요.    
 - {SUBJECT}: 뉴스레터 주제
 - {SUBJECT_ID}: 주제를 의미하는 영문 소문자명    
+
+## newsletter 레포지토리 클론하기    
+레포지토리를 다운로드할 상위 디렉토리를 만듭니다.     
+```
+cd ~
+mkdir workspace
+```
+
+newsletter 레포지토리를 클론합니다.    
+```
+cd workspace
+git clone https://github.com/unicorn-svc/newsletter.git
+```
+  
+---
   
 ## 메일 발송을 위한 인증정보 생성하기 
-- https://myaccount.google.com/security 접속하여 2단계 인증을 활성화합니다. (이미 돼 있으면 skip)
-- https://myaccount.google.com/apppasswords 접속합니다.   
-  - 앱 이름을 적절하게 입력하고 '만들기'를 클릭   
-  - 생성된 16자리 코드 복사   
-- `.env`파일에 아래와 같이 SMTP설정을 합니다. `.env`파일이 없으면 프로젝트 루트 디렉토리 밑에 생성하세요.   
-  SMTP_USER는 인증정보 생성 시 로그인한 gmail을 입력하고 SMTP_PASSWORD에 인증코드 16자리를 붙여넣습니다.       
-  ```
-  SMTP_SERVER=smtp.gmail.com
-  SMTP_PORT=587
-  SMTP_USER=hiondal@gmail.com
-  SMTP_PASSWORD=wgnr aaaa eeee ffff
-  ```
+1.https://myaccount.google.com/security 접속하여 2단계 인증을 활성화합니다. (이미 돼 있으면 skip)   
+2.https://myaccount.google.com/apppasswords 접속합니다.    
+- 앱 이름을 적절하게 입력하고 '만들기'를 클릭   
+- 생성된 16자리 코드 복사   
+
+3.`.env`파일에 아래와 같이 SMTP설정을 합니다.     
+`.env`파일이 없으면 프로젝트 루트 디렉토리(~/workspace/newsletter) 밑에 생성하세요.   
+SMTP_USER는 인증정보 생성 시 로그인한 gmail을 입력하고 SMTP_PASSWORD에 인증코드 16자리를 붙여넣습니다.       
+```
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=hiondal@gmail.com
+SMTP_PASSWORD=wgnr aaaa eeee ffff
+```
 
 ---
   
@@ -46,13 +63,18 @@ happycloudtek@unicorn.kubepia.com
    prompts/routine-{주제}.md를 수행하세요.
    ```
    Claude Code는 좌측 메뉴에서 '예약'에서, Codex는 가장 좌측 패널에서 세번째 '예약' 아이콘을 클릭하여 스케쥴 작업을 작성합니다.    
+   모델과 Effort는 적절히 지정하세요.     
    **Claude Code**        
-   ![](images/2026-11-01-22-54-02.png)     
-   ![](images/2026-11-01-23-01-53.png)     
+   ![](images/2026-11-01-23-48-55.png)          
+   ![](images/2026-11-01-23-50-05.png)         
     
    **Codex:**     
-   ![](images/2026-11-01-23-03-46.png)      
-   ![](images/2026-11-01-23-04-46.png)     
+   프로젝트부터 만듭니다.    
+   ![](images/2026-11-01-23-52-40.png)       
+   
+   스케쥴 예약을 등록합니다.    
+   ![](images/2026-11-01-23-54-52.png)    
+   ![](images/2026-11-01-23-55-58.png)      
   
 
 4. 최초 한번 실행합니다.    
@@ -65,8 +87,8 @@ happycloudtek@unicorn.kubepia.com
   - 추천한 뉴스 사이트를 검토하고 승인하세요     
  
   **Codex:**       
-  - 스케쥴 작업 후 바로 대화창이 열립니다.     
-  - 테스트로 실행하라고 합니다.    
+  - 등록된 스케쥴의 우측 '...'을 클릭하고 '지금실행'을 수행하세요.       
+    ![](images/2026-11-01-23-58-36.png)            
   - 추천한 뉴스 사이트를 검토하고 승인하세요.      
     
 ※ 고른 사이트는 `AGENTS.md`의 `## 뉴스사이트`에 기록되고, 다음 실행부터 그대로 써요.
