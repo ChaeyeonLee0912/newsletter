@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>AI 뉴스레터 | {{ date_label }}</title>
+  <title>{{ title }} | {{ date_label }}</title>
   <style>
     body{margin:0;background:#f3f6fb;color:#172033;font-family:Arial,"Noto Sans KR",sans-serif;line-height:1.65}
     .wrap{max-width:900px;margin:0 auto;padding:28px 16px 60px}
@@ -34,7 +34,7 @@
 
   <div class="hero">
     <div class="meta">{{ meta_label }}</div>
-    <h1>🤖 AI 뉴스레터</h1>
+    <h1>{{ emoji }} {{ title }}</h1>
     <p style="margin:4px 0 0;opacity:.85;font-size:14px">{{ sources_label }} 종합</p>
     <div class="stats">
       <div class="stat"><strong>{{ total_articles }}</strong>기사</div>
@@ -64,7 +64,7 @@
 {% endfor %}
 
   <footer>
-    <p>AI 뉴스레터 | {{ footer_label }} | {{ sources_label }}</p>
+    <p>{{ title }} | {{ footer_label }} | {{ sources_label }}</p>
   </footer>
 </div>
 </body>

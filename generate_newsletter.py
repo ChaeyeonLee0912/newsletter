@@ -18,6 +18,8 @@ Newsletter Generator
 데이터 JSON 형식 (UI 정보 없음 — 순수 데이터):
     {
       "published_at": "2026-06-11T06:30",
+      "title": "AI 뉴스레터",            # 선택. 생략하면 "AI 뉴스레터"
+      "emoji": "🤖",                     # 선택. 생략하면 "🤖"
       "sources": ["AI Times", "지디넷", "전자신문"],
       "articles": [
         {"category": "genai", "title": "...", "url": "https://...",
@@ -49,6 +51,9 @@ DEFAULT_PALETTE = [
 ]
 
 WEEKDAYS_KO = ["월", "화", "수", "목", "금", "토", "일"]
+
+DEFAULT_TITLE = "AI 뉴스레터"
+DEFAULT_EMOJI = "🤖"
 
 
 def load_category_registry() -> tuple[list[dict], list[str]]:
@@ -126,6 +131,8 @@ def build_context(data: dict) -> dict:
     dates = format_dates(data["published_at"])
 
     return {
+        "title": data.get("title") or DEFAULT_TITLE,
+        "emoji": data.get("emoji") or DEFAULT_EMOJI,
         "date_label": dates["date_label"],
         "meta_label": dates["meta_label"],
         "footer_label": dates["footer_label"],
@@ -150,7 +157,7 @@ def render_html(ctx: dict) -> str:
 
 def build_text(ctx: dict) -> str:
     """HTML 비지원 메일 클라이언트용 평문 본문."""
-    lines = [f"AI 뉴스레터 | {ctx['footer_label']}", ""]
+    lines = [f"{ctx['title']} | {ctx['footer_label']}", ""]
     for cat in ctx["categories"]:
         lines.append(f"[{cat['emoji']} {cat['label']}] {len(cat['articles'])}개")
         for a in cat["articles"]:
@@ -192,7 +199,7 @@ def main() -> int:
         if not recipients:
             print("오류: RECIPIENTS 환경 변수가 비어 있음.", file=sys.stderr)
             return 1
-        subject = f"AI 뉴스레터 | {ctx['footer_label']}"
+        subject = f"{ctx['title']} | {ctx['footer_label']}"
         text = build_text(ctx)
         print(f"발송 대상 {len(recipients)}명: {', '.join(recipients)}")
         ok = all(send_email(to, subject, text, html) for to in recipients)
