@@ -1,0 +1,44 @@
+{
+  "palette": [
+    "#db2777",
+    "#0891b2",
+    "#ca8a04",
+    "#4f46e5",
+    "#15803d",
+    "#b91c1c",
+    "#9333ea",
+    "#0d9488"
+  ],
+  "categories": [
+    {
+      "id": "new",
+      "emoji": "🎮",
+      "label": "신작·출시",
+      "color": "#db2777"
+    },
+    {
+      "id": "market",
+      "emoji": "📈",
+      "label": "시장·판매",
+      "color": "#0891b2"
+    },
+    {
+      "id": "development",
+      "emoji": "🛠️",
+      "label": "개발·도구",
+      "color": "#ca8a04"
+    },
+    {
+      "id": "others",
+      "emoji": "📰",
+      "label": "기타",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "industry",
+      "emoji": "🏢",
+      "label": "업계·인물",
+      "color": "#15803d"
+    }
+  ]
+}

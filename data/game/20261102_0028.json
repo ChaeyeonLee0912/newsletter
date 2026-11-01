@@ -1,0 +1,130 @@
+{
+  "published_at": "2026-11-02T00:28",
+  "title": "게임 뉴스레터",
+  "emoji": "🎮",
+  "sources": [
+    "게임메카",
+    "인벤",
+    "AUTOMATON",
+    "PC Gamer",
+    "Nintendo Life"
+  ],
+  "articles": [
+    {
+      "category": "new",
+      "category_label": "신작·출시",
+      "category_emoji": "🎮",
+      "title": "서브컬처 기대작 실버 팰리스, 12월 14일 출시 확정",
+      "url": "https://www.gamemeca.com/view.php?gid=1782743",
+      "summary": "오픈월드 추리 액션 RPG 실버 팰리스가 12월 14일 전 세계에 출시된다. 빅토리아풍 도시에서 사건을 추적하는 게임으로, 출시 전 AGF 2026에도 참가한다.",
+      "source": "게임메카",
+      "time": "11/01 16:04"
+    },
+    {
+      "category": "new",
+      "category_label": "신작·출시",
+      "category_emoji": "🎮",
+      "title": "맨바닥에서 시작하라 '중고 게임샵 시뮬레이터' 2일 출시",
+      "url": "https://www.gamemeca.com/view.php?gid=1782740",
+      "summary": "낡은 게임을 사서 복원하고 판매하는 매장 경영 게임이 11월 2일 출시된다. 게임 상태와 시세를 살피며 매장을 키우는 방식이다.",
+      "source": "게임메카",
+      "time": "11/01 13:54"
+    },
+    {
+      "category": "market",
+      "category_label": "시장·판매",
+      "category_emoji": "📈",
+      "title": "[매장탐방] 여러모로 입소문 탄 '모던 워페어 4' 대란",
+      "url": "https://www.gamemeca.com/view.php?gid=1782606",
+      "summary": "모던 워페어 4는 방송과 짧은 영상에서 입소문을 타며 국내 오프라인 매장에서 품절 사례가 나왔다. 젤다 한정판과 GTA 6 기대감도 콘솔 수요를 키웠다.",
+      "source": "게임메카",
+      "time": "11/01 11:00"
+    },
+    {
+      "category": "development",
+      "category_label": "개발·도구",
+      "category_emoji": "🛠️",
+      "title": "AI 딸각으로 게임 복제? 클로드는 막는다",
+      "url": "https://m.inven.co.kr/webzine/wznews.php?idx=322822",
+      "summary": "앤트로픽이 클로드 코드에 기존 게임을 그대로 재현하라는 요청을 거절하는 지침을 추가했다. 게임 개발에서 AI를 쓸 때 지식재산권 침해를 줄이려는 조치다.",
+      "source": "인벤",
+      "time": "11/01 21:32"
+    },
+    {
+      "category": "others",
+      "category_label": "기타",
+      "category_emoji": "📰",
+      "title": "페르소나1 리메이크 나오나, 30주년 협업 예고 날 유출...연결설 솔솔",
+      "url": "https://m.inven.co.kr/webzine/wznews.php?idx=322819",
+      "summary": "페르소나 1 리메이크로 추정되는 영상이 유출됐지만 아틀러스와 세가는 확인하지 않았다. 30주년 협업 예고와 시기가 겹치지만 영상의 진위는 불분명하다.",
+      "source": "인벤",
+      "time": "11/01 20:30"
+    },
+    {
+      "category": "new",
+      "category_label": "신작·출시",
+      "category_emoji": "🎮",
+      "title": "킹스 필드·TES3에서 영감 받은 ARPG 퀸스 도메인, 스팀 평가 94% 긍정…탐험의 재미 강조",
+      "url": "https://automaton-media.com/articles/newsjp/20261101-477017/",
+      "summary": "1인칭 레트로 판타지 RPG 퀸스 도메인이 출시됐다. 미니맵 없이 미로 같은 지역을 탐험하는 구성이 특징이며, 스팀 이용자 평가 약 700건 중 94%가 긍정적이다.",
+      "source": "AUTOMATON",
+      "time": "11/01 16:37"
+    },
+    {
+      "category": "new",
+      "category_label": "신작·출시",
+      "category_emoji": "🎮",
+      "title": "가방 정리와 좀비 생존을 결합한 데들리 데이즈: 로드트립 정식 출시",
+      "url": "https://automaton-media.com/articles/newsjp/20261101-476986/",
+      "summary": "장비를 가방 칸에 배치해 공격 효율을 높이는 로그라이크 액션 게임이 PC와 콘솔로 정식 출시됐다. 아이템 배치와 자동 전투를 결합하고 2인 로컬 협동을 지원한다.",
+      "source": "AUTOMATON",
+      "time": "11/01 13:34"
+    },
+    {
+      "category": "new",
+      "category_label": "신작·출시",
+      "category_emoji": "🎮",
+      "title": "스위치 2 협동 퍼즐 게임 모두 함께 찾자! 마드리카 부동산의 출구 발표",
+      "url": "https://automaton-media.com/articles/newsjp/20261101-476977/",
+      "summary": "2~5명이 화면에서 본 단서를 말로 전하고 인쇄한 종이 타일로 평면도를 맞추는 퍼즐 게임이 발표됐다. 2026년 말 출시 예정이며 로컬 협동에 초점을 맞췄다.",
+      "source": "AUTOMATON",
+      "time": "11/01 11:13"
+    },
+    {
+      "category": "industry",
+      "category_label": "업계·인물",
+      "category_emoji": "🏢",
+      "title": "포르자 공동 창작자 댄 그리너월트, 마이크로소프트 떠날 예정이라는 보도",
+      "url": "https://www.pcgamer.com/games/racing/forza-co-creator-dan-greenawalt-is-reportedly-leaving-microsoft/",
+      "summary": "PC Gamer는 포르자 개발사 턴10의 댄 그리너월트가 약 27년 만에 은퇴할 예정이라고 보도했다. 그는 조직 전환 기간에 임시 고문으로 남을 것으로 전해졌다.",
+      "source": "PC Gamer",
+      "time": "11/01 13:05"
+    },
+    {
+      "category": "development",
+      "category_label": "개발·도구",
+      "category_emoji": "🛠️",
+      "title": "약 10년 개발한 에이리언: 아이솔레이션 모드 제작 도구, 정식 1.0 출시",
+      "url": "https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/",
+      "summary": "팬 제작 도구 OpenCAGE가 1.0에 도달했다. 이용자는 게임의 지도·임무·캐릭터·무기·애니메이션 등을 새로 만들어 대규모 개조 모드를 제작할 수 있다.",
+      "source": "PC Gamer",
+      "time": "11/01 10:30"
+    },
+    {
+      "category": "new",
+      "title": "캡콤, 메가맨: 듀얼 오버라이드의 네 번째 로봇 마스터 공개",
+      "url": "https://www.nintendolife.com/news/2026/11/capcom-officially-reveals-fourth-mega-man-dual-override-robot-master",
+      "summary": "캡콤이 2027년 출시 예정인 메가맨: 듀얼 오버라이드의 새 보스 쿡 맨을 공개했다. 요리사 콘셉트의 캐릭터다.",
+      "source": "Nintendo Life",
+      "time": "11/01 17:00"
+    },
+    {
+      "category": "new",
+      "title": "피크민의 날 2026 발표 정리: 업데이트, 체험판, 새 단편 애니메이션",
+      "url": "https://www.nintendolife.com/news/2026/11/round-up-pikmin-day-2026-updates-demo-and-new-animated-shorts",
+      "summary": "닌텐도가 11월 1일을 매년 피크민의 날로 정하고 관련 발표를 모았다. 피크민 4 스위치 2판의 무료 체험판은 11월 2일 공개되며 저장 데이터를 본편으로 옮길 수 있다.",
+      "source": "Nintendo Life",
+      "time": "11/01 14:45"
+    }
+  ]
+}

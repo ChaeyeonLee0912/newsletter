@@ -25,6 +25,16 @@
   - Robohub: https://robohub.org
   - TechCrunch: https://techcrunch.com/category/robotics/
 
+### 게임
+- 국내:
+  - 게임메카: https://www.gamemeca.com/
+  - 인벤: https://www.inven.co.kr/webzine/news/
+  - 전자신문: https://rss.etnews.com/03104.xml
+- 해외:
+  - AUTOMATON: https://automaton-media.com/latest-news/
+  - PC Gamer: https://www.pcgamer.com/au/archive/
+  - Nintendo Life: https://www.nintendolife.com/news
+
 ## Lessons Learned
 
 - **월간 AI 트렌드 요약 보고서**(`trends/ai/YYYYMM/`) 작성을 요청받으면, 시작하기 전에 [트렌드 요약 보고서 작성 가이드](references/trend-report-guide.md)를 먼저 읽고 그 절차와 문체 규칙을 따른다.
