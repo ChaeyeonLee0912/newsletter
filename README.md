@@ -26,8 +26,8 @@ git clone https://github.com/unicorn-svc/newsletter.git
 - 앱 이름을 적절하게 입력하고 '만들기'를 클릭   
 - 생성된 16자리 코드 복사   
 
-3.`.env`파일에 아래와 같이 SMTP설정을 합니다.     
-`.env`파일이 없으면 프로젝트 루트 디렉토리(~/workspace/newsletter) 밑에 생성하세요.   
+3.`.env`파일에 아래와 같이 SMTP설정을 합니다.       
+`.env`파일이 없으면 프로젝트 루트 디렉토리(`~/workspace/newsletter`) 밑에 생성하세요.   
 SMTP_USER는 인증정보 생성 시 로그인한 gmail을 입력하고 SMTP_PASSWORD에 인증코드 16자리를 붙여넣습니다.       
 ```
 SMTP_SERVER=smtp.gmail.com
