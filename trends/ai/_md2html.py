@@ -2,8 +2,8 @@
 """trend_202607.md -> 스타일링된 단일 HTML. 0번 섹션 제외, 상단에 인포그래픽 링크."""
 import re, html, io, os
 
-SRC = r'C:\Users\hiond\workspace\ai-newsletter\trends\trend_202607.md'
-DST = r'C:\Users\hiond\workspace\ai-newsletter\trends\trend_202607.html'
+SRC = r'C:\Users\hiond\workspace\ai-newsletter\trends\ai\202607\trend_202607.md'
+DST = r'C:\Users\hiond\workspace\ai-newsletter\trends\ai\202607\trend_202607.html'
 IMG = 'trend_202607.png'
 
 TREND_COLORS = ['#2563eb', '#7c3aed', '#dc2626', '#ea580c', '#ca8a04',

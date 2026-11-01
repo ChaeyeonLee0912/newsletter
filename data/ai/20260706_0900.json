@@ -1,0 +1,126 @@
+{
+  "published_at": "2026-07-06T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만",
+      "url": "https://zdnet.co.kr/view/?no=20260705021824",
+      "summary": "앤트로픽의 클로드 페이블5가 재공개됐으나 강화된 안전 장치로 정상적인 코딩·디버깅 작업도 과도하게 차단된다는 불만이 나온다. 벤치마크 결과 디버깅 점수가 86.2에서 25.9로 급락했으며, 아마존 연구진이 발견한 탈옥 취약점 대응 과정의 부작용으로 설명됐다.",
+      "source": "지디넷",
+      "time": "07/05 09:15"
+    },
+    {
+      "category": "tech",
+      "title": "KAIST, 에이전트 전력 비용 규명…'챗봇보다 136배 에너지 사용'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212437",
+      "summary": "KAIST 연구팀이 AI 에이전트의 에너지 소비를 분석한 결과, 기존 챗봇 대비 질문당 최대 136.5배 많은 에너지를 사용하는 것으로 확인됐다. 응답 시간도 최대 153.7배 증가했으며, GPU 유휴 시간이 54.5%에 달해 대규모 트래픽 환경에서는 약 198.9GW 전력이 필요할 것으로 추정된다.",
+      "source": "AI Times",
+      "time": "07/05 12:00"
+    },
+    {
+      "category": "tech",
+      "title": "'전기 먹는 하마' AI 데이터센터, 물도 많이 먹는다",
+      "url": "https://zdnet.co.kr/view/?no=20260705082138",
+      "summary": "AI 데이터센터 확대로 빅테크 기업들의 물 사용량이 환경 문제로 부상하고 있다. 로런스버클리국립연구소 분석에 따르면 간접 물 사용량은 직접 사용량의 평균 12배에 달하며, 신규 데이터센터의 3분의 2가 물 부족 지역에 입지해 있다.",
+      "source": "지디넷",
+      "time": "07/05 11:44"
+    },
+    {
+      "category": "tech",
+      "title": "'교류에서 직류로'…AI 데이터센터 증설에 전력 인프라 시장 격변",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212440",
+      "summary": "AI 데이터센터 전력 수요 폭증으로 기존 교류(AC) 방식에서 800V 직류(DC) 기반 전력 체계로의 전환이 추진되고 있다. 향후 5년간 데이터센터 전력장비 시장이 연평균 2200억달러 규모로 확대될 전망이며, 과도기 솔루션으로 '800V DC 사이드카'가 활용된다.",
+      "source": "AI Times",
+      "time": "07/05 15:50"
+    },
+    {
+      "category": "biz",
+      "title": "SKT, 15GW AI 데이터센터 구축…'아시아 AI 인프라 허브 도약'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212447",
+      "summary": "SK텔레콤이 최대 15GW 규모의 AI 데이터센터 구축 계획을 발표했다. 울산 1호 시설을 시작으로 2029년부터 국내 총 5GW를 단계적으로 개설하고 2035년까지 15GW로 확대할 예정이다. AWS와 협력하고, 엔비디아와 'AI 팩토리' 운영을 계획 중이다.",
+      "source": "AI Times",
+      "time": "07/05 17:15"
+    },
+    {
+      "category": "biz",
+      "title": "AI 평가 플랫폼 아레나, 상용화 8개월 만에 연매출 1500억 돌파",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212444",
+      "summary": "UC버클리 연구 프로젝트에서 출발한 AI 모델 평가 플랫폼 '아레나'가 기업용 서비스 출시 8개월 만에 연간 반복 매출(ARR) 1억달러(약 1500억원)를 달성했다. 올해 1월 시리즈A 당시 3000만달러였던 매출이 반년 만에 3배 이상 증가한 수치다.",
+      "source": "AI Times",
+      "time": "07/05 16:47"
+    },
+    {
+      "category": "biz",
+      "title": "세계 AI 지출, 3년 뒤 7245조원…'수백 에이전트 사용 시 통제 위기'",
+      "url": "https://www.etnews.com/20260705000047",
+      "summary": "가트너 보고서에 따르면 세계 AI 지출이 3년 뒤 4조 7000억달러(약 7245조원)에 달할 전망이다. 기업이 200개 이상 AI 에이전트를 동시 가동하면 기존 모니터링 역량을 초과하는 '위험' 단계에 진입한다고 경고하며, 강력한 거버넌스 모델 구축을 권고했다.",
+      "source": "전자신문",
+      "time": "07/05 11:57"
+    },
+    {
+      "category": "biz",
+      "title": "아마존, 메카니컬 터크 신규 고객 수락 중단 발표",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "summary": "아마존이 7월 30일부터 크라우드소싱 플랫폼 메카니컬 터크의 신규 고객 가입을 종료한다고 발표했다. 2005년 출시 후 AI 학습 데이터 주석 도구로 활용됐으나, 워커의 33~46%가 LLM을 사용해 작업하는 현상으로 데이터 신뢰성이 훼손되어 사실상 서비스 종료 수순이다.",
+      "source": "TechCrunch",
+      "time": "07/05 10:43"
+    },
+    {
+      "category": "service",
+      "title": "네이버 '이미지 중심 AI 검색으로 진화'…멀티모달 기술 고도화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212445",
+      "summary": "네이버가 9년간 쌓은 멀티모달 기술을 바탕으로 이미지 중심 AI 검색 서비스로 진화한다고 발표했다. 6월 26일 정식 출시한 'AI탭'을 중심으로, 스마트렌즈 고도화와 경량 소형언어모델(SLM) 구조로 답변 정확성·처리 속도를 높이고 운영 비용을 절감했다.",
+      "source": "AI Times",
+      "time": "07/05 13:49"
+    },
+    {
+      "category": "chip",
+      "title": "자체 칩 생산 속도 내는 머스크…'테라팹' 책임자로 인텔 베테랑 영입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212443",
+      "summary": "테슬라가 인텔에서 17년 이상 근무하며 18A 첨단 공정을 주도한 게리 장을 디렉터로 영입했다. 이번 영입은 일론 머스크 CEO의 반도체 자체 생산 프로젝트 '테라팹' 가속화를 위한 핵심 행보로 평가된다.",
+      "source": "AI Times",
+      "time": "07/05 16:31"
+    },
+    {
+      "category": "policy",
+      "title": "트럼프 AI 정책 설계자 '미국 AI 혁신 가로막는 규제 없을 것'",
+      "url": "https://zdnet.co.kr/view/?no=20260705135236",
+      "summary": "트럼프 행정부 전 AI 정책 고문 스리람 크리슈난은 미국이 AI 산업에 과도한 규제를 도입하지 않겠다고 강조했다. FDA형 중앙집중식 규제기관 설립을 반대하며, 대신 AI·반도체·보안 기업이 참여하는 자율적 안전 검증 협의체 구축을 제안했다.",
+      "source": "지디넷",
+      "time": "07/05 16:03"
+    },
+    {
+      "category": "policy",
+      "title": "허위조작정보 규제 7일 시행…플랫폼 업계, 자율규제 체계 정비 마쳐",
+      "url": "https://www.etnews.com/20260705000053",
+      "summary": "개정 정보통신망법이 7월 7일 시행되어 온라인 허위조작정보 유통에 대한 플랫폼 책임이 강화된다. 고의 또는 중과실로 손해를 입힌 경우 최대 5배 배상, 2회 이상 유통 시 최대 10억원 과징금이 부과된다. 네이버·카카오 등은 자율규제 체계 정비를 완료했다.",
+      "source": "전자신문",
+      "time": "07/05 13:42"
+    },
+    {
+      "category": "policy",
+      "title": "오픈AI, 트럼프 전 백악관 AI 자문 딘 볼을 '전략 미래' 팀장으로 영입",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "summary": "딘 볼이 7월 6일자로 오픈AI의 신설 팀 '전략 미래(Strategic Futures)' 수장으로 합류했다. 재앙적 위험·자기개선·노동시장 영향·정부 관계를 다루는 고권한 팀을 이끌며, IPO를 앞두고 정책·거버넌스 역량 강화를 목적으로 한다.",
+      "source": "TechCrunch",
+      "time": "07/06 00:00"
+    },
+    {
+      "category": "policy",
+      "title": "'GPU보다 부족한 건 AI 신뢰성 전문가…규제는 발전과 동일 선상'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212448",
+      "summary": "씽크포비엘 박지환 대표는 국내 AI 산업이 인프라 확보에 치중한 반면 AI 신뢰성을 검증할 전문가와 체계가 부족하다고 지적했다. AI 신뢰성은 기획부터 운영까지 전 주기 관리가 필요하며, 전문가 양성에 최소 3년이 걸린다고 강조했다.",
+      "source": "AI Times",
+      "time": "07/06 05:00"
+    },
+    {
+      "category": "security",
+      "title": "'수백만 큐비트' 통념 깨졌다…양자컴퓨터가 흔드는 암호 방패",
+      "url": "https://www.etnews.com/20260705000046",
+      "summary": "RSA-2048 암호 해독에 필요한 물리 큐비트 수가 기존 예상의 10분의 1 수준으로 줄어들 수 있다는 연구가 잇따르고 있다. 아이스버그 퀀텀과 구글의 발표로 비트코인·금융 암호화 위협이 현실화되면서 양자내성암호(PQC) 전환이 가속화되고 있다.",
+      "source": "전자신문",
+      "time": "07/05 17:00"
+    }
+  ]
+}

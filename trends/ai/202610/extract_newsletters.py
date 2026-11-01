@@ -8,7 +8,8 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent.parent
+ROOT = HERE.parents[2]
+SUBJECT = HERE.parent.name  # trends/<주제>/YYYYMM
 MONTH = "202610"
 
 
@@ -62,7 +63,7 @@ def canonical_url(url):
 
 
 def extract():
-    files = sorted((ROOT / "newsletters").glob(f"{MONTH}*.html"))
+    files = sorted((ROOT / "newsletters" / SUBJECT).glob(f"{MONTH}*.html"))
     if not files:
         raise SystemExit(f"No newsletters for {MONTH}")
     articles = []

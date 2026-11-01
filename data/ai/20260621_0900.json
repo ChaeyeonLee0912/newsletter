@@ -1,0 +1,214 @@
+{
+  "published_at": "2026-06-21T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "Medium"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "오픈AI, 이번 주 'GPT-5.6' 출시 전망…컨텍스트 창 150만 토큰으로 확대",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211949",
+      "summary": "오픈AI의 GPT-5.6이 이번 주 출시될 전망입니다. 컨텍스트 창이 150만 토큰으로 확대되고 에이전트 코딩 능력도 강화됐습니다. 앤트로픽 모델이 정부 규제로 사용 금지된 틈을 노린 전략으로 분석되며, 양방향 오디오 모델 'GPT-비디-1'도 함께 출시될 예정입니다.",
+      "source": "AI Times",
+      "time": "06/21 11:22"
+    },
+    {
+      "category": "genai",
+      "title": "AI 에이전트의 기억 방식: 에이전틱 AI의 메모리·컨텍스트·상태 관리",
+      "url": "https://medium.com/@awanish.kumar17.08/how-ai-agents-remember-memory-context-and-state-management-in-agentic-ai-e75567b008f5",
+      "summary": "언어 모델은 본질적으로 무상태(stateless)이지만 외부 메모리 아키텍처로 기억을 구현합니다. 컨텍스트·메모리·상태를 구분하고, 슬라이딩 윈도우·대화 요약·검색 기반 시스템 등 4가지 압축 전략으로 장기 워크플로우를 관리하는 방법을 설명합니다.",
+      "source": "Medium",
+      "time": "06/21 00:00"
+    },
+    {
+      "category": "genai",
+      "title": "클로드는 꿈을 꾸지만 시간의 흔적은 남기지 않는다",
+      "url": "https://medium.com/@amber_m_bouabdallah/claude-dreams-but-it-doesnt-weather-f3eec692881c",
+      "summary": "클로드의 새 메모리 기능(인벤토리 저장·감사 로그·'꿈꾸기')은 실용적이지만 관계의 진화를 시각적으로 드러내지 못합니다. AI 에이전트도 상호작용 역사를 지질 층위처럼 가시화하는 '패티나 프로토콜'이 필요하다고 제안합니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "biz",
+      "title": "'알파폴드' 노벨상 수상자 존 점퍼, 구글 딥마인드 떠나 앤트로픽 합류",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211937",
+      "summary": "알파폴드로 2024년 노벨 화학상을 받은 존 점퍼 구글 딥마인드 부사장이 앤트로픽으로 이직했습니다. 앤트로픽이 AI 과학자 개발과 신약 개발에 집중하는 만큼 관련 분야에서 활약할 것으로 예상되며, AI 기업들의 인재 확보 경쟁이 가열되고 있습니다.",
+      "source": "AI Times",
+      "time": "06/20 10:57"
+    },
+    {
+      "category": "biz",
+      "title": "SKT \"업무효율 넘어 AI로 조직문화 재설계\"",
+      "url": "https://zdnet.co.kr/view/?no=20260621104446",
+      "summary": "SK텔레콤이 'AX 2.0' 전략으로 AI 도입을 넘어 조직 전체의 일하는 방식을 재설계 중입니다. AI 에이전트에 사번을 부여해 동료로 인정하고, 'AX 샌드박스'·'AX 카탈리스트' 등 제도로 전사 AI 전환을 촉진하고 있습니다.",
+      "source": "지디넷",
+      "time": "06/21 10:44"
+    },
+    {
+      "category": "biz",
+      "title": "에이전틱 AI ROI 현황 Q2 2026 — 실제 수익은 제한적이고 과장된 부분이 많다",
+      "url": "https://medium.com/@marcohkvanhurne/the-state-of-agentic-roi-q2-2026-e03ad76fa3a4",
+      "summary": "에이전틱 AI의 ROI는 취약하고 전반적으로 과장됐습니다. 성공 사례는 사기 탐지·인보이스 처리 등 고빈도·저모호성 프로세스에 집중되며, 전체 조직의 15~23%만이 성공적으로 확장했습니다. 프로젝트 40%가 2027년까지 취소될 수 있다는 분석입니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "구글·MS·세일즈포스, AI 에이전트 연결 표준 'ARD' 공동 발표",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211930",
+      "summary": "구글, MS, 세일즈포스 등이 'ARD(에이전틱 리소스 디스커버리)' 표준을 공동 추진했습니다. 기업 내 다양한 AI 기능을 자동으로 발견·연결하는 이 표준은 오픈AI·앤트로픽의 슈퍼에이전트 전략에 대항하기 위한 움직임으로 평가됩니다.",
+      "source": "AI Times",
+      "time": "06/20 13:23"
+    },
+    {
+      "category": "tech",
+      "title": "헤르메스, 신규 기여자 수에서 오픈클로 역전…'하네스' 최적화의 승리",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211931",
+      "summary": "누스 리서치의 오픈소스 AI 에이전트 '헤르메스'가 깃허브 신규 기여자 수에서 '오픈클로'를 앞질렀습니다. 사용자 반복 작업을 자동 학습해 '스킬'을 생성하는 자가 학습 기능이 핵심이며, AI 에이전트 시장에서 '하네스' 소프트웨어 계층의 중요성이 부각되고 있습니다.",
+      "source": "AI Times",
+      "time": "06/20 18:21"
+    },
+    {
+      "category": "tech",
+      "title": "AI가 보지 못하는 엔지니어링의 영역",
+      "url": "https://medium.com/codetodeploy/the-part-of-engineering-ai-doesnt-see-7c9881955e7a",
+      "summary": "AI 에이전트는 코드 실행에는 탁월하지만 진정한 엔지니어링에는 한계가 있습니다. 엔지니어링은 수백 가지 상충 요구사항을 조율하는 판단력과 감각이 필요하며, 이는 현재 AI 시스템이 갖추지 못한 역량이라는 분석입니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "중국 최초의 진정한 프런티어 모델? — 즈푸 AI GLM-5.2 분석",
+      "url": "https://medium.com/@ignacio.de.gregorio.noblejas/chinas-first-true-frontier-model-3cb60893a67b",
+      "summary": "즈푸 AI가 출시한 GLM-5.2는 미국 최상위 AI 모델과 실제로 경쟁 가능한 최초의 중국 AI 모델로 평가됩니다. GPT-5.5를 여러 벤치마크에서 능가하며 구글 LLM도 앞서는 것으로 보고돼, 중미 AI 경쟁의 분수령이 될 수 있다는 분석입니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "GraphRAG 처음부터 구현하기: Neo4j·Python·LLM으로 지식 그래프 기반 RAG 구축",
+      "url": "https://medium.com/@er.shubhampandey/building-graphrag-from-scratch-knowledge-graph-powered-rag-with-neo4j-python-and-llms-3d04ad8ddd64",
+      "summary": "GraphRAG는 기존 RAG의 진화형으로 지식 그래프를 활용해 더 정교한 정보 검색을 지원합니다. Neo4j로 엔티티·관계를 추출하고 3단계 검색(벡터·그래프 확장·커뮤니티 탐지)을 통해 의학·법률 분야처럼 다중 추론이 필요한 영역에 특히 효과적입니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "service",
+      "title": "에버퓨어 \"단순 저장 넘어 'AI 데이터 인텔리전스' 역량 강화\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211942",
+      "summary": "퓨어스토리지에서 사명을 바꾼 에버퓨어가 'AI 중심 데이터 인텔리전스' 전략을 발표했습니다. 의료·제조 분야 데이터 활용 자동화와 데이터센트릭 아키텍처 전환을 강조하며 포춘 500대 기업 60% 이상이 도입 중입니다.",
+      "source": "AI Times",
+      "time": "06/20 18:49"
+    },
+    {
+      "category": "service",
+      "title": "AI 시대 가상화 시장도 진화…레드햇·수세의 인프라 주도권 경쟁",
+      "url": "https://zdnet.co.kr/view/?no=20260620231038",
+      "summary": "AI 워크로드 확산으로 가상화 시장이 변화하고 있습니다. 레드햇은 VM·컨테이너·AI 인프라 통합 관리 전략을, 수세는 다양한 인프라를 유연하게 조합하는 개방성 전략을 내세우며 AI 시대 인프라 주도권 경쟁을 벌이고 있습니다.",
+      "source": "지디넷",
+      "time": "06/20 23:10"
+    },
+    {
+      "category": "service",
+      "title": "SKT, 전액 국비 지원 AI 보안·네트워크 교육생 모집",
+      "url": "https://zdnet.co.kr/view/?no=20260621092120",
+      "summary": "SK텔레콤이 코리아IT아카데미와 함께 AI 보안·네트워크 분야 'ALEPH' 교육 프로그램을 운영합니다. 교육비 1,960만원 전액 국비 지원으로 만 15~34세 미취업 청년을 대상으로 하며, 8월부터 대전·대구·부산에서 시작됩니다.",
+      "source": "지디넷",
+      "time": "06/21 09:21"
+    },
+    {
+      "category": "service",
+      "title": "'In the Weights': AI 모델 내 나의 존재감을 측정하는 새로운 검색 서비스",
+      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "summary": "전 오픈AI 직원들이 만든 'In the Weights'는 GPT·클로드·제미나이 등 AI 모델이 특정 인물을 얼마나 잘 기억하는지 점수로 보여주는 서비스입니다. AI가 정보 탐색의 중심이 되는 2026년 트렌드를 반영하며 출시 후 폭발적 반응을 얻고 있습니다.",
+      "source": "TechCrunch",
+      "time": "06/21 04:41"
+    },
+    {
+      "category": "service",
+      "title": "코딩의 종말은 개발자의 종말이 아니다 — 그 차이가 2030년을 결정한다",
+      "url": "https://medium.com/gitconnected/the-end-of-coding-is-not-the-end-of-developers-and-that-distinction-decides-2030-8c600ee07486",
+      "summary": "AI 에이전트와 소프트웨어 정의 개발(SDD)이 확산되어도 개발자 직업은 사라지지 않습니다. 개발자의 가치가 코드 작성에서 의도 정의와 검증으로 이동하며, 이 구분이 2030년 개발자 생존을 결정한다고 주장합니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "policy",
+      "title": "트럼프 \"앤트로픽, 더 이상 국가안보 위협 아니다\"…G7 이후 입장 전환",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211939",
+      "summary": "트럼프 대통령이 앤트로픽에 대해 '더 이상 국가 안보 위협이 아니다'라고 입장을 바꿨습니다. G7 정상회담에서 다리오 아모데이 CEO와의 만남 이후 태도가 전환됐으며, 양측은 AI 모델 보안 리스크 평가 프레임워크 개발을 논의 중입니다.",
+      "source": "AI Times",
+      "time": "06/20 11:34"
+    },
+    {
+      "category": "policy",
+      "title": "MS, 중국 빅테크에 오픈AI API 판매로 수익 3배 증가…'증류' 위험 경고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211936",
+      "summary": "MS가 바이트댄스·텐센트 등 중국 빅테크에 오픈AI 모델을 판매하며 중국 매출이 3배 증가했습니다. 반면 중국 기업들이 '증류' 기술로 AI 모델을 모방할 수 있다는 우려도 커지고 있으며, 미국 정부는 지식재산권 유출과 군사적 활용 가능성을 주시하고 있습니다.",
+      "source": "AI Times",
+      "time": "06/20 17:56"
+    },
+    {
+      "category": "policy",
+      "title": "소셜미디어 미성년자 격리, 독성 환경은 유지 — AI 규제의 모순",
+      "url": "https://medium.com/the-quantastic-journal/quarantine-the-kids-keep-the-poison-b7c03ea968d6",
+      "summary": "16세 미만 소셜미디어 이용 금지 정책은 환경 자체가 독성임을 인정하면서도 독성 콘텐츠는 그대로 둔다는 모순을 지적합니다. 미성년자를 보호하는 척하면서 해로운 시스템은 유지하는 AI·플랫폼 정책의 이중성을 비판합니다.",
+      "source": "Medium",
+      "time": "06/20 09:00"
+    },
+    {
+      "category": "chip",
+      "title": "아마존, 자체 AI 칩 '트레이니엄' 외부 공급 추진…엔비디아에 가장 실질적 도전",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211938",
+      "summary": "아마존이 자체 개발 AI 칩 '트레이니엄'을 외부 데이터센터에 판매하는 방안을 추진 중입니다. 독립 사업화 시 연간 500억 달러(약 76조원) 매출이 예상되며, 엔비디아 독주 체제에 가장 실질적 도전으로 업계가 주목하고 있습니다.",
+      "source": "AI Times",
+      "time": "06/20 13:03"
+    },
+    {
+      "category": "chip",
+      "title": "AI 수요, 2군 OSAT로 확산…하나마이크론 등 수혜 기대",
+      "url": "https://zdnet.co.kr/view/?no=20260620160653",
+      "summary": "AI 수요 급증으로 첨단 패키징 수요가 2군 반도체 후공정(OSAT) 업체로 확산되고 있습니다. 국내 하나마이크론이 2.5D·광 패키징 기술을 개발 중이며, 기관 투자자들은 이를 장기적 산업 구조 변화로 평가하고 있습니다.",
+      "source": "지디넷",
+      "time": "06/20 16:06"
+    },
+    {
+      "category": "chip",
+      "title": "삼성전자, 글로벌 전략회의서 HBM 확대·빅테크 장기공급계약 전략 논의",
+      "url": "https://www.etnews.com/news/article.html?id=20260621000054",
+      "summary": "삼성전자 DS부문이 전영현 부회장 주재로 글로벌 전략회의를 개최해 HBM3E·HBM4·HBM4E 공급 방안과 빅테크와의 장기공급계약(LTA) 전략을 집중 논의했습니다. AI 수요 급증으로 메모리 공급 부족이 심화되는 상황에서 기술 경쟁력 강화에 초점을 맞췄습니다.",
+      "source": "전자신문",
+      "time": "06/21 11:17"
+    },
+    {
+      "category": "chip",
+      "title": "한은의 '반도체 보너스발 인플레' 경고…CNBC \"유례없는 규모\" 조명",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211952",
+      "summary": "한국은행이 삼성전자·SK하이닉스 등 반도체 업체의 대규모 성과급 지급이 인플레이션 요인이 될 수 있다고 경고했습니다. 메모리 생산직 기준 총 성과급이 6억 2,600만원에 달해 국제 언론도 '유례없는 규모'로 주목하고 있습니다.",
+      "source": "AI Times",
+      "time": "06/21 12:14"
+    },
+    {
+      "category": "security",
+      "title": "삼성 등 사용 포티넷 보안장비 7만3000여 개 해킹당했다",
+      "url": "https://zdnet.co.kr/view/?no=20260620201326",
+      "summary": "포티넷 방화벽·VPN 장비 7만3000여 개가 해킹됐으며, 삼성·오라클·지멘스 등 글로벌 기업들이 피해를 입었습니다. '포티블리드'로 명명된 이 공격은 기본 계정 비밀번호 미변경이 주요 원인으로, 탈취 계정 중 35%가 관리자 계정이었습니다.",
+      "source": "지디넷",
+      "time": "06/20 20:13"
+    },
+    {
+      "category": "security",
+      "title": "KT, 미래 네트워크 보안 구상 'E2E 퀀텀 시큐리티' 공개",
+      "url": "https://zdnet.co.kr/view/?no=20260621092655",
+      "summary": "KT가 AI 시대와 양자 컴퓨팅 위협에 대응하는 'E2E 퀀텀 시큐리티' 보안 전략을 발표했습니다. 퀀텀 링크·노드·볼트의 3단계 구조로 데이터 전송부터 장비, 전체 생애주기까지 통합 보호하는 체계입니다.",
+      "source": "지디넷",
+      "time": "06/21 09:26"
+    },
+    {
+      "category": "security",
+      "title": "Signal 대표 머레디스 위태커 \"AI 챗봇은 당신의 친구가 아니다\"",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "summary": "Signal 대표 머레디스 위태커가 AI 챗봇의 의식·감정이 없음을 강조하며 과도한 신뢰를 경계했습니다. AI가 신용카드·메시지·캘린더에 접근하는 시나리오는 개인 보안의 백도어가 될 수 있다고 경고하며 MS CEO의 AI 쇼핑 비전을 비판했습니다.",
+      "source": "TechCrunch",
+      "time": "06/21 05:32"
+    }
+  ]
+}

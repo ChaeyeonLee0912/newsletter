@@ -1,0 +1,318 @@
+{
+  "published_at": "2026-06-16T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat"],
+  "articles": [
+    {
+      "category": "biz",
+      "title": "FAANG 가고 'MANGOS' 온다…스페이스X 상장이 연 'AI 상장의 여름'",
+      "url": "https://zdnet.co.kr/view/?no=20260616082017",
+      "summary": "스페이스X 상장을 계기로 MS·애플·엔비디아·구글·오픈AI·스페이스X로 구성된 새 빅테크 그룹 'MANGOS'가 주목받고 있다. AI 주도 기업들의 시총 집중 현상과 함께 '빅테크 재편' 논의가 본격화되고 있다.",
+      "source": "지디넷",
+      "time": "06/16 08:20"
+    },
+    {
+      "category": "policy",
+      "title": "소버린 AI가 아니라 '첨단 모델 접근권'이 냉정한 현실",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211727",
+      "summary": "AI 주권(소버린 AI) 담론이 확산되고 있지만, 실제 경쟁력을 결정하는 것은 GPT·클로드 같은 최첨단 모델 접근권이라는 분석이 나왔다. 독자 모델 개발보다 글로벌 최상위 모델 활용 역량이 더 중요하다는 냉정한 현실을 짚었다.",
+      "source": "AI Times",
+      "time": "06/16 07:00"
+    },
+    {
+      "category": "policy",
+      "title": "미국 정부의 Anthropic 모델 금지는 AI 탈옥과는 무관했다",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "summary": "미국 정부가 Anthropic의 고성능 AI 모델 사용을 일시 금지한 배경이 AI 탈옥(jailbreak)과는 직접 관련이 없다고 밝혀졌다. 실제 원인은 중국 연계 조직의 접근 시도 등 복합적 보안 우려로 알려졌다.",
+      "source": "TechCrunch",
+      "time": "06/16 07:10"
+    },
+    {
+      "category": "robot",
+      "title": "'생체 모방' 휴머노이드…뜨거운 초기 반응",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211746",
+      "summary": "생물의 움직임을 모방한 새로운 휴머노이드 로봇이 공개되어 업계의 뜨거운 관심을 받고 있다. 기존 로봇보다 자연스러운 동작 구현에 초점을 맞춘 이 기술은 제조·물류 분야 적용 가능성으로 주목받고 있다.",
+      "source": "AI Times",
+      "time": "06/16 06:55"
+    },
+    {
+      "category": "genai",
+      "title": "메타의 새로운 'AI 모드', 페이스북에서 플랫폼 전반의 공개 정보를 활용",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "summary": "메타가 페이스북에 새로운 'AI 모드'를 도입, 페이스북·인스타그램 등 플랫폼 전반의 공개 데이터를 AI 응답 생성에 활용한다. 개인화된 AI 어시스턴트 경험을 제공하지만 개인정보 활용 범위에 대한 논란도 예상된다.",
+      "source": "TechCrunch",
+      "time": "06/16 04:10"
+    },
+    {
+      "category": "policy",
+      "title": "사이버보안 전문가들, Anthropic 최강 모델에 대한 '위험한' 미국 정부 금지에 항의",
+      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+      "summary": "미국 사이버보안 전문가들이 정부의 Anthropic 고성능 모델 사용 금지 조치에 강하게 반발하고 있다. 이들은 해당 조치가 보안 연구를 방해하고 오히려 사이버 방어 역량을 약화시킬 수 있다고 경고했다.",
+      "source": "TechCrunch",
+      "time": "06/16 01:10"
+    },
+    {
+      "category": "biz",
+      "title": "Salesforce, AI 고객 서비스 플랫폼 Fin을 36억 달러에 인수",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "summary": "Salesforce가 AI 기반 고객 서비스 플랫폼 Fin을 약 36억 달러(약 5조 원)에 인수했다. 이번 인수로 Salesforce는 자사 CRM에 AI 에이전트 고객 응대 기능을 강화하며 엔터프라이즈 AI 시장 공략을 가속화한다.",
+      "source": "TechCrunch",
+      "time": "06/16 00:10"
+    },
+    {
+      "category": "security",
+      "title": "SK쉴더스, AI 레드팀 해킹대회 'Judgement Day' 1위",
+      "url": "https://zdnet.co.kr/view/?no=20260615225818",
+      "summary": "SK쉴더스가 AI 시스템의 보안 취약점을 찾는 레드팀 해킹대회 'Judgement Day'에서 1위를 차지했다. AI 모델에 대한 공격 및 방어 기술을 겨루는 이 대회는 AI 보안의 중요성이 커지는 현실을 반영한다.",
+      "source": "지디넷",
+      "time": "06/15 22:58"
+    },
+    {
+      "category": "biz",
+      "title": "앤드리슨 호로위츠, 서울 사무소 열고 스타트업 성장 돕는다",
+      "url": "https://zdnet.co.kr/view/?no=20260615210407",
+      "summary": "세계 최대 VC 중 하나인 앤드리슨 호로위츠(a16z)가 서울에 사무소를 개설한다. AI·딥테크 분야 한국 스타트업 발굴과 투자를 목적으로, 한국 스타트업 생태계에 글로벌 자본 유입이 기대된다.",
+      "source": "지디넷",
+      "time": "06/15 21:04"
+    },
+    {
+      "category": "tech",
+      "title": "인공위성이 스스로 사물을 찾는 법을 배웠다 — 이것이 의미하는 바",
+      "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+      "summary": "AI를 탑재한 인공위성이 지상 지시 없이 자율적으로 목표물을 탐지하는 데 성공했다. 이 기술은 재난 감시, 군사 정찰, 우주 자율 탐사 등에 혁신을 가져올 것으로 전망되며, AI와 우주 기술의 결합을 보여주는 사례다.",
+      "source": "TechCrunch",
+      "time": "06/15 21:10"
+    },
+    {
+      "category": "service",
+      "title": "AI 에이전트가 직원이 되는 시대, NewCore 6,600만 달러로 등장해 에이전트 신원 부여",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "summary": "AI 에이전트에게 공식적인 '신원'(ID·권한·책임)을 부여하는 플랫폼 스타트업 NewCore가 6,600만 달러 투자를 유치했다. AI 에이전트가 조직 내 직원처럼 독립적으로 작업을 수행하는 '에이전틱 기업' 시대를 준비하는 움직임이다.",
+      "source": "TechCrunch",
+      "time": "06/15 22:10"
+    },
+    {
+      "category": "biz",
+      "title": "Sarvam, HCLTech 주도의 2억 3,400만 달러 투자로 인도 최신 AI 유니콘 등극",
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "summary": "인도 AI 스타트업 Sarvam이 HCLTech 주도의 2억 3,400만 달러 투자를 유치하며 유니콘 기업으로 등극했다. 인도어 특화 대형언어모델(LLM) 개발로 주목받는 Sarvam은 인도 AI 생태계 성장의 상징으로 부상하고 있다.",
+      "source": "TechCrunch",
+      "time": "06/15 23:10"
+    },
+    {
+      "category": "robot",
+      "title": "용접 기능장 대신하는 '협동로봇'…HD현대중공업, M.AX로 생산성 'UP'",
+      "url": "https://zdnet.co.kr/view/?no=20260615184712",
+      "summary": "HD현대중공업이 자체 개발한 협동로봇 M.AX를 조선소 용접 공정에 도입해 생산성을 대폭 높였다. 숙련 용접 기능장의 기술을 AI로 학습시킨 로봇이 위험한 환경에서도 고품질 용접을 수행한다.",
+      "source": "지디넷",
+      "time": "06/15 18:47"
+    },
+    {
+      "category": "policy",
+      "title": "[카드뉴스] AI '철의 장막'이 내려왔다",
+      "url": "https://zdnet.co.kr/view/?no=20260615101940",
+      "summary": "AI 기술을 둘러싼 미-중 패권 경쟁이 심화되면서 반도체·모델·데이터 전 영역에서 기술 블록화가 가속되고 있다. 서방과 중국 간 AI '철의 장막'이 형성되며 글로벌 AI 생태계가 분리되는 추세다.",
+      "source": "지디넷",
+      "time": "06/15 18:32"
+    },
+    {
+      "category": "genai",
+      "title": "\"월 200불로 1만4000불 토큰 제공\"…챗GPT·클로드 '구독료' 실체",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211728",
+      "summary": "챗GPT·클로드 프로 구독 요금제의 실제 토큰 제공량을 분석한 결과, 월 200달러 요금제에서 이론상 1만4000달러어치 토큰이 제공된다는 분석이 나왔다. 헤비 유저에게는 실질적 할인 효과가 크다는 평가다.",
+      "source": "AI Times",
+      "time": "06/15 17:57"
+    },
+    {
+      "category": "biz",
+      "title": "AI로 인한 해고 물결이 폭발 직전의 화약고가 되고 있다",
+      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+      "summary": "AI 도입으로 인한 대규모 구조조정이 전 세계 노동 시장에서 폭발적 갈등으로 비화할 조짐을 보이고 있다. 화이트칼라 직군을 중심으로 AI 대체 우려가 현실화되면서 노동자 저항과 정치적 압박이 고조되고 있다.",
+      "source": "TechCrunch",
+      "time": "06/15 17:10"
+    },
+    {
+      "category": "tech",
+      "title": "지프라, 맘바2·트랜스포머 결합 '잠바2-VL' 공개…정확도 유지하며 추론 10배 빨라",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211745",
+      "summary": "AI21 Labs의 자회사 지프라(Zephyr)가 맘바2(SSM)와 트랜스포머를 결합한 하이브리드 멀티모달 모델 '잠바2-VL'을 공개했다. 기존 대비 추론 속도가 10배 빨라지면서도 정확도는 유지해 효율적 AI 모델로 주목받고 있다.",
+      "source": "AI Times",
+      "time": "06/15 17:35"
+    },
+    {
+      "category": "tech",
+      "title": "레드햇 \"AI 플랫폼 경쟁 본격화…개방형 오픈소스가 핵심\"",
+      "url": "https://www.etnews.com/20260615000330",
+      "summary": "레드햇이 엔터프라이즈 AI 플랫폼 시장의 경쟁이 본격화되는 가운데 오픈소스 기반 개방형 AI 플랫폼 전략이 핵심 경쟁력이 될 것이라고 강조했다. 벤더 종속 없는 AI 인프라 구축의 중요성을 역설했다.",
+      "source": "전자신문",
+      "time": "06/15 17:00"
+    },
+    {
+      "category": "service",
+      "title": "\"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211742",
+      "summary": "데이터브릭스가 Claude Code와 OpenAI Codex 등 다양한 AI 코딩 에이전트를 하나의 인터페이스에서 통합 관리할 수 있는 플랫폼을 공개했다. 개발팀이 여러 AI 코딩 도구를 단일 환경에서 사용 가능해 개발 효율이 높아질 전망이다.",
+      "source": "AI Times",
+      "time": "06/15 17:20"
+    },
+    {
+      "category": "policy",
+      "title": "[2026 공공AI 박람회] AI 민주정부, 청사진을 넘어 현장으로",
+      "url": "https://www.etnews.com/20260615000257",
+      "summary": "2026 공공AI 박람회에서 AI를 활용한 '민주정부' 비전이 실제 행정 서비스로 구현되는 사례들이 공개됐다. 민원 처리 자동화, AI 기반 정책 분석 등 공공 영역에서 AI가 실질적으로 작동하는 단계에 진입했다.",
+      "source": "전자신문",
+      "time": "06/15 17:00"
+    },
+    {
+      "category": "service",
+      "title": "국립대병원, AI·바이오 연구 거점으로…\"지역서도 '빅5급 의료' 구현\"",
+      "url": "https://www.etnews.com/20260615000426",
+      "summary": "국립대병원들이 AI·바이오 연구 허브로 거듭나며 지방에서도 서울 5대 병원 수준의 의료 서비스를 제공하는 비전을 제시했다. AI 진단·치료 기술을 통해 의료 격차 해소에 나선다는 전략이다.",
+      "source": "전자신문",
+      "time": "06/15 16:57"
+    },
+    {
+      "category": "biz",
+      "title": "한컴, 폴란드 기업과 유럽 '에이전틱 OS 시장' 공략",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211743",
+      "summary": "한글과컴퓨터(한컴)가 폴란드 기업과 협력해 유럽 에이전틱 AI 운영체제 시장에 진출한다. AI 에이전트가 운영체제 수준에서 작업을 자율 수행하는 '에이전틱 OS'는 차세대 AI 플랫폼으로 주목받고 있다.",
+      "source": "AI Times",
+      "time": "06/15 17:00"
+    },
+    {
+      "category": "chip",
+      "title": "삼성 파운드리, 내년 MPW '2나노' 공정까지 연다…AI칩 협력 강화",
+      "url": "https://zdnet.co.kr/view/?no=20260615161057",
+      "summary": "삼성전자 파운드리가 내년도 멀티 프로젝트 웨이퍼(MPW) 프로그램에 2나노 공정을 포함시켜 AI 반도체 설계 스타트업과의 협력을 강화한다. 첨단 공정에 대한 접근성을 높여 AI칩 생태계를 확장할 방침이다.",
+      "source": "지디넷",
+      "time": "06/15 16:10"
+    },
+    {
+      "category": "service",
+      "title": "동아ST '의료 AI·웨어러블', 상급종합병원 공략 속도",
+      "url": "https://www.etnews.com/20260615000261",
+      "summary": "동아에스티(ST)가 의료 AI와 웨어러블 기기를 결합한 솔루션으로 상급종합병원 시장 공략에 속도를 내고 있다. 환자 모니터링부터 진단 보조까지 AI가 의료 현장에서 실질적 역할을 담당하는 사례가 늘고 있다.",
+      "source": "전자신문",
+      "time": "06/15 16:00"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI·앤트로픽, 상장 전 이미 직원 주식 '21조' 현금화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211736",
+      "summary": "오픈AI와 앤트로픽의 직원들이 IPO 이전에 이미 약 21조 원 규모의 주식을 현금화한 것으로 밝혀졌다. 세컨더리 마켓(비상장 주식 거래)을 통한 대규모 유동화로, AI 기업 직원들의 막대한 보상 구조가 드러났다.",
+      "source": "AI Times",
+      "time": "06/15 16:46"
+    },
+    {
+      "category": "chip",
+      "title": "FT \"삼성·SK하이닉스 AI 보너스에 동탄 부동산·소비 호황\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211744",
+      "summary": "파이낸셜타임스(FT)가 삼성전자·SK하이닉스 임직원들의 AI 반도체 호황에 따른 성과급이 경기도 동탄 일대 부동산 시장과 소비 경제를 활성화시키고 있다고 보도했다. AI 반도체 붐이 지역 경제까지 파급되는 현상이다.",
+      "source": "AI Times",
+      "time": "06/15 16:19"
+    },
+    {
+      "category": "service",
+      "title": "AI 검색 확산에도 포털은 네이버 독주…'교차 검증' 수요가 지켰다",
+      "url": "https://www.etnews.com/20260615000269",
+      "summary": "AI 검색 서비스가 빠르게 확산되고 있음에도 불구하고 국내 포털 시장에서 네이버의 독주 체제가 유지되고 있다. 이용자들이 AI 검색 결과를 포털에서 교차 검증하는 습관이 형성되면서 기존 포털의 역할이 지속되고 있다.",
+      "source": "전자신문",
+      "time": "06/15 15:50"
+    },
+    {
+      "category": "biz",
+      "title": "스페이스X, '콜로서스' 자체 사용 어려워지자 앤트로픽에 임대",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211738",
+      "summary": "스페이스X가 구축한 초대형 AI 데이터센터 '콜로서스'를 자체적으로 충분히 활용하지 못하게 되자 앤트로픽에 임대하기로 했다. 앤트로픽은 이를 통해 Claude 모델 훈련에 필요한 대규모 컴퓨팅 자원을 확보하게 됐다.",
+      "source": "AI Times",
+      "time": "06/15 15:51"
+    },
+    {
+      "category": "genai",
+      "title": "네이버클라우드, 국방 최적화 옴니모달 '하이퍼클로바X 시드 4B' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211737",
+      "summary": "네이버클라우드가 국방·안보 분야에 특화된 40억 파라미터 규모의 소형 멀티모달 AI 모델 '하이퍼클로바X 시드 4B'를 공개했다. 군사 문서 분석, 상황 인식 등 국방 업무에 최적화된 경량 모델로 보안성도 강화됐다.",
+      "source": "AI Times",
+      "time": "06/15 15:38"
+    },
+    {
+      "category": "policy",
+      "title": "AI '미토스' 리스크에 망분리 규제 완화…KB국민·농협은행 '다음 기회로'",
+      "url": "https://zdnet.co.kr/view/?no=20260615133234",
+      "summary": "금융권 AI 도입을 막는 망분리 규제가 완화됐으나 KB국민은행과 농협은행 등은 AI 환각(할루시네이션) 리스크를 고려해 적극적 AI 전환을 다음 단계로 미루고 있다. 신중한 접근으로 금융 AI 전환이 예상보다 늦어질 수 있다는 분석이다.",
+      "source": "지디넷",
+      "time": "06/15 13:32"
+    },
+    {
+      "category": "service",
+      "title": "[현장] MS \"AI 성과 격차, 개인보다 조직 시스템서 갈려\"",
+      "url": "https://zdnet.co.kr/view/?no=20260615112521",
+      "summary": "마이크로소프트가 AI 도입 후 기업 성과 차이가 개인의 AI 활용 역량보다는 조직 시스템과 문화에서 비롯된다고 강조했다. AI 도구 도입보다 업무 프로세스와 조직 구조의 AI 친화적 전환이 더 중요하다고 밝혔다.",
+      "source": "지디넷",
+      "time": "06/15 11:25"
+    },
+    {
+      "category": "biz",
+      "title": "[AI는 지금] 美는 성능, 中은 수익화 속도전…韓 AI '독자 모델'만으론 역부족",
+      "url": "https://zdnet.co.kr/view/?no=20260615112622",
+      "summary": "미국은 AI 성능 경쟁에, 중국은 AI 수익화 속도에 집중하는 가운데 한국 AI 기업들의 독자 모델 전략만으로는 글로벌 경쟁에서 뒤처질 수 있다는 분석이 나왔다. AI 응용·서비스와 특화 모델 전략이 병행되어야 한다는 제언이다.",
+      "source": "지디넷",
+      "time": "06/15 11:26"
+    },
+    {
+      "category": "biz",
+      "title": "사티아 나델라, AI가 세계화처럼 산업 전체를 공동화할 수 있다고 경고",
+      "url": "https://venturebeat.com/technology/satya-nadella-warns-that-ai-could-hollow-out-entire-industries-echoing-the-damage-done-by-globalization",
+      "summary": "마이크로소프트 CEO 사티아 나델라가 AI가 1990년대 세계화처럼 특정 산업과 직군 전체를 공동화(空洞化)할 수 있다고 경고했다. 기업과 정부가 AI 전환에 따른 사회적 충격을 미리 준비해야 한다고 촉구했다.",
+      "source": "VentureBeat",
+      "time": "06/15 12:49"
+    },
+    {
+      "category": "genai",
+      "title": "Sakana AI, 8시간 만에 100페이지 보고서 생성하는 '울트라 딥 리서치' 에이전트 출시",
+      "url": "https://venturebeat.com/technology/when-deep-research-isnt-enough-for-your-business-sakana-ai-launches-ultra-deep-research-agent-for-100-page-reports-in-8-hours",
+      "summary": "일본 AI 스타트업 Sakana AI가 기업용 '울트라 딥 리서치' AI 에이전트를 출시했다. 복수의 AI 에이전트가 협력하여 8시간 만에 100페이지 이상의 심층 비즈니스 보고서를 자동 생성하며, 기존 딥 리서치 도구의 한계를 넘는다.",
+      "source": "VentureBeat",
+      "time": "06/15 12:30"
+    },
+    {
+      "category": "service",
+      "title": "카카오, 삼성전자와 'AI 민생 프로젝트' 해커톤 개최",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211721",
+      "summary": "카카오와 삼성전자가 공동으로 'AI 민생 프로젝트' 해커톤을 개최했다. 생활 밀착형 AI 서비스 개발을 목표로 두 대형 IT 기업이 손을 잡고 AI가 실제 국민 생활에 도움이 되는 솔루션 발굴에 나선다.",
+      "source": "AI Times",
+      "time": "06/15 14:57"
+    },
+    {
+      "category": "security",
+      "title": "페이블 5 금지시킨 '탈옥'의 실체…GPT-5.5도 똑같이 뚫린다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211718",
+      "summary": "미국 정부가 Anthropic 페이블 5 모델 사용을 금지하게 만든 AI 탈옥(jailbreak) 기법의 실체가 공개됐다. 해당 기법이 GPT-5.5에도 동일하게 적용 가능한 것으로 알려져 AI 안전성 전반에 대한 우려가 확산되고 있다.",
+      "source": "AI Times",
+      "time": "06/15 14:31"
+    },
+    {
+      "category": "security",
+      "title": "앤트로픽 서비스 중단 배경에 \"중국 연계 조직 접근 의혹\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211715",
+      "summary": "미국 정부가 Anthropic 모델 사용을 일시 금지한 배경에 중국 연계 조직이 해당 AI 시스템에 무단 접근을 시도했다는 의혹이 있다고 보도됐다. AI 모델의 국가 안보 리스크가 실제 정책 결정에 영향을 미치는 첫 사례로 주목된다.",
+      "source": "AI Times",
+      "time": "06/15 13:54"
+    },
+    {
+      "category": "policy",
+      "title": "백악관 \"탈옥 경고 무시\" vs 앤트로픽 \"사실상 통보\"…또 정면 충돌",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211713",
+      "summary": "AI 모델 사용 금지 조치를 둘러싸고 백악관과 앤트로픽이 또다시 충돌했다. 백악관 측은 탈옥 경고를 Anthropic이 무시했다고 주장하는 반면, Anthropic은 사실상 일방적 통보를 받은 것이라고 반박하며 진실 공방이 이어지고 있다.",
+      "source": "AI Times",
+      "time": "06/15 13:31"
+    },
+    {
+      "category": "service",
+      "title": "바이브 코딩은 파이프라인을 구축할 수 있지만, 6개월 후에는 설명하지 못한다",
+      "url": "https://venturebeat.com/orchestration/vibe-coding-can-build-your-pipeline-it-cant-explain-it-six-months-later",
+      "summary": "AI 보조 코딩('바이브 코딩')으로 빠르게 소프트웨어 파이프라인을 구축할 수 있지만, 시간이 지나면 코드의 작동 원리를 설명하거나 유지보수하기 어려워진다는 경고가 제기됐다. AI 코딩 도구의 기술 부채 문제에 대한 심도 있는 논의가 필요하다.",
+      "source": "VentureBeat",
+      "time": "06/15 08:14"
+    }
+  ]
+}

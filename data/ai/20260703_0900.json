@@ -1,0 +1,182 @@
+{
+  "published_at": "2026-07-03T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "메타, AI로 미니게임 생성하는 앱 'Pocket' 조용히 출시",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "summary": "메타가 텍스트 프롬프트로 인터랙티브 미니게임을 만들고 공유하는 AI 앱 'Pocket'을 App Store·Google Play에 출시. Gizmo 팀 인수 결과물로, 전신 Gizmo는 누적 설치 63만 5,000회·만족도 98%를 기록했으며 AI 기반 게임 창작 대중화를 목표.",
+      "source": "TechCrunch",
+      "time": "07/02 11:44"
+    },
+    {
+      "category": "genai",
+      "title": "Z.ai, GLM-5.2 기반 AI 코딩 환경 'ZCode' 출시…Cursor·Claude Code에 도전",
+      "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
+      "summary": "Z.ai가 GLM-5.2 기반 AI 코딩 IDE 'ZCode'를 출시. SWE-bench Pro 62.1점으로 GPT-5.5(58.6) 상회. MIT 라이선스 공개 가중치 제공, 월 12.60달러부터 구독 가능. 지정학적 리스크 대응 자체 호스팅도 지원.",
+      "source": "VentureBeat",
+      "time": "07/02 00:00"
+    },
+    {
+      "category": "biz",
+      "title": "메타, 남는 AI 컴퓨팅 자원 외부 판매 추진…AWS·Google Cloud와 경쟁",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212338",
+      "summary": "메타가 자체 데이터센터의 남는 AI 컴퓨팅 자원을 외부에 판매하는 클라우드 사업을 추진 중. API 형태의 AI 모델 제공과 순수 GPU 자원 임대 방식을 검토. 막대한 인프라 투자 비용 회수와 자체 AI 서비스 수요 부진이 배경.",
+      "source": "AI Times",
+      "time": "07/02 18:26"
+    },
+    {
+      "category": "biz",
+      "title": "팔란티어 CEO, 오픈AI·앤트로픽 '토큰' 과금 맹비난…'돈만 쓰고 데이터 빼앗겨'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212345",
+      "summary": "팔란티어 알렉스 카프 CEO가 오픈AI·앤트로픽의 토큰 기반 과금 모델을 강하게 비판. 기업들이 막대한 비용을 지불하면서도 핵심 데이터와 경쟁력을 AI 기업에 넘기는 구조라며, 자체 AI 모델 개발과 데이터 통제권 확보가 필요하다고 주장.",
+      "source": "AI Times",
+      "time": "07/02 18:09"
+    },
+    {
+      "category": "biz",
+      "title": "한컴, 36년 만에 사명 변경…'에이전틱 OS' 기업으로 새출발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212354",
+      "summary": "한글과컴퓨터가 1989년 창립 이후 처음으로 사명을 변경하며 문서 중심에서 AI 에이전트 기업으로 전환 선언. 여러 AI 에이전트를 연결·통제하는 '에이전틱 OS' 전략 본격화. AI 매출 비중이 전년 대비 11.21%로 성장.",
+      "source": "AI Times",
+      "time": "07/02 15:06"
+    },
+    {
+      "category": "biz",
+      "title": "딥시크, 혼잡 시간대 API 요금 2배 인상…AI 가격 경쟁 한계 드러내",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212355",
+      "summary": "중국 AI 스타트업 딥시크가 혼잡 시간대 API 요금을 최대 2배로 인상하며 사실상 저가 전략에서 후퇴. 급증하는 글로벌 수요와 서버 부하가 원인으로, AI 가격 경쟁의 지속 가능성에 의문이 제기됨.",
+      "source": "AI Times",
+      "time": "07/02 15:17"
+    },
+    {
+      "category": "biz",
+      "title": "올 2분기 해킹 그늘 걷어낸 통신 3사…’이제는 AI로 성장’",
+      "url": "https://www.etnews.com/20260702000365",
+      "summary": "SK텔레콤·KT·LG유플러스 통신 3사가 작년 해킹 사태 이후 실적이 정상화됐으며, 2024년 2분기 대비 영업이익 12.6% 성장. 하반기부터 AI 데이터센터(AIDC)와 AI 전환(AX) 솔루션을 핵심 수익모델로 고도화할 계획.",
+      "source": "전자신문",
+      "time": "07/02 15:26"
+    },
+    {
+      "category": "biz",
+      "title": "마이크로소프트, 25억 달러 투자로 AI 배포 전문 회사 'Microsoft Frontier' 출범",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "summary": "MS가 기업 AI 배포 전문 조직 'Microsoft Frontier Company'를 25억 달러 투자·6,000명 규모로 출범. 런던증권거래소·유니레버·Accenture 등과 초기 파트너십 체결. OpenAI·Anthropic의 유사 벤처에 대응한 포석.",
+      "source": "TechCrunch",
+      "time": "07/02 06:53"
+    },
+    {
+      "category": "tech",
+      "title": "[ET시론] 대한민국 AI의 심장, AI 데이터센터",
+      "url": "https://www.etnews.com/20260702000119",
+      "summary": "정부가 2035년까지 18.4GW 규모의 AI 데이터센터(AIDC) 메가 프로젝트를 추진. AIDC는 AI를 작동시키는 핵심 인프라로 '토큰 팩토리' 역할을 하며, 국내 반도체·네트워킹 기술 기반의 인프라 자립과 차세대 AI 주권 확보가 목표.",
+      "source": "전자신문",
+      "time": "07/02 16:00"
+    },
+    {
+      "category": "service",
+      "title": "법무법인 태평양, 글로벌 리걸 AI '하비' 전사 도입…국내 로펌 최초",
+      "url": "https://zdnet.co.kr/view/?no=20260702090513",
+      "summary": "법무법인 태평양이 글로벌 리걸 AI 플랫폼 '하비'를 전 구성원 대상으로 정식 운영 발표. 국내 로펌 최초로 글로벌 리걸 AI를 전사 업무 인프라로 도입. 법률 리서치·문서 작성·다국어 분석 등에 활용.",
+      "source": "지디넷",
+      "time": "07/02 09:05"
+    },
+    {
+      "category": "service",
+      "title": "AI 에이전트 플랫폼 OpenClaw, 연애에도 쓰인다…프라이버시 우려 동반",
+      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "summary": "AI 에이전트 플랫폼 OpenClaw를 데이트 메시지 작성·장소 탐색 등 연애에 활용하는 사례 증가. 보안 전문가들은 개인정보 접근 권한 부여에 따른 프라이버시 위험과 '동의 없는 프로필 생성' 문제를 경고.",
+      "source": "TechCrunch",
+      "time": "07/02 05:00"
+    },
+    {
+      "category": "policy",
+      "title": "오픈AI, 미국 정부에 '지분 5%' 제안…IPO 앞두고 정치 리스크 돌파",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212365",
+      "summary": "오픈AI가 IPO를 앞두고 정치적 리스크 해소를 위해 미국 정부에 지분 5% 제공 방안을 제시. 샘 알트먼 CEO는 알래스카 석유기금 모델을 벤치마킹한 국민 부 펀드 개념을 제안했으며, 앤트로픽·구글·메타도 동참 예정.",
+      "source": "AI Times",
+      "time": "07/02 16:43"
+    },
+    {
+      "category": "policy",
+      "title": "공무원이 직접 개발하는 AI 행정서비스…'AI 정부 실험실' 시범 운영",
+      "url": "https://zdnet.co.kr/view/?no=20260702143009",
+      "summary": "행정안전부가 7월 3일부터 공무원이 AI 코딩·에이전트 기술을 활용해 행정 업무를 직접 개선할 수 있는 'AI 정부 실험실'을 시범 운영. 별도 예산 없이 업무 자동화 프로그램 개발이 가능하며, 우수 사례는 범정부 공공 저장소로 공유.",
+      "source": "지디넷",
+      "time": "07/02 14:30"
+    },
+    {
+      "category": "policy",
+      "title": "정부, 비수도권 AI중심대학 8개 더 뽑는다…지역 AI 인재 양성 가속",
+      "url": "https://zdnet.co.kr/view/?no=20260702115243",
+      "summary": "과학기술정보통신부가 지역 AI 인재 양성을 위해 비수도권 SW중심대학 8곳을 AI중심대학으로 전환 추진. 7월 3일부터 공고 진행하며, 선정 대학은 특화 교육과정과 지역산업 맞춤형 교육 운영. AX대학원 추가 모집도 예정.",
+      "source": "지디넷",
+      "time": "07/02 12:00"
+    },
+    {
+      "category": "policy",
+      "title": "[ET톡] 피지컬 AI 1강, 부처 단합부터",
+      "url": "https://www.etnews.com/20260702000298",
+      "summary": "정부 3대 메가프로젝트 중 하나로 선정된 피지컬 AI 사업에서 과기정통부와 산업부 간 협력 부재가 우려됨. 전문가들은 역할 분담 명확화와 진정한 부처 단합이 1등 피지컬 AI 강국 실현의 전제 조건이라고 강조.",
+      "source": "전자신문",
+      "time": "07/02 16:30"
+    },
+    {
+      "category": "chip",
+      "title": "하반기 반도체 '맑음'…AI 서버·온디바이스 AI 확산에 메모리 수요 급증",
+      "url": "https://zdnet.co.kr/view/?no=20260702102804",
+      "summary": "대한상공회의소 하반기 산업 전망에서 반도체는 글로벌 빅테크의 AI 투자 확대와 AI 서버·온디바이스 AI 확산으로 메모리 수요가 빠르게 늘며 '맑음' 평가. 반면 석유화학은 공급 과잉으로 '비'로 분류.",
+      "source": "지디넷",
+      "time": "07/02 12:00"
+    },
+    {
+      "category": "chip",
+      "title": "삼성 140조·SK하이닉스 100조 투자…충청권 AI 소재·부품 클러스터 조성",
+      "url": "https://www.etnews.com/20260702000269",
+      "summary": "삼성그룹이 충청권에 140조원(디스플레이·메모리·배터리·패키지기판), SK하이닉스가 청주에 100조원(낸드·첨단패키징)을 각각 투자해 AI 소재·부품 클러스터를 조성할 계획. 국내 AI 인프라 공급망 자립 기반 강화.",
+      "source": "전자신문",
+      "time": "07/02 13:50"
+    },
+    {
+      "category": "chip",
+      "title": "앤트로픽, 삼성전자와 맞춤형 AI 칩 개발 협의 중",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "summary": "Anthropic이 삼성전자와 자체 AI 추론 칩 개발을 논의 중이라고 보도. 사양·용도는 미확정. OpenAI의 Broadcom 협력 칩 'Jalapeño' 발표 이후 AI 업계의 엔비디아 의존 탈피 흐름 가속.",
+      "source": "TechCrunch",
+      "time": "07/02 11:31"
+    },
+    {
+      "category": "security",
+      "title": "앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212357",
+      "summary": "앤트로픽이 클로드 코드에 중국 사용자 위치 정보와 중국 AI 연구기관 연관성을 비공개로 수집하는 기능을 포함했다가 논란이 확산되자 철회. 무단 모델 복제 방지 목적 실험이었으나 사용자 동의 없는 감시 행위라는 비판이 제기됨.",
+      "source": "AI Times",
+      "time": "07/02 18:18"
+    },
+    {
+      "category": "security",
+      "title": "소프트캠프, AI 보안 4대 원칙 제시…추적·통제·인증·검증",
+      "url": "https://www.etnews.com/20260702000290",
+      "summary": "소프트캠프가 AI 에이전트 시대 새로운 보안 패러다임으로 추적·통제·인증·검증 4대 원칙을 제시. 데이터 이동 경로 추적, 기밀 유출 통제, 사람과 AI의 신원 인증, 소프트웨어 공급망 검증을 통해 AI를 안전하게 활용해야 한다고 강조.",
+      "source": "전자신문",
+      "time": "07/02 14:11"
+    },
+    {
+      "category": "robot",
+      "title": "엔비디아, 스스로 제어 코드 짜고 디버깅하는 로봇 AI '아스파이어' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212367",
+      "summary": "엔비디아가 새로운 작업마다 제어 코드를 직접 작성하고 오류를 스스로 분석·수정하는 로봇 학습 시스템 '아스파이어'를 공개. 검증된 해결 방법을 재사용 가능한 기술로 저장해 지속 성능 개선이 가능하며 기존 방식 대비 최대 77% 높은 성능 기록.",
+      "source": "AI Times",
+      "time": "07/02 17:56"
+    },
+    {
+      "category": "others",
+      "title": "저지 마이크 IPO, AI 과장 마케팅의 민낯을 드러내다",
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "summary": "샌드위치 프랜차이즈 저지 마이크가 IPO 공시에 'AI'를 22회 언급해 AI 투자 유치 과열 현상을 상징적으로 보여줌. 구체적인 AI 활용 계획 없이 위험요소 항목에만 나열된 방식에 대한 비판이 확산.",
+      "source": "TechCrunch",
+      "time": "07/02 13:11"
+    }
+  ]
+}

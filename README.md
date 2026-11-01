@@ -1,0 +1,111 @@
+# 뉴스레터
+
+원하는 주제의 최근 24시간 뉴스를 모아 메일로 보내는 뉴스레터예요.
+먼저 아래 변수값을 결정하고 진행하세요.    
+- {SUBJECT}: 뉴스레터 주제
+- {SUBJECT_ID}: 주제를 의미하는 영문 소문자명    
+  
+## 메일 발송을 위한 인증정보 생성하기 
+- https://myaccount.google.com/security 접속하여 2단계 인증을 활성화합니다. (이미 돼 있으면 skip)
+- https://myaccount.google.com/apppasswords 접속합니다.   
+  - 앱 이름을 적절하게 입력하고 '만들기'를 클릭   
+  - 생성된 16자리 코드 복사   
+- `.env`파일에 아래와 같이 SMTP설정을 합니다. `.env`파일이 없으면 프로젝트 루트 디렉토리 밑에 생성하세요.   
+  SMTP_USER는 인증정보 생성 시 로그인한 gmail을 입력하고 SMTP_PASSWORD에 인증코드 16자리를 붙여넣습니다.       
+  ```
+  SMTP_SERVER=smtp.gmail.com
+  SMTP_PORT=587
+  SMTP_USER=hiondal@gmail.com
+  SMTP_PASSWORD=wgnr aaaa eeee ffff
+  ```
+
+---
+  
+## 메일 수신자 지정하기
+`.env`파일 안에 'RECIPIENTS_{SUBJECT_ID 대문자}'키를 만듭니다.    
+값은 큰 따옴표안에 엔터로 구분하여 지정합니다.    
+'{SUBJECT_ID 대문자}'는 프롬프트의 '{SUBJECT_ID}'에 지정한 값과 동일해야 하며 대문자여야 합니다.     
+```
+# recipients
+RECIPIENTS_AI="
+hiondal@gmail.com
+happycloudtek@unicorn.kubepia.com
+"
+```
+  
+## 내 주제로 뉴스레터 설정하기
+
+1. 템플릿을 주제별 파일로 복사해요.   
+   ```bash
+   cp prompts/routine-template.md prompts/routine-{SUBJECT_ID}.md
+   ```
+2. 복사한 파일의 `[변수]`에서 `{SUBJECT}`(주제, 예: 반도체). `{SUBJECT_ID}`(주제를 나타내는 영문소문자), `{OBJECT}`(뉴스레터를 받는 목적)를 정해요.
+   
+3. 스케줄 작업을 등록합니다.   
+   ```
+   prompts/routine-{주제}.md를 수행하세요.
+   ```
+   Claude Code는 좌측 메뉴에서 '예약'에서, Codex는 가장 좌측 패널에서 세번째 '예약' 아이콘을 클릭하여 스케쥴 작업을 작성합니다.    
+   **Claude Code**        
+   ![](images/2026-11-01-22-54-02.png)     
+   ![](images/2026-11-01-23-01-53.png)     
+    
+   **Codex:**     
+   ![](images/2026-11-01-23-03-46.png)      
+   ![](images/2026-11-01-23-04-46.png)     
+  
+
+4. 최초 한번 실행합니다.    
+  **Claude Code:**        
+  - 상단에 '실행하기' 아이콘을 눌러요   
+    ![](images/2026-11-01-23-09-58.png)    
+  - 좌측 '기록'에서 수행한 작업을 클릭해요.    
+    ![](images/2026-11-01-23-10-48.png)    
+
+  - 추천한 뉴스 사이트를 검토하고 승인하세요     
+ 
+  **Codex:**       
+  - 스케쥴 작업 후 바로 대화창이 열립니다.     
+  - 테스트로 실행하라고 합니다.    
+  - 추천한 뉴스 사이트를 검토하고 승인하세요.      
+    
+※ 고른 사이트는 `AGENTS.md`의 `## 뉴스사이트`에 기록되고, 다음 실행부터 그대로 써요.
+
+---
+
+## 분류체계 변경법
+
+분류체계 카테고리는 자동으로 생성됩니다.    
+변경하고 실으면 `data/{SUBJECT_ID}/categories.json`을 수정하세요.    
+
+```json
+{
+  "palette": ["#db2777", "#0891b2"],
+  "categories": [
+    {"id": "genai", "emoji": "✨", "label": "생성AI", "color": "#7c3aed"}
+  ]
+}
+```
+
+- **이름·이모지·색 바꾸기**: 해당 항목의 `label`, `emoji`, `color`를 고쳐요. 다음 호부터 반영돼요.
+- **카테고리 추가**: 항목을 직접 추가하거나 그냥 두면 돼요. 기존 카테고리에 맞지 않는 기사가 나오면 실행 중에 새 카테고리가 자동으로 추가돼요.
+- **표시 순서**: `categories` 배열 순서대로 뉴스레터에 나와요.
+- **자동 배정 색**: 새 카테고리 색은 `palette`에서 순서대로 골라요.
+- **처음부터 다시 만들기**: 파일을 지우면 다음 호에서 기사에 맞게 새로 만들어요.
+- **주의**: `id`를 바꾸거나 지우면, 그 `id`를 쓰는 지난 호 데이터를 다시 렌더링할 때 오류가 나요. 이름만 바꿀 때는 `id`를 그대로 두세요.
+
+---
+
+## 참고: 뉴스레터 발송에 필요한 파일  
+
+| 파일 | 설명 |
+|---|---|
+| `prompts/routine-{SUBJECT_ID}.md` | 스케줄 작업이 수행하는 주제별 프롬프트 |
+| `.env` | SMTP 설정과 수신자. 수신자는 'RECIPIENTS_{SUBJECT_ID 대문자}' 형식으로 작성 |
+| `data/{SUBJECT_ID}/categories.json` | 카테고리 목록. 첫 호를 만들 때 자동 생성되고, 새 카테고리가 생기면 자동으로 쌓여요 |
+| `templates/newsletter.html` | 뉴스레터 HTML 골격과 스타일 |
+| `generate_newsletter.py` | 데이터 JSON을 HTML로 렌더링하고 `--send`로 메일 발송 |
+| `email_sender.py` | SMTP 메일 발송 |
+| `AGENTS.md` | 주제별 뉴스 사이트 목록 (`## 뉴스사이트`) |
+
+결과물은 `data/{SUBJECT_ID}/YYYYMMDD_HHMM.json`(기사 데이터)과 `newsletters/{SUBJECT_ID}/YYYYMMDD_HHMM.html`(뉴스레터)에 저장돼요.

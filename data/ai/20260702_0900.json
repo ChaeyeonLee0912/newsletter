@@ -1,0 +1,230 @@
+{
+  "published_at": "2026-07-02T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "앤트로픽, 클로드 소네트 5 출시...오퍼스급 성능에 60% 저렴",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212296",
+      "summary": "Anthropic이 Claude Opus 4.8급 성능을 60% 저렴한 가격에 제공하는 'Claude Sonnet 5' 출시. AA 인텔리전스 인덱스 53점으로 GPT-5.5 고급 추론 모드와 동급. 컨텍스트 윈도우 100만 토큰, 입력 $3/출력 $15(백만 토큰 기준).",
+      "source": "AI Times",
+      "time": "07/01 12:59"
+    },
+    {
+      "category": "genai",
+      "title": "오픈AI, '컴퓨트 멀티플라이어'로 추론 비용 절반으로 줄여",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212326",
+      "summary": "OpenAI가 '컴퓨트 멀티플라이어' 최적화 기술로 AI 모델 추론 비용을 50% 이상 절감. 양자화·KV 캐싱·배치 처리·동적 라우팅 등 복합 기법 적용으로 GPU 수백 대로도 ChatGPT 무료 운영 가능. API 가격 인하 또는 마진 목표 달성에 활용 전망.",
+      "source": "AI Times",
+      "time": "07/01 18:15"
+    },
+    {
+      "category": "genai",
+      "title": "앤트로픽, 미 수출 규제 해제 후 클로드 페이블 5 전 세계 재배포",
+      "url": "https://venturebeat.com/technology/anthropic-is-bringing-back-claude-fable-5-globally-after-us-lifts-export-control-order-where-can-enterprises-access-it",
+      "summary": "미 상무부가 6월 30일 수출 통제 라이선스 요건을 철회하며 Anthropic이 7월 1일 Claude Fable 5를 전 세계 재배포 개시. AWS·Google Cloud·Microsoft를 통해 기업 접근 가능. AI 모델 최초 수출 통제 해제 사례로 기록.",
+      "source": "VentureBeat",
+      "time": "07/02 04:31"
+    },
+    {
+      "category": "genai",
+      "title": "구글 제미나이 '나노 바나나' 개인화 이미지 생성, 미국서 무료 개방",
+      "url": "https://zdnet.co.kr/view/?no=20260702073802",
+      "summary": "구글이 미국 내 Gemini 앱 사용자에게 'Nano Banana' 기반 개인화 이미지 생성 기능을 6월 30일부터 무료 공개. 사용자 사진·선호도 반영 맞춤 이미지 생성. 한국에서는 이미지 생성은 가능하나 개인화 기능은 미국만 적용.",
+      "source": "지디넷",
+      "time": "07/02 07:38"
+    },
+    {
+      "category": "tech",
+      "title": "딥시크, LLM 추론 속도 최대 85% 향상 오픈소스 프레임워크 'DSpark' 공개",
+      "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
+      "summary": "DeepSeek가 투기적 디코딩 기반 MIT 라이선스 오픈소스 프레임워크 DSpark를 공개. 모델 가중치 변경 없이 추론 속도 최대 85% 향상. DeepSeek-V4-Flash +60~85%, V4-Pro +57~78% 성능 개선. Qwen·Gemma 등 타 모델에도 적용 가능.",
+      "source": "VentureBeat",
+      "time": "07/01 00:00"
+    },
+    {
+      "category": "tech",
+      "title": "아크릴, GPU 1272개 이기종 환경에서 AI 학습 속도 최대 24배 향상 검증",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212325",
+      "summary": "아크릴이 AI 인프라 플랫폼 'GPUBase'를 글로벌 3대 CSP 환경에서 7종 이기종 GPU 1272개로 K-Scale 평가 참여. AI 학습 속도 최대 24배 향상, 훈련 시간 96% 단축, GPU 활용률 90% 이상 성과 달성.",
+      "source": "AI Times",
+      "time": "07/01 16:30"
+    },
+    {
+      "category": "service",
+      "title": "앤트로픽, 생명과학 AI 플랫폼 '클로드 사이언스' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212302",
+      "summary": "Anthropic이 생명과학 연구자를 위한 통합 AI 연구 플랫폼 'Claude Science' 출시. 문헌 검색·데이터 분석·코딩·논문 작성 통합 환경 제공. 60개 이상 생명과학 DB 연동, 재현성 추적 기능 지원. Pro/Max/Team/Enterprise 베타 제공.",
+      "source": "AI Times",
+      "time": "07/01 13:32"
+    },
+    {
+      "category": "service",
+      "title": "구글, 에이전트 AI 어시스턴트 '제미나이 스파크' Mac 버전 출시",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "summary": "Google이 Gemini Spark macOS 버전을 출시. Google Tasks·Keep, Canva, Dropbox 등 서드파티 앱 연동 및 실시간 추적 기능 포함. 미국 내 Google AI Ultra 구독자 베타 제공 중. 에이전트 AI의 데스크톱 생태계 본격 확장.",
+      "source": "TechCrunch",
+      "time": "07/01 23:20"
+    },
+    {
+      "category": "service",
+      "title": "다음, 업스테이지 'Solar' 기반 AI 요약 베타 출시",
+      "url": "https://zdnet.co.kr/view/?no=20260701180223",
+      "summary": "다음 포털이 업스테이지 자체 언어모델 'Solar' 기반 AI 요약 베타 서비스 출시. 이슈·금융·연예·건강·사전·생활 6개 영역 적용, 연내 정식 버전 출시 예정. 업스테이지는 검색을 대화형으로 전환하는 'AI 모드'도 추가 계획.",
+      "source": "지디넷",
+      "time": "07/01 18:03"
+    },
+    {
+      "category": "service",
+      "title": "플랫폼 패싱하는 '에이전틱 커머스' 시대, 유통업계 생존 문법이 달라진다",
+      "url": "https://www.etnews.com/20260701000423",
+      "summary": "AI 에이전트가 상품 추천을 넘어 구매까지 대행하는 '에이전틱 커머스' 확산으로 네이버·카카오 등 플랫폼 패싱 현상이 부상. 유통업계는 SEO 대신 AEO(AI 엔진 최적화)·GEO 최적화로 전략 전환 중.",
+      "source": "전자신문",
+      "time": "07/01 16:00"
+    },
+    {
+      "category": "service",
+      "title": "네이버웹툰, 웹툰 IP 기반 AI 스토리챗 '바이어스' 출시",
+      "url": "https://www.etnews.com/20260701000374",
+      "summary": "네이버웹툰이 원작자 승인 IP를 활용한 AI 인터랙티브 챗 서비스 '바이어스'를 출시. 사용자가 원작 캐릭터와 대화하며 새로운 이야기를 만들 수 있으며, 원작 세계관을 존중하는 방식으로 설계.",
+      "source": "전자신문",
+      "time": "07/01 13:46"
+    },
+    {
+      "category": "biz",
+      "title": "AWS, AI 엔지니어 기업 파견 'FDE' 조직 신설…1조5000억 투자",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212305",
+      "summary": "AWS가 'Frontier AI Engineering and Services' 부서 신설, 초기 10억 달러(1.5조원) 투입. 5~6명 팀이 기업 현장에 45일 파견해 AI 에이전트 구축. NBA·리코 등 초기 고객사 확보. FDE 수요 2023~2025년 42배 성장.",
+      "source": "AI Times",
+      "time": "07/01 14:13"
+    },
+    {
+      "category": "biz",
+      "title": "스페이스X, 스마트폰형 AI 기기 프로토타입 투자자에 공개",
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "summary": "SpaceX가 아이폰보다 얇은 핸드셋형 AI 기기 프로토타입을 투자자에게 시연. xAI 기술 통합 AI 하드웨어 시장 진입 가능성 부각. Elon Musk는 해당 보도를 부인했으나, AI 디바이스 경쟁 구도 변화 예고.",
+      "source": "TechCrunch",
+      "time": "07/02 03:54"
+    },
+    {
+      "category": "biz",
+      "title": "메타, 잉여 AI 컴퓨팅 자원 외부 판매 'Meta Compute' 추진",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "summary": "Meta가 잉여 AI 컴퓨팅 파워와 모델 접근권을 외부에 판매하는 클라우드 인프라 사업 'Meta Compute'를 개발 중. AWS·Google Cloud·Microsoft Azure와 경쟁 구도 형성 예정. 빅테크의 AI 인프라 투자 회수 전략 가시화.",
+      "source": "TechCrunch",
+      "time": "07/01 22:43"
+    },
+    {
+      "category": "biz",
+      "title": "Venice AI, 프라이버시 우선 AI 플랫폼으로 6500만 달러 시리즈A 유니콘 등극",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "summary": "Venice AI가 6,500만 달러 시리즈 A 투자로 기업 가치 10억 달러 달성. 암호화 기반 프라이버시와 200개 이상 모델 제공으로 ChatGPT 대안 포지셔닝. 연매출 $70M 이상, MAU 300만 명 보유.",
+      "source": "TechCrunch",
+      "time": "07/01 23:25"
+    },
+    {
+      "category": "biz",
+      "title": "슈나이더 일렉트릭, 산업 AI 플랫폼 Cognite 31억 달러 인수",
+      "url": "https://zdnet.co.kr/view/?no=20260701111630",
+      "summary": "슈나이더 일렉트릭이 노르웨이 산업 AI 소프트웨어 플랫폼 Cognite를 31억 달러 전액 현금으로 인수. AVEVA와 통합해 디지털 트윈·자산관리 역량 강화. 제조·에너지·인프라 분야 산업 AI 데이터 플랫폼 경쟁 본격화.",
+      "source": "지디넷",
+      "time": "07/01 11:17"
+    },
+    {
+      "category": "chip",
+      "title": "삼성 파운드리, AI 시대 '넥서스' 선언…2나노·HBM4로 생태계 주도",
+      "url": "https://zdnet.co.kr/view/?no=20260701114115",
+      "summary": "삼성 파운드리가 SAFE Forum 2026에서 AI 시대 '넥서스' 비전 선언. 2나노 공정 전력 소모 26% 절감, HBM4 베이스 다이 4nm 공정 적용, 11.7Gbps 안정 속도 달성. 2029년 1.4nm 양산 목표.",
+      "source": "지디넷",
+      "time": "07/01 12:20"
+    },
+    {
+      "category": "chip",
+      "title": "화웨이 AI NPU 서버, 4분기 韓 상륙…엔비디아에 도전장",
+      "url": "https://www.etnews.com/20260701000492",
+      "summary": "화웨이가 4분기 국내 시장에 어센드 AI 가속칩·Atlas 950 서버를 출시해 엔비디아 H20 대비 추론 성능 2.87배·가격 4분의 1을 내세움. 빠르게 확장하는 AI 인프라 시장에서 엔비디아 의존도 완화 대안으로 포지셔닝.",
+      "source": "전자신문",
+      "time": "07/01 16:59"
+    },
+    {
+      "category": "chip",
+      "title": "'AI 추론 칩' 에치드, 7.7조 가치 인정…칩 주문만 1.5조 확보",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212324",
+      "summary": "AI 추론 특화 칩 스타트업 Etched가 50억 달러 기업가치 인정받으며 8억 달러 누적 투자 유치. Stripe 주도 5억 달러 라운드에 제프리 힌튼·페이페이 리 참여. 'Frontier Inference Clusters' 칩 주문만 10억 달러 이상 확보.",
+      "source": "AI Times",
+      "time": "07/01 17:11"
+    },
+    {
+      "category": "policy",
+      "title": "과기부, 피지컬 AI '풀스택' 전략 발표…국산 파운데이션·월드모델 개발 추진",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212330",
+      "summary": "과학기술정보통신부가 'K-문샷 프로젝트' 중심의 피지컬 AI 핵심 경쟁력 확보 전략 발표. 로봇 행동 데이터 체계, 국산 파운데이션 모델·월드모델·온디바이스 플랫폼 개발 추진. LG전자·마음AI·KT·KAIST·서울대 컨소시엄 구성.",
+      "source": "AI Times",
+      "time": "07/01 17:28"
+    },
+    {
+      "category": "policy",
+      "title": "중국, 유치원부터 대학까지 AI 교육 의무화…'AI 인재 강국' 본격화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212331",
+      "summary": "중국 국무원이 5개년 국가 교육 발전 계획을 통해 유치원~대학 전 교육 단계 AI 교육 의무화 발표. AI 리터러시 강화 및 청년 실업 해소 목적. 시진핑의 첨단기술 인재 육성 전략의 구체적 정책화.",
+      "source": "AI Times",
+      "time": "07/01 17:20"
+    },
+    {
+      "category": "policy",
+      "title": "NIA, 인공지능정책센터 공식 출범…AI 기본법 전담 공공기관 역할 수행",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212293",
+      "summary": "한국지능정보사회진흥원(NIA)이 AI 기본법상 AI 정책·법제도 전담 공공기관으로 인공지능정책센터 공식 출범. 국가 AI 전략 수립·기술 지원·법제도 연구 담당. '세계 3대 AI 강국' 목표 실현 위한 정책-산업 연계 허브 역할.",
+      "source": "AI Times",
+      "time": "07/01 15:16"
+    },
+    {
+      "category": "policy",
+      "title": "클라우드플레어, AI 기업의 퍼블리셔 콘텐츠 무단 수집에 유료화 압박 정책",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "summary": "Cloudflare가 2026년 9월 15일부터 AI 학습용 크롤러와 검색용 크롤러를 의무 분리하고, 미분리 시 광고 게재 페이지 접근 기본 차단 정책 시행 예고. AI 기업의 콘텐츠 수집 비용 구조 변화의 분기점.",
+      "source": "TechCrunch",
+      "time": "07/02 02:48"
+    },
+    {
+      "category": "robot",
+      "title": "마스오토, 국내 첫 트레일러 자율주행 시연…2028년 무인 화물운송 목표",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212332",
+      "summary": "마스오토가 국내 최초 트레일러 자율주행 시연 및 글로벌 물류 확장 계획 발표. 실도로 2000만km 자율주행 데이터 보유. 카메라 전용 end-to-end AI 기반 'MasNet 3' 모델 공개, 연내 미국 노선 베타 테스트 예정.",
+      "source": "AI Times",
+      "time": "07/01 18:07"
+    },
+    {
+      "category": "robot",
+      "title": "라이드플럭스, 한진과 국내 첫 자율주행 유상 화물운송 개시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212304",
+      "summary": "라이드플럭스가 한진물류와 군산~전주~대전 116km 구간 국내 최초 자율주행 유상 화물운송 서비스 개시. 25톤 타타대우 MaxX 트럭으로 주 2회 운행, 최고 시속 90km. 2026년 4월 국토부 초기 허가 취득.",
+      "source": "AI Times",
+      "time": "07/01 13:10"
+    },
+    {
+      "category": "security",
+      "title": "대만, 슈퍼마이크로 AI 서버 '중국 밀반출' 의혹 수사 착수",
+      "url": "https://zdnet.co.kr/view/?no=20260701201621",
+      "summary": "대만 당국이 슈퍼마이크로 AI 서버의 중국 불법 반출 의혹 수사 개시. AI 서버가 전략 자산으로 분류되며 수출통제 이행 범위가 미국 동맹국으로 확대. 기업의 최종 사용자 검증·사후 추적 의무 강화 전망.",
+      "source": "지디넷",
+      "time": "07/01 20:16"
+    },
+    {
+      "category": "security",
+      "title": "AI도 수출통제 받는 시대...사이버보안 시장 5년 새 2배 커진다",
+      "url": "https://www.etnews.com/20260701000058",
+      "summary": "국내 사이버보안 시장이 2025년 8.2조원에서 2030년 18.2조원으로 연평균 17.3% 성장 전망. AI 확산·수출통제 강화로 보안 수요가 급증하며, 성과 기반 조달·통합 보안 데이터 인프라 구축이 정책 과제로 부상.",
+      "source": "전자신문",
+      "time": "07/01 06:55"
+    },
+    {
+      "category": "others",
+      "title": "'인터넷 아버지' 빈트 서프, 20년 재직한 구글 떠난다",
+      "url": "https://zdnet.co.kr/view/?no=20260702075905",
+      "summary": "TCP/IP 프로토콜 공동 개발자이자 '인터넷 아버지'로 불리는 빈트 서프(83세)가 20년 이상 재직한 구글에서 은퇴 선언. 'AI 에이전트가 기술 표준을 주도할 것'이라 전망하며 인터넷 시대와는 다른 AI 시대 도래를 예고.",
+      "source": "지디넷",
+      "time": "07/02 08:05"
+    }
+  ]
+}

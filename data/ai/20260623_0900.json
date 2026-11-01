@@ -1,0 +1,150 @@
+{
+  "published_at": "2026-06-23T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat", "Medium"],
+  "articles": [
+    {
+      "category": "robot",
+      "title": "앤트로픽 \"클로드 오퍼스 4.7, 인간보다 37배 빠르게 로봇 제어 수행\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211969",
+      "summary": "앤트로픽이 클로드 오퍼스 4.7로 4족 보행 로봇을 자율 제어하는 'Project Fetch Phase 2' 실험 결과 공개. AI가 로봇 센서 연결·소프트웨어 작성을 독자 수행해 AI 미지원 팀 대비 37.7배 빠른 12분 7초 완료.",
+      "source": "AI Times",
+      "time": "06/23 08:03"
+    },
+    {
+      "category": "biz",
+      "title": "\"AI 할 줄 아는 신입 뽑는다\"...국내 AI 인재 채용 전년 대비 70% 급증",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211991",
+      "summary": "2026년 1~5월 국내 AI 관련 채용 공고가 전년 동기 대비 70% 급증. 신입 공고는 80% 증가로 전체 증가율(10%)의 7배. 교육(185%), 미디어·광고(154%), 문화·디자인(139%) 업종에서 증가폭 가장 큼.",
+      "source": "AI Times",
+      "time": "06/22 16:51"
+    },
+    {
+      "category": "biz",
+      "title": "AI시대 리더에게 필요한 건?...\"AI실력보다 사람 관리\"",
+      "url": "https://zdnet.co.kr/view/?no=20260623084731",
+      "summary": "휴넷의 임직원 584명 대상 조사 결과, AI 시대 리더 핵심 역량 1위는 '사람 관리'와 '판단력'(각 56.4%). AI 활용 능력은 17.9%로 최하위권. 팀장 50%는 리더십 역량 부족으로 이직 고민 경험 있어.",
+      "source": "지디넷",
+      "time": "06/23 08:47"
+    },
+    {
+      "category": "biz",
+      "title": "최태원 \"AI 시대 인재 기준 달라져…협력할 때 더 큰 변화\"",
+      "url": "https://zdnet.co.kr/view/?no=20260623083932",
+      "summary": "최태원 SK그룹 회장이 한국과학기술한림원 시상식에서 \"AI 시대 인재는 개인 전문성을 넘어 협력과 사회 기여가 중요하다\"고 강조. 수상자 3명에게 각 4000만원 연구 지원금 수여.",
+      "source": "지디넷",
+      "time": "06/23 08:46"
+    },
+    {
+      "category": "genai",
+      "title": "\"6월은 역사상 최다 AI 모델 출시 달\"…단일 공급사 의존 위험",
+      "url": "https://zdnet.co.kr/view/?no=20260622165220",
+      "summary": "2026년 6월이 AI 업계 사상 최다 모델 출시 월로 기록될 전망. 앤트로픽·구글·xAI·오픈AI·MS·딥시크 등이 30일간 경쟁적으로 프런티어 모델 공개. 클로드 페이블5 정부 제재로 단일 공급사 의존 위험성 부각.",
+      "source": "지디넷",
+      "time": "06/22 16:52"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI, 삼성전자 전 임직원에 챗GPT 엔터프라이즈·코덱스 공급",
+      "url": "https://www.etnews.com/20260622000272",
+      "summary": "오픈AI가 삼성전자 국내 전 임직원 및 DX부문 글로벌 직원에 챗GPT 엔터프라이즈와 코덱스를 공급. 국내 코덱스 주간 활성 사용자 2월 이후 약 800% 급증. 반도체 협력도 병행 추진.",
+      "source": "전자신문",
+      "time": "06/22 13:36"
+    },
+    {
+      "category": "genai",
+      "title": "[단독]네이버 차세대 AI 모델, '사용량 1위' 中 넘어 글로벌 주도권 잡는다",
+      "url": "https://www.etnews.com/20260622000361",
+      "summary": "네이버클라우드가 5000억 파라미터 규모 차세대 하이퍼클로바X를 하반기 출시 목표로 개발 중. 중국 모델 독주 중인 고효율 AI 시장 공략이 목표. B200 GPU 4000장 확보, 엔비디아 네모트론 얼라이언스 합류.",
+      "source": "전자신문",
+      "time": "06/22 16:00"
+    },
+    {
+      "category": "policy",
+      "title": "앤트로픽, 'AI 수출 금지' 호재되나…美 정부 신뢰 회복은 과제",
+      "url": "https://www.etnews.com/20260622000407",
+      "summary": "미국 정부의 앤트로픽 최신 모델(페이블5·미토스5) 수출 금지 10일 경과. 업계는 금지 조치가 역설적으로 기술력 우위 증거로 해석될 수 있다고 분석. 트럼프 대통령의 긍정 발언으로 조기 해제 가능성도 거론.",
+      "source": "전자신문",
+      "time": "06/22 17:26"
+    },
+    {
+      "category": "tech",
+      "title": "AI 세계가 '루프' 구조로 전환되고 있다",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "summary": "클로드 코드 제작자 보리스 체르니가 'AI 루프' 개념을 소개. 에이전트가 에이전트를 호출해 코드를 자율 개선하는 구조로, 토큰 소비 급증이 과제로 지적됨.",
+      "source": "TechCrunch",
+      "time": "06/23 05:53"
+    },
+    {
+      "category": "service",
+      "title": "아마존, 인도에서 힌디어 지원 Alexa+ 베타 테스트 시작",
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "summary": "아마존이 6억 명 이상의 힌디어 사용자를 겨냥해 인도에서 Alexa+ 힌디어 베타를 출시. 정식 출시 일정은 미정이며 오류·부정확한 정보 가능성을 고지함.",
+      "source": "TechCrunch",
+      "time": "06/23 02:31"
+    },
+    {
+      "category": "biz",
+      "title": "SpaceX, 오픈소스 AI 스타트업 Reflection AI와 최대 63억 달러 컴퓨팅 계약 체결",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "summary": "Reflection AI가 SpaceX Colossus 2 데이터센터의 GB300 칩에 월 1.5억 달러, 2029년까지 최대 63억 달러 규모의 컴퓨팅 계약을 체결함.",
+      "source": "TechCrunch",
+      "time": "06/23 01:51"
+    },
+    {
+      "category": "genai",
+      "title": "사카나 AI, 멀티 에이전트 오케스트레이션 시스템 'Fugu' 정식 출시",
+      "url": "https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system",
+      "summary": "도쿄 AI 스타트업 사카나가 OpenAI 호환 API로 여러 LLM을 동적 라우팅하는 Fugu를 공개. 프론티어 모델 없이도 동급 성능 달성을 주장하며 월 $20~$200 구독 제공.",
+      "source": "VentureBeat",
+      "time": "06/23 01:00"
+    },
+    {
+      "category": "tech",
+      "title": "AI 에이전트 스스로 규칙 재작성…'Self-Harness' 프레임워크 성능 최대 60% 향상",
+      "url": "https://venturebeat.com/orchestration/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting-performance-up-to-60",
+      "summary": "상하이 AI 연구소가 에이전트가 자체 실행 흔적을 분석해 동작 규칙을 자율 개선하는 Self-Harness를 발표. Terminal-Bench 2.0에서 최대 60% 성능 향상 확인.",
+      "source": "VentureBeat",
+      "time": "06/22 23:23"
+    },
+    {
+      "category": "tech",
+      "title": "AI에게 스펙 작성하는 법 — 더 나은 코드를 위한 7가지 규칙과 체크리스트",
+      "url": "https://medium.com/@wasowski.jarek/how-to-write-specs-for-ai-7-rules-and-a-checklist-for-better-code-a5af2b2c6205",
+      "summary": "AI 코드 품질 저하의 주원인은 모델이 아닌 모호한 사양(spec)임을 강조. 스코프·제약·검수 기준을 명시하면 동일 모델로도 코드 정확도를 20~40% 향상 가능하다는 연구 기반 7가지 규칙 제시.",
+      "source": "Medium",
+      "time": "06/23 14:00"
+    },
+    {
+      "category": "policy",
+      "title": "AI는 사회가 만들었다 — 사회가 AI의 일부를 소유해야 하는가?",
+      "url": "https://medium.com/enrique-dans/ai-was-built-by-society-should-society-own-part-of-it-120092f7eec9",
+      "summary": "버니 샌더스 의원이 연매출 2억 달러 이상 AI 기업 지분 절반을 공공 펀드로 이전하는 7조 달러 국부펀드 법안 발의. AI를 전기·인터넷처럼 공공 인프라로 보고 사회 환원을 요구하는 논쟁이 부상함.",
+      "source": "Medium",
+      "time": "06/22 16:00"
+    },
+    {
+      "category": "policy",
+      "title": "미국 정부가 Fable 5와 Mythos 5를 금지한 이유",
+      "url": "https://medium.com/@sajittadavi786/the-day-the-us-government-switched-off-the-worlds-most-powerful-ai-a0bad1438d68",
+      "summary": "미국 상무부가 사이버 보안 취약점(젤브레이크)을 국가 안보 위협으로 규정하고 Anthropic의 Fable 5·Mythos 5를 전 세계적으로 강제 오프라인 처리. 수십만 기업이 예고 없이 접근 차단되며 AI 거버넌스 선례로 주목됨.",
+      "source": "Medium",
+      "time": "06/23 00:00"
+    },
+    {
+      "category": "tech",
+      "title": "GLM 5.2 — Claude와 ChatGPT를 긴장시키는 무료 중국 AI 모델",
+      "url": "https://medium.com/@sajittadavi786/glm-5-2-the-free-chinese-ai-model-thats-making-claude-and-chatgpt-nervous-64b3a499bcc1",
+      "summary": "중국 Z.ai의 오픈웨이트 모델 GLM-5.2(753B 파라미터, 100만 토큰 컨텍스트)가 FrontierSWE 74.4%로 Claude(75.1%)에 근접하면서 5~6배 저렴한 가격을 실현. 화웨이 칩 기반으로 미국 제재 무관하게 MIT 라이선스 공개.",
+      "source": "Medium",
+      "time": "06/22 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "컨텍스트가 새로운 코드다 — Tessl이 바라보는 AI 개발의 미래",
+      "url": "https://levelup.gitconnected.com/context-is-the-new-code-how-tessl-sees-the-future-of-ai-development-9b5ee0e6b9ca",
+      "summary": "AI 에이전트 시대에 소프트웨어 핵심 자산이 코드에서 컨텍스트(프롬프트·스펙·재사용 라이브러리)로 이동한다는 Tessl의 관점 분석. SDD(스펙 중심 개발)가 AI 개발 주류 패러다임으로 자리잡고 있음을 제시.",
+      "source": "Medium",
+      "time": "06/22 15:00"
+    }
+  ]
+}

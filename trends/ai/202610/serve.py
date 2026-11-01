@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 HERE = Path(__file__).resolve().parent
-NEWSLETTERS = HERE.parent.parent / "newsletters"
+NEWSLETTERS = HERE.parents[2] / "newsletters" / HERE.parent.name  # trends/<주제>/YYYYMM
 
 
 class ReportHandler(SimpleHTTPRequestHandler):

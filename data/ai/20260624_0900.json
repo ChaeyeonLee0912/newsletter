@@ -1,0 +1,166 @@
+{
+  "published_at": "2026-06-24T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat", "MIT News"],
+  "articles": [
+    {
+      "category": "security",
+      "title": "오픈AI, 'GPT-5.5-사이버' 정식 출시…'미소스 5' 성능 능가",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212007",
+      "summary": "오픈AI가 사이버보안 특화 모델 GPT-5.5-사이버를 공개. 보안 벤치마크 '사이버짐'에서 85.6%를 기록해 앤트로픽 미소스 5(83.8%)를 앞섰다. 취약점 탐지를 넘어 패치 자동화를 지원하는 '코덱스 시큐리티' 플러그인 및 13개 보안기업 파트너 프로그램도 함께 출범했다.",
+      "source": "AI Times",
+      "time": "06/23 13:35"
+    },
+    {
+      "category": "biz",
+      "title": "스캐터랩, 600억 투자 유치…일본서 넷플릭스 제친 '제타' 효과",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212030",
+      "summary": "AI 캐릭터 채팅 앱 '제타' 운영사 스캐터랩이 에이티넘인베스트먼트·SBVA·미래에셋벤처투자 등에서 600억 원 투자 유치. 누적 가입자 800만 명 돌파, 4월 일본 앱스토어 엔터테인먼트 1위(넷플릭스 제침). 전체 매출의 60%가 글로벌에서 발생 중이다.",
+      "source": "AI Times",
+      "time": "06/23 18:01"
+    },
+    {
+      "category": "service",
+      "title": "팀스파르타, 기업 AX 전 과정 지원하는 '엔드투엔드 통합 파트너' 전략 발표",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212031",
+      "summary": "팀스파르타가 AI 역량 진단부터 교육·기술 실증·시스템 구축·운영까지 5단계를 원스톱으로 지원하는 AX 전략을 발표. 자체 파운데이션 모델과 노코드 UI로 진입 장벽을 낮추고, 임직원 AI 역량 160% 향상과 반복 업무 2.5배 단축 실적을 제시했다.",
+      "source": "AI Times",
+      "time": "06/24 02:00"
+    },
+    {
+      "category": "tech",
+      "title": "\"토큰 아끼지 마라\"…새로운 AI 경쟁력은 '추론 투자'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212009",
+      "summary": "AI 업계의 담론이 토큰 비용 절감에서 추론 단계 컴퓨팅 확대로 전환 중. 오픈AI·앤트로픽이 '테스트 타임 컴퓨팅' 개념을 강조하며 동일 모델도 투입 자원에 따라 성능이 크게 달라진다고 주장. AI ROI 극대화 전략의 패러다임이 근본적으로 바뀌고 있다.",
+      "source": "AI Times",
+      "time": "06/24 06:13"
+    },
+    {
+      "category": "others",
+      "title": "청소랑 요리를 공짜로!…집안 '데이터'와 교환한다?",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212025",
+      "summary": "뉴욕 스타트업이 가사 활동 데이터를 제공하는 조건으로 청소·요리 서비스를 무료 제공하는 모델을 제시. 가구 내 행동 데이터를 AI 학습에 활용하는 방식으로 데이터 프라이버시와 노동 공정성 논란을 야기하고 있다.",
+      "source": "AI Times",
+      "time": "06/24 00:00"
+    },
+    {
+      "category": "service",
+      "title": "삼성SDS·LG CNS·카카오 총출동…공공 행정도 '에이전틱 AI' 시대",
+      "url": "https://zdnet.co.kr/view/?no=20260623173831",
+      "summary": "정부 주최 '2026 공공 AI 박람회'에 삼성SDS·LG CNS·카카오 등 56개 기관·기업 참여. 에이전틱 AI가 핵심 주제로 삼성SDS는 AI 민원서포터, LG CNS는 에이전틱웍스, 카카오는 AI 국민비서를 공개하며 공공 AI 시장 선점 경쟁이 본격화됐다.",
+      "source": "지디넷",
+      "time": "06/23 17:48"
+    },
+    {
+      "category": "biz",
+      "title": "엔비디아, 데이터센터 IREN에 3.2조 원 투자…5GW AI 인프라 함께 깐다",
+      "url": "https://zdnet.co.kr/view/?no=20260623214716",
+      "summary": "엔비디아가 데이터센터 기업 IREN과 전략적 파트너십 체결. 최대 21억 달러(약 3.2조 원) 지분 투자에 5년간 34억 달러(약 5.2조 원) AI 클라우드 계약으로 최대 5GW 규모 AI 인프라를 공동 구축. GPU 판매를 넘어 전력·부지까지 확보하는 전략으로 전환 중이다.",
+      "source": "지디넷",
+      "time": "06/23 21:47"
+    },
+    {
+      "category": "robot",
+      "title": "\"휴머노이드, 수직 통합이 답\"…테슬라 따라가는 로보티즈·마음AI",
+      "url": "https://zdnet.co.kr/view/?no=20260623145120",
+      "summary": "휴머노이드 시장 선점을 위해 AI 모델·하드웨어·데이터를 동시 개발하는 수직 통합 전략이 필수라는 분석이 나왔다. 로보티즈·마음AI 등 국내 기업이 테슬라·피겨AI 방식을 벤치마킹 중이며, 인간 행동 및 로봇 실증 데이터 확보가 핵심 경쟁력으로 꼽혔다.",
+      "source": "지디넷",
+      "time": "06/23 16:28"
+    },
+    {
+      "category": "service",
+      "title": "AI 쇼호스트 키우는 NS홈쇼핑…\"상품군별 전문 캐릭터 만든다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260623151123",
+      "summary": "NS홈쇼핑이 생성형 AI 쇼호스트를 방송에 본격 확대. 제작팀 10명에서 3명으로 축소 가능해 제작비 절감 효과가 크다. 현재 건강기능식품·이벤트 방송에 활용 중이며 향후 상품군·고객층별 전문 AI 캐릭터 개발을 추진한다.",
+      "source": "지디넷",
+      "time": "06/23 15:55"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI 키운 MS의 변심?…나델라 CEO, 'AI 독점론' 때린 이유",
+      "url": "https://zdnet.co.kr/view/?no=20260623175433",
+      "summary": "사티아 나델라 MS CEO가 소수 모델 중심의 AI 권력 집중 구조를 공개 비판했다. 코파일럿 기업 시장 부진 이후 저비용 모델·멀티모델 전략으로 전환 중이며, 최고 성능 경쟁에서 AI 플랫폼 전략으로 무게중심이 이동하고 있다는 분석이다.",
+      "source": "지디넷",
+      "time": "06/23 17:57"
+    },
+    {
+      "category": "chip",
+      "title": "SK하이닉스, 美 폼팩터와 HBM 테스트 난제 해결…수율 향상 기대",
+      "url": "https://zdnet.co.kr/view/?no=20260623143412",
+      "summary": "SK하이닉스가 미국 반도체 후공정 기업 폼팩터와 협력해 차세대 HBM 검사 기술을 개발했다. 극한 온도에서 프로브카드 안정성을 확보하고 열팽창계수 문제를 선제 해결. HBM 수율 향상으로 AI 반도체 공급 안정성에 기여할 것으로 기대된다.",
+      "source": "지디넷",
+      "time": "06/23 14:47"
+    },
+    {
+      "category": "tech",
+      "title": "美·中 양자전쟁 격화…\"韓 대응 속도 높여야\"",
+      "url": "https://www.etnews.com/20260623000347",
+      "summary": "트럼프 대통령이 양자컴퓨터 2028년 실전 배치 행정명령에 서명. 중국은 정부 주도로 1분기 양자기술 투자를 전년 대비 300% 급증시켰다. 한국도 2032년까지 1000큐비트급 개발 목표지만 자본·인력 부족으로 국제협력과 생태계 조성이 시급하다.",
+      "source": "전자신문",
+      "time": "06/23 14:57"
+    },
+    {
+      "category": "chip",
+      "title": "삼성전자 HBM4 매출 10억 달러 돌파…연말 100억 달러 기대",
+      "url": "https://www.etnews.com/20260623000330",
+      "summary": "삼성전자가 2월 양산 시작한 6세대 HBM4로 130여 일 만에 매출 10억 달러를 돌파했다. 4나노 공정 적용으로 업계 표준 대비 속도 46% 빠르고 데이터 전송 2.7배 향상. 엔비디아 AI칩 수요 증가로 올해 삼성 HBM 매출은 전년 대비 3배 이상이 전망된다.",
+      "source": "전자신문",
+      "time": "06/23 14:37"
+    },
+    {
+      "category": "policy",
+      "title": "AI 확산하는 금융권, \"사전 승인에서 상시 검증으로 전환해야\"",
+      "url": "https://www.etnews.com/20260623000337",
+      "summary": "금융권 AI 확대에 따라 감독 체계 개선 논의가 본격화됐다. 전문가들이 사전 승인 중심에서 상시 검증 체계로의 전환 필요성을 주장하고, 금융당국은 거버넌스·합법성·신뢰성 등 7대 원칙을 담은 AI 내부통제 가이드라인을 마련 중이다.",
+      "source": "전자신문",
+      "time": "06/23 15:30"
+    },
+    {
+      "category": "service",
+      "title": "AI홈 표준화, 에너지 이어 헬스케어로 확장…홈헬스케어 PG 신설",
+      "url": "https://www.etnews.com/20260623000140",
+      "summary": "AI스마트홈융합포럼이 홈헬스케어 그룹(PG2)을 신설해 복약 알림·수면·활동 모니터링·고령자 돌봄 서비스 표준화를 추진한다. 스마트홈 표준화 논의가 에너지 관리에서 헬스케어로 확장되며 데이터 보안·상호운용성이 핵심 과제로 떠올랐다.",
+      "source": "전자신문",
+      "time": "06/23 16:00"
+    },
+    {
+      "category": "service",
+      "title": "군 의료체계도 AI 전환 시동…국군의무사령부, 의료AI 도입 로드맵 짠다",
+      "url": "https://www.etnews.com/20260623000292",
+      "summary": "국군의무사령부가 군 의료 체계에 AI를 적용하는 중장기 발전계획 수립을 준비 중이다. 의료인력 부족·장병 의료 수요 증가가 배경으로, 의료데이터 표준화·보안·전문인력 양성을 종합 검토하며 원격지 진료 지원·응급 대응 분야 효과가 기대된다.",
+      "source": "전자신문",
+      "time": "06/23 16:00"
+    },
+    {
+      "category": "genai",
+      "title": "앤트로픽, Slack 상주 AI 에이전트 'Claude Tag' 출시…조직 메모리 자동 누적",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "summary": "앤트로픽이 Slack에 상주하며 조직 메모리를 누적하는 AI 에이전트 'Claude Tag'를 베타 출시했다. 채널에 태그하면 관련 정보를 자동 수집·처리하고 비동기 작업을 자율 수행. Claude Enterprise·Team 고객 대상이며 기존 Claude in Slack 앱을 대체한다.",
+      "source": "TechCrunch",
+      "time": "06/24 02:00"
+    },
+    {
+      "category": "tech",
+      "title": "AI 에이전트가 스스로 규칙 재작성하는 'Self-Harness' 프레임워크 공개…성능 최대 60% 향상",
+      "url": "https://venturebeat.com/orchestration/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting-performance-up-to-60",
+      "summary": "상하이AI연구소 연구진이 LLM 에이전트가 자체 실행 이력을 분석해 시스템 프롬프트·도구·메모리를 스스로 개선하는 'Self-Harness' 프레임워크를 발표. Qwen3.5-35B에서 60.1% 성능 향상을 기록하며 인간 개입 없는 자기 진화형 AI의 가능성을 실증했다.",
+      "source": "VentureBeat",
+      "time": "06/23 00:00"
+    },
+    {
+      "category": "policy",
+      "title": "MIT, AI가 고용·민주주의에 미치는 영향 논의하는 'AI·사회 포럼' 개최",
+      "url": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+      "summary": "MIT가 AI와 사회 포럼을 개최해 AI가 고용·민주주의·시민 담론에 미치는 영향을 논의했다. 반복 업무 자동화의 범위, 민주적 규범 침식 위험, 숙의적 사고를 촉진하는 챗봇 설계 등이 핵심 의제로 다뤄지며 AI의 사회적 영향에 대한 논의를 공식 의제화했다.",
+      "source": "MIT News",
+      "time": "06/23 00:00"
+    },
+    {
+      "category": "service",
+      "title": "AI 에이전트가 면접관으로…Fika Jobs, 영상 AI 채용 플랫폼에 400만 달러 투자 유치",
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "summary": "스웨덴 스타트업 Fika Jobs가 구글 제미나이 기반 AI 에이전트가 약 10분간 영상 면접을 진행하는 채용 플랫폼으로 프리시드 400만 달러를 조달했다. 면접 영상을 클립으로 전환해 고용주에게 제공하며, 채용 편향 위험에 대한 윤리적 논의도 제기되고 있다.",
+      "source": "TechCrunch",
+      "time": "06/23 23:00"
+    }
+  ]
+}

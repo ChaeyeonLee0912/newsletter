@@ -1,9 +1,10 @@
 # 월간 AI 트렌드 요약 보고서 작성 가이드
 
 한 달 치 뉴스레터를 읽고 **AI 트렌드 9가지**를 카드형 웹 페이지로 정리하는 방법이에요.
-기준 결과물은 [`trends/202610`](../trends/202610/)이고, 다음 달에도 이 폴더를 복사해서 같은 방식으로 만들면 돼요.
+기준 결과물은 [`trends/ai/202610`](../trends/ai/202610/)이고, 다음 달에도 이 폴더를 복사해서 같은 방식으로 만들면 돼요.
+`{SUBJECT}`는 주제 폴더 이름이에요(AI는 `ai`). 뉴스레터 `newsletters/{SUBJECT}/`, 데이터 `data/{SUBJECT}/`와 같은 이름을 써요.
 
-- 결과물: `trends/YYYYMM/index.html`(카드 9장 + 상세 설명 + 근거 기사), SVG 일러스트, 미리보기 PNG 4장
+- 결과물: `trends/{SUBJECT}/YYYYMM/index.html`(카드 9장 + 상세 설명 + 근거 기사), SVG 일러스트, 미리보기 PNG 4장
 - 독자: AI를 잘 모르는 일반인도 술술 읽을 수 있어야 해요. 그래서 **친구한테 말하듯 쉬운 반말**로 써요.
 - 원칙: 흐름은 해석하되, **근거는 기사로 남기고 사실은 부풀리지 않아요.**
 
@@ -12,8 +13,8 @@
 ## 1. 폴더 구조
 
 ```
-trends/YYYYMM/
-├── extract_newsletters.py   # newsletters/YYYYMM*.html → corpus.json (기사 추출·중복 제거)
+trends/{SUBJECT}/YYYYMM/
+├── extract_newsletters.py   # newsletters/{SUBJECT}/YYYYMM*.html → corpus.json (기사 추출·중복 제거)
 ├── corpus.json              # 추출된 기사 목록 (id: A0001~)
 ├── trends.json              # ★ 사람이 쓰는 부분: 카드·설명·근거 기사 ID
 ├── build_page.py            # corpus + trends → index.html, assets/*.svg 생성 (+ 페이지 고정 문구)
@@ -34,10 +35,10 @@ trends/YYYYMM/
 ### 2-1. 이전 달 폴더 복사 후 월 바꾸기
 
 ```powershell
-Copy-Item -Recurse trends/202610 trends/YYYYMM
+Copy-Item -Recurse trends/ai/202610 trends/{SUBJECT}/YYYYMM
 ```
 
-`__pycache__`는 지우고, 아래 **월이 박혀 있는 곳을 전부** 바꿔요. 하나라도 놓치면 지난달 정보가 그대로 남아요.
+`__pycache__`는 지우고, 아래 **월이 박혀 있는 곳을 전부** 바꿔요. 주제 폴더 이름은 스크립트가 경로에서 알아서 읽으니까 안 바꿔도 돼요. 하나라도 놓치면 지난달 정보가 그대로 남아요.
 
 | 파일 | 바꿀 곳 |
 |---|---|
@@ -48,17 +49,17 @@ Copy-Item -Recurse trends/202610 trends/YYYYMM
 | `build_page.py` | 기간 표시 `2026.10.01 — 10.29`, 정리 기준 창의 날짜 범위 설명, 푸터 `2026 OCTOBER EDITION` |
 | `build_page.py` | `분석한 뉴스레터 <span class="muted">26개</span>`(고정 숫자), 필터 버튼 개수 `05/02/02` |
 | `serve.py` | 상단 docstring, argparse 설명의 `October` |
-| `README.md` | 기간·기사 수·명령어 경로(`trends/YYYYMM/...`) |
+| `README.md` | 기간·기사 수·명령어 경로(`trends/{SUBJECT}/YYYYMM/...`) |
 
-> 바꾼 뒤 `grep -nE "10월|OCTOBER|October|202610|2026\.10" trends/YYYYMM/*.py trends/YYYYMM/README.md`로 남은 흔적이 없는지 확인해요.
+> 바꾼 뒤 `grep -nE "10월|OCTOBER|October|202610|2026\.10" trends/{SUBJECT}/YYYYMM/*.py trends/{SUBJECT}/YYYYMM/README.md`로 남은 흔적이 없는지 확인해요.
 
 ### 2-2. 기사 추출
 
 ```powershell
-python trends/YYYYMM/extract_newsletters.py
+python trends/{SUBJECT}/YYYYMM/extract_newsletters.py
 ```
 
-- `newsletters/YYYYMM*.html`의 `article-card`에서 제목·요약·매체·URL을 읽어요.
+- `newsletters/{SUBJECT}/YYYYMM*.html`의 `article-card`에서 제목·요약·매체·URL을 읽어요.
 - URL의 `utm_*`, `fbclid`, `gclid`, 끝 슬래시는 정리하고, 같은 URL은 한 번만 세요.
 - 매체명 한글·영문 표기는 합쳐요(`AI타임스`→`AI Times`, `ZDNet Korea`→`지디넷`). 새 표기가 보이면 매핑에 추가해요.
 - 출력되는 숫자(뉴스레터 수, 기사 수, 중복 수, 고유 기사 수)를 README와 페이지 설명에 써요.
@@ -102,7 +103,7 @@ python trends/YYYYMM/extract_newsletters.py
 ### 2-5. 빌드
 
 ```powershell
-python trends/YYYYMM/build_page.py
+python trends/{SUBJECT}/YYYYMM/build_page.py
 ```
 
 `extract()`를 다시 돌린 뒤 `index.html`과 `assets/*.svg`를 새로 만들어요. 콘솔에 한글이 깨져 보여도 Windows 콘솔 인코딩 문제라서 파일은 정상이에요.
@@ -173,10 +174,10 @@ python trends/YYYYMM/build_page.py
 
 - 근거 기사의 **'이 기사가 실린 뉴스레터 보기'**와 정리 기준 창의 **날짜 링크**는 htmlpreview 주소로 연결해요.
   ```
-  https://htmlpreview.github.io/?https://github.com/unicorn-svc/ai-newsletter/blob/main/newsletters/<파일명>
+  https://htmlpreview.github.io/?https://github.com/unicorn-svc/ai-newsletter/blob/main/newsletters/{SUBJECT}/<파일명>
   ```
   `build_page.py`의 `PREVIEW` 상수에 들어 있어요.
-- `newsletters/`는 `.gitignore`에 들어 있지만 파일은 추적되고 있어요. 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/YYYYMM*'`로 확인).
+- `newsletters/`는 `.gitignore`에 들어 있지만 파일은 추적되고 있어요. 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 확인).
 - `app.js`에 `file:` 프로토콜일 때 링크를 로컬 경로로 바꾸는 코드를 다시 넣지 않아요. 넣으면 htmlpreview 링크를 덮어써요.
 - 기사 원문 링크는 `target="_blank" rel="noopener noreferrer"`로 새 탭에서 열려요.
 
@@ -186,7 +187,7 @@ python trends/YYYYMM/build_page.py
 
 1. 로컬 서버를 띄워요. 파일을 그냥 열면 미리보기 창에서 CSS가 안 붙을 수 있어서 서버로 확인하는 게 정확해요.
    ```powershell
-   python trends/YYYYMM/serve.py --port 8771
+   python trends/{SUBJECT}/YYYYMM/serve.py --port 8771
    ```
 2. 브라우저에서 이것들을 확인해요.
    - 첫 화면, 카드 9장, 필터 버튼(그룹별 개수), 상세 설명 1~2개, '근거 기사 보기' 펼침, 정리 기준 창

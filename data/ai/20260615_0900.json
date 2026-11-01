@@ -1,0 +1,286 @@
+{
+  "published_at": "2026-06-15T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat", "Medium"],
+  "articles": [
+    {
+      "category": "policy",
+      "title": "앤트로픽 최신 모델 해외 사용 중단은 아마존 제보가 발단",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211701",
+      "summary": "앤트로픽 '페이블 5'·'미소스 5'의 해외 접근 차단 조치는 아마존이 미국 정부에 사이버공격 악용 가능성을 제보한 것이 발단. 미 정부는 외국 국적자의 접근을 전면 제한했다.",
+      "source": "AI Times",
+      "time": "06/14 06:24"
+    },
+    {
+      "category": "policy",
+      "title": "위험한 AI 막아야 한다더니…자사 모델부터 막힌 앤트로픽",
+      "url": "https://zdnet.co.kr/view/?no=20260614112628",
+      "summary": "안전한 AI를 위한 강한 규제를 주장해온 앤트로픽이 정작 자사 AI 모델이 미국 정부 수출 통제 대상이 되는 역설적 상황에 처했다. AI 업계에 큰 충격을 주고 있다.",
+      "source": "지디넷",
+      "time": "06/14 11:26"
+    },
+    {
+      "category": "policy",
+      "title": "美, 앤트로픽 최신 모델 전면 차단…'소버린 AI' 논의 다시 불붙나",
+      "url": "https://zdnet.co.kr/view/?no=20260614125412",
+      "summary": "미국 행정부가 앤트로픽의 '페이블 5'와 '미토스 5'에 수출 통제를 단행했다. 해외 이용자 차단으로 AI 기술 자주권을 위한 '소버린 AI' 필요성 논의가 재점화되고 있다.",
+      "source": "지디넷",
+      "time": "06/14 12:54"
+    },
+    {
+      "category": "policy",
+      "title": "미국 정부 \"앤트로픽 제재, 타 AI 기업 확대 안 해\"…원인은 '비협조적 태도'",
+      "url": "https://zdnet.co.kr/view/?no=20260614143046",
+      "summary": "미국 정부가 앤트로픽 수출 통제가 다른 AI 기업으로 확대될 가능성은 낮다고 밝혔다. 제재 원인이 앤트로픽의 비협조적 태도에 있다는 점도 전했다.",
+      "source": "지디넷",
+      "time": "06/14 14:30"
+    },
+    {
+      "category": "policy",
+      "title": "美, 앤트로픽 최상위 AI 모델 '외국인 접근' 전면 차단…\"사실상 허가제\"",
+      "url": "https://www.etnews.com/20260615000003",
+      "summary": "미국이 앤트로픽 최신 AI 모델에 대한 외국인 접근을 전면 차단하면서 사실상 AI 사용 허가제로 전환됐다는 분석이 제기됐다. 유료 기업 고객도 사용 불가, 구형 모델로 자동 전환됐다.",
+      "source": "전자신문",
+      "time": "06/15 06:00"
+    },
+    {
+      "category": "policy",
+      "title": "미국 주정부 연합, 오픈AI 전격 조사…취약계층 보호·기술 결함 검증",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211704",
+      "summary": "미국 42개 주 법무장관 연합이 오픈AI에 대한 전면 합동 조사에 착수했다. 취약계층 보호와 기술 결함 검증이 주요 조사 목적이며 광고·사용자 데이터·미성년자 보호 등 광범위한 사항을 조사한다.",
+      "source": "AI Times",
+      "time": "06/14 10:18"
+    },
+    {
+      "category": "policy",
+      "title": "중국, 미 국방부 기술 기업 블랙리스트 조치에 \"정상회담 합의 훼손\" 반발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211707",
+      "summary": "중국이 미국 국방부의 중국 기술 기업 블랙리스트 추가 조치에 대해 정상회담 합의를 훼손하는 행위라고 강하게 반발했다. 미중 AI 기술 갈등이 다시 고조되고 있다.",
+      "source": "AI Times",
+      "time": "06/14 12:33"
+    },
+    {
+      "category": "policy",
+      "title": "윤호중 장관, OECD서 'AI 민주정부' 비전 공유…국제 AI 협력 강조",
+      "url": "https://zdnet.co.kr/view/?no=20260614130330",
+      "summary": "윤호중 행정안전부 장관이 OECD에서 'AI 민주정부' 비전을 발표하며 글로벌 AI 협력의 중요성을 강조했다. AI 기반 행정 혁신 성과도 함께 소개했다.",
+      "source": "지디넷",
+      "time": "06/14 13:03"
+    },
+    {
+      "category": "policy",
+      "title": "[AI 이슈트렌드] 선관위 사태 파장 속 한성숙 총리 지명·젠슨 황 방한 주목",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211709",
+      "summary": "선관위 AI 사태 파장 속에서 한성숙 총리 지명과 엔비디아 CEO 젠슨 황 방한이 AI 업계 주요 이슈로 주목받고 있다. 소버린 AI 및 국산 AI 육성 논의도 가속화되고 있다.",
+      "source": "AI Times",
+      "time": "06/14 19:06"
+    },
+    {
+      "category": "policy",
+      "title": "[안광섭의 AI 진테제] 미 정부가 끈 세계최강 AI...한국 대안은?",
+      "url": "https://zdnet.co.kr/view/?no=20260614134109",
+      "summary": "미국 정부의 앤트로픽 AI 모델 차단 사태를 계기로 한국이 취할 수 있는 소버린 AI 전략과 자체 AI 개발 방향을 논한 분석 칼럼. 중앙집중식 클라우드 AI 의존 위험성을 경고한다.",
+      "source": "지디넷",
+      "time": "06/14 13:41"
+    },
+    {
+      "category": "biz",
+      "title": "메타, 무리한 AI 인력 재편에 내부 반발 폭발…저커버그 \"실수 인정\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211705",
+      "summary": "메타가 AI 중심의 급격한 인력 재편을 추진하는 과정에서 내부 직원들의 반발이 폭발했다. 저커버그 CEO가 결국 실수를 인정하며 조직 혼란이 가중되고 있다.",
+      "source": "AI Times",
+      "time": "06/14 11:02"
+    },
+    {
+      "category": "biz",
+      "title": "메타, 중국 정부 압박에 20억 달러 규모 'Manus' 인수 철회 착수",
+      "url": "https://zdnet.co.kr/view/?no=20260614153424",
+      "summary": "메타가 20억 달러 규모 중국 AI 스타트업 마누스 인수를 중국 당국의 국가안보 강제 매각 명령에 따라 백지화하는 작업에 착수했다. 마누스 창업자들은 자체 10억 달러 조달을 논의 중이다.",
+      "source": "지디넷",
+      "time": "06/14 15:34"
+    },
+    {
+      "category": "biz",
+      "title": "베이조스의 AI 스타트업 프로메테우스, 몸값 62조 기록…\"인공 일반 엔지니어 개발 중\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211708",
+      "summary": "제프 베이조스가 투자한 AI 스타트업 프로메테우스가 기업 가치 62조원을 기록했다. '인공 일반 엔지니어(AGE)' 개발을 목표로 하며 AI 기술 패권 경쟁이 더욱 치열해지고 있다.",
+      "source": "AI Times",
+      "time": "06/14 16:49"
+    },
+    {
+      "category": "biz",
+      "title": "AI 기업들이 IPO 경쟁에 나서면서, 그 파장은 어디까지?",
+      "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "summary": "SpaceX IPO 성공 이후 Anthropic·OpenAI도 공개 상장 경쟁에 가세했다. MANGOS 중심 공개시장 재편 논의와 함께 주변 AI 스타트업들도 투자 유치 러쉬가 이어지고 있다.",
+      "source": "TechCrunch",
+      "time": "06/14 09:38"
+    },
+    {
+      "category": "biz",
+      "title": "최태원 회장, AX 가속화 주문…\"1인 1에이전트 도입해야\"",
+      "url": "https://zdnet.co.kr/view/?no=20260614095638",
+      "summary": "최태원 SK그룹 회장이 AI 전환(AX) 가속화를 주문하며 임직원 1인당 1AI 에이전트 도입을 강조했다. AI 전환의 본질을 '운영개선(O/I)'으로 정의하며 역량 확보를 촉구했다.",
+      "source": "지디넷",
+      "time": "06/14 09:56"
+    },
+    {
+      "category": "biz",
+      "title": "틸론, 서울·제주서 대규모 전력 확보...\"AI 데이터센터 추진 탄력\"",
+      "url": "https://zdnet.co.kr/view/?no=20260614201134",
+      "summary": "클라우드 기업 틸론이 서울 마곡 본사에 한전으로부터 5MW 전력 공급을 확보하며 AI 엣지 데이터센터 사업에 속도를 내고 있다. 제주서도 대규모 전력 확보가 완료됐다.",
+      "source": "지디넷",
+      "time": "06/14 20:11"
+    },
+    {
+      "category": "biz",
+      "title": "우리카드, 'AX 추진위원회' 가동…금융 계열사 첫 사례",
+      "url": "https://www.etnews.com/20260612000209",
+      "summary": "우리카드가 AI 전환(AX) 본격 추진을 위한 'AX 추진위원회'를 가동했다. 우리금융 계열사 중 첫 번째 사례로 금융권 AI 전환 경쟁이 가속화되고 있다.",
+      "source": "전자신문",
+      "time": "06/14 10:00"
+    },
+    {
+      "category": "biz",
+      "title": "[AI&빅데이터쇼] 산업AX부터 XR·자율주행까지 미래 혁신 기술 한자리에",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211697",
+      "summary": "AI&빅데이터쇼에서 산업 AI 전환(AX), XR(확장현실), 자율주행 등 미래 혁신 기술들이 전시됐다. 국내외 주요 기업들이 최신 AI 솔루션을 선보이며 큰 주목을 받았다.",
+      "source": "AI Times",
+      "time": "06/14 16:56"
+    },
+    {
+      "category": "tech",
+      "title": "아티피셜 애널리시스, '딥SWE' 벤치마크 도입…'페이블 5' 코딩 1위 등극",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211706",
+      "summary": "아티피셜 애널리시스가 소프트웨어 엔지니어링 능력 평가 벤치마크 '딥SWE'를 도입한 결과 앤트로픽 '페이블 5'가 코딩 부문 1위를 차지했다.",
+      "source": "AI Times",
+      "time": "06/14 17:09"
+    },
+    {
+      "category": "tech",
+      "title": "MCP는 툴 호출, A2A는 조율을 해결했다. 그러면 전송 계층은?",
+      "url": "https://venturebeat.com/orchestration/mcp-solved-tool-calling-a2a-solved-coordination-what-solves-transport",
+      "summary": "AI 에이전트 프로토콜 MCP·A2A·ANP·ACP의 경쟁 구도를 분석했다. 분산 컴퓨팅 역사처럼 프로토콜 난립 후 통합이 불가피하며 전송 계층 표준화가 다음 핵심 과제라고 짚었다.",
+      "source": "VentureBeat",
+      "time": "06/14 04:00"
+    },
+    {
+      "category": "service",
+      "title": "공공병원 AI 클라우드 사업, 출발부터 '삐걱'…NIA-휴니버스 충돌",
+      "url": "https://www.etnews.com/20260614000012",
+      "summary": "공공병원 AI 클라우드 도입 사업이 시작부터 한국지능정보사회진흥원(NIA)과 사업자 휴니버스 간 갈등으로 차질을 빚고 있다. 공공 AI 사업 운영 체계 개선이 시급하다는 지적이 나온다.",
+      "source": "전자신문",
+      "time": "06/14 09:00"
+    },
+    {
+      "category": "service",
+      "title": "AI 입는 가상자산 거래소…거래 편의·고객 락인 경쟁 본격화",
+      "url": "https://www.etnews.com/20260612000214",
+      "summary": "국내 주요 가상자산 거래소들이 AI 기능을 속속 도입하며 거래 편의성 향상과 고객 락인을 위한 경쟁이 본격화되고 있다.",
+      "source": "전자신문",
+      "time": "06/14 10:00"
+    },
+    {
+      "category": "service",
+      "title": "복지부, 대구 구급차에 'AI' 심는다…이송·진료 전주기 실증",
+      "url": "https://www.etnews.com/20260614000011",
+      "summary": "보건복지부가 대구 구급차에 AI를 탑재해 응급 이송부터 진료까지 전 주기에 걸친 AI 활용 실증 사업을 추진한다. 의료 현장의 AI 적용이 확대되고 있다.",
+      "source": "전자신문",
+      "time": "06/14 09:00"
+    },
+    {
+      "category": "service",
+      "title": "풀리수학, 경남교육청 'AI디지털학습' 플랫폼 2년 연속 선정",
+      "url": "https://zdnet.co.kr/view/?no=20260615085516",
+      "summary": "프리윌린 '풀리수학'이 경남교육청 AI 디지털 학습 플랫폼 '아이톡톡'과 연계 서비스로 2년 연속 선정됐다. AI 기반 맞춤형 수학 교육 서비스의 성과를 인정받았다.",
+      "source": "지디넷",
+      "time": "06/15 08:55"
+    },
+    {
+      "category": "chip",
+      "title": "하드웨어 벤치마크 'AA-에이전트퍼프' 등장…블랙웰, 전력 효율 1위",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211703",
+      "summary": "AI 하드웨어 성능을 에이전트 작업 기준으로 평가하는 새 벤치마크 'AA-에이전트퍼프'가 등장했다. 엔비디아 블랙웰이 전력 효율 부문 1위를 기록했다.",
+      "source": "AI Times",
+      "time": "06/14 19:00"
+    },
+    {
+      "category": "chip",
+      "title": "션 헤히르 브레인칩 CEO \"뉴로모픽 반도체 급성장…韓과 오픈이노베이션 검토\"",
+      "url": "https://www.etnews.com/20260615000010",
+      "summary": "브레인칩 CEO 션 헤히르가 뉴로모픽 반도체 시장의 급성장을 전망하며 한국 기업들과 오픈이노베이션 협력을 검토 중이라고 밝혔다.",
+      "source": "전자신문",
+      "time": "06/15 06:00"
+    },
+    {
+      "category": "robot",
+      "title": "삼성 휴머노이드 로봇, 쿠팡 물류센터서 일한다",
+      "url": "https://www.etnews.com/20260612000165",
+      "summary": "삼성전자 로봇 자회사 레인보우로보틱스의 이동형 양팔 로봇 'RB-Y1'이 쿠팡 물류센터에 도입돼 구동 안정성 실증을 진행 중이다. 산업용 휴머노이드 로봇 상용화가 현실화되고 있다.",
+      "source": "전자신문",
+      "time": "06/14 08:00"
+    },
+    {
+      "category": "robot",
+      "title": "\"사람처럼 충돌 위험 대처\"…웨이모, 새 AI 모델 공개",
+      "url": "https://zdnet.co.kr/view/?no=20260614104357",
+      "summary": "구글 자율주행 자회사 웨이모가 인간과 유사한 방식으로 충돌 위험에 대처하는 AI 모델을 델프트 공과대학교와 공동 개발해 공개했다.",
+      "source": "지디넷",
+      "time": "06/14 10:43"
+    },
+    {
+      "category": "robot",
+      "title": "글로벌 기술력 입증한 라이드플럭스 \"레벨4 자율주행 판도 바꾼다\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211535",
+      "summary": "자율주행 스타트업 라이드플럭스가 글로벌 수준의 기술력을 입증하며 레벨4 완전 자율주행 시장의 판도를 바꾸겠다는 비전을 발표했다.",
+      "source": "AI Times",
+      "time": "06/14 19:24"
+    },
+    {
+      "category": "security",
+      "title": "기본값은 편의, 선택사항은 안전: AI 에이전트의 위험한 거래",
+      "url": "https://medium.com/@jayemgrefaldo/convenience-by-default-safety-by-opt-in-the-ai-agent-bargain-b6387bd51f40",
+      "summary": "자율 코딩 에이전트에 터미널 접근권을 부여하는 관행의 위험성을 분석했다. AI 에이전트가 편의를 기본값으로, 안전을 선택사항으로 설계하는 구조적 문제를 지적한다.",
+      "source": "Medium",
+      "time": "06/15 08:00"
+    },
+    {
+      "category": "genai",
+      "title": "클로드 페이블 5의 5일간의 삶: 출시부터 전 세계 차단까지",
+      "url": "https://medium.com/@apoorvdarshan/five-days-in-the-life-of-claude-fable-5-cde83473231d",
+      "summary": "앤트로픽이 역대 최강 공개 모델 '페이블 5'를 출시한 후 개발자 반발과 정부의 해외 서비스 차단으로 이어진 5일간의 경과를 상세히 분석한 글.",
+      "source": "Medium",
+      "time": "06/15 08:30"
+    },
+    {
+      "category": "genai",
+      "title": "[기고] SW구현 시대 끝나...고객경험이 명운 갈라",
+      "url": "https://zdnet.co.kr/view/?no=20260614223803",
+      "summary": "미국 정부의 앤트로픽 AI 차단 사태를 계기로 SW 구현을 넘어 고객 경험이 AI·SW 산업의 핵심 경쟁력이 될 것이라는 분석 칼럼. AI 시대의 새로운 비즈니스 패러다임을 논한다.",
+      "source": "지디넷",
+      "time": "06/14 22:38"
+    },
+    {
+      "category": "others",
+      "title": "\"인간 개입 없이 2명 살상\"…우크라이나, 2년 전 '자율 AI 드론' 투입 논란",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211702",
+      "summary": "우크라이나가 2년 전 자율 AI 드론을 실전 투입해 인간 개입 없이 2명을 살상한 사실이 알려지며 자율 무기 윤리 논란이 재점화됐다. 국제사회에서 자율 살상무기 규제 논의가 급물살을 타고 있다.",
+      "source": "AI Times",
+      "time": "06/14 16:33"
+    },
+    {
+      "category": "others",
+      "title": "\"AI가 대체할 수 없는 인간 역량은 '융합적 사고, 깊은 읽기'\"",
+      "url": "https://zdnet.co.kr/view/?no=20260614114539",
+      "summary": "디지털소사이어티 포럼에서 AI가 인간의 융합적 사고와 깊은 읽기 능력은 대체할 수 없다는 논의가 이뤄졌다. AI 시대에 인간 고유 역량의 중요성이 재조명되고 있다.",
+      "source": "지디넷",
+      "time": "06/14 11:45"
+    },
+    {
+      "category": "others",
+      "title": "초등생 절반이 챗GPT 쓰는데…AI 교육은 여전히 '실과 한 단원'",
+      "url": "https://www.etnews.com/20260612000292",
+      "summary": "초등학생 절반이 챗GPT를 사용하는 현실에도 학교 AI 교육은 실과 교과의 한 단원에 그쳐 교육과 현실 간 괴리가 크다는 지적이 제기됐다.",
+      "source": "전자신문",
+      "time": "06/14 10:00"
+    }
+  ]
+}

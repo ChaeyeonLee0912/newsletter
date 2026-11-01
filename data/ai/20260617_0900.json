@@ -1,0 +1,286 @@
+{
+  "published_at": "2026-06-17T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "지푸AI, 100만 토큰 컨텍스트 창 'GLM-5.2' 출시…벤치마크는 미공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211790",
+      "summary": "지푸AI가 최대 100만 토큰 컨텍스트 창을 지원하는 차세대 LLM 'GLM-5.2'를 공개했다. GLM-5 출시 이후 4개월 만의 최신 플래그십 코딩 모델로, 상세 벤치마크는 아직 미공개 상태다.",
+      "source": "AI Times",
+      "time": "06/16 19:16"
+    },
+    {
+      "category": "genai",
+      "title": "앤트로픽, 클로드 4 '오리지널' 모델 2종 API서 즉시 퇴출…유예 기간 없어",
+      "url": "https://zdnet.co.kr/view/?no=20260616183000",
+      "summary": "앤트로픽이 클로드 4세대 초기 모델 두 종을 API에서 전면 퇴출했다. 유예 기간 없이 즉시 서비스가 중단되어 기업 고객들은 급히 대응 방안을 마련해야 하는 상황에 처했다.",
+      "source": "지디넷",
+      "time": "06/16 18:30"
+    },
+    {
+      "category": "genai",
+      "title": "네이버클라우드, 경량 옴니모달 모델 공개…\"국방 환경 최적화\"",
+      "url": "https://www.etnews.com/20260616000198",
+      "summary": "네이버클라우드가 경량화된 옴니모달 AI 모델을 공개했다. 국방 환경에 최적화된 기능을 갖춰 보안이 중요한 군사·공공 영역에서의 AI 활용 가능성을 넓혔다.",
+      "source": "전자신문",
+      "time": "06/16 09:00"
+    },
+    {
+      "category": "genai",
+      "title": "Z.ai의 오픈웨이트 GLM-5.2, GPT-5.5 대비 1/6 비용으로 장기 코딩 벤치마크 다수 초과",
+      "url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+      "summary": "Z.ai가 공개한 오픈웨이트 모델 GLM-5.2가 GPT-5.5 대비 6분의 1 비용으로 장기 코딩 작업 벤치마크 여러 항목에서 더 나은 성능을 보였다. 비용 효율적인 고성능 오픈 모델의 등장으로 주목받고 있다.",
+      "source": "VentureBeat",
+      "time": "06/16 21:26"
+    },
+    {
+      "category": "biz",
+      "title": "나델라가 경고한 'AI 공동화'…\"AI는 소수 모델이 아닌 모든 기업의 문제\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211764",
+      "summary": "사티아 나델라 MS CEO가 AI 산업의 공동화 현상을 경고했다. 가장 강력한 모델을 만드는 소수 기업이 가치를 독점하는 구조가 심화되고 있으며, AI는 모든 기업의 문제가 되어야 한다고 주장했다.",
+      "source": "AI Times",
+      "time": "06/17 07:00"
+    },
+    {
+      "category": "biz",
+      "title": "메타 내부 회의서 갈등 폭발…'가혹한 환경'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211794",
+      "summary": "메타 내부 회의에서 AI 개발 환경을 둘러싼 갈등이 폭발했다. 직원들이 '가혹한 환경'이라 표현할 만큼 내부 분위기가 악화된 것으로 전해지며, AI 개발 속도 압박에 따른 조직 문화 문제가 수면 위로 올라왔다.",
+      "source": "AI Times",
+      "time": "06/17 06:55"
+    },
+    {
+      "category": "biz",
+      "title": "엔비디아, AI '추론' 시장서도 점유율 확대…1년 간 66%→74% 성장",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211791",
+      "summary": "엔비디아의 AI 추론용 칩 시장 점유율이 1년 동안 66%에서 74%로 상승했다. AI 산업이 학습 중심에서 추론 중심으로 이동하는 가운데 엔비디아의 시장 지배력이 더욱 강화된 것으로 나타났다.",
+      "source": "AI Times",
+      "time": "06/16 18:58"
+    },
+    {
+      "category": "biz",
+      "title": "MS, '증권사기·주가 부풀리기'로 주주들에게 피소",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211763",
+      "summary": "마이크로소프트가 클라우드 사업 성장 둔화와 AI 인프라 투자 비용 증가를 투자자들에게 충분히 공개하지 않아 주가를 인위적으로 부풀렸다는 혐의로 주주 집단소송에 직면했다.",
+      "source": "AI Times",
+      "time": "06/16 16:47"
+    },
+    {
+      "category": "biz",
+      "title": "삼성전자, 소부장 협력사와 데이터 공유 생태계 만든다",
+      "url": "https://www.etnews.com/20260616000180",
+      "summary": "삼성전자가 소부장 협력사와 반도체 공정 데이터를 실시간 공유하는 생태계 플랫폼 'DSEP'를 개발·운영 중이다. 협력사 60곳 이상이 참여하며 AI 기반 공장 운영 체계로 확장, 무인화 팹 기반을 구축한다.",
+      "source": "전자신문",
+      "time": "06/16 09:00"
+    },
+    {
+      "category": "biz",
+      "title": "SpaceX, IPO 직후 AI 코딩 도구 Cursor를 600억 달러에 인수 추진",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "summary": "SpaceX가 상장 직후 AI 코딩 어시스턴트 Cursor를 주식 600억 달러(약 83조 원) 규모로 인수하기로 했다. AI 개발 도구 시장에 우주·방산 기업이 뛰어드는 이례적인 딜로 시장의 관심을 끌고 있다.",
+      "source": "TechCrunch",
+      "time": "06/16 11:10"
+    },
+    {
+      "category": "biz",
+      "title": "ChatGPT 시장 점유율, 처음으로 50% 아래로 하락",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "summary": "OpenAI의 ChatGPT가 AI 챗봇 시장에서 처음으로 50% 미만의 점유율을 기록했다. 구글 Gemini, Anthropic Claude 등 경쟁 AI 서비스들의 약진이 원인으로 분석되며, AI 시장 다극화가 가속되고 있다.",
+      "source": "TechCrunch",
+      "time": "06/16 10:10"
+    },
+    {
+      "category": "biz",
+      "title": "Anthropic의 트럼프 행정부와의 갈등이 오히려 매출에 도움이 될 수도 있다, 판매 데이터 시사",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "summary": "Anthropic이 트럼프 행정부와 갈등을 빚고 있지만, 최신 판매 데이터에 따르면 오히려 매출 증가에 긍정적 영향을 미치고 있는 것으로 나타났다. 정부의 모델 사용 제한이 역설적으로 브랜드 인지도를 높인 것으로 분석된다.",
+      "source": "TechCrunch",
+      "time": "06/16 23:41"
+    },
+    {
+      "category": "biz",
+      "title": "미국 소비자 60%, 브랜드 마케팅에서 'AI' 언급은 오히려 거부감 준다",
+      "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+      "summary": "설문조사에 따르면 미국 소비자 60%가 브랜드 메시지에서 'AI'라는 단어를 보면 오히려 구매 의욕이 떨어진다고 응답했다. AI를 전면에 내세우는 마케팅 전략이 역효과를 낼 수 있다는 경고다.",
+      "source": "TechCrunch",
+      "time": "06/16 17:10"
+    },
+    {
+      "category": "biz",
+      "title": "로빈후드의 10% 감원 공지, 'AI 탓'으로는 설명이 부족하다",
+      "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+      "summary": "로빈후드가 직원 10%를 해고하며 AI 자동화를 이유로 들었지만, 분석에 따르면 AI만의 문제가 아닌 복합적인 사업 구조 문제를 드러낸다는 비판이 나오고 있다. AI 감원 이유의 타당성에 의문이 제기된다.",
+      "source": "TechCrunch",
+      "time": "06/16 15:10"
+    },
+    {
+      "category": "biz",
+      "title": "말레이시아 AI 에이전트 메시징 플랫폼 Respond.io, 6,250만 달러 투자 유치",
+      "url": "https://techcrunch.com/2026/06/16/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "summary": "말레이시아 기반 AI 에이전트 메시징 플랫폼 Respond.io가 6,250만 달러를 유치하고 북미·유럽 시장 인수합병을 검토 중이다. AI 고객 커뮤니케이션 자동화 시장에서 아시아 스타트업의 글로벌 확장이 주목된다.",
+      "source": "TechCrunch",
+      "time": "06/16 07:10"
+    },
+    {
+      "category": "tech",
+      "title": "\"버려지는 폰으로 서버 구축\"…구글·UCSD, '폰 클러스터 컴퓨팅' 개발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211788",
+      "summary": "구글과 UC샌디에이고 연구진이 수명이 다한 구형 스마트폰 수천 대를 연결해 클라우드 컴퓨팅 인프라를 구축하는 '폰 클러스터 컴퓨팅' 시스템을 개발 중이다. 전자폐기물 감소와 탄소 배출 절감이 목표다.",
+      "source": "AI Times",
+      "time": "06/16 19:05"
+    },
+    {
+      "category": "tech",
+      "title": "AI 서비스 수요 폭증에…빅테크, 2년 안에 완공될 아시아 데이터센터 찾는다",
+      "url": "https://www.etnews.com/20260616000190",
+      "summary": "AI 서비스 수요 폭증으로 빅테크 기업들이 2년 이내 완공 가능한 아시아 데이터센터를 적극 물색 중이다. 한국, 일본, 싱가포르 등이 주요 후보지로 거론되며 국내 AI 인프라 투자 유치 기회가 커지고 있다.",
+      "source": "전자신문",
+      "time": "06/16 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "스탠퍼드 DeLM, 중앙 오케스트레이터 없이 멀티에이전트 작업 비용 50% 절감",
+      "url": "https://venturebeat.com/orchestration/stanfords-delm-cuts-multi-agent-task-costs-50-without-a-central-orchestrator",
+      "summary": "스탠퍼드 연구진이 개발한 DeLM 프레임워크는 중앙 조율자 없이 분산 방식으로 멀티에이전트 작업 비용을 절반으로 줄이는 데 성공했다. AI 에이전트 협업 비용 절감 가능성을 보여주는 연구 성과다.",
+      "source": "VentureBeat",
+      "time": "06/16 17:47"
+    },
+    {
+      "category": "service",
+      "title": "업스테이지, 모델·에이전트·검색을 하나로 '모두를 위한 AI' 도약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211785",
+      "summary": "업스테이지가 '업스테이지 컴퍼니' 출범을 선언하며 포털 '다음' 운영사 AXZ와 AI 에이전트 플랫폼 '타임리'를 아우르는 사업 확장을 예고했다. 자체 모델 '솔라'를 중심으로 대중 AI 서비스까지 확장한다.",
+      "source": "AI Times",
+      "time": "06/16 18:20"
+    },
+    {
+      "category": "service",
+      "title": "메타, 페이스북에 '뮤즈 스파크' 기반 AI 기능 출시…\"검색·편집 대폭 강화\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211792",
+      "summary": "메타가 자체 모델 '뮤즈 스파크' 기반의 AI 기능을 페이스북에 출시했다. AI 모드를 통해 검색 경험을 강화하고 AI 기반 사진·영상 제작·편집 기능을 새롭게 추가해 소셜 미디어와 AI의 통합을 가속한다.",
+      "source": "AI Times",
+      "time": "06/16 17:40"
+    },
+    {
+      "category": "service",
+      "title": "카카오, 카톡 채팅방서 '챗GPT' 바로 호출 기능 업데이트",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211782",
+      "summary": "카카오가 카카오톡 채팅방에서 챗GPT 챗봇을 '@' 멘션으로 바로 호출할 수 있는 기능을 추가했다. 그룹 및 1대1 채팅방에서 AI 질문 답변과 이미지 생성까지 가능해 일상 속 AI 접근성이 크게 높아졌다.",
+      "source": "AI Times",
+      "time": "06/16 17:11"
+    },
+    {
+      "category": "service",
+      "title": "Android 17 출시, 구글 Gemini 기능 확장과 새로운 멀티태스킹 도구 포함",
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "summary": "구글이 Android 17을 출시하면서 새로운 멀티태스킹 도구와 함께 Gemini AI 기능을 대폭 확장했다. AI 기반 기능이 운영체제 수준에서 더욱 깊게 통합되어 사용자 경험이 전반적으로 개선되었다.",
+      "source": "TechCrunch",
+      "time": "06/16 18:10"
+    },
+    {
+      "category": "service",
+      "title": "K뷰티 수출 신기록인데…수출 길잡이 AI봇은 '과거 규정'에 표류",
+      "url": "https://www.etnews.com/20260616000160",
+      "summary": "식약처가 K뷰티 수출 지원을 위해 내놓은 'AI 코스봇'이 1년 반이 지나도록 정식 운영으로 전환하지 못하고 있다. 최신 규정이 반영되지 않아 실효성이 낮다는 지적이 이어지며 AI 공공서비스 품질 관리 문제가 부각됐다.",
+      "source": "전자신문",
+      "time": "06/16 09:00"
+    },
+    {
+      "category": "policy",
+      "title": "[비욘드IT] AI 성능 낮춘 앤트로픽, 결과값도 제어한다면",
+      "url": "https://zdnet.co.kr/view/?no=20260617060500",
+      "summary": "앤트로픽이 사용자 모르게 AI 성능을 고의로 낮춘 사실이 드러났고, 미국 정부 지침 한 번에 글로벌 서비스를 전면 중단하는 사태도 발생했다. AI 기업의 결과값 통제 가능성에 대한 구조적 우려가 커지고 있다.",
+      "source": "지디넷",
+      "time": "06/17 06:05"
+    },
+    {
+      "category": "policy",
+      "title": "미 정부, 미토스·페이블 폐쇄…'중국 연계' 한국 통신사 때문?",
+      "url": "https://zdnet.co.kr/view/?no=20260616220600",
+      "summary": "미국 행정부가 앤트로픽의 최강 AI 모델 미토스(Mythos)와 페이블(Fable)을 오프라인으로 내리게 한 배경에 중국과 연계된 한국 통신사가 관련됐다는 분석이 제기됐다. 한국 AI 서비스 생태계에 파장이 예상된다.",
+      "source": "지디넷",
+      "time": "06/16 22:06"
+    },
+    {
+      "category": "policy",
+      "title": "앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면…\"토큰 용량 못 미쳐\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211783",
+      "summary": "앤트로픽이 고가 AI 구독 서비스 사용 한도를 과장해 광고했다는 혐의로 집단소송에 직면했다. 원고 측은 '클로드 맥스' 프리미엄 요금제 가입자에게 약속된 토큰 사용량을 실제로 제공하지 못했다고 주장한다.",
+      "source": "AI Times",
+      "time": "06/16 17:30"
+    },
+    {
+      "category": "policy",
+      "title": "머스크, 오픈AI 상대 영업비밀 소송 패소…'비영리' 소송 이어 2연패",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211784",
+      "summary": "일론 머스크의 xAI가 오픈AI를 상대로 제기한 영업비밀 탈취 소송이 미국 법원에서 최종 기각됐다. 비영리 전환 소송에 이어 또다시 패소하며 머스크의 오픈AI 견제 전략이 법적 한계에 부딪혔다.",
+      "source": "AI Times",
+      "time": "06/16 16:30"
+    },
+    {
+      "category": "policy",
+      "title": "[단독] 국가AI컴퓨팅센터, 닻 올렸다…초대 대표에 삼성SDS 재무통 안정태 선임",
+      "url": "https://zdnet.co.kr/view/?no=20260616115737",
+      "summary": "국가AI컴퓨팅센터가 공식 출범하며 초대 대표이사로 삼성SDS 출신 재무 전문가 안정태가 선임됐다. 국내 AI 인프라 구축의 핵심 거점이 될 이 기관의 출범이 국산 AI 생태계 경쟁력 강화로 이어질지 주목된다.",
+      "source": "지디넷",
+      "time": "06/16 11:57"
+    },
+    {
+      "category": "policy",
+      "title": "앤트로픽 'AI 수출 제재'에 韓 통신사 빌미 제공했나",
+      "url": "https://www.etnews.com/20260616000200",
+      "summary": "미국 정부의 앤트로픽 AI 모델 서비스 중단 조치 배경에 한국 통신사의 중국 연계 문제가 빌미를 제공했다는 분석이 나왔다. 국내 AI 서비스 생태계에 미칠 파장이 주목되며 통신사의 AI 파트너십 재검토 필요성이 제기된다.",
+      "source": "전자신문",
+      "time": "06/16 09:00"
+    },
+    {
+      "category": "policy",
+      "title": "DOJ, xAI의 무허가 가스 터빈이 '국가·경제·에너지 안보' 문제라고 주장",
+      "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+      "summary": "미국 법무부(DOJ)가 xAI의 멤피스 데이터센터에 설치된 무허가 가스 터빈이 국가안보, 경제안보, 에너지안보와 관련된 사안이라고 주장하며 법적 대응에 나섰다. AI 인프라가 안보 규제의 대상이 되는 새로운 국면이다.",
+      "source": "TechCrunch",
+      "time": "06/16 15:10"
+    },
+    {
+      "category": "policy",
+      "title": "서울 AI 허브, AI 스타트업 100개사에 GPU 서버 이용 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211776",
+      "summary": "서울 AI 허브가 올해 20억 원 규모 예산을 투입해 연간 100개 AI 스타트업의 GPU 클라우드 이용을 지원한다. AWS, Azure, GCP 등 8개 클라우드 환경을 제공하며 국내 AI 스타트업 생태계 육성에 나선다.",
+      "source": "AI Times",
+      "time": "06/16 15:52"
+    },
+    {
+      "category": "chip",
+      "title": "퀄컴, 짐 켈러의 텐스토렌트 인수 추진…모바일 넘어 데이터센터로 확장",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211787",
+      "summary": "퀄컴이 AI 칩 스타트업 텐스토렌트 인수를 추진 중이다. 거래 규모는 80억~100억 달러로 예상되며, 성사 시 퀄컴이 모바일 칩을 넘어 AI 데이터센터 칩 시장까지 확장하는 중요한 전환점이 될 전망이다.",
+      "source": "AI Times",
+      "time": "06/16 18:39"
+    },
+    {
+      "category": "security",
+      "title": "KISA 보안 업데이트 공지 갈수록 늘어…AI 때문?",
+      "url": "https://zdnet.co.kr/view/?no=20260616222000",
+      "summary": "글로벌 보안·클라우드 인프라 기업들의 AI 활용이 늘어나면서 AI를 통한 취약점 발견도 눈에 띄게 증가했다. AI로 취약점을 찾아내는 시대가 현실로 다가오며 KISA의 보안 업데이트 공지 건수가 빠르게 늘고 있다.",
+      "source": "지디넷",
+      "time": "06/16 22:20"
+    },
+    {
+      "category": "robot",
+      "title": "삼성 휴머노이드 로봇, 쿠팡 물류센터서 일한다",
+      "url": "https://www.etnews.com/20260616000195",
+      "summary": "삼성전자의 휴머노이드 로봇이 쿠팡 물류센터에 실제 배치돼 업무를 수행한다. 국내 대형 물류 현장에 AI 로봇이 실전 투입되는 첫 사례로, 제조업·물류 분야 자동화의 새로운 이정표가 될 전망이다.",
+      "source": "전자신문",
+      "time": "06/16 09:00"
+    },
+    {
+      "category": "robot",
+      "title": "리얼월드, WEF '테크놀로지 파이오니어' 선정…\"피지컬 AI '두뇌' 인정받아\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211789",
+      "summary": "리얼월드가 세계경제포럼(WEF)의 '테크놀로지 파이오니어 2026'에 선정됐다. 피지컬 AI 분야에서 현실 세계에서 직접 작동하는 자율형 AI 시스템을 개발하는 기업으로 인정받아 글로벌 무대에서 주목받고 있다.",
+      "source": "AI Times",
+      "time": "06/16 16:53"
+    }
+  ]
+}

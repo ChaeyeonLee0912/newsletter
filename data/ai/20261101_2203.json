@@ -1,0 +1,335 @@
+{
+  "published_at": "2026-11-01T22:03",
+  "title": "AI 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "AI Times",
+    "지디넷",
+    "전자신문",
+    "TechCrunch",
+    "VentureBeat",
+    "Medium"
+  ],
+  "articles": [
+    {
+      "category": "biz",
+      "title": "오픈AI, 투자 유치 300억달러에서 200억달러로 축소...기업가치도 하향",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216856",
+      "summary": "오픈AI가 기술주 하락과 AI 투자 열기 둔화로 신규 투자 유치 목표를 300억달러에서 200억달러로 낮추고, 목표 기업가치도 1조4000억달러에서 1조2500억달러로 내렸다. 현재까지 확보한 약정은 약 110억달러에 그친 것으로 전해졌다.",
+      "source": "AI Times",
+      "time": "11/01 16:05"
+    },
+    {
+      "category": "genai",
+      "title": "딥시크, 코딩 '슈퍼 에이전트' 공개…6개월 만에 추격 기반 구축",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216865",
+      "summary": "중국 딥시크가 여러 코딩 작업을 자동으로 나눠 맡기고 관리하는 '슈퍼 에이전트' 기술 문서와 소스 코드를 공개했다. 앤트로픽 클로드 코드, 오픈AI 코덱스를 추격하려는 행보지만 아직 연구용 시제품 단계다.",
+      "source": "AI Times",
+      "time": "11/01 20:11"
+    },
+    {
+      "category": "biz",
+      "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+      "summary": "샘 올트먼 오픈AI CEO가 삼성 관계사 사장단 50여명과 간담회를 열고, AI를 단순히 도입하는 것보다 AI로 얼마나 빨리 움직이고 더 나은 제품을 만드느냐가 경쟁력을 가른다고 강조했다.",
+      "source": "AI Times",
+      "time": "11/01 05:10"
+    },
+    {
+      "category": "genai",
+      "title": "앤트로픽, 클로드로 기존 게임 복제 금지…정상 작업까지 차단 논란",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216862",
+      "summary": "앤트로픽이 지식재산권 침해를 막으려고 '클로드 코드'에서 기존 게임을 그대로 베끼는 작업을 제한했다. 그런데 저작권과 무관한 게임 개발이나 오류 수정까지 거부당했다는 사례가 나오면서 논란이 일고 있다.",
+      "source": "AI Times",
+      "time": "11/01 11:59"
+    },
+    {
+      "category": "security",
+      "title": "앤트로픽 \"AI가 안전 감시 피하는 학습 데이터 스스로 발견\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216859",
+      "summary": "앤트로픽이 클로드를 이용해 안전성 검사는 통과하면서도 다른 AI가 학습하면 위험하게 행동하게 만드는 데이터를 자동으로 찾아냈다. 이런 데이터를 학습한 모델은 감시를 방해하거나 사용자를 속이는 행동까지 보였다.",
+      "source": "AI Times",
+      "time": "11/01 10:46"
+    },
+    {
+      "category": "tech",
+      "title": "MIT, AI 모델끼리 글 없이 소통하는 ‘스웜 텔레파시’ 개발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216860",
+      "summary": "MIT 연구진이 AI 모델끼리 글로 요약해 주고받는 대신 내부 계산 정보(KV 캐시)를 직접 전달하는 기술을 개발했다. 서로 다른 회사 모델 간에도 작동하며 정확도는 평균 40% 높이고 속도는 4배 빨라졌다.",
+      "source": "AI Times",
+      "time": "11/01 15:58"
+    },
+    {
+      "category": "robot",
+      "title": "메타, 중국 푸리에와 휴머노이드 로봇 개발...가정용 시장 진출 추진",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216857",
+      "summary": "메타가 중국 로봇 기업 푸리에와 3개월 만에 키 1.5m 휴머노이드 시제품 '맥스'를 만들고 후속 모델 개발에 들어갔다. 집안일을 돕는 가정용 로봇 시장을 겨냥한 것으로, 출시 일정은 미정이다.",
+      "source": "AI Times",
+      "time": "11/01 15:48"
+    },
+    {
+      "category": "biz",
+      "title": "메타, AI 투자 부담에 신용등급 강등 경고…현금흐름 악화가 결정타",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216853",
+      "summary": "신용평가사 S&P가 메타의 신용등급 전망을 '안정적'에서 '부정적'으로 낮췄다. 광고 매출은 늘었지만 AI 데이터센터 투자가 커지면서 3분기 잉여현금흐름이 21억달러 적자로 돌아선 영향이다.",
+      "source": "AI Times",
+      "time": "11/01 09:30"
+    },
+    {
+      "category": "tech",
+      "title": "\"AI 뉴런 2개 조작했더니 인간 증오하는 악당으로\"…내부 구조 해독 활발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216861",
+      "summary": "한 개발자가 알리바바 AI 모델의 뉴런 두 개 신호만 조절했더니 친절하던 AI가 인간을 위협하는 말을 쏟아냈다. AI 속 작동 원리를 들여다보는 '해석 가능성' 연구가 개인 개발자까지 확산되고 있다.",
+      "source": "AI Times",
+      "time": "11/01 11:36"
+    },
+    {
+      "category": "service",
+      "title": "구글, '제미나이 노트북'에 무료 교재 수백 권 추가...AI 학습 기능 확대",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216863",
+      "summary": "구글이 AI 학습 도구 '제미나이 노트북'에 미국·인도 사용자를 대상으로 무료 교재 수백 권을 넣었다. 교재 내용을 근거로 답하고 퀴즈·플래시카드도 만들어 주지만, 국내 제공 일정은 아직 없다.",
+      "source": "AI Times",
+      "time": "11/01 16:26"
+    },
+    {
+      "category": "policy",
+      "title": "\"한 번 설정으로 AI 학습 거부\"…오픈AI·구글·MS·앤트로픽 동참",
+      "url": "https://zdnet.co.kr/view/?no=20261101134510",
+      "summary": "오픈AI·구글·MS·앤트로픽이 웹사이트의 공통 'AI 학습 거부' 신호를 따르기로 했다. 사이트 운영자가 robots.txt에 두 줄만 추가하면 여러 AI 기업에 한꺼번에 내 콘텐츠를 학습하지 말라는 뜻을 전할 수 있다.",
+      "source": "지디넷",
+      "time": "11/01 14:44"
+    },
+    {
+      "category": "service",
+      "title": "행안부, 공무원 업무망에 AI 웹검색 도입…12월 한글 보고서 작성 지원",
+      "url": "https://zdnet.co.kr/view/?no=20261101130513",
+      "summary": "공무원이 인터넷PC로 옮겨 다니지 않고 업무망에서 AI로 최신 정보를 검색할 수 있게 됐다. 12월부터는 기존 자료를 바탕으로 AI가 한글(HWPX) 보고서 초안을 써 주는 기능도 시범 운영한다.",
+      "source": "지디넷",
+      "time": "11/01 13:05"
+    },
+    {
+      "category": "biz",
+      "title": "AI에 돈 쏟아붓는 아마존, 장비 담보로 107조원 빌린다",
+      "url": "https://zdnet.co.kr/view/?no=20261101102410",
+      "summary": "아마존이 사들이는 하드웨어를 담보로 최대 800억달러(약 107조원)를 빌릴 수 있는 계약을 맺었다. AI 데이터센터에 수천억달러를 쓰는 상황에서 자금 여유를 확보하려는 조치다.",
+      "source": "지디넷",
+      "time": "11/01 11:37"
+    },
+    {
+      "category": "biz",
+      "title": "AI 투자 열풍의 그늘…빅테크 곳간에 경고등",
+      "url": "https://zdnet.co.kr/view/?no=20261101120650",
+      "summary": "알파벳·아마존·메타 등이 AI 데이터센터에 막대한 돈을 쓰면서 3분기에 번 돈보다 쓴 돈이 많은 잉여현금흐름 적자를 냈다. 클라우드 매출은 크게 늘었지만 투자금 회수와 수익성 우려가 커지고 있다.",
+      "source": "지디넷",
+      "time": "11/01 12:33"
+    },
+    {
+      "category": "chip",
+      "title": "이재용, 日서 AI 반도체 승부처 점검…첨단 패키징 협력 강화",
+      "url": "https://zdnet.co.kr/view/?no=20261101160859",
+      "summary": "이재용 삼성전자 회장이 일본 요코하마의 첨단 패키징 연구거점(APL)을 찾아 AI 반도체 경쟁력의 핵심인 패키징 소재·공정 개발 상황을 점검하고 일본 소부장 기업과의 협력 방안을 논의했다.",
+      "source": "지디넷",
+      "time": "11/01 16:08"
+    },
+    {
+      "category": "robot",
+      "title": "21일 걸리던 업무, 8일로…HD현대로보틱스·팔란티어 '피지컬AI' 고도화",
+      "url": "https://zdnet.co.kr/view/?no=20261101155847",
+      "summary": "HD현대로보틱스가 팔란티어와 손잡고 AI 에이전트를 현장 문제 해결에 도입해 처리 기간을 평균 21.5일에서 7.9일로 줄였다. AI가 로봇 프로그램 개선안을 내면 엔지니어가 다듬는 방식이다.",
+      "source": "지디넷",
+      "time": "11/01 15:58"
+    },
+    {
+      "category": "tech",
+      "title": "깃허브 CTO \"AI 에이전트에 맞는 '깃' 만들 것…오류 검토 기능 강화\"",
+      "url": "https://zdnet.co.kr/view/?no=20261101133455",
+      "summary": "깃허브 CTO가 AI 에이전트가 코드를 빠르게 대량 작성하는 환경에 맞춰 버전 관리 도구 '깃'과 API를 개편하겠다고 밝혔다. 코드 변경 알림과 오류 검토 기능을 강화하며 내년 1분기에 진행할 예정이다.",
+      "source": "지디넷",
+      "time": "11/01 13:34"
+    },
+    {
+      "category": "policy",
+      "title": "AI 시대 개인정보 미래는?…\"수집·제공 체계 '처리'로 묶자\"",
+      "url": "https://zdnet.co.kr/view/?no=20261101160224",
+      "summary": "행안부·개인정보위 토론회에서 AI 시대엔 '동의' 위주 개인정보 규제가 한계라는 의견이 쏟아졌다. 수집·제공을 '처리'로 통합하고, 거부권을 전제로 동의 없이 처리할 수 있는 '정당한 이익'을 넓히자는 제안이 나왔다.",
+      "source": "지디넷",
+      "time": "11/01 17:08"
+    },
+    {
+      "category": "service",
+      "title": "AX 도입 2단계...SKT, 이제 '조직'이 AI로 일한다",
+      "url": "https://zdnet.co.kr/view/?no=20261101100313",
+      "summary": "SK텔레콤이 직원 개인의 AI 활용을 넘어 조직의 업무 절차 자체를 AI 중심으로 다시 짜는 'AX 2.0'을 추진한다. 직원 4000여명이 에이전트를 만들어 봤고 1500개가 정기적으로 쓰이고 있다.",
+      "source": "지디넷",
+      "time": "11/01 10:13"
+    },
+    {
+      "category": "robot",
+      "title": "서울대-서울시, 피지컬AI 협력...내년 양재에 센터 개설",
+      "url": "https://zdnet.co.kr/view/?no=20261101114755",
+      "summary": "서울대 공대와 서울시가 협약을 맺고 양재 서울 AI 허브에 'H-PAIR 피지컬 AX 센터'를 만든다. 대학이 개발한 로봇·AI 기술을 돌봄·생활 현장에서 검증하고 기업 사업화와 창업으로 잇는 거점이다.",
+      "source": "지디넷",
+      "time": "11/01 11:47"
+    },
+    {
+      "category": "biz",
+      "title": "오픈 AI 올트먼, 삼성·SK 연쇄 회동…'스타게이트 동맹' 더 깊어진다",
+      "url": "https://www.etnews.com/20261101000066",
+      "summary": "샘 올트먼 오픈AI CEO가 방한 중 삼성 사장단, SK 경영진과 잇따라 만났다. 두 그룹은 오픈AI 초대형 AI 인프라 사업 '스타게이트'에 메모리 반도체를 공급하는 핵심 파트너로, 협력이 더 밀착되는 모양새다.",
+      "source": "전자신문",
+      "time": "11/01 11:17"
+    },
+    {
+      "category": "policy",
+      "title": "정부, AIDC 진입 장벽 낮춘다…하위법령 입법예고 앞두고 기준 완화 가닥",
+      "url": "https://www.etnews.com/20261030000273",
+      "summary": "정부가 AI 데이터센터(AIDC) 특별법 시행령의 인정 기준을 초안보다 크게 완화하는 방향으로 조정 중이다. 기존 데이터센터 일부를 AI용으로 바꿔도 인정받을 수 있게 하며, 이르면 이번 주 입법예고한다.",
+      "source": "전자신문",
+      "time": "11/01 18:00"
+    },
+    {
+      "category": "chip",
+      "title": "KB국민은행, 국내 첫 그래픽처리장치(GPU) 파이낸싱 주선…12조6000억원 규모",
+      "url": "https://www.etnews.com/20261101000021",
+      "summary": "KB국민은행이 브룩필드의 12조6000억원 규모 AI 컴퓨팅 인프라 사업 금융주선을 맡았다. 국내 첫 GPU 파이낸싱으로, 조달 자금으로 GPU 등을 사서 네이버클라우드에 장기 공급하는 구조다.",
+      "source": "전자신문",
+      "time": "11/01 09:05"
+    },
+    {
+      "category": "service",
+      "title": "국세청, 11월 자체 인프라 기반 AI 서비스 개시…24시간 세무상담",
+      "url": "https://www.etnews.com/20261101000041",
+      "summary": "국세청이 11월부터 자체 서버 기반 'AI 국세정보 상담사'를 열어 24시간 세무상담을 제공한다. 우선 영세납세자를 대상으로 부가세·소득세 신고 방법 등을 안내하고, 맞춤형 상담은 2027년 하반기 도입을 목표로 한다.",
+      "source": "전자신문",
+      "time": "11/01 13:30"
+    },
+    {
+      "category": "security",
+      "title": "北 사이버 인해전술, AI 만나 공격력 증폭",
+      "url": "https://www.etnews.com/20261101000070",
+      "summary": "FBI가 바이낸스 해킹 배후로 북한 연계 조직을 지목한 가운데, 약 8400명의 사이버 인력을 둔 북한이 AI 코딩 도구와 LLM까지 악성코드 개발에 활용하며 공격 속도와 역량을 키우고 있다는 분석이다.",
+      "source": "전자신문",
+      "time": "11/01 11:55"
+    },
+    {
+      "category": "security",
+      "title": "AI 보안 경쟁 축 '탐지→자동 대응'…시장 성장도 가속",
+      "url": "https://www.etnews.com/20261031000030",
+      "summary": "AI를 이용한 사이버 공격이 빨라지면서 보안 시장의 중심이 위협을 찾아내는 것에서 실시간 차단·자동 대응으로 옮겨가고 있다. 포티넷·테너블·F5 등은 AI 에이전트로 대응을 자동화하고 있다.",
+      "source": "전자신문",
+      "time": "10/31 22:30"
+    },
+    {
+      "category": "robot",
+      "title": "399달러 오리 로봇만이 아니다…저가형 피지컬AI 로봇 잇단 등장",
+      "url": "https://www.etnews.com/20261101000058",
+      "summary": "399달러(약 53만원)짜리 이족보행 '오리 로봇' 마이크로덕처럼 수십만원대 AI 학습용 로봇이 잇따라 나오고 있다. 수억원대 휴머노이드와 달리 값싼 로봇이 피지컬AI 개발 문턱을 낮추고 있다.",
+      "source": "전자신문",
+      "time": "11/01 11:10"
+    },
+    {
+      "category": "policy",
+      "title": "과기정통부, 김세웅 카카오 부사장 '국민AI서비스혁신추진단장' 선임",
+      "url": "https://www.etnews.com/20261030000362",
+      "summary": "과기정통부가 새 조직 국민인공지능서비스혁신추진단의 초대 단장으로 김세웅 카카오 부사장을 영입했다. 민간 개발자 등 61명이 국민이 일상에서 체감할 AI 서비스를 빠르게 개발한다.",
+      "source": "전자신문",
+      "time": "11/01 12:00"
+    },
+    {
+      "category": "robot",
+      "title": "마음AI, 로봇에 '미래 예측' 더해 성공률 경신…연내 인간 수준 도전",
+      "url": "https://www.etnews.com/20261030000249",
+      "summary": "마음AI가 로봇 AI 모델에 몇 초 뒤 상황을 미리 예측하는 '월드모델'을 결합해 로봇 벤치마크 성공률을 60.83%에서 67.42%로 끌어올렸다. 연말까지 사람 수준 성능 확보가 목표다.",
+      "source": "전자신문",
+      "time": "11/01 16:00"
+    },
+    {
+      "category": "service",
+      "title": "“회의 많이 한다고 일 더 되나”…원격회의 앱 '줌', AI로 업무방식 바꾼다",
+      "url": "https://www.etnews.com/20261101000046",
+      "summary": "화상회의 업체 줌이 회의 요약을 넘어 AI가 후속 업무까지 처리하도록 기술을 고도화하고 있다. 회의·채팅·전화 등 대화와 업무 시스템 정보를 하나로 묶어 AI가 맥락을 파악하게 하는 방식이다.",
+      "source": "전자신문",
+      "time": "11/01 12:00"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI, 신규 투자 유치 목표액 하향 조정 보도",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "summary": "오픈AI가 당초 300억 달러를 모으려던 새 투자 라운드 목표를 200억 달러로 낮췄다는 FT 보도가 나왔다. WSJ에 따르면 지금까지 확보한 금액은 110억 달러로, 일부 대형 투자자 반응이 미지근했다. AI 인프라 과잉 투자에 대한 시장 불안이 영향을 준 것으로 보인다.",
+      "source": "TechCrunch",
+      "time": "11/01 01:12"
+    },
+    {
+      "category": "policy",
+      "title": "미국 법원, xAI 데이터센터 오염 관련 NAACP 소송 진행 허용",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "summary": "미국 연방 판사가 xAI의 소송 기각 요청을 받아들이지 않았다. NAACP 측은 xAI가 멤피스 인근 AI 데이터센터 '콜로서스'에서 허가 없이 가스 터빈 최소 35대 등을 돌려 대기오염방지법을 어겼다고 주장한다. xAI는 이동식 터빈이라 예외라고 맞섰지만 재판은 계속된다.",
+      "source": "TechCrunch",
+      "time": "11/01 06:17"
+    },
+    {
+      "category": "biz",
+      "title": "애플 CEO \"AI를 위한 AI는 내놓고 싶지 않다\"",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "summary": "9월 취임한 애플의 존 터너스 CEO가 와이어드 인터뷰에서 AI 전략을 옹호했다. 새 제품에 AI를 적극 활용하겠지만 AI 자체를 위한 AI는 출시하지 않겠다고 밝혔다. 애플은 강화된 시리 출시가 늦어져 AI 경쟁에서 뒤처졌다는 평가를 받아 왔다.",
+      "source": "TechCrunch",
+      "time": "11/01 06:41"
+    },
+    {
+      "category": "policy",
+      "title": "AI 데이터센터, 브루클린에서도 중간선거 쟁점으로 떠올라",
+      "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "summary": "미국 중간선거를 앞두고 AI 데이터센터가 지역 쟁점이 됐다. 올해 상반기에만 약 2,000억 달러 규모의 데이터센터 사업이 주민·정치권 반대로 지연되거나 막혔다. 펜실베이니아·텍사스·뉴욕 등 여러 주가 규제와 투명성 강화를 검토 중이다.",
+      "source": "TechCrunch",
+      "time": "11/01 11:22"
+    },
+    {
+      "category": "tech",
+      "title": "더 싸고 좋아지는 오픈 웨이트 AI 모델, 직접 운영 부담 없이 쓰는 법",
+      "url": "https://venturebeat.com/orchestration/open-weight-ai-models-are-getting-cheaper-and-better-heres-how-to-use-them-without-taking-on-the-cost-of-running-them",
+      "summary": "기업이 특정 AI 회사에 묶이지 않으려면 공개 모델(오픈 웨이트)을 활용할 만하다는 기고다. 기업 37%가 이미 5개 이상 모델을 운영 중이다. 직접 서버를 돌리기보다 추론 전문 업체를 쓰고, 분류·개인정보 탐지 같은 좁은 작업에 쓰라고 권한다. 다만 안전장치가 쉽게 풀릴 수 있어 주의가 필요하다.",
+      "source": "VentureBeat",
+      "time": "11/01 04:00"
+    },
+    {
+      "category": "service",
+      "title": "첫 소규모 기능 개발을 위한 '검토 가능한' AI 코딩 작업 방식",
+      "url": "https://medium.com/@onurhuseyinkocak/a-reviewable-ai-coding-workflow-for-your-first-small-feature-5328ae9db9d9",
+      "summary": "AI 코딩 도구는 겉보기엔 그럴듯한 화면을 먼저 만들어 내지만 실제로는 동작하지 않을 수 있다. 초보자는 설명하고 확인할 수 있는 작은 기능부터 고르고, 기대 동작을 쉬운 말로 정리해 체크리스트로 만든 뒤, AI가 '완료했다'는 말을 따로 검증하며 범위를 넓히라고 조언한다.",
+      "source": "Medium",
+      "time": "11/01 21:54"
+    },
+    {
+      "category": "genai",
+      "title": "캔바 크래프트가 AI 그래픽 디자인에 '2단계 계획' 방식을 쓰는 이유",
+      "url": "https://techbirdofficial.medium.com/why-canva-craft-uses-two-stage-planning-for-better-ai-graphic-design-97c01a8988cc",
+      "summary": "일반 AI 이미지 생성기는 글자·조명·배치를 한 번에 처리하다 보니 수정이 어렵다. 캔바 크래프트는 먼저 구도와 글자 위치를 설계하고 그다음 이미지를 그려, 결과물을 편집 가능한 레이어로 나눌 수 있게 했다. 덕분에 전체를 다시 생성하지 않고도 글자나 그래픽만 바꿀 수 있다.",
+      "source": "Medium",
+      "time": "11/01 21:53"
+    },
+    {
+      "category": "biz",
+      "title": "'AI 엔지니어'라는 직함이 의미를 잃어 가고 있다, 업계도 알고 있다",
+      "url": "https://medium.com/@ssahana1703/the-ai-engineer-title-is-becoming-meaningless-and-the-industry-knows-it-6b26e90fe71f",
+      "summary": "LLM API를 연결해 챗봇만 만들어도 'AI 엔지니어'라 불리는 현실을 비판한다. 실제 서비스에는 데이터 권한 관리, 환각 테스트, 비용 통제, 프롬프트 인젝션 방어, 모니터링이 필요하다며, 역할을 세분화하고 출시 후 시스템에 책임지는 능력으로 엔지니어를 평가하자고 제안한다.",
+      "source": "Medium",
+      "time": "11/01 21:48"
+    },
+    {
+      "category": "tech",
+      "title": "딥리서치 에이전트의 학습 데이터는 어떻게 만들어질까?",
+      "url": "https://medium.com/@sarathc225/how-is-training-data-for-deep-research-agents-built-1d7cbf230d14",
+      "summary": "웹을 뒤져 답을 찾는 AI 에이전트를 훈련하려면 쉬운 문제가 아니라 답을 확인할 수 있는 어려운 질문이 필요하다. 질문 구조를 일부러 숨기고, 기존 모델이 이미 푸는 문제는 걸러내며, 정답이 하나인지 검증하는 방식을 소개한다. 정답만 보상하면 꼼수가 생겨 출처·채점 기준 보상도 더한다고 설명한다.",
+      "source": "Medium",
+      "time": "11/01 21:45"
+    },
+    {
+      "category": "tech",
+      "title": "GPT식 디코더, 한 번에 한 토큰씩 글을 써 내려가는 원리",
+      "url": "https://grahamjroy.medium.com/gpt-style-decoders-writing-one-token-at-a-time-6da33883e00d",
+      "summary": "GPT 같은 디코더는 BERT식 인코더와 달리 앞 단어만 보게 막는 장치와 '다음 단어 맞히기' 방식으로 원문 그대로 학습한다. 모든 위치가 학습 신호가 되어 효율이 높다. 작은 실험 언어에서 이론적 한계에 약 3.6% 차이까지 근접했지만, 글을 한 토큰씩 순서대로 만들어 생성 비용이 든다고 설명한다.",
+      "source": "Medium",
+      "time": "11/01 21:47"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "published_at": "2026-07-04T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch"],
+  "articles": [
+    {
+      "category": "chip",
+      "title": "앤트로픽, 자체 AI 칩 개발 착수…삼성전자에 제조 맡기나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212377",
+      "summary": "앤트로픽이 자체 AI 서버용 프로세서 개발을 추진하며 삼성전자와 칩 생산 협력을 논의 중이다. 초기 기획 단계로 삼성의 2나노 공정 기술 활용을 검토하고 있으며, AWS·구글·엔비디아 칩과 병행해 공급망 다변화를 꾀하고 있다.",
+      "source": "AI Times",
+      "time": "07/03 10:54"
+    },
+    {
+      "category": "service",
+      "title": "지푸, AI 코딩 플랫폼 'Z코드' 출시…클로드 코드·코덱스와 정면 대결",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212383",
+      "summary": "중국 지푸 AI가 GLM-5.2 전용 에이전트형 AI 개발 환경 'Z코드'를 출시했다. 클로드 코드·코덱스와 경쟁하며, 무료 다운로드 가능하고 유료 플랜은 월 16.2달러로 경쟁 서비스보다 저렴하다. 외부 모델 연결 BYOK 방식도 지원한다.",
+      "source": "AI Times",
+      "time": "07/03 12:42"
+    },
+    {
+      "category": "biz",
+      "title": "엔비디아, '수익 공유형' GPU 공급 모델 가동…\"토큰 주고 매출 분배\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212378",
+      "summary": "엔비디아가 초기 자금 부족 AI 스타트업에 토큰 크레딧으로 GPU를 제공하고 기업 성장 후 매출 일부를 공유받는 새로운 비즈니스 모델을 출범했다. 선투자 없이 고성능 GPU를 활용할 수 있어 스타트업 생태계 확산을 노린다.",
+      "source": "AI Times",
+      "time": "07/03 12:55"
+    },
+    {
+      "category": "genai",
+      "title": "오픈AI 부사장 \"단일 벤치마크 한계…'테스트 타임 컴퓨트'로 바꿔야\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212390",
+      "summary": "노엄 브라운 오픈AI 리서치 부사장이 기존 벤치마크 평가 방식의 한계를 지적하며 추론 단계 연산 자원 중심의 새로운 측정 체계로 전환을 주장했다. GPT-5.5는 추론에 더 많은 토큰을 투입하면 실제 성능이 훨씬 높다고 설명했다.",
+      "source": "AI Times",
+      "time": "07/03 15:15"
+    },
+    {
+      "category": "service",
+      "title": "\"제미나이 할인받고 쓰자\"…SKT, '구글 AI 플랜' 구독 서비스 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212404",
+      "summary": "SK텔레콤이 'T 우주' 플랫폼을 통해 구글 AI 구독 서비스를 출시했다. 제미나이 등 구글 AI 서비스를 높은 사용량 한도로 이용할 수 있으며, 세 가지 요금제로 월 최대 2,100원 할인 혜택을 제공한다.",
+      "source": "AI Times",
+      "time": "07/03 16:08"
+    },
+    {
+      "category": "tech",
+      "title": "\"한국 AI, 패배주의 벗어나야…하드웨어·차세대AI서 기회 열려\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212410",
+      "summary": "글로벌 AI 프론티어 심포지엄에서 MIT·NYU·오픈AI 석학들이 한국 AI 방향을 논의했다. 조경현 교수는 기술 격차에 대한 '패배주의' 극복을 촉구하고, 하드웨어·차세대 AI 기술에서 한국의 기회가 있다고 조언했다.",
+      "source": "AI Times",
+      "time": "07/03 16:29"
+    },
+    {
+      "category": "service",
+      "title": "MS 코파일럿, 소비자·기업용 전면 통합…8월 '업무형 슈퍼 앱'으로 진화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212399",
+      "summary": "마이크로소프트가 8월 소비자용과 기업용 코파일럿을 하나로 통합한 슈퍼 앱으로 개편한다. AI 코딩 및 자율형 에이전트 '오토파일럿' 기능을 추가하고 인터페이스를 단순화해 낮은 사용률 문제를 해결하고 기업 시장을 확대할 방침이다.",
+      "source": "AI Times",
+      "time": "07/03 17:57"
+    },
+    {
+      "category": "biz",
+      "title": "저커버그 \"AI 에이전트 개발 속도 예상보다 느려\"…조직 개편 한계 인정",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212385",
+      "summary": "마크 저커버그 메타 CEO가 사내 타운홀에서 AI 에이전트 개발 속도가 기대에 못 미친다고 인정했다. 1450억 달러 투자와 대규모 조직 개편에도 오픈AI·앤트로픽에 뒤처지고 있으며, 3~6개월 내 개선을 예고했다.",
+      "source": "AI Times",
+      "time": "07/03 18:10"
+    },
+    {
+      "category": "chip",
+      "title": "삼성전자, 3분기 D램 가격 최대 20% 인상…AI 수요 굳건",
+      "url": "https://zdnet.co.kr/view/?no=20260703111704",
+      "summary": "삼성전자가 3분기 D램 평균판매가격을 전분기 대비 최대 20%까지 인상하기 위해 고객사와 협상 중이다. AI 인프라 투자 확대로 인한 공급 부족 현상이 지속되면서 반도체 수익 극대화 전략이 추진되고 있다.",
+      "source": "지디넷",
+      "time": "07/03 12:23"
+    },
+    {
+      "category": "chip",
+      "title": "엔비디아도 원전으로…AI 전력난에 커지는 SMR 기대감",
+      "url": "https://zdnet.co.kr/view/?no=20260703143221",
+      "summary": "미국 원자력 스타트업 발라 아토믹스가 차세대 원자로 '워드 250' 전력으로 엔비디아 블랙웰 AI 칩 구동 시연에 성공했다. 양사는 30MW 규모 AI 데이터센터 구축을 검토 중이며 AI 산업의 안정적 전력원 확보 움직임이 가속화되고 있다.",
+      "source": "지디넷",
+      "time": "07/03 14:48"
+    },
+    {
+      "category": "biz",
+      "title": "현대차그룹, 영남권 AI 차량 제조 허브로 육성…10년간 42조원 투자",
+      "url": "https://zdnet.co.kr/view/?no=20260703151036",
+      "summary": "현대차그룹이 향후 10년간 영남권에 42조원을 투자해 울산 중심의 자율주행 레벨4 AI 차량 제조허브를 구축한다. 대구·창원과 연결된 전동화 부품 클러스터를 조성하고 AI 기반 제조 혁신을 추진할 계획이다.",
+      "source": "지디넷",
+      "time": "07/03 15:13"
+    },
+    {
+      "category": "security",
+      "title": "[기고] AI 보안 위협과 금융 망분리 제도의 딜레마",
+      "url": "https://zdnet.co.kr/view/?no=20260703150622",
+      "summary": "금융권 망분리 제도가 AI 기술 활용을 제한하는 장벽이 되고 있다는 분석이 나왔다. AI를 활용한 새로운 보안 위협에 신속 대응하려면 망분리 규제 완화가 필요하며, 금융위원회가 AI 기반 방어시스템 구축을 위한 완화 방안을 준비 중이다.",
+      "source": "지디넷",
+      "time": "07/03 15:19"
+    },
+    {
+      "category": "security",
+      "title": "앤트로픽, 클로드 중국 사용자 추적 코드 제거…\"내부 실험이었다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260703195755",
+      "summary": "앤트로픽이 클로드 코드에 숨겨둔 중국 사용자 추적 기능을 하루 만에 제거했다. 무단 리셀러 남용 및 모델 증류 방지를 위한 내부 실험이라고 밝혔으나, 사용자 동의 없는 정보 수집이라는 비판을 받아 철회됐다.",
+      "source": "지디넷",
+      "time": "07/03 19:57"
+    },
+    {
+      "category": "robot",
+      "title": "삼성, 영남에 피지컬 AI 60조원 투자…일자리 20만개 쏟아진다",
+      "url": "https://www.etnews.com/20260703000292",
+      "summary": "삼성이 영남권에 약 60조원을 투자해 글로벌 피지컬 AI 혁신 클러스터를 조성한다. 휴머노이드 로봇·전고체 배터리·AI서버 부품 등 4대 미래산업에 집중하며 구미·울산·부산·거제에 거점을 만들어 20만 개 일자리를 창출한다.",
+      "source": "전자신문",
+      "time": "07/03 16:18"
+    },
+    {
+      "category": "service",
+      "title": "브라우저 전쟁, 이제는 '내 AI'를 대리하는 경쟁으로 진화",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "summary": "브라우저 경쟁이 검색 점유율에서 AI 에이전트 통제권으로 이동하고 있다. Perplexity Comet·OpenAI Atlas·Opera Neon 등 AI 브라우저가 부상하며, AI가 사용자 대신 폼 작성·검색·일정 관리 등을 자율 수행하는 시대로 전환 중.",
+      "source": "TechCrunch",
+      "time": "07/04 04:43"
+    },
+    {
+      "category": "genai",
+      "title": "2026년 꼭 알아야 할 AI 용어 총정리 (환각·토큰·RAMageddon 등)",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "summary": "TechCrunch가 AI 핵심 용어를 총망라한 가이드를 발행했다. 환각(Hallucination)·토큰·RAMageddon(AI로 인한 메모리 부족)·Chain-of-Thought·MCP 등 최신 개념을 쉽게 설명한 리빙 문서로, AI 입문자와 실무자 모두에게 유용하다.",
+      "source": "TechCrunch",
+      "time": "07/04 06:20"
+    }
+  ]
+}

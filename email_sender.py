@@ -15,9 +15,11 @@ smtplib를 사용하여 이메일을 발송하는 도구.
 import sys
 import json
 import os
+import re
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.utils import formataddr
 from typing import Optional
 from pathlib import Path
 try:
@@ -56,16 +58,23 @@ env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 
 
-def get_recipients() -> list[str]:
-    """RECIPIENTS 환경 변수에서 수신자 목록을 파싱하여 반환.
+def recipients_env(subject: Optional[str] = None) -> str:
+    """주제별 수신자 환경 변수 이름. ai -> RECIPIENTS_AI, semi-conductor -> RECIPIENTS_SEMI_CONDUCTOR."""
+    if not subject:
+        return "RECIPIENTS"
+    return "RECIPIENTS_" + re.sub(r"[^0-9A-Za-z]+", "_", subject).upper()
 
+
+def get_recipients(subject: Optional[str] = None) -> list[str]:
+    """수신자 목록을 파싱하여 반환.
+
+    주제가 주어지면 주제별 변수(RECIPIENTS_<주제>)를 먼저 보고, 비어 있으면 RECIPIENTS 를 씀.
     쉼표(,) 또는 줄바꿈(\\n) 구분자를 모두 지원:
       RECIPIENTS=a@b.com,c@d.com
-      RECIPIENTS="a@b.com
+      RECIPIENTS_AI="a@b.com
       c@d.com"
     """
-    import re
-    raw = os.getenv("RECIPIENTS", "")
+    raw = os.getenv(recipients_env(subject), "") or os.getenv("RECIPIENTS", "")
     recipients = [r.strip() for r in re.split(r"[,\n]", raw) if r.strip()]
     return recipients
 
@@ -78,7 +87,8 @@ def send_email(
     smtp_server: Optional[str] = None,
     smtp_port: Optional[int] = None,
     smtp_user: Optional[str] = None,
-    smtp_password: Optional[str] = None
+    smtp_password: Optional[str] = None,
+    sender_name: Optional[str] = None
 ) -> bool:
     """
     이메일 발송
@@ -92,6 +102,7 @@ def send_email(
         smtp_port: SMTP 포트 (환경 변수 SMTP_PORT 또는 인자, 기본: 587)
         smtp_user: SMTP 사용자 (환경 변수 SMTP_USER 또는 인자)
         smtp_password: SMTP 비밀번호 (환경 변수 SMTP_PASSWORD 또는 인자)
+        sender_name: 보낸사람 표시 이름 (선택, 예: "AI 뉴스레터")
 
     Returns:
         성공 여부
@@ -108,7 +119,7 @@ def send_email(
     try:
         msg = MIMEMultipart('alternative')
         msg['Subject'] = subject
-        msg['From'] = smtp_user
+        msg['From'] = formataddr((sender_name, smtp_user)) if sender_name else smtp_user
         msg['To'] = to
 
         part1 = MIMEText(body_text, 'plain')
@@ -161,6 +172,7 @@ def main():
 
     5. .env에 수신자 설정
        RECIPIENTS=user1@example.com,user2@example.com
+       RECIPIENTS_AI=user3@example.com        # 선택. 주제별 수신자 (없으면 RECIPIENTS 사용)
 
     6. 의존 패키지 설치
        pip install -r requirements.txt

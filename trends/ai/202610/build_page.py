@@ -7,7 +7,7 @@ from pathlib import Path
 from extract_newsletters import extract
 
 HERE = Path(__file__).resolve().parent
-PREVIEW = "https://htmlpreview.github.io/?https://github.com/unicorn-svc/ai-newsletter/blob/main/newsletters/"
+PREVIEW = "https://htmlpreview.github.io/?https://github.com/unicorn-svc/ai-newsletter/blob/main/newsletters/" + HERE.parent.name + "/"
 
 
 def svg_art(kind, color):
@@ -120,7 +120,7 @@ def main():
 <footer class="site-footer"><div class="footer-inner"><a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span>AI SIGNAL</a><span>2026 OCTOBER EDITION · LOCAL NEWSLETTER ARCHIVE</span><a href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div></footer>
 <a class="back-top" href="#top" aria-label="맨 위로" hidden>↑</a>
 <dialog id="method-dialog" aria-labelledby="method-title"><div class="dialog-header"><span class="section-kicker">ABOUT THIS BRIEF</span><button class="close-dialog" aria-label="정리 기준 닫기">×</button></div><h2 id="method-title">이렇게 읽고 정리했어.</h2>
-  <p>읽은 건 <code>newsletters/202610*.html</code>에 저장된 <strong>2026년 10월 1일~29일 뉴스레터 {nletters}개</strong>야. 10월 30~31일이랑 저장 안 된 날은 빠졌어. 기사 자체는 9월에 나왔더라도 10월 뉴스레터에 실렸으면 같이 봤어.</p>
+  <p>읽은 건 <code>newsletters/{HERE.parent.name}/202610*.html</code>에 저장된 <strong>2026년 10월 1일~29일 뉴스레터 {nletters}개</strong>야. 10월 30~31일이랑 저장 안 된 날은 빠졌어. 기사 자체는 9월에 나왔더라도 10월 뉴스레터에 실렸으면 같이 봤어.</p>
   <dl class="method-metrics"><div><dt>실린 기사</dt><dd>{narticles}</dd></div><div><dt>중복 뺀 기사</dt><dd>{nunique}</dd></div><div><dt>매체 수</dt><dd>{len(corpus['sources'])}</dd></div></dl>
   <h3>중복은 어떻게 셌냐면</h3><p>같은 주소(URL)의 기사가 여러 번 실린 {corpus['duplicateCount']}개는 한 번만 셌어. 주소 끝에 붙는 추적용 꼬리표는 떼고, 기사를 구분하는 부분은 남겼어. 다만 같은 사건을 다른 매체가 각자 쓴 건 따로 셌으니까, 기사 수가 곧 사건 수는 아니야.</p>
   <p>기사 제목을 쭉 훑어서 어떤 주제가 많은지 보고, 비슷한 얘기끼리 퍼즐 맞추듯 이어 붙여서 9개 흐름으로 묶었어. 카드 순서는 중요도나 많이 나온 순서가 아니야. 흐름마다 대표 기사 4개를 근거로 달았고, 기사 하나가 여러 흐름에 걸칠 수도 있어.</p>

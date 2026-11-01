@@ -1,0 +1,270 @@
+{
+  "published_at": "2026-06-18T09:00",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat", "MIT News"],
+  "articles": [
+    {
+      "category": "policy",
+      "title": "[6월17일] 앤트로픽을 둘러싼 미국의 달라진 시선...\"AI 안전론의 역설\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211815",
+      "summary": "앤트로픽에 대한 미국의 시선 변화를 분석한 뉴스 브리핑. AI 안전을 강조해온 앤트로픽이 미국 정부의 수출통제 압박을 받으면서 'AI 안전론의 역설'이라는 아이러니한 상황에 처한 최근 동향을 정리했다.",
+      "source": "AI Times",
+      "time": "06/18 07:00"
+    },
+    {
+      "category": "policy",
+      "title": "미 상무부, 앤트로픽에 '외국인 차단' 위반 시 민·형사 처벌 경고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211805",
+      "summary": "미국 상무부가 앤트로픽에 클로드 모델에 대한 외국인 접근 차단 규정 위반 시 민사·형사상 처벌을 경고했다. AI 수출통제 강화 움직임의 일환으로, 앤트로픽의 최신 모델 해외 사용 제한 조치와 연관됐다.",
+      "source": "AI Times",
+      "time": "06/17 16:09"
+    },
+    {
+      "category": "policy",
+      "title": "[단독] AI 수석에 AWS 이기혁 내정…李정부 'AI G3' 새 판 짠다",
+      "url": "https://zdnet.co.kr/view/?no=20260617153724",
+      "summary": "이재명 정부가 청와대 AI 수석에 AWS 출신 이기혁을 내정한 것으로 단독 보도됐다. 정부는 AI G3 전략 실현을 위해 민간 AI 전문가를 전진 배치하며 AI 정책 컨트롤타워를 재편하는 것으로 알려졌다.",
+      "source": "지디넷",
+      "time": "06/17 15:43"
+    },
+    {
+      "category": "policy",
+      "title": "[전문가기고] 디지털 기본권, AI 시대의 새로운 복지 패러다임",
+      "url": "https://www.etnews.com/20260617000180",
+      "summary": "AI 시대를 맞아 디지털 기본권을 새로운 사회 복지 패러다임으로 접근해야 한다는 전문가 기고. AI 혜택의 불균등 분배 문제를 지적하며, 디지털 접근권과 AI 리터러시를 기본권으로 보장하는 제도적 틀 마련을 제안했다.",
+      "source": "전자신문",
+      "time": "06/17 10:00"
+    },
+    {
+      "category": "policy",
+      "title": "세계 지도자들은 미국 AI를 원하지만, 미국이 언제든 차단할 수 있는 건 원치 않는다",
+      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "summary": "G7 정상회의에서 각국 지도자들이 미국이 언제든 AI 접근을 차단할 수 있다는 우려를 표명했다. 트럼프 행정부의 앤트로픽 모델 수출 제한이 계기가 되었으며, 비미국 국가에 AI 접근을 보장하는 '신뢰 파트너' 체계 논의가 진행 중이다.",
+      "source": "TechCrunch",
+      "time": "06/18 04:10"
+    },
+    {
+      "category": "policy",
+      "title": "미국인 16%만 'AI가 사회에 긍정적 영향' 믿어…Pew Research 조사",
+      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "summary": "Pew Research 조사 결과, 미국인 16%만 AI가 사회에 긍정적 영향을 미칠 것이라 응답했다. 40%는 부정적으로 전망했고, 67%는 정부의 AI 규제를, 59%는 기업의 AI 안전 개발도 신뢰하지 않는 것으로 나타났다.",
+      "source": "TechCrunch",
+      "time": "06/18 02:10"
+    },
+    {
+      "category": "biz",
+      "title": "[종합] 앤트로픽, 한국 법인 본격 가동…\"수출통제 곧 해결\"",
+      "url": "https://zdnet.co.kr/view/?no=20260617195811",
+      "summary": "앤트로픽이 서울 콘래드호텔에서 한국 법인 공식 출범을 선언했다. 네이버가 아시아 최대 규모로 클로드 코드를 엔지니어링 조직에 도입했으며, 앤트로픽은 수출통제 이슈도 조만간 해결될 것이라고 밝혔다.",
+      "source": "지디넷",
+      "time": "06/17 19:58"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI, '페이블 5' 금지 이후 '코덱스' 용량 초과 시달려",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211816",
+      "summary": "오픈AI가 경쟁 AI 모델 '페이블 5' 사용 금지 이후 자사 코딩 에이전트 '코덱스'로 사용자가 몰리며 서버 용량 초과 문제를 겪고 있다. 코덱스 수요 급증으로 접속 지연 현상이 지속되고 있다.",
+      "source": "AI Times",
+      "time": "06/17 19:05"
+    },
+    {
+      "category": "biz",
+      "title": "'챗GPT' 독주 흔들…글로벌 점유율 사상 첫 50% 아래로",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211810",
+      "summary": "챗GPT의 글로벌 AI 챗봇 시장 점유율이 처음으로 50% 아래로 떨어졌다. 클로드, 제미나이, 딥시크 등 경쟁 서비스의 약진으로 오픈AI의 독점적 지위가 흔들리고 있다는 분석이다.",
+      "source": "AI Times",
+      "time": "06/17 18:57"
+    },
+    {
+      "category": "biz",
+      "title": "DS독주·DX침체 …삼성 'AI 대전환'으로 복합위기 넘는다",
+      "url": "https://www.etnews.com/20260617000291",
+      "summary": "삼성전자가 반도체(DS) 의존도 심화와 가전·스마트폰(DX) 침체라는 복합 위기 속에서 전사적 AI 대전환 전략으로 돌파구를 모색하고 있다. 온디바이스 AI, AI 데이터센터 솔루션 등을 핵심 성장 동력으로 삼는 전략이다.",
+      "source": "전자신문",
+      "time": "06/17 14:30"
+    },
+    {
+      "category": "biz",
+      "title": "앤트로픽, 탄소 제거 연합 'Frontier'에 합류한 첫 AI 스타트업",
+      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "summary": "Anthropic이 탄소 제거 연합 Frontier에 첫 AI 스타트업으로 합류해 총 서약액이 18억 달러로 증가했다. AI 산업의 에너지 집약성 문제가 부각되는 가운데 Anthropic이 기후 관련 약속을 공식화했다.",
+      "source": "TechCrunch",
+      "time": "06/18 04:10"
+    },
+    {
+      "category": "biz",
+      "title": "월드 모델 AI 스타트업 Odyssey, Amazon 투자 받아 기업가치 14.5억 달러 달성",
+      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+      "summary": "월드 모델 AI 스타트업 Odyssey가 Amazon, AMD Ventures, GV 참여로 3억1000만 달러 시리즈 B를 조달해 기업가치 14억5000만 달러를 달성했다. 물리 시뮬레이션 기반 영상 생성 AI 모델을 개발하며 자율주행 시장을 공략하고 있다.",
+      "source": "TechCrunch",
+      "time": "06/18 03:10"
+    },
+    {
+      "category": "biz",
+      "title": "캐나다 연금펀드, 인도 AI 데이터센터 붐 투자 경쟁 참여",
+      "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+      "summary": "캐나다 주요 연금펀드가 인도의 AI 데이터센터 투자 경쟁에 뛰어들었다. AI 수요 급증으로 인도는 데이터센터 투자 핫스팟으로 부상했으며, 마이크로소프트·구글·아마존에 이어 글로벌 기관 투자자들도 자본을 집중하고 있다.",
+      "source": "TechCrunch",
+      "time": "06/17 22:10"
+    },
+    {
+      "category": "genai",
+      "title": "클로드 코드, 자동 모드의 안전장치 보강 업데이트",
+      "url": "https://zdnet.co.kr/view/?no=20260617210858",
+      "summary": "앤트로픽이 코딩 도구 클로드 코드의 자동 실행 모드에 안전장치를 강화하는 업데이트를 배포했다. AI 자동화 과정에서 발생할 수 있는 위험한 작업을 사전에 감지하고 차단하는 기능이 대폭 강화됐다.",
+      "source": "지디넷",
+      "time": "06/17 21:08"
+    },
+    {
+      "category": "genai",
+      "title": "앤트로픽, Claude Design 대규모 업데이트…디자인 시스템 임포트·코드 연동·토큰 소비 문제 개선",
+      "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "summary": "Anthropic이 Claude Design을 대규모 업데이트했다. GitHub에서 디자인 시스템 직접 임포트, Claude Code와 양방향 연동, Adobe·Canva·Vercel 등 9개 파트너와 통합. 출시 초기 심각했던 토큰 과소비 문제도 함께 개선했다.",
+      "source": "VentureBeat",
+      "time": "06/18 04:00"
+    },
+    {
+      "category": "tech",
+      "title": "KAIST, 압축 시각 정보 '고해상도'로 복원하는 AI 개발…\"온디바이스 메모리 효율 향상\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211837",
+      "summary": "KAIST 연구팀이 압축된 시각 정보를 고해상도로 복원하는 AI 기술을 개발했다. 온디바이스 환경에서 메모리 효율을 크게 향상시킬 수 있어 스마트폰·엣지 기기에 적용 가능한 차세대 AI 경량화 기술로 주목받고 있다.",
+      "source": "AI Times",
+      "time": "06/18 05:16"
+    },
+    {
+      "category": "tech",
+      "title": "IITP \"피지컬AI·반도체·보안 집중 R&D 추진\"",
+      "url": "https://www.etnews.com/20260617000282",
+      "summary": "정보통신기획평가원(IITP)이 피지컬 AI, AI 반도체, AI 보안 분야에 집중 R&D를 추진하겠다고 밝혔다. 로봇·자율주행 등 현실 세계와 AI를 결합한 피지컬 AI를 국가 핵심 기술로 육성하는 전략의 일환이다.",
+      "source": "전자신문",
+      "time": "06/17 14:05"
+    },
+    {
+      "category": "tech",
+      "title": "Pramaana Labs, 2700만 달러 시드 유치…AI에 수학적 형식 검증 기술 접목",
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "summary": "Pramaana Labs가 Khosla Ventures 주도로 2700만 달러 시드 펀딩을 유치했다. 수학적 형식 검증(LEAN 언어)을 LLM에 결합해 세금·법률·신약 개발 등 고위험 분야의 AI 환각을 방지하는 결정론적 검증 레이어를 구축한다.",
+      "source": "TechCrunch",
+      "time": "06/18 00:10"
+    },
+    {
+      "category": "tech",
+      "title": "웨이보의 30억 파라미터 초소형 모델 VibeThinker-3B, AI 벤치마크 논쟁 재점화",
+      "url": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
+      "summary": "Sina Weibo 연구팀이 30억 파라미터 소형 모델 VibeThinker-3B를 공개했다. AIME 2026 수학 벤치마크에서 DeepSeek V3.2를 능가하는 94.3점을 달성했지만, 벤치마크 조작 의혹도 제기되며 AI 커뮤니티에서 논쟁이 벌어지고 있다.",
+      "source": "VentureBeat",
+      "time": "06/17 09:32"
+    },
+    {
+      "category": "tech",
+      "title": "AI가 열쇠를 어디에 두었는지 알려줄 수 있을까? MIT 연구",
+      "url": "https://news.mit.edu/2026/could-ai-tell-you-where-you-left-your-keys-0617",
+      "summary": "MIT 연구진이 로봇용 장기 공간 기억 프레임워크 DAAAM을 개발했다. 로봇이 탐색 중 객체에 상세 설명을 3D 지도에 부착해 자연어로 질의 가능하며, 기존 대비 최대 53% 높은 정확도와 실시간 구동 속도를 달성했다.",
+      "source": "MIT News",
+      "time": "06/17 13:00"
+    },
+    {
+      "category": "tech",
+      "title": "게임이론에서 범용 알고리즘이 때로 전문 알고리즘을 이긴다…MIT 연구",
+      "url": "https://news.mit.edu/2026/game-theory-generalists-sometimes-win-out-over-specialists-0617",
+      "summary": "MIT 연구진이 불완전 정보 게임에서 범용 정책 기울기 알고리즘이 게임이론 전문 알고리즘보다 우수함을 실증했다. 5개 게임 실험에서 범용 알고리즘이 낮은 피착취도를 달성했으며, 오픈소스 벤치마크 도구도 공개했다.",
+      "source": "MIT News",
+      "time": "06/18 04:20"
+    },
+    {
+      "category": "service",
+      "title": "달라진 페이스북… 'AI 모드'로 어떻게 바뀌었나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211835",
+      "summary": "페이스북이 메타AI를 전면에 내세운 'AI 모드'로 개편되면서 플랫폼이 크게 변화했다. AI 검색, AI 친구 추천, AI 기반 피드 큐레이션 등 페이스북의 AI 전환 현황을 소개하는 동영상 기사다.",
+      "source": "AI Times",
+      "time": "06/18 06:55"
+    },
+    {
+      "category": "service",
+      "title": "배경훈 \"전국민 위한 '공공 에이전틱AI' 3년 내 만들겠다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260617165502",
+      "summary": "배경훈 LG AI연구원장이 전 국민을 위한 공공 에이전틱 AI를 3년 내 구현하겠다는 비전을 제시했다. 누구나 쉽게 사용할 수 있는 AI 에이전트를 공공 서비스에 접목해 사회 전반의 AI 혜택을 확산하겠다는 구상이다.",
+      "source": "지디넷",
+      "time": "06/17 16:55"
+    },
+    {
+      "category": "service",
+      "title": "KT, 사람 업무 대신할 '자율형 AI 에이전트' 도입한다",
+      "url": "https://www.etnews.com/20260617000285",
+      "summary": "KT가 사용자 PC와 클라우드 환경에서 직접 업무를 수행하는 자율형 AI 에이전트를 개발하고 다음 달 사내 기술검증에 나선다. 임플로이·퍼스널 에이전트 두 가지 유형으로 구분되며, 하반기 B2C·B2B 시장에 배치될 예정이다.",
+      "source": "전자신문",
+      "time": "06/17 14:08"
+    },
+    {
+      "category": "service",
+      "title": "[카드뉴스] AI가 의사도 대체할 수 있을까",
+      "url": "https://zdnet.co.kr/view/?no=20260617104840",
+      "summary": "AI가 의사를 대체할 수 있는지를 다양한 관점에서 살펴본 카드뉴스. AI 진단 도구의 정확도 향상과 의료 현장 도입 사례를 소개하면서도, 의사의 공감 능력과 복합 판단이 필요한 영역에서 AI의 한계도 짚었다.",
+      "source": "지디넷",
+      "time": "06/17 10:48"
+    },
+    {
+      "category": "service",
+      "title": "김윤지 콘진원장 \"K콘텐츠 변곡점 왔다…AI·정책금융으로 돌파\"",
+      "url": "https://www.etnews.com/20260617000322",
+      "summary": "김윤지 한국콘텐츠진흥원장이 K콘텐츠 산업이 변곡점을 맞았다며 AI 기술 접목과 정책 금융 확대로 돌파하겠다고 밝혔다. AI 기반 콘텐츠 제작 지원과 글로벌 유통 확대를 핵심 전략으로 제시했다.",
+      "source": "전자신문",
+      "time": "06/17 15:00"
+    },
+    {
+      "category": "service",
+      "title": "구글, Gemini AI로 스마트홈 스피커 재창조에 나선다",
+      "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+      "summary": "Google이 Gemini AI를 탑재한 새 스마트홈 스피커 'Google Home Speaker'를 99.99달러에 출시했다. 자연어 멀티스텝 명령과 중간 수정 기능을 지원하며, 2020년 Nest Audio 이후 첫 독립형 스피커 신제품이다.",
+      "source": "TechCrunch",
+      "time": "06/18 02:10"
+    },
+    {
+      "category": "service",
+      "title": "Pinterest, 대화형 AI 쇼핑 앱 'Ask Pinterest' 출시",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "summary": "Pinterest가 대화형 AI 쇼핑 앱 'Ask Pinterest'를 실험적으로 출시했다. 자사 Taste Graph 데이터를 활용해 자연어 질의로 개인화된 쇼핑 추천을 제공하며, 광고주용 MCP 인프라와 AI 광고 최적화 도구도 함께 발표했다.",
+      "source": "TechCrunch",
+      "time": "06/17 21:10"
+    },
+    {
+      "category": "chip",
+      "title": "퀄컴 \"새로운 AI 기기 40종 개발 중...에이전트가 앱 대체할 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211833",
+      "summary": "퀄컴이 AI 기반 신규 기기 40여 종을 개발 중이라고 밝혔다. AI 에이전트가 기존 앱을 대체하는 시대가 올 것이라며 스냅드래곤 기반의 온디바이스 AI 생태계 확장 전략을 제시했다.",
+      "source": "AI Times",
+      "time": "06/17 17:56"
+    },
+    {
+      "category": "chip",
+      "title": "기계연, 2D 반도체 지능화 시스템 개발…\"공정 효율성·생산성 동시 확보\"",
+      "url": "https://zdnet.co.kr/view/?no=20260617214243",
+      "summary": "한국기계연구원이 원자층(1~2nm) 수준의 2D 반도체에 AI 지능화 시스템을 적용해 반도체 공정 효율성과 생산성을 동시에 향상시키는 기술을 개발했다. AI 기반 공정 최적화로 차세대 반도체 양산 경쟁력 확보가 기대된다.",
+      "source": "지디넷",
+      "time": "06/17 21:42"
+    },
+    {
+      "category": "robot",
+      "title": "알리바바, 로봇 AI '큐원-로봇-스위트' 공개…챗봇 넘어 '피지컬 AI' 본격 진출",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211827",
+      "summary": "알리바바가 로봇 제어용 AI 플랫폼 '큐원-로봇-스위트'를 공개하며 피지컬 AI 시장에 본격 진출했다. 다양한 로봇 하드웨어와 호환되는 범용 로봇 AI로, 중국 빅테크의 피지컬 AI 경쟁이 심화되고 있다.",
+      "source": "AI Times",
+      "time": "06/17 18:42"
+    },
+    {
+      "category": "robot",
+      "title": "로봇 훈련 데이터 수집 스타트업 XDOF, 7000만 달러 투자 유치",
+      "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+      "summary": "로봇 훈련 데이터 수집 스타트업 XDOF가 Thrive Capital, a16z 등으로부터 7000만 달러 투자를 유치했다. 물리적 AI의 핵심 병목인 로봇 훈련 데이터 수집·정제·주석 파이프라인을 구축하며, 13만 개 궤적 포함 최대 규모 데이터셋 ABC도 공개했다.",
+      "source": "TechCrunch",
+      "time": "06/18 00:10"
+    },
+    {
+      "category": "security",
+      "title": "미 국방부, '그록' 활용해 이란 공습 계획 수립…\"96시간 만에 2000개 표적 타격 지원\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211834",
+      "summary": "미국 국방부가 xAI의 그록 AI를 활용해 이란 공습 작전 계획을 수립했다고 보도됐다. 96시간 내에 2000개 이상의 표적 식별을 지원한 것으로 알려져 군사 분야 AI 활용의 윤리적 논란이 제기되고 있다.",
+      "source": "AI Times",
+      "time": "06/17 17:49"
+    }
+  ]
+}

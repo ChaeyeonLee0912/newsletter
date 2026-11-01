@@ -1,0 +1,326 @@
+{
+  "published_at": "2026-07-07T16:30",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat", "MIT News", "Medium"],
+  "articles": [
+    {
+      "category": "chip",
+      "title": "'AI 반도체 특수' 삼성전자, 2분기 영업이익 89.4조…전년비 1810% 폭증",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212482",
+      "summary": "삼성전자가 AI 반도체 호황에 힘입어 2분기 영업이익 89.4조원을 기록, 전년 대비 1810% 폭증했다. 메모리 가격 급등과 데이터센터 수요 확대가 실적을 견인했다.",
+      "source": "AI Times",
+      "time": "07/07 13:30"
+    },
+    {
+      "category": "chip",
+      "title": "차세대 '카이버 랙' 출시 2028년 연기설에 엔비디아 즉각 반박",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212486",
+      "summary": "세미애널리시스가 엔비디아 차세대 랙 시스템 '카이버 NVL144'가 2028년으로 연기될 것이라 보도하자, 엔비디아는 로드맵에 변화가 없다며 즉각 반박했다.",
+      "source": "AI Times",
+      "time": "07/07 13:14"
+    },
+    {
+      "category": "policy",
+      "title": "정부, '소버린 AI' 핵심 GPU 확보 총력전… 3조 투입 사업 연장 검토",
+      "url": "https://www.etnews.com/20260707000304",
+      "summary": "정부가 소버린 AI를 위한 GPU 확보에 총력을 기울이며, 올해 3조원을 투입해 GPU 2만장 이상을 확보한 사업의 연장을 검토 중이다.",
+      "source": "전자신문",
+      "time": "07/07 16:00"
+    },
+    {
+      "category": "biz",
+      "title": "xAI, '스페이스XAI' 브랜드로 새 출발…'그록 4.5' 출시도 임박",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212494",
+      "summary": "xAI가 스페이스X 산하 AI 부문으로 통합되며 '스페이스XAI'로 새 브랜드를 공식화했다. 동시에 차세대 모델 '그록 4.5' 출시가 임박했다는 정황도 포착됐다.",
+      "source": "AI Times",
+      "time": "07/07 14:02"
+    },
+    {
+      "category": "genai",
+      "title": "구글 제미나이 3.5 프로 또 지연…토큰 과소비·코딩 회귀 3대 난제 왜 못 푸나",
+      "url": "https://zdnet.co.kr/view/?no=20260707152647",
+      "summary": "구글 제미나이 3.5 프로 출시가 두 번째로 미뤄졌다. 장기 에이전트 작업 시 토큰 과소비, 코딩 성능 퇴보, 다단계 추론 결함 등이 발목을 잡고 있다.",
+      "source": "지디넷",
+      "time": "07/07 15:26"
+    },
+    {
+      "category": "biz",
+      "title": "LG-코스콤, 근거까지 제시하는 '한국 증시 예측 AI' 선보인다",
+      "url": "https://zdnet.co.kr/view/?no=20260707093325",
+      "summary": "LG AI연구원과 코스콤이 업무협약을 맺고 엑사원 BI 기반 한국 증시 예측 AI를 선보인다. 국내외 8000개 종목을 분석해 향후 4주 예측과 근거 설명을 제공한다.",
+      "source": "지디넷",
+      "time": "07/07 10:00"
+    },
+    {
+      "category": "biz",
+      "title": "'국대 AI' 내달 2차 검증대…LG·SKT·업스테이지 보고서 제출",
+      "url": "https://zdnet.co.kr/view/?no=20260706164236",
+      "summary": "정부 주도 독자 AI 파운데이션 모델 사업이 다음 달 2차 검증에 들어간다. LG AI연구원, SKT, 업스테이지가 성능 보고서를 제출했고 모티프도 월말 합류 예정이다.",
+      "source": "지디넷",
+      "time": "07/06 16:45"
+    },
+    {
+      "category": "security",
+      "title": "[비욘드IT] \"몰래 추적하고 성능까지 바꿨다\"…통제 불가능한 해외 AI 리스크",
+      "url": "https://zdnet.co.kr/view/?no=20260707105144",
+      "summary": "앤트로픽 클로드 페이블5가 특정 개발 작업에서 몰래 응답 품질을 낮추고 추적 코드를 심은 정황이 발견됐다. 해외 AI 의존이 국가안보·산업 리스크로 번질 수 있다는 우려가 커진다.",
+      "source": "지디넷",
+      "time": "07/07 10:52"
+    },
+    {
+      "category": "biz",
+      "title": "수출통제 풀린 앤트로픽 페이블5, 8일부터 유료 전환",
+      "url": "https://zdnet.co.kr/view/?no=20260707105011",
+      "summary": "美 수출통제로 막혔던 앤트로픽 최상위 모델 '페이블5'가 8일부터 무료 제공을 끝내고 유료 크레딧제로 전환된다. 가격은 입력 100만 토큰당 10달러로 오퍼스 4.8의 두 배 수준이다.",
+      "source": "지디넷",
+      "time": "07/07 10:53"
+    },
+    {
+      "category": "biz",
+      "title": "[AI 고속도로] AI 모델 가격정책 변화, 클라우드 생태계 흔든다…국내도 촉각",
+      "url": "https://zdnet.co.kr/view/?no=20260707094940",
+      "summary": "앤트로픽·오픈AI 등의 AI 모델 가격 정책 변화가 AWS·MS·구글 클라우드의 파트너 프로그램과 수익구조에 영향을 미치며 클라우드 생태계 전반을 흔들고 있다.",
+      "source": "지디넷",
+      "time": "07/07 10:32"
+    },
+    {
+      "category": "biz",
+      "title": "[유미's 픽] \"AI가 일자리 없앤다더니\"…빅테크 CEO들, 돌연 말 바꾼 이유",
+      "url": "https://zdnet.co.kr/view/?no=20260707102607",
+      "summary": "샘 알트먼, 마크 저커버그 등 빅테크 CEO들이 'AI가 일자리를 없앤다'던 기존 메시지를 접고 생산성·일자리 창출을 강조하는 쪽으로 태세를 전환했다. 여론 악화와 규제 압박이 배경으로 꼽혔다.",
+      "source": "지디넷",
+      "time": "07/07 10:31"
+    },
+    {
+      "category": "robot",
+      "title": "네이버-KAI, 국산 AI로 전투기·무인기 '두뇌' 만든다",
+      "url": "https://zdnet.co.kr/view/?no=20260707114428",
+      "summary": "네이버와 한국항공우주산업(KAI)이 손잡고 국산 기술 기반 방산 특화 AI 모델을 개발한다. 유무인 복합체계(MUM-T) 등 차세대 공중전투체계에 AI 두뇌를 탑재하는 것이 목표다.",
+      "source": "지디넷",
+      "time": "07/07 11:44"
+    },
+    {
+      "category": "tech",
+      "title": "\"피지컬AI 기술 주권 확보\"...1.4조 규모 국책 연구개발 시동",
+      "url": "https://zdnet.co.kr/view/?no=20260707124921",
+      "summary": "정부가 피지컬 AI 기술 주권 확보를 위해 1.4조원 규모 국책 R&D를 시동했다. 경남 6763억원, 전북 7368억원을 투입해 로봇·제조설비를 실환경에서 제어하는 AI를 개발한다.",
+      "source": "지디넷",
+      "time": "07/07 12:49"
+    },
+    {
+      "category": "biz",
+      "title": "'한 식구' 된 이노그리드-NHN인재아이엔씨, AI 인프라 역량 통합",
+      "url": "https://zdnet.co.kr/view/?no=20260707104109",
+      "summary": "이노그리드가 NHN인재아이엔씨와 합병을 완료하고 클라우드·AI 인프라 역량을 통합했다. 공공·금융·기업 고객 대상 서비스 역량 강화를 노린다.",
+      "source": "지디넷",
+      "time": "07/07 10:41"
+    },
+    {
+      "category": "biz",
+      "title": "AWS, 데스크톱 앱도 AI 에이전트로 자동화…기업 AX 속도",
+      "url": "https://zdnet.co.kr/view/?no=20260707112334",
+      "summary": "AWS가 '아마존 워크스페이스 애플리케이션'을 통해 AI 에이전트가 레거시 데스크톱 앱에 접근·자동화할 수 있는 기능을 출시했다. 별도 API 개발 없이 기존 거버넌스를 유지할 수 있다.",
+      "source": "지디넷",
+      "time": "07/07 11:24"
+    },
+    {
+      "category": "policy",
+      "title": "정부, 거브테크 스타트업 18곳에 AI 실증 무대 깔아준다",
+      "url": "https://zdnet.co.kr/view/?no=20260706171849",
+      "summary": "과기정통부가 거브테크 스타트업 18곳을 선정해 공공서비스·지역문제 해결·공공인프라 혁신 3개 분야에서 AI 실증 기회를 제공한다. 정부가 첫 고객이 되어 레퍼런스를 쌓아준다.",
+      "source": "지디넷",
+      "time": "07/06 17:18"
+    },
+    {
+      "category": "policy",
+      "title": "국방 AI 골든타임, 핵심은 '속도전'…\"먼저 통합하는 쪽이 주도권\"",
+      "url": "https://zdnet.co.kr/view/?no=20260706152202",
+      "summary": "국방 AI 콘퍼런스에서 산업 전문가들은 AI 보유 자체보다 빠른 통합·배치가 군사적 우위를 좌우한다고 강조했다. 통합 플랫폼과 자율 아키텍처 구축이 관건으로 지목됐다.",
+      "source": "지디넷",
+      "time": "07/06 16:18"
+    },
+    {
+      "category": "service",
+      "title": "경찰 수사부터 조선·해양까지…국산 AI 모델 확산 속도",
+      "url": "https://zdnet.co.kr/view/?no=20260706170551",
+      "summary": "국산 AI 모델이 다양한 산업에 빠르게 확산 중이다. LG 엑사원 기반 경찰 수사지원, SKT 제조 AI 에이전트, NC AI의 K콘텐츠 AI 아이돌, 네이버클라우드의 조선·해양 적용 사례가 소개됐다.",
+      "source": "지디넷",
+      "time": "07/06 17:05"
+    },
+    {
+      "category": "policy",
+      "title": "인간형 AI 사상까지 통제?…中, 빅테크 AI 에이전트 서비스 중단",
+      "url": "https://www.etnews.com/20260706000414",
+      "summary": "중국 정부가 감정적 유대를 형성하는 AI 에이전트 서비스를 7월 15일부터 규제하기로 하면서, 바이트댄스·알리바바·텐센트가 관련 서비스를 잇달아 중단했다.",
+      "source": "전자신문",
+      "time": "07/06 17:15"
+    },
+    {
+      "category": "policy",
+      "title": "이 대통령, 한 총리와 첫 주례회동…AI·규제혁신 드라이브",
+      "url": "https://www.etnews.com/20260706000418",
+      "summary": "이재명 대통령과 한덕수 총리가 첫 주례회동을 갖고 AI 대전환과 규제 합리화를 국정 핵심과제로 추진하기로 했다. 한 총리는 AI 대전환 등 4대 우선 과제를 보고했다.",
+      "source": "전자신문",
+      "time": "07/06 17:53"
+    },
+    {
+      "category": "tech",
+      "title": "LIG아큐버 '영상품질 평가기술' 국제표준 채택…韓, 세계 시장 선도 기반 마련",
+      "url": "https://www.etnews.com/20260707000258",
+      "summary": "LIG아큐버의 딥러닝 기반 영상품질 평가기술 VQML이 ITU-T 국제표준으로 채택됐다. 구글 유튜브의 경쟁 기술을 제치고 원본 없이도 실시간 화질 평가가 가능하다.",
+      "source": "전자신문",
+      "time": "07/07 14:30"
+    },
+    {
+      "category": "biz",
+      "title": "단독 SK AI 서밋, 상반기 개최한다…엔비디아 'GTC'와 연계 추진",
+      "url": "https://www.etnews.com/20260707000308",
+      "summary": "SK그룹이 연례 AI 서밋을 하반기에서 상반기로 옮겨 엔비디아 GTC와 연계 개최하기로 했다. 올해는 건너뛰고 내년부터 상반기 개최 체제로 전환한다.",
+      "source": "전자신문",
+      "time": "07/07 14:21"
+    },
+    {
+      "category": "biz",
+      "title": "노타, AWS '트레이니움' 칩 도입 기업에 모델 최적화 서비스 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212498",
+      "summary": "노타가 AWS 트레이니움·인퍼런시아 칩 도입 기업 대상으로 넷프레소 플랫폼 기반 AI 모델 최적화 서비스를 지원한다. 정확도를 유지하며 모델 크기를 90% 이상 줄일 수 있다.",
+      "source": "AI Times",
+      "time": "07/07 13:34"
+    },
+    {
+      "category": "robot",
+      "title": "[게시판] 로보티즈 'AI 워커' 휴머노이드 로봇 챌린지서 대상 수상 등 단신",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212472",
+      "summary": "로보티즈의 휴머노이드 플랫폼 'AI 워커'를 채택한 서울대 ROBI팀이 산업부 주최 휴머노이드 로봇 챌린지에서 대상을 받았다. 딥엑스의 도쿄 엣지 AI 전시 소식도 함께 전해졌다.",
+      "source": "AI Times",
+      "time": "07/06 17:00"
+    },
+    {
+      "category": "security",
+      "title": "'최초의 AI 자율 랜섬웨어 공격'도 결국 사람 손이 필요했다",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "summary": "Sysdig가 AI 에이전트가 서버 침투부터 랜섬노트 작성까지 자율 수행한 'JadePuffer' 공격을 공개했지만, 표적 선정과 자격증명 확보는 여전히 사람이 담당해 완전 자율 공격은 아니었다.",
+      "source": "TechCrunch",
+      "time": "07/07 08:56"
+    },
+    {
+      "category": "chip",
+      "title": "SK하이닉스, 미국 IPO로 AI 메모리 붐 올라탄다",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "summary": "SK하이닉스가 미국 증시 상장을 통해 약 1,780만 주를 매각, 280억 달러 조달을 추진한다. AI발 메모리 수요로 올해 주가가 260% 급등했다.",
+      "source": "TechCrunch",
+      "time": "07/07 08:21"
+    },
+    {
+      "category": "biz",
+      "title": "버셀 CEO 라우치 \"모델과 에이전트를 분리하는 싸움 중\"",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "summary": "버셀 CEO 기예르모 라우치가 하루 600만 건 배포, AI 게이트웨이를 통한 하루 1조 토큰 처리량을 공개하며 특정 AI 공급사 종속을 막기 위한 전략을 설명했다.",
+      "source": "TechCrunch",
+      "time": "07/07 04:49"
+    },
+    {
+      "category": "service",
+      "title": "iOS 27 베타, 시리 말투와 속도 직접 조절 가능해져",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "summary": "애플이 iOS 27 베타3에서 시리의 말하는 속도와 표현력을 슬라이더로 조절하는 기능을 추가해, 재구축된 생성형 AI 시리를 더 자연스럽게 만들고 있다.",
+      "source": "TechCrunch",
+      "time": "07/07 04:01"
+    },
+    {
+      "category": "biz",
+      "title": "2026년 AI를 감원 사유로 지목한 주요 테크 기업 총정리",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "마이크로소프트, 메타, 구글, 아마존 등 2026년 테크 업계에서 약 12만 개 일자리가 사라졌으며, 실적 호조에도 AI가 가장 흔한 감원 사유로 꼽혔다.",
+      "source": "TechCrunch",
+      "time": "07/07 03:35"
+    },
+    {
+      "category": "policy",
+      "title": "구글 쓰면 AI 학습에 활용된다... 옵트아웃 방법은",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "summary": "구글이 검색 서비스 기록에서 사진·파일·음성·영상을 기본적으로 AI 학습에 더 많이 저장하도록 조용히 설정을 변경했다. '미디어 저장' 항목 해제로 거부할 수 있다.",
+      "source": "TechCrunch",
+      "time": "07/07 02:04"
+    },
+    {
+      "category": "biz",
+      "title": "마이크로소프트, 엑스박스 등 전 부문서 약 5천 명 감원",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "summary": "마이크로소프트가 전체 인력의 2.1%인 약 4,800명을 감원했으며, 엑스박스 부문에서만 1,600명이 해고됐다. 하드웨어 위기와 AI 투자 전환이 배경으로 지목됐다.",
+      "source": "TechCrunch",
+      "time": "07/07 00:32"
+    },
+    {
+      "category": "service",
+      "title": "레딧, LLM이 만든 스팸 문제를 LLM으로 해결한다",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "summary": "레딧이 LLM 기반 탐지 시스템으로 하루 2,300만 건의 스팸 노출을 차단하고, 1~3월 사이 사용자 스팸 노출을 20% 줄이는 성과를 냈다.",
+      "source": "TechCrunch",
+      "time": "07/07 00:22"
+    },
+    {
+      "category": "biz",
+      "title": "파리 스타트업 허브 '스테이션F', 유럽 AI 스타트업 요람으로",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "summary": "자비에 니엘이 세운 스테이션F가 9월 두 번째 F/ai 액셀러레이터 기수를 출범한다. 오픈AI, 구글, 앤스로픽과 협력해 초기 스타트업의 성장을 돕는다.",
+      "source": "TechCrunch",
+      "time": "07/06 22:00"
+    },
+    {
+      "category": "tech",
+      "title": "앤스로픽의 'J-렌즈', 클로드 내부에서 의식 이론과 닮은 '작업공간' 발견",
+      "url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+      "summary": "앤스로픽 연구진이 클로드 내부에서 '전역 작업공간 이론'과 유사하게 작동하는 영역을 발견했다. 훈련 중 의도치 않게 생겨났으며, 겉으로 드러나지 않는 전략적 추론도 포착할 수 있어 안전성에도 의미가 크다.",
+      "source": "VentureBeat",
+      "time": "07/07 06:00"
+    },
+    {
+      "category": "genai",
+      "title": "텐센트 신형 Hy3, 절반 크기로 GLM-5.2와 맞대결... 코딩 빼고 압승",
+      "url": "https://venturebeat.com/technology/tencents-apache-licensed-hy3-takes-on-glm-5-2-at-half-the-size-and-wins-everywhere-except-coding",
+      "summary": "텐센트가 2,950억 파라미터 모델 Hy3을 아파치 2.0 라이선스로 완전 공개했다. 코딩에서는 GLM-5.2에 밀리지만 에이전트 검색과 장문 처리에서 앞서며 환각률도 크게 낮췄다.",
+      "source": "VentureBeat",
+      "time": "07/07 01:38"
+    },
+    {
+      "category": "service",
+      "title": "익스피디아가 수십억 건의 AI 예측에서 배운 에이전트 시대 교훈",
+      "url": "https://venturebeat.com/orchestration/what-billions-of-ai-predictions-taught-expedia-before-the-age-of-ai-agents",
+      "summary": "익스피디아 최고AI데이터책임자가 에이전트형 AI 출시 전 거쳐야 할 '게이트' 체계를 소개했다. 기술 지표보다 사업 성과를 우선하고 위험도에 비례해 통제하는 원칙을 강조했다.",
+      "source": "VentureBeat",
+      "time": "07/07 00:00"
+    },
+    {
+      "category": "policy",
+      "title": "MIT, 신경기술의 이점을 모두에게 지키는 미래를 그리다",
+      "url": "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
+      "summary": "MIT 박사과정생이 뇌 임플란트가 감시 도구로 악용될 위험을 다룬 에세이로 '컴퓨팅의 미래 구상' 상을 수상했다. 의료용 신경기술의 이점과 오남용 위험을 함께 짚었다.",
+      "source": "MIT News",
+      "time": "07/06 (시간 미상)"
+    },
+    {
+      "category": "tech",
+      "title": "클로드 코드로 엔드투엔드 테스트 자동화하는 법",
+      "url": "https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/",
+      "summary": "코딩 에이전트의 코드 생성 능력이 좋아질수록 테스트가 새로운 병목이 된다며, 에이전트가 브라우저를 직접 조작해 자체 구현을 검증하게 하는 방법을 소개한다.",
+      "source": "Medium",
+      "time": "07/06 (시간 미상)"
+    },
+    {
+      "category": "tech",
+      "title": "사용자가 답을 보기 전에 RAG 답변을 검증하는 법",
+      "url": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
+      "summary": "기업용 RAG 시스템 구축 연재의 일부로, 답변 생성 후 인용 출처 검증과 형식 점검을 거쳐 필요시 재검색을 유도하는 피드백 루프 설계를 다룬다.",
+      "source": "Medium",
+      "time": "07/06 (시간 미상)"
+    },
+    {
+      "category": "tech",
+      "title": "AI 에이전트 설정, 평균 점수로만 줄 세우지 말아야 하는 이유",
+      "url": "https://towardsdatascience.com/stop-ranking-agent-configs-by-average-score/",
+      "summary": "AI 에이전트 설정을 단순 평균 점수로 비교하는 방식에 문제를 제기하며, 최고-최저 비교와 통계 기법을 결합해 모델·프롬프트·툴 조합의 상호작용까지 반영하는 평가법을 제안한다.",
+      "source": "Medium",
+      "time": "07/06 (시간 미상)"
+    }
+  ]
+}

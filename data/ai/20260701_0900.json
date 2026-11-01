@@ -1,0 +1,190 @@
+{
+  "published_at": "2026-07-01T09:00",
+  "sources": ["TechCrunch", "MIT News", "AI Times", "지디넷", "전자신문"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "앤트로픽, 에이전트 실행에 최적화된 '클로드 소넷 5' 출시",
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "summary": "앤트로픽이 Claude Sonnet 5를 출시했다. 에이전트 워크플로우에 특화된 중간급 모델로 입력 $2/100만 토큰(8월 31일까지)으로 책정됐다. Opus 4.8에 준하는 성능에 강화된 안전성을 갖추고, GPT-5.5·Gemini Pro 대비 가격 경쟁력을 확보했다.",
+      "source": "TechCrunch",
+      "time": "07/01 03:00"
+    },
+    {
+      "category": "biz",
+      "title": "아마존-앤트로픽 파트너십 균열…클로드 요금 체계 변경이 촉발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212256",
+      "summary": "앤트로픽이 클로드 요금 체계를 컴퓨팅 시간에서 토큰 기반으로 전환하자 아마존의 운영비 급증 우려가 제기됐다. 아마존은 오픈AI·자체 AI 모델 '노바' 활용 검토에 들어갔으며, CEO가 앤트로픽 모델 보안 우려를 미국 정부에 전달해 신뢰 균열이 확인됐다.",
+      "source": "AI Times",
+      "time": "06/30 12:59"
+    },
+    {
+      "category": "genai",
+      "title": "구글, 빠르고 저렴한 이미지 생성 모델 'Nano Banana 2 Lite' 출시",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "summary": "구글이 경량 이미지 생성 모델 Nano Banana 2 Lite(Gemini 3.1 Flash-Lite Image)를 출시했다. 4초 이내 생성·$0.034/1,000이미지로 기업 대용량 이미지 파이프라인 단가를 크게 낮췄으며, Text-to-Image Elo 1251점으로 높은 품질을 유지한다.",
+      "source": "TechCrunch",
+      "time": "07/01 04:02"
+    },
+    {
+      "category": "genai",
+      "title": "구글, '제미나이' 개인화 이미지 생성 기능 미국 무료 사용자 전면 개방",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212279",
+      "summary": "구글이 제미나이의 개인화 이미지 생성 기능을 미국 전체 무료 사용자에게 확대했다. 지메일·구글 포토·유튜브 데이터로 개인 취향을 파악하고 별도 프롬프트 없이 이미지를 생성한다. 사용자가 기능 활성화·비활성화를 선택할 수 있다.",
+      "source": "AI Times",
+      "time": "06/30 17:15"
+    },
+    {
+      "category": "genai",
+      "title": "머스크, 연일 '그록 4.5' 홍보 총력전…스페이스X 엔지니어까지 투입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212280",
+      "summary": "일론 머스크가 xAI 그록 4.5 비공개 베타 테스트를 공개하며 스페이스X 스타링크·스타십 엔지니어 수십 명을 AI 프로젝트에 투입했다고 밝혔다. 클로드 오퍼스 수준을 넘길 수 있다고 주장하나 객관적 지표는 제시하지 않았다.",
+      "source": "AI Times",
+      "time": "06/30 15:45"
+    },
+    {
+      "category": "chip",
+      "title": "엔비디아 경쟁사 Etched, AI 추론 칩으로 기업가치 50억 달러·계약 매출 10억 달러 달성",
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "summary": "AI 추론 전용 칩 스타트업 Etched가 기업가치 50억 달러와 계약 기준 매출 10억 달러를 달성했다. 펀딩 5억 달러를 유치하고 TSMC에서 제조하며, 추론 가속화 전용 ASIC 시장에서 엔비디아의 강력한 대항마로 주목받고 있다.",
+      "source": "TechCrunch",
+      "time": "07/01 03:13"
+    },
+    {
+      "category": "chip",
+      "title": "노타, 퓨리오사 NPU에 'K-엑사원' 탑재…크기 71% 압축하며 성능 유지",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212274",
+      "summary": "노타가 LG AI연구원의 K-엑사원(MoE 구조)을 퓨리오사AI 데이터센터용 NPU에 최적화했다. MoE 양자화 기술로 모델 크기 71% 축소, 정확도 99.2% 유지. 과학 추론·수학 등 주요 벤치마크에서 우수한 성능을 기록했다.",
+      "source": "AI Times",
+      "time": "06/30 15:52"
+    },
+    {
+      "category": "chip",
+      "title": "삼성·SK하이닉스·마이크론, 미국서 'DRAM 가격 담합' 집단소송",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212271",
+      "summary": "삼성전자·SK하이닉스·마이크론이 미국 캘리포니아 북부연방지방법원에서 DRAM 가격 담합 혐의로 집단소송을 당했다. 원고 측은 HBM 확대 명분으로 범용 DRAM을 의도적으로 축소해 4년간 약 700% 인상했다고 주장했다. 세 회사 합산 시장점유율은 약 90%다.",
+      "source": "AI Times",
+      "time": "06/30 14:58"
+    },
+    {
+      "category": "chip",
+      "title": "중국 라인샤인, 수출 통제에도 미국 슈퍼컴 제치고 세계 1위",
+      "url": "https://zdnet.co.kr/view/?no=20260630212625",
+      "summary": "중국 라인샤인 슈퍼컴퓨터가 미국 엘캐피탄을 제치고 글로벌 성능 1위에 올랐다. 자국산 프로세서와 자체 설계 네트워킹을 결합해 미국의 첨단 칩 수출 통제에도 절대 성능에서 앞섰다. 다만 에너지 효율에서는 미국 시스템에 미치지 못한다.",
+      "source": "지디넷",
+      "time": "06/30 21:26"
+    },
+    {
+      "category": "biz",
+      "title": "메타, 클로드·코덱스 사내 사용 제한…AI 증류 우려 사전 차단",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212263",
+      "summary": "메타가 앤트로픽 클로드 코드·오픈AI 코덱스 등 외부 AI 코딩 도구의 사내 사용을 대폭 제한했다. 자체 AI 코딩 플랫폼 '메타코드' 육성과 경쟁사로의 AI 증류 차단이 목적이며, 생성 결과물의 학습 데이터 활용도 전면 금지됐다.",
+      "source": "AI Times",
+      "time": "06/30 17:59"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI, 개발자 겨냥 '코덱스' 전용 첫 하드웨어 티저 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212261",
+      "summary": "오픈AI가 AI 코딩 에이전트 '코덱스' 전용 첫 하드웨어를 공개했다. 캐나다 스타트업 워크 라우더와 협력해 개발한 정사각형 매크로 패드 형태이며, 7월 15일 출시 예정이다. 개발자 생산성 향상을 위한 전용 인터페이스로 주목받고 있다.",
+      "source": "AI Times",
+      "time": "06/30 18:05"
+    },
+    {
+      "category": "biz",
+      "title": "DeepMind 출신 3인, 포커 AI 기술로 퀀트 헤지펀드 운용 시작",
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "summary": "전 DeepMind 연구자 3인이 설립한 EquiLibre Technologies가 포커 AI 강화학습 기술을 퀀트 헤지펀드 알고리즘 트레이딩에 적용했다. Creandum 주도로 시리즈 A를 마무리했으며 기업가치는 5억 달러, Tower Research Capital과 협력해 일일 수십억 달러를 운용한다.",
+      "source": "TechCrunch",
+      "time": "07/01 05:33"
+    },
+    {
+      "category": "service",
+      "title": "X, AI 도구 연동 쉽게 하는 MCP 서버 출시",
+      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "summary": "X(구 트위터)가 Model Context Protocol(MCP) 서버를 출시해 Claude·Cursor 등 AI 어시스턴트와 X 플랫폼의 직접 연동을 지원한다. AI 도구가 실시간 X 데이터에 접근하는 인프라가 정비되며 AI-소셜미디어 연동 생태계 확장이 가속될 전망이다.",
+      "source": "TechCrunch",
+      "time": "07/01 00:08"
+    },
+    {
+      "category": "service",
+      "title": "바이브컴퍼니, 업무별 맞춤형 AI 에이전트 구축 '바이브 에이전트 플랫폼' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212287",
+      "summary": "바이브컴퍼니가 단일 플랫폼에서 맞춤형 AI 에이전트를 초고속으로 구축·운영할 수 있는 '바이브 에이전트 플랫폼'을 공식 출시했다. 3가지 빌더와 역할 기반 접근 제어·가드레일 등 IT 거버넌스가 내장되며, 벤더 종속 없는 개방형 생태계를 표방한다.",
+      "source": "AI Times",
+      "time": "06/30 17:29"
+    },
+    {
+      "category": "service",
+      "title": "SKT, 2035년까지 15GW AI 데이터센터 구축 로드맵 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212253",
+      "summary": "SK텔레콤이 15GW 규모 AI 데이터센터(AIDC) 구축 계획을 발표했다. 1단계 5GW(2029년)·2단계 10GW(2035년)로 단계적 확대하며, AWS·엔비디아와 협력해 재생에너지·SMR 전원을 활용하고 GPU-as-a-Service 클라우드로 AI 연산 수출국을 목표로 한다.",
+      "source": "AI Times",
+      "time": "06/30 12:44"
+    },
+    {
+      "category": "service",
+      "title": "AI는 북중미 월드컵을 어떻게 바꿨나",
+      "url": "https://zdnet.co.kr/view/?no=20260630104009",
+      "summary": "FIFA가 2026 북중미 월드컵에 'Football AI Pro'를 도입해 선수·공 움직임을 밀리미터 단위로 분석했다. EPV·xG·3D 포지셔닝 등 5가지 AI 데이터를 참가국 전체에 제공하며, 카보베르데 32강 진출 등 약팀의 전술 상향 평준화를 이끌었다.",
+      "source": "지디넷",
+      "time": "06/30 11:07"
+    },
+    {
+      "category": "policy",
+      "title": "스탠퍼드 AI 인덱스 한국 모델 또 누락…정부, 글로벌 지표 대응 강화",
+      "url": "https://zdnet.co.kr/view/?no=20260630184431",
+      "summary": "스탠퍼드 AI 인덱스에서 한국 AI 모델이 반복 누락되자 정부가 인공지능정책센터 개설로 대응에 나섰다. 2024년 0건 집계 후 5→8개로 정정된 사례를 계기로, 국내 AI 모델 정보를 해외 평가기관에 체계적으로 제공하는 구조를 마련 중이다.",
+      "source": "지디넷",
+      "time": "06/30 18:53"
+    },
+    {
+      "category": "policy",
+      "title": "AI 데이터센터 국가전략사업화 시동…2035년 18.4GW·550조 투자",
+      "url": "https://zdnet.co.kr/view/?no=20260630095032",
+      "summary": "정부가 AI 데이터센터를 국가 전략산업으로 육성하는 청사진을 발표했다. 2035년까지 18.4GW 구축 목표로 SK·GS·네이버가 8.4GW에 550조 원을 투자한다. 울산·동해·세종 등 지역 거점 분산 배치하고 국산 AI 반도체·클라우드·전력 솔루션 생태계를 연계한다.",
+      "source": "지디넷",
+      "time": "06/30 09:59"
+    },
+    {
+      "category": "policy",
+      "title": "NIA '인공지능정책센터' 공식 출범…AI 3강 목표 싱크탱크 가동",
+      "url": "https://zdnet.co.kr/view/?no=20260630175559",
+      "summary": "한국지능정보사회진흥원(NIA)이 AI기본법 제11조에 따라 '인공지능정책센터'를 공식 출범했다. 59명 규모로 국가 AI 기본계획 수립 지원·사회경제적 영향 분석·국내외 정책 동향 조사 등 4대 기능을 수행하며 AI 3대 강국 도약을 목표로 한다.",
+      "source": "지디넷",
+      "time": "06/30 18:00"
+    },
+    {
+      "category": "policy",
+      "title": "'글로벌 AI 허브' 입지 선정 시동…전국 지자체 유치 경쟁 본격화",
+      "url": "https://www.etnews.com/20260630000296",
+      "summary": "과기정통부와 NIA가 UN 산하 AI 기능 유치를 핵심으로 하는 '글로벌 AI 허브' 입지 선정을 추진 중이다. 예산 5억 원을 확보했으며, 부산·인천·전남광주·경기·경북·제주 등 광역지자체가 경쟁에 나서 내년 초 입지 선정 완료 예정이다.",
+      "source": "전자신문",
+      "time": "06/30 14:22"
+    },
+    {
+      "category": "policy",
+      "title": "디지털산업 법안 평가 고작 26점…전문가들 '규제 실증 강화해야'",
+      "url": "https://www.etnews.com/20260630000177",
+      "summary": "제22대 국회 디지털산업 법안을 평가한 결과 100점 만점에 26.1점으로 낙제점이 나왔다. 최근 5년간 관련 법안 임기만료 폐기율이 80%를 초과했으며, 전문가들은 기술 이해 부족을 지적하고 실태조사·실증분석 강화를 권고했다.",
+      "source": "전자신문",
+      "time": "06/30 16:11"
+    },
+    {
+      "category": "tech",
+      "title": "[Q&A] 에이전트형 AI란 무엇이며, 어떻게 발전해야 하나",
+      "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+      "summary": "MIT 컴퓨터 과학자 Phillip Isola가 에이전트형 AI의 현재 작동 방식·한계·미래 방향을 Q&A 형식으로 해설했다. 데이터 의존성·감독 부재 리스크·탈숙련화 문제를 짚으며, 에이전트 AI가 생산적이고 안전하게 발전하기 위한 연구 과제를 제시했다.",
+      "source": "MIT News",
+      "time": "06/30 09:00"
+    },
+    {
+      "category": "others",
+      "title": "'AI 휴머니즘 기반 AI 경영혁신으로 AI 강국 도약' 콘퍼런스 성료",
+      "url": "https://www.etnews.com/20260630000363",
+      "summary": "국제미래학회·KSR인증원·전자신문 공동 주최 'AI 경영혁신 콘퍼런스'가 서울 프레스센터에서 개최됐다. 산학연관 100여 명이 참석해 AI 휴머니즘 기반 지속 가능한 경영 전략을 논의하고 ISO 42001 AI 관리시스템 인증 도입의 중요성을 강조했다.",
+      "source": "전자신문",
+      "time": "06/30 18:00"
+    }
+  ]
+}

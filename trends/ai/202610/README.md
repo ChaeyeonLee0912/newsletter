@@ -9,12 +9,12 @@
 로컬 서버로 보고 싶으면 저장소 맨 위 폴더에서 이렇게 실행해. Python 3.10 이상이면 돼.
 
 ```powershell
-python trends/202610/serve.py
+python trends/ai/202610/serve.py
 ```
 
 그다음 브라우저에서 [로컬 페이지](http://127.0.0.1:8765)를 열면 돼. 서버는 이 컴퓨터에서만 접속되고, `Ctrl+C`로 끌 수 있어. 포트가 이미 쓰이고 있으면 뒤에 `--port 8766`을 붙여 봐.
 
-'이 기사가 실린 뉴스레터 보기'랑 정리 기준 창의 날짜 링크는 [htmlpreview](https://htmlpreview.github.io/)로 GitHub에 올라간 `newsletters` 파일을 열어 줘. 그래서 링크가 동작하려면 해당 뉴스레터가 `main` 브랜치에 푸시돼 있어야 해.
+'이 기사가 실린 뉴스레터 보기'랑 정리 기준 창의 날짜 링크는 [htmlpreview](https://htmlpreview.github.io/)로 GitHub에 올라간 `newsletters/ai` 파일을 열어 줘. 그래서 링크가 동작하려면 해당 뉴스레터가 `main` 브랜치에 푸시돼 있어야 해.
 
 ## 뭘 분석했어?
 
@@ -29,9 +29,9 @@ python trends/202610/serve.py
 카드 문구, 자세한 설명, 근거 기사 ID는 전부 `trends.json`에 있어. 고친 다음 아래 명령을 실행하면 HTML이랑 그림이 다시 만들어져.
 
 ```powershell
-python trends/202610/build_page.py
+python trends/ai/202610/build_page.py
 ```
 
-이 명령은 `newsletters/202610*.html`을 다시 읽어서 `corpus.json`을 만들고 `index.html`을 새로 써. 내가 직접 쓴 해석이랑 근거 기사는 그대로 유지돼. 다만 뉴스레터를 새로 추가하거나 원본을 고쳤다면 기사 ID가 가리키는 내용이 바뀔 수 있으니까, ID랑 해석도 한 번 다시 확인해 줘.
+이 명령은 `newsletters/ai/202610*.html`을 다시 읽어서 `corpus.json`을 만들고 `index.html`을 새로 써. 내가 직접 쓴 해석이랑 근거 기사는 그대로 유지돼. 다만 뉴스레터를 새로 추가하거나 원본을 고쳤다면 기사 ID가 가리키는 내용이 바뀔 수 있으니까, ID랑 해석도 한 번 다시 확인해 줘.
 
 화면 모양은 `styles.css`, 클릭 같은 동작은 `app.js`가 맡고 있어. `assets` 폴더의 SVG 그림은 주제마다 직접 그린 일러스트이고, 외부 이미지·웹 폰트·CDN은 하나도 안 써.

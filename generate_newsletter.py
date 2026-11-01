@@ -4,16 +4,18 @@ Newsletter Generator
 
 데이터(JSON) + 템플릿(Jinja2) -> 뉴스레터 HTML 생성.
 
-[UI / 데이터 분리 구조]
-  - UI       : templates/newsletter.html   (HTML 골격 + CSS. 스타일은 여기만 수정)
-  - 데이터    : data/<날짜>.json             (발행분별 기사 데이터. 기사 추가는 여기만 수정)
-  - 빌드 로직 : 이 파일                       (그룹핑 / 통계 / 날짜 포맷 + 렌더링)
-  - 출력      : newsletters/YYYYMMDD_HHMM.html  (published_at 으로 파일명 자동 결정)
+[UI / 데이터 분리 구조] — 주제(<주제>, 예: ai)별로 폴더를 나눔
+  - UI       : templates/newsletter.html            (HTML 골격 + CSS. 스타일은 여기만 수정)
+  - 분류      : data/<주제>/categories.json           (주제별 카테고리. 새 카테고리는 자동 누적)
+  - 데이터    : data/<주제>/YYYYMMDD_HHMM.json         (발행분별 기사 데이터. 기사 추가는 여기만 수정)
+  - 빌드 로직 : 이 파일                                (그룹핑 / 통계 / 날짜 포맷 + 렌더링)
+  - 출력      : newsletters/<주제>/YYYYMMDD_HHMM.html  (published_at 으로 파일명 자동 결정)
+  - 주제는 데이터 JSON 이 들어 있는 폴더 이름으로 정함 (data/ai/... -> ai)
 
 사용법:
-    python generate_newsletter.py data/20260611_0630.json
-    python generate_newsletter.py data/20260611_0630.json --send      # 생성 후 메일 발송
-    python generate_newsletter.py data/20260611_0630.json -o out.html # 출력 경로 지정
+    python generate_newsletter.py data/ai/20260611_0630.json
+    python generate_newsletter.py data/ai/20260611_0630.json --send      # 생성 후 메일 발송
+    python generate_newsletter.py data/ai/20260611_0630.json -o out.html # 출력 경로 지정
 
 데이터 JSON 형식 (UI 정보 없음 — 순수 데이터):
     {
@@ -41,8 +43,8 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 BASE_DIR = Path(__file__).resolve().parent
 TEMPLATE_DIR = BASE_DIR / "templates"
+DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "newsletters"
-CATEGORIES_PATH = BASE_DIR / "categories.json"
 
 # categories.json 이 없거나 palette 가 비어 있을 때를 위한 최소 안전장치.
 DEFAULT_PALETTE = [
@@ -56,16 +58,22 @@ DEFAULT_TITLE = "AI 뉴스레터"
 DEFAULT_EMOJI = "🤖"
 
 
-def load_category_registry() -> tuple[list[dict], list[str]]:
+def subject_of(data_path: Path) -> str | None:
+    """data/<주제>/xxx.json -> <주제>. data/ 바로 아래 파일이면 None."""
+    parent = data_path.resolve().parent
+    return None if parent == DATA_DIR else parent.name
+
+
+def load_category_registry(path: Path) -> tuple[list[dict], list[str]]:
     """categories.json -> (카테고리 목록, 팔레트). 파일이 없거나 비어 있어도 정상 동작."""
-    raw = json.loads(CATEGORIES_PATH.read_text(encoding="utf-8")) if CATEGORIES_PATH.exists() else {}
+    raw = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     categories = raw.get("categories") or []
     palette = raw.get("palette") or DEFAULT_PALETTE
     return categories, palette
 
 
-def save_category_registry(categories: list[dict], palette: list[str]) -> None:
-    CATEGORIES_PATH.write_text(
+def save_category_registry(path: Path, categories: list[dict], palette: list[str]) -> None:
+    path.write_text(
         json.dumps({"palette": palette, "categories": categories}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
@@ -87,10 +95,10 @@ def format_dates(published_at: str) -> dict:
     }
 
 
-def build_context(data: dict) -> dict:
+def build_context(data: dict, categories_path: Path) -> dict:
     """순수 데이터 dict -> 템플릿 렌더 컨텍스트(그룹핑/통계/날짜 포맷 완료)."""
     articles = data.get("articles", [])
-    registry, palette = load_category_registry()
+    registry, palette = load_category_registry(categories_path)
     known = {cat["id"]: cat for cat in registry}
     registry_changed = False
 
@@ -118,7 +126,7 @@ def build_context(data: dict) -> dict:
         grouped.setdefault(cid, []).append(art)
 
     if registry_changed:
-        save_category_registry(registry, palette)
+        save_category_registry(categories_path, registry, palette)
 
     # 레지스트리 순서대로(기존 + 새로 누적된 순), 기사가 있는 카테고리만
     categories = [
@@ -170,8 +178,8 @@ def build_text(ctx: dict) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="데이터 JSON + 템플릿 -> 뉴스레터 HTML 생성")
-    parser.add_argument("data", help="데이터 JSON 경로 (예: data/20260611_0630.json)")
-    parser.add_argument("-o", "--output", help="출력 HTML 경로 (기본: newsletters/YYYYMMDD_HHMM.html)")
+    parser.add_argument("data", help="데이터 JSON 경로 (예: data/ai/20260611_0630.json)")
+    parser.add_argument("-o", "--output", help="출력 HTML 경로 (기본: newsletters/<주제>/YYYYMMDD_HHMM.html)")
     parser.add_argument("--send", action="store_true", help="생성 후 email_sender 로 발송")
     args = parser.parse_args()
 
@@ -180,11 +188,13 @@ def main() -> int:
         print(f"오류: 데이터 파일을 찾을 수 없음: {data_path}", file=sys.stderr)
         return 1
 
+    subject = subject_of(data_path)
     data = json.loads(data_path.read_text(encoding="utf-8"))
-    ctx = build_context(data)
+    ctx = build_context(data, data_path.parent / "categories.json")
     html = render_html(ctx)
 
-    out = Path(args.output) if args.output else OUTPUT_DIR / f"{ctx['filename_stem']}.html"
+    out_dir = OUTPUT_DIR / subject if subject else OUTPUT_DIR
+    out = Path(args.output) if args.output else out_dir / f"{ctx['filename_stem']}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
     print(
@@ -193,16 +203,17 @@ def main() -> int:
     )
 
     if args.send:
-        from email_sender import get_recipients, send_email
+        from email_sender import get_recipients, recipients_env, send_email
 
-        recipients = get_recipients()
+        recipients = get_recipients(subject)
         if not recipients:
-            print("오류: RECIPIENTS 환경 변수가 비어 있음.", file=sys.stderr)
+            names = f"{recipients_env(subject)} / RECIPIENTS" if subject else "RECIPIENTS"
+            print(f"오류: {names} 환경 변수가 비어 있음.", file=sys.stderr)
             return 1
-        subject = f"{ctx['title']} | {ctx['footer_label']}"
+        mail_subject = f"{ctx['title']} | {ctx['footer_label']}"
         text = build_text(ctx)
         print(f"발송 대상 {len(recipients)}명: {', '.join(recipients)}")
-        ok = all(send_email(to, subject, text, html) for to in recipients)
+        ok = all(send_email(to, mail_subject, text, html, sender_name=ctx["title"]) for to in recipients)
         return 0 if ok else 1
 
     return 0
