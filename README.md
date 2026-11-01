@@ -13,6 +13,11 @@
 - 'Create fork'를 클릭하여 복사해요.     
   ![](images/2026-11-02-00-44-36.png)     
 
+※ Organization 만들어 Fork하기       
+- 'Owner'는 본인의 Organization이고, 기본으로 본인의 Git ID입니다.     
+- Organization은 저장소를 목적에 맞게 그룹핑한겁니다.    
+- 본인만의 Organization을 만들어 Fork하고 싶으면 [Organization 만들기](references/github-org.md)를 참조하세요.   
+    
 ## 본인의 newsletter 레포지토리 클론하기    
 레포지토리를 다운로드할 상위 디렉토리를 만듭니다.     
 ```
@@ -25,7 +30,7 @@ newsletter 레포지토리를 클론합니다.
 cd workspace
 ```
 
-git clone https://github.com/{본인 Git ID}/newsletter.git    
+git clone https://github.com/{본인 Organization}/newsletter.git    
 예시)  
 ```
 git clone https://github.com/hiondal/newsletter.git
