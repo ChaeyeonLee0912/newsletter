@@ -65,13 +65,12 @@ happycloudtek@unicorn.kubepia.com
    Claude Code는 좌측 메뉴에서 '예약'에서, Codex는 가장 좌측 패널에서 세번째 '예약' 아이콘을 클릭하여 스케쥴 작업을 작성합니다.    
    모델과 Effort는 적절히 지정하세요.     
    **Claude Code**        
-   ![](images/2026-11-01-23-48-55.png)          
-           
+   ![](images/2026-11-01-23-48-55.png)            
+   ![](images/2026-11-02-00-03-23.png)            
     
    **Codex:**     
    프로젝트부터 만듭니다.    
    ![](images/2026-11-01-23-52-40.png)       
-   ![](images/2026-11-02-00-03-23.png)   
      
    스케쥴 예약을 등록합니다.    
    ![](images/2026-11-01-23-54-52.png)    
