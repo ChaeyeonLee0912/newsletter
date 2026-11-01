@@ -66,12 +66,13 @@ happycloudtek@unicorn.kubepia.com
    모델과 Effort는 적절히 지정하세요.     
    **Claude Code**        
    ![](images/2026-11-01-23-48-55.png)          
-   ![](images/2026-11-01-23-50-05.png)         
+           
     
    **Codex:**     
    프로젝트부터 만듭니다.    
    ![](images/2026-11-01-23-52-40.png)       
-   
+   ![](images/2026-11-02-00-03-23.png)   
+     
    스케쥴 예약을 등록합니다.    
    ![](images/2026-11-01-23-54-52.png)    
    ![](images/2026-11-01-23-55-58.png)      
