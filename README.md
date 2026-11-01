@@ -39,13 +39,16 @@ SMTP_PASSWORD=wgnr aaaa eeee ffff
 ---
   
 ## 메일 수신자 지정하기
-`.env`파일 안에 'RECIPIENTS_{SUBJECT_ID 대문자}'키를 만듭니다.    
+`.env`파일 안에 'RECIPIENTS'와 'RECIPIENTS_{SUBJECT_ID 대문자}'키를 만듭니다.    
 값은 큰 따옴표안에 엔터로 구분하여 지정합니다.    
 '{SUBJECT_ID 대문자}'는 프롬프트의 '{SUBJECT_ID}'에 지정한 값과 동일해야 하며 대문자여야 합니다.     
+모든 주제에 공통으로 받을 주소는 'RECIPIENTS'에 넣습니다. 'RECIPIENTS'는 항상 포함되고, 주제별 주소가 여기에 더해집니다. 겹치는 주소에는 한 번만 보냅니다.    
 ```
 # recipients
-RECIPIENTS_AI="
+RECIPIENTS="
 hiondal@gmail.com
+"
+RECIPIENTS_AI="
 happycloudtek@unicorn.kubepia.com
 "
 ```

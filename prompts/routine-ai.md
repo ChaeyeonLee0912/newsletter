@@ -97,7 +97,7 @@
 - 뉴스레터 발송
   - 메일: 위 렌더링 명령 끝에 `--send` 를 붙여 실행 (생성과 동시에 `email_sender.py`로 발송)
     - 메일 제목·보낸사람 이름은 `title` 기준
-    - 수신자는 `.env` 의 `RECIPIENTS_{SUBJECT_ID 대문자, 하이픈은 _}` 를 먼저 쓰고, 비어 있으면 `RECIPIENTS` 를 씀
+    - 수신자는 `.env` 의 `RECIPIENTS` 를 항상 포함하고 `RECIPIENTS_{SUBJECT_ID 대문자, 하이픈은 _}` 를 더함 (중복 주소는 한 번만 발송)
     - 메일은 오직 이 명령(SMTP)으로만 발송. Gmail 커넥터/웹으로 보내면 `<style>`·class가 제거되어 스타일이 깨짐
     - SMTP 발송이 실패하면(인증 오류 등) 다른 경로로 대체 발송하지 말고, 오류 메시지를 그대로 보고하고 메일 발송을 중단
 - remote git repo에 푸시 (이번 호 데이터 JSON, 뉴스레터 HTML, `data/{SUBJECT_ID}/categories.json`, 갱신된 `AGENTS.md` 포함)

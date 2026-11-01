@@ -68,14 +68,25 @@ def recipients_env(subject: Optional[str] = None) -> str:
 def get_recipients(subject: Optional[str] = None) -> list[str]:
     """수신자 목록을 파싱하여 반환.
 
-    주제가 주어지면 주제별 변수(RECIPIENTS_<주제>)를 먼저 보고, 비어 있으면 RECIPIENTS 를 씀.
+    RECIPIENTS 는 항상 포함하고, 주제가 주어지면 주제별 변수(RECIPIENTS_<주제>)를 덧붙임.
+    중복 주소(대소문자 무시)는 처음 나온 것 하나만 남김.
     쉼표(,) 또는 줄바꿈(\\n) 구분자를 모두 지원:
       RECIPIENTS=a@b.com,c@d.com
       RECIPIENTS_AI="a@b.com
       c@d.com"
     """
-    raw = os.getenv(recipients_env(subject), "") or os.getenv("RECIPIENTS", "")
-    recipients = [r.strip() for r in re.split(r"[,\n]", raw) if r.strip()]
+    names = ["RECIPIENTS"]
+    if subject:
+        names.append(recipients_env(subject))
+
+    recipients: list[str] = []
+    seen: set[str] = set()
+    for name in names:
+        for r in re.split(r"[,\n]", os.getenv(name, "")):
+            r = r.strip()
+            if r and r.lower() not in seen:
+                seen.add(r.lower())
+                recipients.append(r)
     return recipients
 
 
@@ -172,7 +183,7 @@ def main():
 
     5. .env에 수신자 설정
        RECIPIENTS=user1@example.com,user2@example.com
-       RECIPIENTS_AI=user3@example.com        # 선택. 주제별 수신자 (없으면 RECIPIENTS 사용)
+       RECIPIENTS_AI=user3@example.com        # 선택. 주제별 추가 수신자 (RECIPIENTS 에 더해 발송)
 
     6. 의존 패키지 설치
        pip install -r requirements.txt
