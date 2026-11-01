@@ -1,0 +1,56 @@
+{
+  "palette": [
+    "#db2777",
+    "#0891b2",
+    "#ca8a04",
+    "#4f46e5",
+    "#15803d",
+    "#b91c1c",
+    "#9333ea",
+    "#0d9488"
+  ],
+  "categories": [
+    {
+      "id": "humanoid",
+      "emoji": "🦾",
+      "label": "휴머노이드",
+      "color": "#db2777"
+    },
+    {
+      "id": "physical_ai",
+      "emoji": "🧠",
+      "label": "피지컬AI",
+      "color": "#0891b2"
+    },
+    {
+      "id": "industrial",
+      "emoji": "🏭",
+      "label": "산업·물류로봇",
+      "color": "#ca8a04"
+    },
+    {
+      "id": "service",
+      "emoji": "🏥",
+      "label": "서비스·의료로봇",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "business",
+      "emoji": "💰",
+      "label": "투자·실적",
+      "color": "#15803d"
+    },
+    {
+      "id": "policy_event",
+      "emoji": "🏛️",
+      "label": "정책·행사",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "others",
+      "emoji": "📌",
+      "label": "기타",
+      "color": "#9333ea"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "published_at": "2026-11-01T23:17",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "로봇신문",
+    "전자신문",
+    "지디넷코리아",
+    "The Robot Report"
+  ],
+  "articles": [
+    {
+      "category": "humanoid",
+      "category_label": "휴머노이드",
+      "category_emoji": "🦾",
+      "title": "中 애지봇, '스스로 진화하는' 휴머노이드 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49302",
+      "summary": "중국 애지봇이 로봇이 일하면서 스스로 개선하는 에이전트 프레임워크 '지니 마스터'를 출시했어요. 이를 탑재한 휴머노이드 '지니 G2'는 실제 편의점에서 사람 개입 없이 오류 원인을 찾고 작업 전략을 고쳐 나갔습니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:37"
+    },
+    {
+      "category": "humanoid",
+      "title": "메타, 중국 기업과 휴머노이드 로봇 3개월 만에 개발",
+      "url": "https://zdnet.co.kr/view/?no=20261101103127",
+      "summary": "메타가 중국 로봇기업 푸리에와 함께 가정용 휴머노이드 '맥스' 첫 시제품을 3개월 만에 만들었어요. 키 1.5m·48kg에 엔비디아 젯슨 토르를 탑재해 음성과 손짓을 알아듣고, 후속 모델 '맥스 2'도 개발 중입니다.",
+      "source": "지디넷코리아",
+      "time": "11/01 10:31"
+    },
+    {
+      "category": "humanoid",
+      "title": "美 리얼보틱스, 인간-로봇 상호작용 지원 휴머노이드로봇 '에코' 출시",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49317",
+      "summary": "미국 리얼보틱스가 교육·돌봄·웰니스용 동반 휴머노이드 '에코'를 내놨어요. 17자유도 탁상형은 1만1950달러, 39자유도 전신형은 5만9950달러이며, 모듈식이라 돌봄 현장에 맞게 쉽게 설정할 수 있다고 합니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:52"
+    },
+    {
+      "category": "physical_ai",
+      "category_label": "피지컬AI",
+      "category_emoji": "🧠",
+      "title": "21일 걸리던 업무, 8일로…HD현대로보틱스·팔란티어 '피지컬AI' 고도화",
+      "url": "https://zdnet.co.kr/view/?no=20261101155847",
+      "summary": "HD현대로보틱스가 팔란티어 AI 에이전트를 도입한 뒤 현장 문제 해결 기간이 평균 약 63% 줄었어요. AI가 로봇 프로그램 개선안을 내면 엔지니어가 보완하는 방식으로, 로봇 프로그래밍 비용을 50% 이상 낮추는 게 목표입니다.",
+      "source": "지디넷코리아",
+      "time": "11/01 15:58"
+    },
+    {
+      "category": "physical_ai",
+      "title": "마음AI, 로봇에 '미래 예측' 더해 성공률 경신…연내 인간 수준 도전",
+      "url": "https://www.etnews.com/20261030000249",
+      "summary": "마음AI가 로봇 파운데이션 모델에 앞으로의 장면을 예측하는 월드모델을 결합해 벤치마크 RoboMME에서 성공률 67.42%로 자체 최고 기록을 세웠어요. 연말까지 사람 수준(90.5%)에 다가가는 게 목표입니다.",
+      "source": "전자신문",
+      "time": "11/01 16:00"
+    },
+    {
+      "category": "physical_ai",
+      "title": "399달러 오리 로봇만이 아니다…저가형 피지컬AI 로봇 잇단 등장",
+      "url": "https://www.etnews.com/20261101000058",
+      "summary": "프랑스 폴렌 로보틱스와 로보티즈가 만드는 399달러짜리 소형 이족보행 로봇 '마이크로덕'이 화제예요. 비싼 휴머노이드 중심이던 시장에 저가 로봇이 잇따라 나오며, 개인 개발자도 피지컬AI 개발에 쉽게 뛰어들 수 있게 됐습니다.",
+      "source": "전자신문",
+      "time": "11/01 11:10"
+    },
+    {
+      "category": "industrial",
+      "category_label": "산업·물류로봇",
+      "category_emoji": "🏭",
+      "title": "인텔-SAP, 피지컬AI·자율 창고 실제 작동 모습 시연",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49320",
+      "summary": "인텔과 SAP가 기업 물류 시스템(SAP EWM)과 인텔 엣지 AI 탑재 자율 로봇을 연결해 창고 자재 운반을 자동화하는 개념검증에 성공했어요. 시스템이 요청하면 로봇이 자재를 옮기고 완료 상태를 다시 보고합니다.",
+      "source": "로봇신문",
+      "time": "11/01 21:02"
+    },
+    {
+      "category": "industrial",
+      "title": "스위스 애니보틱스, 폭발위험 환경용 4족보행 '애니멀X' 출시",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49304",
+      "summary": "스위스 애니보틱스가 폭발 위험이 있는 곳에서도 쓸 수 있는 4족보행 점검 로봇 '애니멀X'를 출시했어요. 석유·가스·화학 공장 안전 기준을 맞췄고, 사람이 들어가기 위험한 곳을 AI로 자율 점검합니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:35"
+    },
+    {
+      "category": "industrial",
+      "title": "돼지 도축로봇, 현장 실증으로 정밀 제어 기술 높인다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49315",
+      "summary": "농촌진흥청이 목 절개·복부 절개·내장 적출 3개 공정의 돼지 도축로봇 실증 시설을 갖추고 약 100마리를 시험 도축하며 동작을 다듬고 있어요. 2027년엔 두 로봇을 같은 구간에서 동시에 움직이는 기술을 개발합니다.",
+      "source": "로봇신문",
+      "time": "11/01 19:40"
+    },
+    {
+      "category": "industrial",
+      "title": "위츠, 국내 로봇 제조사와 무선충전 기술 필드테스트 실증",
+      "url": "https://www.etnews.com/20261030000213",
+      "summary": "위츠가 국내 로봇 제조사에 무선충전 코일을 공급해 현장 시험 중이에요. 패드에 정확히 서지 않아도 충전되고 금속 이물질도 감지하는 기술로, 물류·제조 현장 AGV·AMR 로봇의 무선충전 도입을 앞당기려 합니다.",
+      "source": "전자신문",
+      "time": "11/01 17:00"
+    },
+    {
+      "category": "service",
+      "category_label": "서비스·의료로봇",
+      "category_emoji": "🏥",
+      "title": "현대차그룹, 공동주택 주차로봇 시연회 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49312",
+      "summary": "현대차그룹이 시흥의 한 아파트에서 주차로봇 시연회를 열었어요. 실제 공동주택 50면 이상 주차장에서 운영한 국내 첫 실증으로, 입·출차 교차, 이중주차 해소, 임시출차 3가지 상황을 보여줬습니다.",
+      "source": "로봇신문",
+      "time": "11/01 19:48"
+    },
+    {
+      "category": "service",
+      "title": "美 원더-애브라이드, AI기반 로봇 배치 제휴 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49321",
+      "summary": "미국 음식 배달업체 원더가 자율주행 기업 애브라이드와 AI 로봇 배달을 저지시티·호보컨·알링턴·필라델피아 4개 도시로 넓혀요. 저지시티 시범 매장에선 배달의 약 20%를 로봇이 처리했습니다.",
+      "source": "로봇신문",
+      "time": "11/01 21:09"
+    },
+    {
+      "category": "service",
+      "title": "큐렉소, 로보월드 2026 참가… 수술부터 재활까지 의료로봇·AI 안전 관제 기술 선보인다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49308",
+      "summary": "의료로봇 기업 큐렉소가 로보월드 2026에서 크기·무게를 절반으로 줄인 보행재활로봇 '모닝워크' 신제품을 처음 공개해요. 인공관절 수술로봇 '큐비스-조인트' 시연과 AI 안전 관제 기술도 선보입니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:28"
+    },
+    {
+      "category": "service",
+      "title": "코스모로보틱스, 11월 3일 보행보조로봇 체험행사 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49299",
+      "summary": "웨어러블 로봇 기업 코스모로보틱스가 11월 3일 고양시장애인종합복지관에서 보행이 어려운 장애아동과 가족을 위한 체험행사를 열어요. 보행보조로봇 체험, 릴레이 걷기, 문화공연이 진행됩니다.",
+      "source": "로봇신문",
+      "time": "11/01 19:50"
+    },
+    {
+      "category": "business",
+      "category_label": "투자·실적",
+      "category_emoji": "💰",
+      "title": "美 '오픈트론스 랩웍스', 4천만 달러 투자 유치…AI 기반 실험실 자동화 사업 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49311",
+      "summary": "실험실 자동화 로봇을 만드는 미국 오픈트론스가 시리즈E로 4천만 달러(약 535억원)를 유치했어요. 액체 옮기기 같은 반복 실험을 대신하는 탁상형 로봇을 공급하며, 투자금은 로봇·소프트웨어·데이터 인프라 확장에 씁니다.",
+      "source": "로봇신문",
+      "time": "11/01 22:05"
+    },
+    {
+      "category": "business",
+      "title": "미래에셋증권 \"두산로보틱스, 북미 시장 성장세 지속…피지컬 AI로 사업 확장\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49305",
+      "summary": "미래에셋증권은 두산로보틱스 3분기 매출이 162억원으로 1년 전보다 59% 늘었다고 분석했어요. 북미 매출 비중이 55%까지 커졌고 영업손실은 134억원으로 줄었으며, 엔비디아 협력 등으로 피지컬 AI 사업도 넓히고 있습니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:25"
+    },
+    {
+      "category": "business",
+      "title": "라온로보틱스, 3분기 영업익 39억…작년 대비 259%↑",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49301",
+      "summary": "반도체 웨이퍼 이송로봇 기업 라온로보틱스의 3분기 영업이익이 39억원으로 작년보다 259% 늘었어요. 매출도 265억원으로 104% 증가했고, 반도체 업황 회복으로 수주가 꾸준히 이어지고 있습니다.",
+      "source": "로봇신문",
+      "time": "11/01 19:58"
+    },
+    {
+      "category": "business",
+      "title": "[지방시대 新성장엔진]<2> \"청년에게 지역에 남을 이유 있어야\"…램프 넘어 로봇으로 가는 에스엘",
+      "url": "https://www.etnews.com/20261101000036",
+      "summary": "자동차 램프 기업 에스엘이 로봇 사업으로 넓히고 있어요. 현대차 이동형 로봇 모베드에 라이다 모듈·배터리관리시스템을 공급하고, 보스턴다이내믹스 4족 로봇 다리 모듈도 수주했습니다.",
+      "source": "전자신문",
+      "time": "11/01 11:17"
+    },
+    {
+      "category": "business",
+      "title": "피지컬 AI가 다음 수익 시장인 이유",
+      "url": "https://www.therobotreport.com/why-physical-ai-next-lucrative-frontier/",
+      "summary": "PitchBook에 따르면 로봇·피지컬 AI 스타트업은 2025년 1,009건 투자로 사상 최대인 276억 달러를 모았어요. 전년의 두 배가 넘는 규모로, 글쓴이는 AI 에이전트 다음으로 크게 성장할 시장이 피지컬 AI라고 봅니다.",
+      "source": "The Robot Report",
+      "time": "11/01 22:30"
+    },
+    {
+      "category": "policy_event",
+      "category_label": "정책·행사",
+      "category_emoji": "🏛️",
+      "title": "스스로 판단하고 움직이는 로봇의 시대, \"AI 로봇 혁명, 대한민국 산업의 미래를 열다\" '2026 로보월드', 11월 4일 킨텍스서 개막",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49300",
+      "summary": "국내 최대 로봇 전시회 '2026 로보월드'가 11월 4~7일 킨텍스에서 열려요. 20개국 약 400개사가 1200부스 규모로 참가하며, 휴머노이드·피지컬 AI·제조 AX 중심으로 제조·물류·조선·건설 현장의 로봇 활용 사례를 보여줍니다.",
+      "source": "로봇신문",
+      "time": "11/01 19:52"
+    },
+    {
+      "category": "policy_event",
+      "title": "\"미국 FCC 로봇 규제, 2030년 美 휴머노이드 매출 전망 58% 낮춘다\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49313",
+      "summary": "IDC는 미국 FCC의 외국산 로봇 규제로 2030년 미국 휴머노이드 매출 전망이 58% 줄 것으로 분석했어요. 2026~2030년 누적 손실은 60억 달러 이상으로, 미국 기업도 핵심 부품을 중국에 의존해 타격이 크다는 설명입니다.",
+      "source": "로봇신문",
+      "time": "11/01 19:45"
+    },
+    {
+      "category": "policy_event",
+      "title": "서울대-서울시, 피지컬AI 협력...내년 양재에 센터 개설",
+      "url": "https://zdnet.co.kr/view/?no=20261101114755",
+      "summary": "서울대 공대와 서울시가 양재 서울 AI 허브에 'H-PAIR 피지컬 AX 센터'를 세워요. 2027년 상반기 개소 목표로, 생활 공간을 재현한 리빙랩에서 돌봄·생활 로봇을 검증하고 인재 양성·창업까지 연결합니다.",
+      "source": "지디넷코리아",
+      "time": "11/01 11:47"
+    },
+    {
+      "category": "policy_event",
+      "title": "[지방시대 新성장엔진]<2> 대경 '소부장·AI로봇'·동남 '조선·방산·車'…앵커 투자로 공급망 키운다",
+      "url": "https://www.etnews.com/20261101000034",
+      "summary": "대구·경북권은 구미·포항 로봇 특화단지를 중심으로 AI 로봇 산업을 키워요. 선도기업 16곳이 2032년까지 약 5조3839억원을 투자하고, 정부는 2030년 세계 휴머노이드 생산량 20% 확보를 목표로 합니다.",
+      "source": "전자신문",
+      "time": "11/01 11:11"
+    },
+    {
+      "category": "policy_event",
+      "title": "ICCAS 2026, 일본 삿포로에서 성황리 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49322",
+      "summary": "제어로봇시스템학회가 주최한 국제 학술대회 ICCAS 2026이 10월 27~30일 일본 삿포로에서 열렸어요. 31개국 논문 614편이 발표되고 역대 최대 1036명이 등록했으며, 피지컬 AI·지능형 로봇·자율주행이 중심 주제였습니다.",
+      "source": "로봇신문",
+      "time": "11/01 21:23"
+    },
+    {
+      "category": "policy_event",
+      "title": "금주의 로봇 캘린더(2026. 11. 2~ 11. 8)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49324",
+      "summary": "이번 주 로봇 행사 모음이에요. 11월 4~7일 킨텍스에서 '2026 로보월드'가 열리고, 같은 곳에서 국제로봇비즈니스컨퍼런스(4~5일)와 로봇산업 발전 유공자 정부 시상식(4일)도 진행됩니다.",
+      "source": "로봇신문",
+      "time": "11/01 22:40"
+    },
+    {
+      "category": "others",
+      "category_label": "기타",
+      "category_emoji": "📌",
+      "title": "일본 첫 'AI 로봇보험' 등장…로봇 파손부터 대체 인건비까지 보상",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49306",
+      "summary": "일본 도쿄해상일동화재보험이 11월부터 일본 첫 'AI 로봇보험'을 판매해요. 자율 AI 로봇의 파손·배상책임은 물론, 사고로 로봇이 멈췄을 때의 대체 인건비와 로봇 임차료까지 보상합니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:39"
+    },
+    {
+      "category": "others",
+      "title": "日 혼다, 中 파이맥스 기기로 로봇 원격 제어 시연",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49303",
+      "summary": "혼다가 일본 CEATEC 2026에서 아바타 로봇을 원격 조종해 공구로 나사를 조이는 시연을 공개했어요. 작업자는 중국 파이맥스의 '드림에어' 헤드셋을 썼고, 이 장비가 손 위치를 실시간으로 파악했습니다.",
+      "source": "로봇신문",
+      "time": "11/01 20:16"
+    },
+    {
+      "category": "others",
+      "title": "국방으로 넓어지는 로봇 시장…주파수·실증·표준화 등 과제",
+      "url": "https://www.etnews.com/20261030000211",
+      "summary": "제조·물류 중심이던 로봇 산업이 국방으로 넓어지고 있어요. 육군은 12월 로봇 관련 조직을 둘 계획이며, 여러 로봇을 함께 운용하기 위한 주파수 확보와 인터페이스 표준화가 과제로 꼽힙니다.",
+      "source": "전자신문",
+      "time": "11/01 17:00"
+    },
+    {
+      "category": "others",
+      "title": "누가 제일 산 잘 탈까?…중국서 열린 '로봇 등산 대회'",
+      "url": "https://www.etnews.com/20261029000449",
+      "summary": "중국 태산에서 '세계 로봇 태산 등산대회'가 열려 사족보행 로봇과 바퀴·다리 겸용 로봇이 약 3.8km 산길을 올랐어요. 돌계단 3100여 개와 빗길에서 균형·장애물 통과 능력을 겨뤘습니다.",
+      "source": "전자신문",
+      "time": "11/01 10:30"
+    }
+  ]
+}
