@@ -5,7 +5,15 @@
 - {SUBJECT}: 뉴스레터 주제
 - {SUBJECT_ID}: 주제를 의미하는 영문 소문자명    
 
-## newsletter 레포지토리 클론하기    
+## newsletter 레포지토리 Fork(복사)하기    
+- GitHub(https://github.com)에 로그인. 계정이 없으면 먼저 회원가입부터 해요.           
+- `https://github.com/unicorn-svc/newsletter`으로 접근해요.     
+- 상단 우측의 'Fork' 버튼을 클릭해요.      
+  ![](images/2026-11-02-00-43-30.png)     
+- 'Create fork'를 클릭하여 복사해요.     
+  ![](images/2026-11-02-00-44-36.png)     
+
+## 본인의 newsletter 레포지토리 클론하기    
 레포지토리를 다운로드할 상위 디렉토리를 만듭니다.     
 ```
 cd ~
@@ -15,7 +23,12 @@ mkdir workspace
 newsletter 레포지토리를 클론합니다.    
 ```
 cd workspace
-git clone https://github.com/unicorn-svc/newsletter.git
+```
+
+git clone https://github.com/{본인 Git ID}/newsletter.git    
+예시)  
+```
+git clone https://github.com/hiondal/newsletter.git
 ```
   
 ---
