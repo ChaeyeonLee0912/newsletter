@@ -63,7 +63,16 @@ cp prompts/routine-template.md prompts/routine-{SUBJECT_ID}.md
 ```
 
 복사한 파일의 `[변수]`에서 `{SUBJECT}`(주제, 예: 반도체). `{SUBJECT_ID}`(주제를 나타내는 영문소문자), `{OBJECT}`(뉴스레터를 받는 목적)를 정해요.
-   
+아래는 예시에요.      
+```
+[변수]
+- {SUBJECT}: 게임
+  - 이 프롬프트에 나오는 모든 {SUBJECT} 를 입력값으로 바꿔 읽음
+- {SUBJECT_ID}: game
+  - 처음 정할 때 `data/` 아래에 같은 주제의 기존 디렉토리가 있으면 그 이름을 그대로 재사용
+- {OBJECT}: 게임 시장 트렌드를 파악하여 새로운 게임 기획에 참조하고 싶음  
+```
+  
 ### 스케줄 작업을 등록합니다.   
 ```
 prompts/routine-{주제}.md를 수행하세요.
