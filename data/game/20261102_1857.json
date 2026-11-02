@@ -1,0 +1,19 @@
+{
+  "published_at": "2026-11-02T18:57",
+  "title": "게임 뉴스레터",
+  "emoji": "🎮",
+  "sources": ["게임메카", "인벤", "전자신문", "AUTOMATON", "PC Gamer"],
+  "articles": [
+    {"category":"market","title":"한국 모바일게임, 다운로드는 줄었는데 수익은 그대로","url":"https://www.gamemeca.com/view.php?gid=1782789","summary":"센서타워의 한국 게임 시장 보고서에 따르면 모바일 게임 다운로드는 줄었지만 인앱 구매 수익은 유지됐다. 신규 유입뿐 아니라 기존 이용자를 오래 붙잡는 운영이 중요해졌다는 분석이다.","source":"게임메카","time":"11/02 17:50"},
+    {"category":"new","title":"로드맵 동시 공개, '바이스 슈발츠 온라인' 내년 3월 출시","url":"https://www.gamemeca.com/view.php?gid=1782786","summary":"인기 애니메이션과 게임 캐릭터 카드로 덱을 짜는 온라인 대전 게임이 2027년 3월 24일 스위치와 스팀에 출시된다. 한국어도 지원한다.","source":"게임메카","time":"11/02 17:26"},
+    {"category":"new","title":"테카테키, 협동 탈출 게임 '투 앤 투: 에이전트' 공개","url":"https://www.gamemeca.com/view.php?gid=1782782","summary":"두 사람이 요원이 되어 연구실에 잠입하고 단서를 나눠 찾는 협동 탈출 게임이다. 함께 추리하고 소통하는 과정이 핵심이다.","source":"게임메카","time":"11/02 16:36"},
+    {"category":"industry","title":"발로란트 2027 VCT 한국 예선, 25일 개막","url":"https://www.inven.co.kr/webzine/news/?news=322852","summary":"한국 대표 한 팀을 뽑는 공개 예선 신청을 18일까지 받는다. 25일 온라인 예선을 시작하고 12월 4~6일 홍대에서 오프라인 결선을 연다.","source":"인벤","time":"11/02 11:13"},
+    {"category":"market","title":"'아크 레이더스' 출시 1주년... 누적 1630만장·60억 라운드, 글로벌 IP로 확장","url":"https://www.etnews.com/20261102000407","summary":"아크 레이더스가 출시 1주년을 맞아 누적 판매 1,630만 장과 60억 라운드를 발표했다. 장기 운영과 지식재산권 확장의 사례로 볼 수 있다.","source":"전자신문","time":"11/02 16:41"},
+    {"category":"development","title":"콘진원, 'AI 게임랩 데이 2026' 개최…게임 개발 현장 AI 활용 사례 공유","url":"https://www.etnews.com/20261102000400","summary":"한국콘텐츠진흥원이 게임 제작 현장에서 AI를 어떻게 쓰는지 공유하는 행사를 연다. 개발 과정의 실제 적용 사례를 살펴볼 기회다.","source":"전자신문","time":"11/02 16:29"},
+    {"category":"industry","title":"나고시 스튜디오 해산, 자금 지원 중단 보도 이후 공식 절차 돌입","url":"https://automaton-media.com/articles/newsjp/20261102-477071/","summary":"갱 오브 드래곤을 개발하던 나고시 스튜디오가 해산 절차에 들어갔다. 자금 지원 중단이 보도된 뒤 프로젝트의 향방도 불투명해졌다.","source":"AUTOMATON","time":"11/02 12:10"},
+    {"category":"development","title":"10월 스팀 신작 약 절반이 생성 AI 사용 공개, 조사 결과","url":"https://automaton-media.com/articles/newsjp/20261102-477078/","summary":"10월 출시된 스팀 신작의 약 절반이 생성 AI 사용을 공개했다는 조사다. 사용 방식은 작품마다 달라, 단순한 사용 여부보다 어디에 썼는지 살펴볼 필요가 있다.","source":"AUTOMATON","time":"11/02 12:40"},
+    {"category":"market","title":"달 청소 시뮬레이션 문 스위퍼스, 60만 장 판매","url":"https://automaton-media.com/articles/newsjp/20261102-477061/","summary":"달에서 청소하는 협동 시뮬레이션 게임 문 스위퍼스가 60만 장을 판매했다. 낯선 소재를 반복 작업의 재미와 결합한 신작 사례다.","source":"AUTOMATON","time":"11/02 11:48"},
+    {"category":"new","title":"보드게임 히어로퀘스트, 퀘스트 편집기와 멀티플레이를 담아 스팀 출시 예정","url":"https://www.pcgamer.com/games/board-games/the-heroquest-board-game-is-coming-to-steam-with-a-quest-editor-and-multiplayer/","summary":"보드게임 히어로퀘스트의 디지털판이 2027년 나온다. 최대 네 명의 영웅과 한 명의 악역이 온라인으로 플레이하고, 이용자가 직접 퀘스트를 만들어 공유할 수 있다.","source":"PC Gamer","time":"11/02 13:12"},
+    {"category":"development","title":"옵시디언 조시 소여, RPG 도시 제작비는 같은 면적 던전의 약 네 배","url":"https://www.pcgamer.com/games/rpg/obsidians-josh-sawyer-on-rpg-cities-compared-to-a-dungeon-generally-speaking-a-town-is-4x-the-expense-per-square-foot/","summary":"조시 소여는 사람이 사는 RPG 도시가 같은 크기의 던전보다 제작비가 훨씬 든다고 설명했다. 많은 NPC의 대화와 외형, 세밀한 배경 작업이 필요하기 때문이다.","source":"PC Gamer","time":"11/02 10:39"}
+  ]
+}
