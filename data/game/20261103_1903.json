@@ -1,0 +1,15 @@
+{
+  "published_at": "2026-11-03T19:03",
+  "title": "게임 뉴스레터",
+  "emoji": "🎮",
+  "sources": ["게임메카", "AUTOMATON"],
+  "articles": [
+    {"category":"new","title":"[지스타 26] 호요버스 신작 2종, 첫 국내 시연 선보인다","url":"https://www.gamemeca.com/view.php?gid=1782860","summary":"호요버스가 지스타 2026에서 '붕괴: 넥서스 아니마'와 '쁘띠플래닛'을 국내 처음으로 시연한다. 기존 인기작에도 체험과 참여형 무대를 마련한다.","source":"게임메카","time":"11/03 18:06"},
+    {"category":"market","title":"게임사 인증받는 아이템 거래, '원아이템' 서비스 발표","url":"https://www.gamemeca.com/view.php?gid=1782858","summary":"원스토어가 게임사와 직접 연동하는 아이템 거래 서비스를 공개했다. 거래 대금은 스토어 재화로 지급되며, 게임사는 거래 수수료를 나눈다.","source":"게임메카","time":"11/03 17:59"},
+    {"category":"new","title":"[오늘의 스팀] 킹스 필드 느낌, 압긍 받은 신작 ‘퀸즈 도메인’","url":"https://www.gamemeca.com/view.php?gid=1782864","summary":"레트로 판타지 액션 RPG '퀸즈 도메인'이 스팀에서 높은 이용자 평가를 받았다. 탐험의 재미가 호평받는 한편 진입 장벽과 편의성은 아쉬움으로 꼽혔다.","source":"게임메카","time":"11/03 17:52"},
+    {"category":"industry","title":"AI 타고 번지는 해킹, 게임업계도 줄줄이 뚫렸다","url":"https://www.gamemeca.com/view.php?gid=1782862","summary":"게임업계에서 해킹과 개인정보 유출이 이어지고 있다. 기사에서는 외부 위탁사를 통한 침해를 주요 위험으로 짚어, 게임사의 협력사 보안 관리가 중요해졌다고 설명한다.","source":"게임메카","time":"11/03 17:48"},
+    {"category":"market","title":"스위치 2 패키지 게임의 키 카드 여부를 확인하는 데이터베이스 등장","url":"https://automaton-media.com/articles/newsjp/20261103-477214/","summary":"이용자들이 스위치 2 패키지 게임 약 850종의 게임 카드·키 카드·다운로드 코드 방식을 모은 사이트를 열었다. 구매 전에 다운로드 필요 여부를 비교할 수 있다.","source":"AUTOMATON","time":"11/03 14:58"},
+    {"category":"market","title":"'블러드본', 올해 약 25만 장 판매 추정…출시 10년 넘어도 인기","url":"https://automaton-media.com/articles/newsjp/20261103-477187/","summary":"출시 10년이 넘은 '블러드본'이 올해도 약 25만 장 팔렸다는 추정이 나왔다. 오래된 게임의 꾸준한 판매 가능성을 보여 주지만 공식 판매량은 아니다.","source":"AUTOMATON","time":"11/03 11:49"},
+    {"category":"new","title":"4인 협동 덱 구축 게임 'HARMA 망국의 에덴', 11월 17일 앞서 해보기 출시","url":"https://automaton-media.com/articles/newsjp/20261103-477178/","summary":"최대 4명이 협동하는 로그라이크 카드 게임 'HARMA 망국의 에덴'이 11월 17일 앞서 해보기를 시작한다. 카드 효과를 조율하는 방식이 전략의 중심이다.","source":"AUTOMATON","time":"11/03 10:00"}
+  ]
+}
