@@ -1,0 +1,239 @@
+{
+  "published_at": "2026-11-03T17:05",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "로봇신문",
+    "The Robot Report",
+    "지디넷코리아",
+    "전자신문",
+    "Robohub",
+    "헬로티"
+  ],
+  "articles": [
+    {
+      "category": "humanoid",
+      "title": "애자일 로보틱스-엔비디아, 내년에 최대 휴머노이드 2천대 생산한다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49350",
+      "summary": "독일 애자일 로보틱스가 엔비디아와 손잡고 내년에 소형 휴머노이드를 최대 2천 대 만들어요. 주로 교육기관과 기업 연구소에 공급돼 휴머노이드 연구 저변이 넓어질 전망이에요.",
+      "source": "로봇신문",
+      "time": "11/03 10:00"
+    },
+    {
+      "category": "business",
+      "title": "처칠 캐피털 XI 주주, 25억 달러 규모 어질리티 로보틱스 휴머노이드 SPAC 합병 승인",
+      "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+      "summary": "휴머노이드 '디지트' 개발사 어질리티 로보틱스의 스팩 합병이 84% 찬성으로 승인됐어요. 약 4억6500만 달러를 확보해 11월 5일 나스닥(AGLT) 상장 예정이에요.",
+      "source": "The Robot Report",
+      "time": "11/03 09:15"
+    },
+    {
+      "category": "humanoid",
+      "title": "국내 첫 휴머노이드 데이터 팩토리 구축…\"서비스는 2027년 말\"",
+      "url": "https://zdnet.co.kr/view/?no=20261103113457",
+      "summary": "한국기계연구원 주관 연구단이 ETRI와 함께 1000㎡ 규모의 국내 첫 'AI 휴머노이드 데이터 팩토리'를 열었어요. 휴머노이드 학습용 데이터를 대량으로 모으는 곳이에요.",
+      "source": "지디넷코리아",
+      "time": "11/03 15:00"
+    },
+    {
+      "category": "humanoid",
+      "title": "500kg 들고 원전·항만 누빈다…4m 거대 로봇의 도전",
+      "url": "https://zdnet.co.kr/view/?no=20261103090253",
+      "summary": "중국 로봇 기업이 높이 4m·무게 1.2톤, 관절 41개의 거대 로봇을 공개했어요. 큰 힘과 정밀한 움직임을 함께 갖춰 원전·항만 같은 험한 현장 투입을 노려요.",
+      "source": "지디넷코리아",
+      "time": "11/03 10:09"
+    },
+    {
+      "category": "physical_ai",
+      "title": "NC AI, 피지컬 AI용 경량 모델 개발…글로벌 모델 6종 앞서",
+      "url": "https://zdnet.co.kr/view/?no=20261103152327",
+      "summary": "NC AI가 작은 크기로도 글로벌 모델보다 공간 이해를 잘하는 경량 시각·언어 모델을 만들었어요. 로봇이 주변 상황을 스스로 파악하도록 돕고, 제조·조선·국방에 쓸 계획이에요.",
+      "source": "지디넷코리아",
+      "time": "11/03 15:25"
+    },
+    {
+      "category": "physical_ai",
+      "title": "한중 피지컬 AI 협력 시동…\"조작 지능·범용성 확보 필수\"",
+      "url": "https://www.etnews.com/20261103000344",
+      "summary": "한중 전문가들이 피지컬 AI 확산의 조건으로 정교한 손 조작 지능과 여러 환경에 대응하는 범용성을 꼽았어요. 고품질 학습 데이터와 하드웨어 성능 개선도 과제로 나왔어요.",
+      "source": "전자신문",
+      "time": "11/03 15:33"
+    },
+    {
+      "category": "physical_ai",
+      "title": "中 칭화대-애지봇, \"로봇끼리 '선생님' 삼으니 작업 성공률↑\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49360",
+      "summary": "여러 로봇이 서로를 선생님 삼아 배우며 스스로 실력을 키우는 기술이 중국에서 나왔어요. 로봇끼리 경험을 나눠 작업 성공률을 높이는 방식이에요.",
+      "source": "로봇신문",
+      "time": "11/03 11:19"
+    },
+    {
+      "category": "physical_ai",
+      "title": "美 RAI 연구소, 로봇 전신 조작 기술로 15kg 타이어 자율 조작",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49351",
+      "summary": "RAI 연구소가 보스턴 다이나믹스의 4족 로봇 '스팟'으로 몸 전체를 써서 15kg 타이어를 스스로 다루는 데 성공했어요. 팔만이 아니라 온몸을 활용하는 조작 기술이에요.",
+      "source": "로봇신문",
+      "time": "11/03 11:00"
+    },
+    {
+      "category": "physical_ai",
+      "title": "벡트로보틱스, 제조·물류·서비스 현장 연결하는 '피지컬 AI 비전' 첫 선",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49363",
+      "summary": "벡트로보틱스가 로보월드 2026에서 지능형 로봇 플랫폼 '록시(ROXI)'를 처음 공개해요. 제조·물류·서비스 현장을 하나로 잇는 피지컬 AI 비전을 보여줄 예정이에요.",
+      "source": "로봇신문",
+      "time": "11/03 11:41"
+    },
+    {
+      "category": "physical_ai",
+      "title": "로봇을 가르치는 AI, 이제 사람의 역량도 키운다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49348",
+      "summary": "로봇이 숙련자를 보고 배우는 '시연 학습' 기술을 거꾸로 사람 교육에 쓰자는 기고예요. 작업 동작을 분석해 학습자의 약점을 짚고 맞춤 훈련을 돕는 아이디어예요.",
+      "source": "로봇신문",
+      "time": "11/02 22:49"
+    },
+    {
+      "category": "physical_ai",
+      "title": "근육의 협응, 전기 모터로 흉내 낼 수 있다…더 나은 로봇으로 이어질 수도",
+      "url": "https://robohub.org/muscle-coordination-can-be-mimicked-by-electric-motors-it-could-lead-to-improved-robots/",
+      "summary": "영국 브리스톨대 연구팀이 평범한 전기 모터로 근육 모형을 만들었더니 근육의 협응이 저절로 나타났어요. 복잡한 제어 없이도 부드럽게 힘을 내는 로봇 설계에 힌트가 될 수 있어요.",
+      "source": "Robohub",
+      "time": "11/02 22:55"
+    },
+    {
+      "category": "industrial",
+      "title": "ABB로보틱스, 패션 물류에 산업용 피지컬 AI 도입",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49357",
+      "summary": "ABB로보틱스가 비전 기반 엔드투엔드 산업용 피지컬 AI 솔루션을 패션 물류 현장에 적용했어요. 모양이 제각각인 의류도 로봇이 보고 판단해 처리해요.",
+      "source": "로봇신문",
+      "time": "11/03 10:30"
+    },
+    {
+      "category": "industrial",
+      "title": "두핸즈 '품고', 물동량 60% 증가…물류 현장에 피지컬 AI 도입 속도",
+      "url": "https://zdnet.co.kr/view/?no=20261103112145",
+      "summary": "풀필먼트 '품고' 운영사 두핸즈가 늘어난 물동량 데이터를 로봇 학습에 활용해요. 반복적인 포장 작업부터 로봇으로 자동화하겠다는 계획이에요.",
+      "source": "지디넷코리아",
+      "time": "11/03 11:21"
+    },
+    {
+      "category": "industrial",
+      "title": "파운드리 로보틱스, 미국 내 첫 자율 조립공장 건설비 1억달러 유치",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49356",
+      "summary": "미국 파운드리 로보틱스가 로봇이 스스로 조립하는 미국 첫 자율 조립공장을 짓기 위해 1억 달러(약 1340억 원)를 유치했어요.",
+      "source": "로봇신문",
+      "time": "11/03 10:23"
+    },
+    {
+      "category": "business",
+      "title": "튜터 인텔리전스, 모델 학습·로봇 배치 확대 위해 시리즈 B 투자 유치",
+      "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+      "summary": "MIT 출신 튜터 인텔리전스가 7500만 달러 시리즈 B를 유치했어요. 실제 작업 데이터와 사람 '튜터'로 피킹 로봇을 학습시켜 범용 로봇으로 키울 계획이에요.",
+      "source": "The Robot Report",
+      "time": "11/03 04:25"
+    },
+    {
+      "category": "business",
+      "title": "[IPO] 에이엘로봇 \"고마진 힘·토크 센서로 수익성 개선할 것\"",
+      "url": "https://zdnet.co.kr/view/?no=20261103145824",
+      "summary": "이달 코스닥 상장을 앞둔 로봇 부품 기업 에이엘로봇이 매출총이익률 50%가 넘는 힘·토크 센서 비중을 늘려 수익성을 높이겠다고 밝혔어요.",
+      "source": "지디넷코리아",
+      "time": "11/03 15:25"
+    },
+    {
+      "category": "business",
+      "title": "中 하이얼, 로봇 매출 급증...매장도 공격적 확장",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49361",
+      "summary": "중국 가전 기업 하이얼의 외골격 로봇 판매가 빠르게 늘고 있어요. 고령화 수요를 겨냥해 매장도 공격적으로 넓히고 있어요.",
+      "source": "로봇신문",
+      "time": "11/03 11:23"
+    },
+    {
+      "category": "service",
+      "title": "美 MIT, 뱀처럼 소장 누비는 소프트 로봇 내시경 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49354",
+      "summary": "MIT 연구팀이 뱀처럼 움직이며 구불구불한 소장 속을 검사하고 치료하는 말랑한 소프트 로봇 내시경을 개발했어요.",
+      "source": "로봇신문",
+      "time": "11/03 11:03"
+    },
+    {
+      "category": "service",
+      "title": "젠썸, 로봇 수술 중 환자 고정·이동 돕는 '써마픽스' 설계",
+      "url": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
+      "summary": "젠썸이 로봇 수술 중 환자를 안전하게 고정하고 체온을 유지해 주는 '써마픽스'를 내놨어요. 수술실 공간도 적게 차지해요.",
+      "source": "The Robot Report",
+      "time": "11/03 03:06"
+    },
+    {
+      "category": "service",
+      "title": "[AIoT 어워드2026] 세다, 웨어러블 로봇 비교체험·맞춤형 컨설팅 서비스",
+      "url": "https://www.etnews.com/20261103000144",
+      "summary": "세다는 보행 보조·허리 근력 보조 웨어러블 로봇을 직접 비교 체험하고 체형과 목적에 맞게 추천받는 서비스로 AIoT 혁신대상을 받았어요.",
+      "source": "전자신문",
+      "time": "11/03 10:38"
+    },
+    {
+      "category": "others",
+      "title": "홍콩 로봇 기업, 399달러 소형 4족 보행 로봇 '미니 퍼퍼 4' 선봬",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49353",
+      "summary": "홍콩 맹당이 399달러짜리 소형 4족 보행 로봇 '미니 퍼퍼 4'를 내놨어요. 로봇공학을 배우는 학생과 개발자용 저가 교육 플랫폼이에요.",
+      "source": "로봇신문",
+      "time": "11/03 10:03"
+    },
+    {
+      "category": "others",
+      "title": "이스라엘 퍼셉토, 검사 데이터 통합 분석용 '액시온 AI' 플랫폼 출시",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49355",
+      "summary": "자율 드론 검사 기업 퍼셉토가 하드웨어 종류와 상관없이 쓰는 피지컬 AI 플랫폼 '액시온'을 출시했어요. 여러 로봇·드론의 검사 데이터를 한곳에서 분석해요.",
+      "source": "로봇신문",
+      "time": "11/03 10:08"
+    },
+    {
+      "category": "others",
+      "title": "농업기술 창업자들이 ROI에 대해 잘못 생각하는 것",
+      "url": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/",
+      "summary": "팜핸드 벤처스 코니 보웬 대표가 농업 로봇·기술 스타트업이 투자 대비 효과(ROI)를 어떻게 증명해야 하는지 조언해요.",
+      "source": "The Robot Report",
+      "time": "11/03 00:30"
+    },
+    {
+      "category": "others",
+      "title": "2026년 10월 로봇 업계 10대 뉴스",
+      "url": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/",
+      "summary": "10월 로봇 업계 인기 기사 10선이에요. AGCO-어질리티 디지트 공장 배치 계약, 보스턴 다이나믹스 소식 등 휴머노이드 이슈가 두드러졌어요.",
+      "source": "The Robot Report",
+      "time": "11/03 02:56"
+    },
+    {
+      "category": "policy_event",
+      "title": "한국로봇산업진흥원, 로봇 스타트업 투자와 시장 진출 지원",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49358",
+      "summary": "한국로봇산업진흥원이 5일 킨텍스에서 로봇 스타트업의 투자 유치와 판로 개척을 돕는 행사를 열어요.",
+      "source": "로봇신문",
+      "time": "11/03 10:38"
+    },
+    {
+      "category": "policy_event",
+      "title": "가온로보틱스, '2026 로보월드' 참가...로봇 서비스 체험형 단독 부스 운영",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49359",
+      "summary": "가온로보틱스가 11월 4~7일 킨텍스 '2026 로보월드'에서 관람객이 로봇 서비스를 직접 체험하는 단독 부스를 운영해요.",
+      "source": "로봇신문",
+      "time": "11/03 10:57"
+    },
+    {
+      "category": "policy_event",
+      "title": "ETRI, 미래혁신 이끄는 첨단 AIoT 기술 9종 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49346",
+      "summary": "ETRI가 AIoT 국제전시회에서 로봇, 디지털트윈, 모빌리티 등 5개 분야 핵심기술 9종을 공개해요. 무인장비 기반 AI 감시 시스템 시연도 선보여요.",
+      "source": "로봇신문",
+      "time": "11/02 22:52"
+    },
+    {
+      "category": "policy_event",
+      "title": "아이벡스, AI 로보틱스 플랫폼 AIVot으로 과학기술혁신대상 금상 수상",
+      "url": "https://www.hellot.net/news/article.html?no=115966",
+      "summary": "산업용 피지컬 AI 기업 아이벡스가 AI 로보틱스 플랫폼 '아이봇(AIVot)'으로 과학기술혁신대상 머신비전 SW 부문 금상을 받았어요.",
+      "source": "헬로티",
+      "time": "11/02 18:20"
+    }
+  ]
+}

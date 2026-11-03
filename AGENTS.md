@@ -35,6 +35,17 @@
   - PC Gamer: https://www.pcgamer.com/au/archive/
   - Nintendo Life: https://www.nintendolife.com/news
 
+### GraphRAG
+- 국내:
+  - AI Times: https://www.aitimes.com
+  - 지디넷코리아: https://zdnet.co.kr
+  - 전자신문: https://www.etnews.com/
+- 해외:
+  - Neo4j 블로그: https://neo4j.com/blog/
+  - Microsoft Research 블로그: https://www.microsoft.com/en-us/research/blog/
+  - arXiv: https://arxiv.org/list/cs.AI/recent
+  - VentureBeat: https://venturebeat.com/category/ai/
+
 ## Lessons Learned
 
 - **월간 AI 트렌드 요약 보고서**(`trends/ai/YYYYMM/`) 작성을 요청받으면, 시작하기 전에 [트렌드 요약 보고서 작성 가이드](references/trend-report-guide.md)를 먼저 읽고 그 절차와 문체 규칙을 따른다.
