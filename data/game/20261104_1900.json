@@ -1,0 +1,22 @@
+{
+  "published_at": "2026-11-04T19:00",
+  "title": "게임 뉴스레터",
+  "emoji": "🎮",
+  "sources": ["게임메카", "인벤", "전자신문", "AUTOMATON"],
+  "articles": [
+    {"category":"industry","title":"‘AI에 게임 도둑 맞았습니다’","url":"https://www.gamemeca.com/view.php?gid=1782926","summary":"인디 게임 ‘슬롯바운드’와 유사한 중국 미니게임이 등장했습니다. 작은 개발팀의 아이디어를 빠르게 복제하는 문제와 대응의 어려움을 보여 줍니다.","source":"게임메카","time":"11/04 16:41"},
+    {"category":"market","title":"글로벌 흥행 지속, 아이온2 스팀 주간 최고 인기 TOP 3","url":"https://www.gamemeca.com/view.php?gid=1782928","summary":"‘아이온2’가 스팀 주간 최고 인기 순위 3위에 올랐습니다. 국내 MMORPG의 해외 수요를 살펴볼 만한 판매 지표입니다.","source":"게임메카","time":"11/04 16:17"},
+    {"category":"new","title":"스트리밍 시청자가 신이 되어 개입하는 '갓워치 던전' 공개","url":"https://www.gamemeca.com/view.php?gid=1782917","summary":"방송 시청자가 후원을 통해 게임 속 상황에 직접 영향을 주는 신작입니다. 보는 사람을 플레이 경험의 일부로 끌어들이는 설계가 눈에 띕니다.","source":"게임메카","time":"11/04 15:40"},
+    {"category":"new","title":"8년 만에 발표된 엘더스크롤 6 부제는 ‘센티넬’","url":"https://www.gamemeca.com/view.php?gid=1782915","summary":"‘엘더스크롤 6’의 부제가 공개됐습니다. 오랜 기간 기다린 대형 시리즈의 새 정보가 이용자 관심을 다시 모으고 있습니다.","source":"게임메카","time":"11/04 12:56"},
+    {"category":"new","title":"최대 212GB 필요, GTA 6 사전 다운로드 11월 10일 시작","url":"https://www.gamemeca.com/view.php?gid=1782911","summary":"‘GTA 6’의 사전 다운로드가 11월 10일 시작됩니다. 최대 212GB의 저장 공간이 필요해 출시 전 안내와 설치 경험이 중요해졌습니다.","source":"게임메카","time":"11/04 12:51"},
+    {"category":"market","title":"도깨비의세계, 카카오게임즈 MMORPG 중 유저 수 1위","url":"https://www.gamemeca.com/view.php?gid=1782912","summary":"‘도깨비의세계’가 카카오게임즈 MMORPG 가운데 이용자 수 1위에 올랐습니다. 신작의 초기 이용자 반응을 살펴볼 수 있습니다.","source":"게임메카","time":"11/04 12:41"},
+    {"category":"industry","title":"호주 CHOICE, 소니에 '숀키 어워드' 선정","url":"https://m.inven.co.kr/webzine/wznews.php?idx=322969","summary":"호주 소비자 단체가 PS 스토어의 ‘구매’ 표현과 실제 이용 라이선스의 차이를 문제 삼았습니다. 디지털 게임의 소유권 안내 방식에 관한 논쟁입니다.","source":"인벤","time":"11/04 14:43"},
+    {"category":"new","title":"넷마블 '나 혼자만 레벨업:어라이즈 오버드라이브' 콘솔 출시","url":"https://www.etnews.com/20261104000235","summary":"넷마블이 ‘나 혼자만 레벨업:어라이즈 오버드라이브’를 콘솔로 선보입니다. 인기 원작 게임의 플랫폼 확대 사례입니다.","source":"전자신문","time":"11/04 12:11"},
+    {"category":"development","title":"유니티, 지스타 2026서 인디 지원 확대... 전세계 30개 게임 쇼케이스","url":"https://www.etnews.com/20261104000233","summary":"유니티가 지스타에서 세계 인디 게임 30종을 소개하고 개발자 지원을 확대합니다. 소규모 팀의 도구와 유통 기회를 살펴볼 행사입니다.","source":"전자신문","time":"11/04 12:05"},
+    {"category":"industry","title":"카카오게임즈 3분기 영업손실 263억원... '도깨비의세계'로 4분기 반등 노린다","url":"https://www.etnews.com/20261104000189","summary":"카카오게임즈가 3분기 영업손실 263억 원을 기록했습니다. 회사는 신작 성과를 바탕으로 4분기 실적 개선을 기대하고 있습니다.","source":"전자신문","time":"11/04 10:43"},
+    {"category":"development","title":"게임 모드 공유 사이트 넥서스 모즈, AI 사용 공개 의무화…금지는 하지 않아","url":"https://automaton-media.com/articles/newsjp/20261104-477375/","summary":"넥서스 모즈가 새 모드에 AI 사용 여부와 방식을 밝히도록 했습니다. 제작 도구의 사용을 허용하면서 이용자가 판단할 정보를 제공하는 정책입니다.","source":"AUTOMATON","time":"11/04 15:32"},
+    {"category":"market","title":"‘컨트롤 레조넌트’ 흥행에 레메디 매출 3배 이상…흑자 전환","url":"https://automaton-media.com/articles/newsjp/20261104-477349/","summary":"레메디의 3분기 매출이 전년 동기보다 3배 이상 늘며 흑자로 돌아섰습니다. 신작 흥행이 개발사 실적에 미친 변화를 보여 줍니다.","source":"AUTOMATON","time":"11/04 14:25"},
+    {"category":"development","title":"itch.io, 게임 검색에 AI 사용 여부·용도 필터 도입","url":"https://automaton-media.com/articles/newsjp/20261104-477307/","summary":"itch.io에서 AI 사용 여부와 그래픽·코드 등 사용 분야를 검색 조건으로 고를 수 있게 됐습니다. 제작 방식이 게임 발견 과정에도 영향을 주고 있습니다.","source":"AUTOMATON","time":"11/04 10:29"},
+    {"category":"development","title":"스팀, 출시 전 게임 심사 절차 변경…개발자에 5분 실행 요구","url":"https://automaton-media.com/articles/newsjp/20261104-477286/","summary":"스팀이 제출 전 7일 안에 게임을 최소 5분 실행하도록 요구합니다. 개발사는 출시 준비 일정에 새 확인 절차를 반영해야 합니다.","source":"AUTOMATON","time":"11/04 10:13"}
+  ]
+}
