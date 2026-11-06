@@ -35,7 +35,7 @@ EVIDENCE_COUNT = 4
 TODO = "TODO"
 
 # 같은 매체의 다른 표기를 하나로 합쳐요. 새 표기가 보이면 여기에 추가해요.
-SOURCE_ALIASES = {"AI타임스": "AI Times", "ZDNet Korea": "지디넷"}
+SOURCE_ALIASES = {"AI타임스": "AI Times", "ZDNet Korea": "지디넷", "지디넷코리아": "지디넷", "Medium AI": "Medium"}
 
 DEFAULT_GROUPS = [
     {"id": "product", "name": "기술과 제품"},
