@@ -1,118 +1,122 @@
 # 월간 트렌드 보고서 작성 가이드
 
 한 달 치 뉴스레터를 읽고 **트렌드 9가지**를 카드형 웹 페이지로 정리하는 방법이에요.
-예시는 AI 주제 기준이에요. 로봇·게임·GraphRAG도 같은 틀을 쓰고, AI 전용 부분(그룹 이름, SVG 키, 용어 풀이, 히어로 문구)만 주제에 맞게 바꿔요.
-기준 결과물은 [`trends/ai/202610`](../trends/ai/202610/)이고, 다음 달에도 이 폴더를 복사해서 같은 방식으로 만들면 돼요.
-`{SUBJECT}`는 주제 폴더 이름이에요(AI는 `ai`). 뉴스레터 `newsletters/{SUBJECT}/`, 데이터 `data/{SUBJECT}/`와 같은 이름을 써요.
+화면 틀은 `templates/trend.html` 하나를 모든 주제·모든 달이 같이 쓰고, 달마다 바뀌는 내용은 `trends/{SUBJECT}/YYYYMM/YYYYMM.json`에만 적어요. 페이지는 `scripts/generate_trend_report.py`가 만들어요.
 
-- 결과물: `trends/{SUBJECT}/YYYYMM/index.html`(카드 9장 + 상세 설명 + 근거 기사), SVG 일러스트, 미리보기 PNG 4장
-- 독자: AI를 잘 모르는 일반인도 술술 읽을 수 있어야 해요. 그래서 **친구한테 말하듯 쉬운 반말**로 써요.
+- `{SUBJECT}`: 주제 폴더 이름(`ai`, `robot`, `game`, `graphrag`). `newsletters/{SUBJECT}/`와 같은 이름이에요.
+- 기준 결과물: [`trends/ai/202610`](../trends/ai/202610/) — 특히 [`202610.json`](../trends/ai/202610/202610.json)이 데이터 작성 예시예요.
+- 독자: 그 분야를 잘 모르는 일반인도 술술 읽을 수 있어야 해요. 그래서 **친구한테 말하듯 쉬운 반말**로 써요.
 - 원칙: 흐름은 해석하되, **근거는 기사로 남기고 사실은 부풀리지 않아요.**
 
 ---
 
-## 1. 폴더 구조
+## 1. 파일 구조
 
 ```
+scripts/generate_trend_report.py   # extract(뉴스레터 → corpus.json), build(템플릿 + 데이터 → index.html)
+templates/
+├── trend.html                      # 페이지 틀. 아래쪽 BEGIN/END 블록은 카드·목차·상세·근거 기사 반복 조각
+├── trend.css / trend.js            # 화면 모양 / 필터·목차·대화상자 동작 (build가 styles.css, app.js로 복사)
+├── trend-favicon.svg
+└── trend-art/{그림키}.svg          # 카드 일러스트 (INK·LIGHT·BG 자리에 카드 색이 들어가요)
+
 trends/{SUBJECT}/YYYYMM/
-├── extract_newsletters.py   # newsletters/{SUBJECT}/YYYYMM*.html → corpus.json (기사 추출·중복 제거)
-├── corpus.json              # 추출된 기사 목록 (id: A0001~)
-├── trends.json              # ★ 사람이 쓰는 부분: 카드·설명·근거 기사 ID
-├── build_page.py            # corpus + trends → index.html, assets/*.svg 생성 (+ 페이지 고정 문구)
-├── index.html               # 생성물 (직접 수정하지 않음)
-├── styles.css / app.js      # 화면 모양 / 필터·목차·대화상자 동작
-├── assets/                  # build_page.py가 만드는 카드 일러스트 SVG + favicon
-├── serve.py                 # 로컬 확인용 서버 (127.0.0.1만)
-├── README.md                # 이 보고서 사용법 (같은 반말 톤)
-└── preview-*.png            # 미리보기 4장
+├── corpus.json                     # extract 결과: 기사 목록 (id: A0001~)
+├── YYYYMM.json                     # ★ 사람이 쓰는 유일한 파일: 페이지 문구 + 트렌드 9개
+├── index.html, styles.css, app.js, assets/   # build 생성물 (직접 고치지 않아요)
+└── preview-*.png                   # 미리보기 4장
 ```
 
 외부 라이브러리·CDN·웹 폰트는 쓰지 않아요. Python 표준 라이브러리만으로 돌아가요.
+월·기간·뉴스레터 수·기사 수·필터 개수·날짜 링크·저장소 주소는 build가 `corpus.json`과 git 원격 주소로 **자동 계산**해요. 손으로 바꿀 숫자가 없어요.
 
 ---
 
 ## 2. 작업 순서
 
-### 2-1. 이전 달 폴더 복사 후 월 바꾸기
+### 2-1. 기사 추출
 
 ```powershell
-New-Item -ItemType Directory -Force trends/{SUBJECT} | Out-Null
-Copy-Item -Recurse trends/ai/202610 trends/{SUBJECT}/YYYYMM
+python scripts/generate_trend_report.py extract {SUBJECT} YYYYMM
 ```
 
-새 주제라 `trends/{SUBJECT}` 폴더가 없으면 `Copy-Item`이 실패하니까 먼저 만들어 둬요.
-
-`__pycache__`는 지우고, 아래 **월이 박혀 있는 곳을 전부** 바꿔요. 주제 폴더 이름은 스크립트가 경로에서 알아서 읽으니까 안 바꿔도 돼요. 하나라도 놓치면 지난달 정보가 그대로 남아요.
-
-| 파일 | 바꿀 곳 |
-|---|---|
-| `extract_newsletters.py` | `MONTH = "YYYYMM"`, `corpus` 안의 `month="YYYY-MM"` |
-| `build_page.py` | `assert article["newsletter"].startswith("YYYYMM")` |
-| `build_page.py` | 정리 기준 창 날짜 링크 라벨 `10.{f[6:8]}` → `MM.{f[6:8]}` |
-| `build_page.py` | `<meta description>`, `<title>`, 히어로 `OCTOBER 2026`, `<h1>`, 히어로 설명, `art-month` 숫자 |
-| `build_page.py` | 기간 표시 `2026.10.01 — 10.29`, 정리 기준 창의 날짜 범위 설명, 푸터 `2026 OCTOBER EDITION` |
-| `build_page.py` | `분석한 뉴스레터 <span class="muted">26개</span>`(고정 숫자), 필터 버튼 개수 `05/02/02` |
-| `build_page.py` | `PREVIEW` 저장소 이름 `ai-newsletter` → `newsletter` |
-| `build_page.py` | (AI가 아닌 주제) 히어로·`<title>`·`<h1>`·필터 그룹 이름의 "AI" 문구 |
-| `serve.py` | 상단 docstring, argparse 설명의 `October` |
-| `README.md` | 기간·기사 수·명령어 경로(`trends/{SUBJECT}/YYYYMM/...`) |
-
-> 바꾼 뒤 `grep -nE "10월|OCTOBER|October|202610|2026\.10" trends/{SUBJECT}/YYYYMM/*.py trends/{SUBJECT}/YYYYMM/README.md`로 남은 흔적이 없는지 확인해요.
-
-### 2-2. 기사 추출
-
-```powershell
-python trends/{SUBJECT}/YYYYMM/extract_newsletters.py
-```
-
-- `newsletters/{SUBJECT}/YYYYMM*.html`의 `article-card`에서 제목·요약·매체·URL을 읽어요.
+- `newsletters/{SUBJECT}/YYYYMM*.html`의 `article-card`에서 제목·요약·매체·URL을 읽어 `corpus.json`을 만들어요.
 - URL의 `utm_*`, `fbclid`, `gclid`, 끝 슬래시는 정리하고, 같은 URL은 한 번만 세요.
-- 매체명 한글·영문 표기는 합쳐요(`AI타임스`→`AI Times`, `ZDNet Korea`→`지디넷`). 새 표기가 보이면 매핑에 추가해요.
-- 출력되는 숫자(뉴스레터 수, 기사 수, 중복 수, 고유 기사 수)를 README와 페이지 설명에 써요.
+- 매체명 한글·영문 표기는 합쳐요(`AI타임스`→`AI Times`, `ZDNet Korea`→`지디넷`). 새 표기가 보이면 스크립트의 `SOURCE_ALIASES`에 추가해요.
+- `YYYYMM.json`이 없으면 `TODO`로 채운 뼈대를 만들어 줘요. 이미 있으면 건드리지 않아요.
+- 뉴스레터가 10개 미만이면 경고해요. 한 달 트렌드로 보기엔 적으니 진행할지 먼저 확인해요.
+- **주의**: 이미 쓴 보고서에서 extract를 다시 돌리면 그 사이 추가된 뉴스레터 때문에 숫자가 바뀌고 기사 ID가 어긋날 수 있어요. 데이터를 다 쓴 뒤에는 extract를 다시 돌리지 말고 build만 해요.
 
-### 2-3. 트렌드 9개 고르기
+### 2-2. 트렌드 9개 고르기
 
 1. `corpus.json`의 제목·카테고리를 쭉 훑어서 자주 나오는 주제를 찾아요.
 2. 비슷한 얘기끼리 이어 붙여 **9개 흐름**으로 묶어요. 빈도 순위가 아니라 "무엇이 바뀌고 있나"에 대한 해석이에요.
-3. 세 그룹으로 나눠요(필터 버튼과 연결돼요).
+3. 세 그룹으로 나눠요(필터 버튼과 연결돼요). 기본 그룹은 아래와 같고, 주제에 맞게 `groups`에서 이름을 바꿔도 돼요.
    - `product` 기술과 제품 (보통 5개)
    - `industry` 산업과 투자 (보통 2개)
    - `trust` 신뢰와 정책 (보통 2개)
 4. 흐름마다 **대표 근거 기사 4개**를 고르고, 기사 ID(`A0123`)를 적어요. 한 기사가 여러 흐름에 걸쳐도 괜찮아요.
 5. 기사마다 상태를 구분해 둬요: 회사 발표 / 좁은 범위의 평가·벤치마크 / 연구 시연 / 전망 / 시행 예정 정책 / 이미 시행된 정책. 본문에서 이걸 섞지 않아요.
 
-### 2-4. `trends.json` 작성
-
-트렌드 하나는 이렇게 생겼어요.
+### 2-3. `YYYYMM.json` 작성
 
 ```json
 {
-  "id": "agents", "number": "01", "group": "product",
-  "label": "AGENTIC AI", "category": "AI 비서", "color": "orange",
-  "title": "말만 하던 AI가\n이제 일을 해",
-  "summary": "카드에 들어갈 한두 문장",
-  "takeaway": "상세 설명 맨 위 굵은 한 문장 (핵심 결론)",
-  "paragraphs": ["문단 1: 상황·비유로 시작 → 이번 달 기사 소개", "문단 2: 추가 사례 → 해석 → 주의할 점"],
-  "watch": "'이건 꼭 체크해' 박스: 실제로 확인할 지표·질문",
-  "evidence": [{"id": "A0243", "note": "이 기사가 왜 근거인지 한 문장"}]
+  "brand": "AI SIGNAL",
+  "title": "10월의 AI, 9개의 흐름",
+  "description": "2026년 10월 뉴스레터 {{ newsletter_count }}개를 훑어서 뽑은 AI 트렌드 9가지. ...",
+  "headline": "10월의 AI,\n말보다 **행동으로.**",
+  "intro": "일하는 AI 비서부터 현장을 누비는 로봇까지.\n한 달 치 뉴스레터를 싹 훑어서, ...",
+  "groups": [{"id": "product", "name": "기술과 제품"}, {"id": "industry", "name": "산업과 투자"}, {"id": "trust", "name": "신뢰와 정책"}],
+  "trends": [
+    {
+      "id": "agents", "art": "agents", "number": "01", "group": "product",
+      "label": "AGENTIC AI", "category": "AI 비서", "color": "orange",
+      "title": "말만 하던 AI가\n이제 일을 해",
+      "summary": "카드에 들어갈 한두 문장",
+      "takeaway": "상세 설명 맨 위 굵은 한 문장 (핵심 결론)",
+      "paragraphs": ["문단 1: 상황·비유로 시작 → 이번 달 기사 소개", "문단 2: 추가 사례 → 해석 → 주의할 점"],
+      "watch": "'이건 꼭 체크해' 박스: 실제로 확인할 지표·질문",
+      "evidence": [{"id": "A0243", "note": "이 기사가 왜 근거인지 한 문장"}]
+    }
+  ]
 }
 ```
 
-- `id`는 SVG 일러스트 키예요. `build_page.py`의 `svg_art()` 안 `drawings`에 같은 키가 있어야 해요.
-  지금 있는 키: `agents, coding, efficiency, interfaces, science, physical, infrastructure, security, sovereignty`.
-  새 주제가 생기면 기존 키를 다시 쓰거나 `drawings`에 새 그림을 추가해요.
-- `color`: `orange, blue, green, purple, teal, sand` 중 하나. 이웃한 카드끼리 색이 겹치지 않게 골라요.
-- `title`은 `\n`으로 두 줄을 만들어요. 한 줄은 12자 안팎으로 짧게 써요.
-- `label`은 장식용 영문 대문자라 그대로 둬도 돼요.
-- `build_page.py`는 트렌드가 정확히 9개이고 id가 겹치지 않는지 검사해요.
+페이지 문구
+- `brand`: 머리글·푸터의 이름. 주제별로 `AI SIGNAL`, `ROBOT SIGNAL`처럼 써요.
+- `title`: 브라우저 탭 제목, `description`: 검색·공유용 한두 문장.
+- `headline`: 히어로 큰 제목. `\n`은 줄바꿈, `**글자**`는 강조색이에요.
+- `intro`: 히어로 설명 두 줄(`\n`으로 나눠요).
+- 문구 안에 `{{ newsletter_count }}`, `{{ article_count }}`, `{{ unique_count }}`, `{{ duplicate_count }}`, `{{ source_count }}`를 쓰면 실제 숫자로 바뀌어요.
 
-### 2-5. 빌드
+트렌드
+- `id`: 영문 소문자 키. 화면 앵커와 `assets/{id}.svg` 파일 이름에 쓰여요.
+- `art`: 일러스트 키(`templates/trend-art/{art}.svg`). 빼면 `id`와 같은 그림을 써요.
+  지금 있는 그림: `agents, coding, efficiency, interfaces, science, physical, infrastructure, security, sovereignty`.
+  다른 주제는 비슷한 그림을 `art`로 다시 쓰거나, `trend-art/`에 160×136 기준 SVG 조각을 새로 추가해요.
+- `color`: `orange, blue, green, purple, teal, sand` 중 하나. 이웃한 카드끼리 색이 겹치면 build가 멈춰요.
+- `title`은 `\n`으로 두 줄을 만들어요. 한 줄은 12자 안팎으로 짧게 써요.
+- `label`은 장식용 영문 대문자예요.
+
+### 2-4. 빌드
 
 ```powershell
-python trends/{SUBJECT}/YYYYMM/build_page.py
+python scripts/generate_trend_report.py build {SUBJECT} YYYYMM
 ```
 
-`extract()`를 다시 돌린 뒤 `index.html`과 `assets/*.svg`를 새로 만들어요. 콘솔에 한글이 깨져 보여도 Windows 콘솔 인코딩 문제라서 파일은 정상이에요.
+build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 주고 멈춰요.
+- `TODO`가 남아 있음 / 트렌드가 9개가 아님 / id 중복
+- 근거 기사가 4개가 아니거나, `corpus.json`에 없는 ID이거나, 다른 달 뉴스레터의 기사임
+- 없는 `group`·`color`·그림 키 / 이웃 카드 색 겹침
+
+통과하면 `index.html`, `styles.css`, `app.js`, `assets/`를 새로 만들고, 푸시 후 열 htmlpreview 주소를 출력해요.
+
+### 2-5. 화면 틀을 바꾸고 싶을 때
+
+- 레이아웃·고정 문구 → `templates/trend.html`, 모양 → `templates/trend.css`, 동작 → `templates/trend.js`.
+- `{{ 이름 }}` 자리는 build가 채워요. 템플릿에 새 자리를 만들면 스크립트에서도 값을 넘겨야 해요(빠지면 build가 알려 줘요).
+- 템플릿은 모든 보고서가 같이 써요. 이미 발행한 달은 build를 다시 돌릴 때만 바뀌어요.
 
 ---
 
@@ -172,23 +176,23 @@ python trends/{SUBJECT}/YYYYMM/build_page.py
 
 ### 3-5. 고정 문구도 같은 톤으로
 
-`trends.json`만 바꾸면 반쪽짜리예요. `build_page.py`의 메뉴, 히어로, 섹션 제목, 필터, 사이드바, 정리 기준 창, 푸터와 `README.md`도 같은 반말 톤으로 맞춰요.
+메뉴, 섹션 제목, 사이드바, 정리 기준 창, 푸터 같은 고정 문구는 `templates/trend.html`에 있어요. 이미 반말 톤이니까, 고칠 일이 생기면 같은 톤을 지켜요. 템플릿을 고치면 **모든 달 보고서**에 영향을 주니까 특정 달 얘기는 넣지 않아요.
 
 ---
 
 ## 4. 링크 규칙
 
-- 근거 기사의 **'이 기사가 실린 뉴스레터 보기'**와 정리 기준 창의 **날짜 링크**는 htmlpreview 주소로 연결해요.
+- 근거 기사의 **'이 기사가 실린 뉴스레터 보기'**와 정리 기준 창의 **날짜 링크**는 htmlpreview 주소로 자동 연결돼요.
   ```
   https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/newsletters/{SUBJECT}/<파일명>
   ```
-  `build_page.py`의 `PREVIEW` 상수에 들어 있어요. 202610 원본에는 옛 저장소 이름(`ai-newsletter`)이 남아 있어요. 리다이렉트로 열리긴 하지만 복사한 뒤 `newsletter`로 바꿔요.
-- 완성된 보고서 자체의 링크는 이렇게 만들어요(결과 보고에 써요).
+  저장소 주소(`unicorn-svc/newsletter`)는 build가 `git remote get-url origin`에서 읽어요.
+- 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 확인).
+- 완성된 보고서 자체의 링크는 이렇게 만들어요(결과 보고에 써요). build가 마지막에 출력해 줘요.
   ```
   https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/trends/{SUBJECT}/YYYYMM/index.html
   ```
-- 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 확인).
-- `app.js`에 `file:` 프로토콜일 때 링크를 로컬 경로로 바꾸는 코드를 다시 넣지 않아요. 넣으면 htmlpreview 링크를 덮어써요.
+- `trend.js`에 `file:` 프로토콜일 때 링크를 로컬 경로로 바꾸는 코드를 넣지 않아요. 넣으면 htmlpreview 링크를 덮어써요.
 - 기사 원문 링크는 `target="_blank" rel="noopener noreferrer"`로 새 탭에서 열려요.
 
 ---
@@ -197,13 +201,12 @@ python trends/{SUBJECT}/YYYYMM/build_page.py
 
 1. 로컬 서버를 띄워요. 파일을 그냥 열면 미리보기 창에서 CSS가 안 붙을 수 있어서 서버로 확인하는 게 정확해요.
    ```powershell
-   python trends/{SUBJECT}/YYYYMM/serve.py --port 8771
+   python -m http.server 8771 --bind 127.0.0.1 --directory trends/{SUBJECT}/YYYYMM
    ```
 2. 브라우저에서 이것들을 확인해요.
-   - 첫 화면, 카드 9장, 필터 버튼(그룹별 개수), 상세 설명 1~2개, '근거 기사 보기' 펼침, 정리 기준 창
+   - 첫 화면(달·기간·숫자), 카드 9장, 필터 버튼(그룹별 개수), 상세 설명 1~2개, '근거 기사 보기' 펼침, 정리 기준 창
    - 모바일 폭(390px)에서 레이아웃이 깨지지 않는지
    - htmlpreview 링크를 하나 직접 열어서 뉴스레터가 뜨는지
-   - `index.html` 안에 `href="source/` 같은 옛 링크가 남지 않았는지
 3. 확인이 끝나면 서버는 **그 작업만 골라서** 꺼요(백그라운드 작업 중지). `taskkill /FI "WINDOWTITLE eq *"`처럼 범위가 넓은 종료 명령은 쓰지 않아요.
 
 ---
@@ -232,18 +235,17 @@ python trends/{SUBJECT}/YYYYMM/build_page.py
 
 ## 7. 커밋·푸시
 
-- 커밋은 보통 두 번으로 나눠요: ① 문구·빌드 결과(`trends.json`, `build_page.py`, `index.html`, `README.md`, `app.js`), ② 미리보기 PNG.
-- `corpus.json`은 뉴스레터를 새로 추출했을 때만 바뀌어요. 바뀌었다면 같이 커밋해요.
+- 커밋은 보통 두 번으로 나눠요: ① 데이터·생성물(`YYYYMM.json`, `corpus.json`, `index.html`, `styles.css`, `app.js`, `assets/`), ② 미리보기 PNG.
+- 템플릿·스크립트를 고쳤다면 보고서와 섞지 말고 따로 커밋해요.
 - `.playwright-mcp/`, `.temp/`, `__pycache__/`는 커밋하지 않아요.
 
 ---
 
 ## 8. 마지막 점검 목록
 
-- [ ] 월이 박힌 곳을 전부 바꿨다 (grep 결과가 비어 있다)
-- [ ] 트렌드 9개, 그룹 5/2/2, 흐름마다 근거 기사 4개
-- [ ] 모든 `id`에 맞는 SVG 그림이 있다
-- [ ] 본문·카드·고정 문구·README가 모두 친구 말투 반말이다
+- [ ] build가 검사를 통과했다 (`TODO` 없음, 트렌드 9개, 흐름마다 근거 기사 4개)
+- [ ] 그룹 개수가 의도대로다 (보통 5/2/2)
+- [ ] 본문·카드·히어로 문구가 모두 친구 말투 반말이다
 - [ ] 어려운 용어는 처음 나올 때 괄호로 풀었다
 - [ ] 비유·예시가 들어갔다 (한 문단에 하나 정도)
 - [ ] 사실·숫자·주의 문구가 원래 근거와 같다

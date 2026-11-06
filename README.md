@@ -140,6 +140,13 @@ Codex는 가장 좌측 패널에서 세번째 '예약' 아이콘을 클릭하고
 URL 형식: https://htmlpreview.github.io/?https://github.com/{ORG}/{REPO}/blob/main/trends/{SUBJECT}/{YYYYMM}/index.html   
 예시) AI 2026년 10월 트렌드 보고서: https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/trends/ai/202610/index.html  
 
+보고서는 공통 틀(`templates/trend.html`)에 달마다 데이터(`trends/{SUBJECT}/{YYYYMM}/{YYYYMM}.json`)를 채워서 만들어요. 직접 만들 때는 아래 순서로 실행해요.
+```
+python scripts/generate_trend_report.py extract {SUBJECT} {YYYYMM}   # 기사 추출 + 데이터 뼈대 생성
+python scripts/generate_trend_report.py build {SUBJECT} {YYYYMM}     # 데이터 검사 + index.html 생성
+```
+자세한 절차와 문체 규칙은 [트렌드 보고서 작성 가이드](references/trend-report-guide.md)를 보세요.
+
 ---
 
 ## 분류체계 변경법

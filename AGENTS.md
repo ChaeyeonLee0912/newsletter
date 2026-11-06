@@ -56,9 +56,14 @@
    - 프롬프트에 주제가 없으면 주제 목록을 **월별 뉴스레터 개수와 함께** 제시하고 선택하게 한다.
    - 프롬프트에 월이 없으면 뉴스레터가 있는 월 목록을 보여 주고 고르게 한다(기본 추천: 가장 최근에 끝난 달).
    - 고른 월의 뉴스레터(`newsletters/{주제}/YYYYMM*.html`)가 없거나 매우 적으면(10개 미만) 진행 전에 알린다. 이미 `trends/{주제}/YYYYMM`이 있으면 덮어쓸지 묻는다.
-3. **생성**: 기준 결과물 `trends/ai/202610`을 복사해 `trends/{주제}/YYYYMM`에 만든다.
-   - AI가 아닌 주제는 가이드의 AI 전용 부분(카드 그룹 이름, SVG 키, 용어 풀이, 히어로·제목의 "AI" 문구)을 그 주제에 맞게 바꾼다.
+3. **생성**: 폴더를 복사하지 않고 생성기로 만든다. 사람이 쓰는 파일은 `trends/{주제}/YYYYMM/YYYYMM.json` 하나뿐이다.
+   1. `python scripts/generate_trend_report.py extract {주제} YYYYMM` → `corpus.json`과 `YYYYMM.json` 뼈대(`TODO`) 생성
+   2. `corpus.json`을 읽고 트렌드 9개·근거 기사 4개씩을 골라 `YYYYMM.json`의 `TODO`를 전부 채운다(작성 예시: `trends/ai/202610/202610.json`).
+   3. `python scripts/generate_trend_report.py build {주제} YYYYMM` → 검사 통과 후 `templates/trend.html` 틀로 `index.html` 생성. 검사 실패 메시지는 데이터를 고쳐서 해결한다.
+   - 월·기간·숫자·링크는 build가 자동 계산하므로 손으로 넣지 않는다. `index.html` 등 생성물은 직접 고치지 않는다.
+   - AI가 아닌 주제는 `brand`, `groups` 이름, 그림 키(`art`), 용어 풀이를 그 주제에 맞게 쓴다.
    - 문체는 일반인 대상의 친구 말투 반말, 쉬운 용어 풀이, 생활 속 비유·예시. 사실·숫자·주의 문구는 바꾸지 않는다.
+   - 화면 틀 자체를 바꿀 일이 있으면 `templates/trend.*`를 고치고, 보고서 커밋과 분리한다.
 4. **확인**: 가이드 5장(로컬 서버 확인)과 6장(미리보기 PNG 4장)을 수행하고, 8장 점검 목록을 모두 통과시킨다.
 5. **GitHub 푸시**: 가이드 7장대로 커밋을 나눠 `origin main`에 푸시한다.
    - 푸시 전 `git ls-files 'newsletters/{주제}/YYYYMM*'`로 해당 월 뉴스레터가 추적되는지 확인한다(빠져 있으면 뉴스레터 링크가 안 열린다).
