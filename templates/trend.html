@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description }}">
+  <meta name="theme-color" content="#f7f7f2"><title>{{ page_title }} | {{ brand }}</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#overview">본문으로 바로 가기</a>
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="#top" aria-label="{{ brand }} 맨 위로"><span class="brand-icon" aria-hidden="true">✳</span>{{ brand }}<span class="brand-divider"></span><span class="brand-sub">MONTHLY BRIEF</span></a>
+  <nav aria-label="주 메뉴"><a href="#overview">한눈에 보기</a><a href="#details">자세히 보기</a><button class="method-button" data-open-method>어떻게 정리했냐면 <span aria-hidden="true">↗</span></button></nav>
+</div></header>
+<main id="top" class="page-shell">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-content"><div class="eyebrow"><span class="live-dot"></span>{{ month_en }} {{ year }}<span class="eyebrow-line"></span>MONTHLY INTELLIGENCE</div>
+      <h1 id="hero-title">{{ headline }}</h1>
+      <p class="hero-description">{{ intro }}</p>
+      <a class="primary-button" href="#overview">트렌드 9개 보러 가기 <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-axis"></div>
+      <div class="art-center"><span class="art-spark">✳</span></div>
+      <span class="orbit-node node-one">01<span>THINK</span></span><span class="orbit-node node-two">02<span>ACT</span></span><span class="orbit-node node-three">03<span>CONNECT</span></span>
+      <span class="art-caption">A NEW CHAPTER<br>OF INTELLIGENCE</span><span class="art-month">{{ month_num }}<span>/ {{ year }}</span></span>
+    </div>
+  </section>
+  <div class="issue-bar"><div class="issue-date"><span class="tiny-square"></span><span>{{ period }}</span><span class="period-tag">이번 달 정리</span></div>
+    <div class="issue-stats"><span><strong>{{ newsletter_count }}</strong>개 뉴스레터</span><span><strong>{{ unique_count }}</strong>개 기사 (중복 빼고)</span><span><strong>9</strong>가지 트렌드</span></div>
+  </div>
+  <section id="overview" class="overview" aria-labelledby="overview-title">
+    <div class="section-heading"><div><div class="section-kicker">THE BIG PICTURE</div><h2 id="overview-title">카드 9장으로 보는 이번 달</h2></div><p>궁금한 카드를 누르면 자세한 얘기로 넘어가. <span aria-hidden="true">↘</span></p></div>
+    <div class="filter-row"><div class="filters" role="group" aria-label="트렌드 카드 주제 선택"><button class="filter active" data-filter="all" aria-pressed="true">전체 <span>09</span></button>{{ filters }}</div><span class="filter-count" role="status" aria-live="polite" aria-atomic="true">9개 트렌드</span></div>
+    <div class="cards-grid">{{ cards }}</div>
+    <p class="editorial-note"><span aria-hidden="true">↳</span> 카드 순서는 많이 나온 순이 아니라 주제별로 묶은 거야. 같은 기사가 여러 번 실린 건 한 번만 셌어.</p>
+  </section>
+  <section id="details" class="deep-dive" aria-labelledby="details-title">
+    <div class="deep-intro"><div><div class="section-kicker">BEYOND THE HEADLINES</div><h2 id="details-title">뉴스를 이어 보면,<br>흐름이 보여.</h2></div><p>뭐가 바뀌었고, 왜 중요한지.<br>트렌드 9개를 근거 기사랑 같이 풀어 볼게.</p></div>
+    <div class="reading-layout"><aside class="reading-sidebar"><div class="toc-heading">이번 달 흐름 <span>01 — 09</span></div><nav aria-label="상세 트렌드 목차">{{ nav }}</nav><div class="sidebar-note">모든 내용은 저장해 둔<br>{{ month_ko }} 뉴스레터에서 나왔어.<button data-open-method>어떻게 정리했는지 보기 <span aria-hidden="true">↗</span></button></div></aside>
+    <div class="reading-content">{{ details }}</div></div>
+  </section>
+  <section class="method-strip" aria-label="분석 정보"><span class="method-icon" aria-hidden="true">◎</span><div><h2>흐름은 이어 붙이고, 근거는 남겨 뒀어.</h2><p>{{ month_ko }} 뉴스레터 {{ newsletter_count }}개 · 실린 기사 {{ article_count }}개 · 겹친 기사 {{ duplicate_count }}개 빼고 · 실제 기사 {{ unique_count }}개</p></div><button data-open-method>정리 기준이랑 자료 보기 <span aria-hidden="true">↗</span></button></section>
+</main>
+<footer class="site-footer"><div class="footer-inner"><a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span>{{ brand }}</a><span>{{ year }} {{ month_en }} EDITION · LOCAL NEWSLETTER ARCHIVE</span><a href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div></footer>
+<a class="back-top" href="#top" aria-label="맨 위로" hidden>↑</a>
+<dialog id="method-dialog" aria-labelledby="method-title"><div class="dialog-header"><span class="section-kicker">ABOUT THIS BRIEF</span><button class="close-dialog" aria-label="정리 기준 닫기">×</button></div><h2 id="method-title">이렇게 읽고 정리했어.</h2>
+  <p>읽은 건 <code>newsletters/{{ subject }}/{{ month }}*.html</code>에 저장된 <strong>{{ range_ko }} 뉴스레터 {{ newsletter_count }}개</strong>야. {{ missing_note }} 기사 자체는 {{ prev_month_ko }}에 나왔더라도 {{ month_ko }} 뉴스레터에 실렸으면 같이 봤어.</p>
+  <dl class="method-metrics"><div><dt>실린 기사</dt><dd>{{ article_count }}</dd></div><div><dt>중복 뺀 기사</dt><dd>{{ unique_count }}</dd></div><div><dt>매체 수</dt><dd>{{ source_count }}</dd></div></dl>
+  <h3>중복은 어떻게 셌냐면</h3><p>같은 주소(URL)의 기사가 여러 번 실린 {{ duplicate_count }}개는 한 번만 셌어. 주소 끝에 붙는 추적용 꼬리표는 떼고, 기사를 구분하는 부분은 남겼어. 다만 같은 사건을 다른 매체가 각자 쓴 건 따로 셌으니까, 기사 수가 곧 사건 수는 아니야.</p>
+  <p>기사 제목을 쭉 훑어서 어떤 주제가 많은지 보고, 비슷한 얘기끼리 퍼즐 맞추듯 이어 붙여서 9개 흐름으로 묶었어. 카드 순서는 중요도나 많이 나온 순서가 아니야. 흐름마다 대표 기사 4개를 근거로 달았고, 기사 하나가 여러 흐름에 걸칠 수도 있어.</p>
+  <h3>읽을 때 주의한 점</h3><p>내용이랑 숫자는 저장된 뉴스레터에 적힌 대로 봤어. 회사가 스스로 한 발표, 좁은 범위의 시험 결과, 연구실 시연, 앞으로의 전망, 아직 시행 전인 정책은 서로 다른 거라 섞지 않으려고 했어. 같은 매체를 한글·영문으로 다르게 적은 건 하나로 합쳤어.</p>
+  <h3>분석한 뉴스레터 <span class="muted">{{ newsletter_count }}개</span></h3><p class="source-date-note">날짜를 누르면 그날 뉴스레터가 새 탭에서 열려.</p><div class="source-dates">{{ source_dates }}</div>
+  <p class="dialog-footnote">실린 매체: {{ sources }}<br>카드 속 작은 그림은 주제를 쉽게 떠올리라고 직접 그린 일러스트야.</p>
+</dialog>
+</body></html>
+<!--
+  아래 BLOCK들은 반복되는 조각이야. generate_trend_report.py가 잘라 내서 위의 {{ cards }} 같은 자리에 채워 넣어.
+  BLOCK 영역은 결과 HTML에 들어가지 않아. {{ 이름 }} 자리의 값은 스크립트가 HTML 이스케이프해서 넣어 줘.
+-->
+<!-- BEGIN filter --><button class="filter" data-filter="{{ id }}" aria-pressed="false">{{ name }} <span>{{ count }}</span></button><!-- END filter -->
+<!-- BEGIN card --><a class="trend-card {{ color }}" href="#trend-{{ id }}" data-group="{{ group }}">
+          <div class="card-top"><span class="card-number">{{ number }}</span><img src="assets/{{ id }}.svg" width="108" height="92" alt="" loading="eager"></div>
+          <span class="card-label">{{ category }}</span>
+          <h3>{{ title_br }}</h3><p>{{ summary }}</p>
+          <span class="card-bottom"><span>{{ label }}</span><span aria-hidden="true">↗</span></span>
+        </a><!-- END card -->
+<!-- BEGIN nav --><a href="#trend-{{ id }}" data-section="trend-{{ id }}"><span>{{ number }}</span>{{ title_line }}</a><!-- END nav -->
+<!-- BEGIN detail --><article id="trend-{{ id }}" class="detail-section" data-trend="{{ id }}">
+          <div class="detail-kicker"><span class="detail-number {{ color }}">{{ number }}</span><span>{{ label }}</span></div>
+          <h3>{{ title_line }}</h3><p class="takeaway">{{ takeaway }}</p>
+          <div class="detail-copy">{{ paragraphs }}</div>
+          <div class="watch"><span class="watch-label">이건 꼭 체크해</span><p>{{ watch }}</p></div>
+          <details class="evidence"><summary>근거 기사 보기 <span>뉴스레터 속 기사 {{ evidence_count }}개</span><span class="plus" aria-hidden="true">+</span></summary><ol>{{ evidence }}</ol></details>
+        </article><!-- END detail -->
+<!-- BEGIN evidence --><li><div class="evidence-meta"><span>{{ source }}</span><span>{{ date }} 뉴스레터</span></div>
+              <a class="article-link" href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ title }} <span aria-hidden="true">↗</span><span class="sr-only"> (새 탭)</span></a>
+              <p>{{ note }}</p><a class="newsletter-link" href="{{ newsletter_url }}" target="_blank" rel="noopener noreferrer">이 기사가 실린 뉴스레터 보기 <span aria-hidden="true">↗</span><span class="sr-only"> (새 탭)</span></a></li><!-- END evidence -->
+<!-- BEGIN source_date --><a href="{{ newsletter_url }}" target="_blank" rel="noopener noreferrer">{{ label }}<span class="sr-only"> 뉴스레터 (새 탭)</span><span aria-hidden="true"> ↗</span></a><!-- END source_date -->
