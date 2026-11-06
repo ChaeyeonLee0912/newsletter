@@ -13,7 +13,7 @@
 ## 1. 파일 구조
 
 ```
-scripts/generate_trend_report.py   # extract(뉴스레터 → corpus.json), build(템플릿 + 데이터 → index.html)
+scripts/generate_trend_report.py   # extract(뉴스레터 → corpus.json), articles(기사 목록·요약), build(템플릿 + 데이터 → index.html)
 templates/
 ├── trend.html                      # 페이지 틀. 아래쪽 BEGIN/END 블록은 카드·목차·상세·근거 기사 반복 조각
 ├── trend.css / trend.js            # 화면 모양 / 필터·목차·대화상자 동작 (build가 styles.css, app.js로 복사)
@@ -49,7 +49,13 @@ python scripts/generate_trend_report.py extract {SUBJECT} YYYYMM
 
 ### 2-2. 트렌드 9개 고르기
 
-1. `corpus.json`의 제목·카테고리를 쭉 훑어서 자주 나오는 주제를 찾아요.
+1. 기사 목록을 쭉 훑어서 자주 나오는 주제를 찾아요. 목록과 요약은 `articles` 명령으로 봐요.
+   ```powershell
+   python scripts/generate_trend_report.py articles {SUBJECT} YYYYMM                    # ID·날짜·카테고리·제목 전체
+   python scripts/generate_trend_report.py articles {SUBJECT} YYYYMM --category AI보안   # 카테고리 하나만
+   python scripts/generate_trend_report.py articles {SUBJECT} YYYYMM A0310 A0860         # 고른 기사의 매체·날짜·요약
+   ```
+   근거로 쓸 기사는 **제목만 보지 말고 요약까지** 확인해요. 숫자·기간·'누가 말했나'는 요약에 있어요.
 2. 비슷한 얘기끼리 이어 붙여 **9개 흐름**으로 묶어요. 빈도 순위가 아니라 "무엇이 바뀌고 있나"에 대한 해석이에요.
 3. 세 그룹으로 나눠요(필터 버튼과 연결돼요). 기본 그룹은 아래와 같고, 주제에 맞게 `groups`에서 이름을 바꿔도 돼요.
    - `product` 기술과 제품 (보통 5개)
@@ -57,6 +63,9 @@ python scripts/generate_trend_report.py extract {SUBJECT} YYYYMM
    - `trust` 신뢰와 정책 (보통 2개)
 4. 흐름마다 **대표 근거 기사 4개**를 고르고, 기사 ID(`A0123`)를 적어요. 한 기사가 여러 흐름에 걸쳐도 괜찮아요.
 5. 기사마다 상태를 구분해 둬요: 회사 발표 / 좁은 범위의 평가·벤치마크 / 연구 시연 / 전망 / 시행 예정 정책 / 이미 시행된 정책. 본문에서 이걸 섞지 않아요.
+6. 이런 기사는 근거로 쓰기 전에 한 번 더 봐요.
+   - **시점이 안 맞는 기사**: 그달 다른 기사들보다 한참 옛날 모델·제품 이름이 줄줄이 나오는 날이 있어요(예: 2026년 9월 28일 뉴스레터). 그런 날 기사는 근거에서 빼요.
+   - **서로 달라 보이는 숫자**: 같은 회사인데 '흑자'와 '적자 확대' 기사가 같이 나오면 기간이 다른 경우가 많아요. 둘 다 쓰려면 본문에 어느 기간 숫자인지 밝혀요.
 
 ### 2-3. `YYYYMM.json` 작성
 
@@ -229,7 +238,15 @@ build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 
   const d = document.querySelector('#details');
   scrollTo({ top: scrollY + d.getBoundingClientRect().top - 128, behavior: 'instant' });
   ```
-- 저장한 뒤 네 장을 직접 열어서 새 문구가 찍혔는지 눈으로 확인해요.
+- `preview-cards.png`는 카드 그리드(높이 약 1044px)가 화면보다 커서, 그냥 찍으면 위쪽이 고정 머리글에 가리거나 아래쪽이 잘려요. 찍기 전에 머리글을 숨기고 그리드를 화면 위로 올려요.
+  ```js
+  document.documentElement.style.scrollBehavior = 'auto';
+  document.querySelector('.site-header').style.visibility = 'hidden';
+  const g = document.querySelector('.cards-grid');
+  scrollTo({ top: scrollY + g.getBoundingClientRect().top - 20, behavior: 'instant' });
+  ```
+- 서버를 띄운 직후 바로 찍으면 연결 오류 화면이 찍힐 수 있어요. 페이지 제목이 보고서 제목인지 먼저 확인하고 찍어요.
+- 저장한 뒤 네 장을 직접 열어서 새 문구가 찍혔는지, 잘린 곳이 없는지 눈으로 확인해요.
 
 ---
 

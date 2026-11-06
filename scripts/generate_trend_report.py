@@ -1,8 +1,9 @@
 """월간 트렌드 보고서 생성기 (Python 표준 라이브러리만 사용).
 
 사용법 (저장소 루트에서):
-    python scripts/generate_trend_report.py extract ai 202611   # 뉴스레터 → corpus.json (+ 202611.json 뼈대)
-    python scripts/generate_trend_report.py build   ai 202611   # templates/trend.html + 202611.json → index.html
+    python scripts/generate_trend_report.py extract  ai 202611  # 뉴스레터 → corpus.json (+ 202611.json 뼈대)
+    python scripts/generate_trend_report.py articles ai 202611  # 기사 목록 (ID를 붙이면 요약까지)
+    python scripts/generate_trend_report.py build    ai 202611  # templates/trend.html + 202611.json → index.html
 
 결과 폴더: trends/{SUBJECT}/{YYYYMM}/
     corpus.json      추출된 기사 목록 (id: A0001~)
@@ -296,13 +297,8 @@ def build(subject, month, out):
     year, m = int(month[:4]), int(month[4:])
     prev_m = 12 if m == 1 else m - 1
     start, end = corpus["start"], corpus["end"]
-    last_day, end_day = calendar.monthrange(year, m)[1], int(end[8:])
-    if end_day >= last_day:
-        missing = "저장 안 된 날은 빠졌어."
-    elif end_day + 1 == last_day:
-        missing = f"{m}월 {last_day}일이랑 저장 안 된 날은 빠졌어."
-    else:
-        missing = f"{m}월 {end_day + 1}~{last_day}일이랑 저장 안 된 날은 빠졌어."
+    last_day, start_day, end_day = calendar.monthrange(year, m)[1], int(start[8:]), int(end[8:])
+    missing = missing_days_note(m, start_day, end_day, last_day)
     stats = dict(newsletter_count=corpus["fileCount"], article_count=corpus["articleCount"],
                  unique_count=corpus["uniqueArticleCount"], duplicate_count=corpus["duplicateCount"],
                  source_count=len(corpus["sources"]))
@@ -357,6 +353,39 @@ def build(subject, month, out):
     print("푸시한 뒤 열 주소:", preview_url(repo, f"trends/{subject}/{month}/index.html"))
 
 
+def missing_days_note(m, start_day, end_day, last_day):
+    """뉴스레터가 없는 달 초·달 말 구간을 '9월 1~3일, 30일이랑 저장 안 된 날은 빠졌어.'처럼 적어요."""
+    def span(a, b):
+        return f"{a}일" if a == b else f"{a}~{b}일"
+    gaps = []
+    if start_day > 1:
+        gaps.append(span(1, start_day - 1))
+    if end_day < last_day:
+        gaps.append(span(end_day + 1, last_day))
+    if not gaps:
+        return "저장 안 된 날은 빠졌어."
+    return f"{m}월 {', '.join(gaps)}이랑 저장 안 된 날은 빠졌어."
+
+
+def list_articles(subject, month, out, ids=None, category=None):
+    """트렌드를 고를 때 쓰는 기사 목록. ids가 있으면 그 기사들의 요약까지 보여 줘요."""
+    corpus_path = out / "corpus.json"
+    if not corpus_path.exists():
+        raise SystemExit(f"{corpus_path.relative_to(ROOT)}이 없어요. 먼저 extract를 실행해요.")
+    articles = json.loads(corpus_path.read_text(encoding="utf-8"))["articles"]
+    if ids:
+        wanted = {i if i.startswith("A") else f"A{int(i):04d}" for i in ids}
+        for a in articles:
+            if a["id"] in wanted:
+                print(f"{a['id']} [{a['source']} | {a['date']} | 실린 횟수 {len(a['appearances'])}] {a['title']}")
+                print(f"    {a['summary']}\n")
+        return
+    for a in articles:
+        if category and a["category"] != category:
+            continue
+        print(f"{a['id']} {a['date'][5:]} [{a['category']}] {a['title']}")
+
+
 def write_text(path, text):
     path.write_text(text, encoding="utf-8", newline="\n")
 
@@ -366,9 +395,12 @@ def main():
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="월간 트렌드 보고서 생성기")
-    parser.add_argument("command", choices=["extract", "build"])
+    parser.add_argument("command", choices=["extract", "articles", "build"],
+                        help="extract: 기사 추출 / articles: 기사 목록·요약 보기 / build: 페이지 생성")
     parser.add_argument("subject", help="newsletters/ 아래 주제 폴더 이름 (예: ai, robot, game, graphrag)")
     parser.add_argument("month", help="YYYYMM (예: 202611)")
+    parser.add_argument("ids", nargs="*", help="articles: 요약을 볼 기사 ID (예: A0012 A0345 또는 12 345)")
+    parser.add_argument("--category", help="articles: 이 카테고리 기사만 목록으로 보기")
     args = parser.parse_args()
     if not re.fullmatch(r"\d{4}(0[1-9]|1[0-2])", args.month):
         raise SystemExit("month는 YYYYMM 형식이어야 해요.")
@@ -376,7 +408,10 @@ def main():
         topics = sorted(p.name for p in (ROOT / "newsletters").iterdir() if p.is_dir())
         raise SystemExit(f"주제 '{args.subject}'가 없어요. 가능한 주제: {', '.join(topics)}")
     out = ROOT / "trends" / args.subject / args.month
-    (extract if args.command == "extract" else build)(args.subject, args.month, out)
+    if args.command == "articles":
+        list_articles(args.subject, args.month, out, args.ids, args.category)
+    else:
+        (extract if args.command == "extract" else build)(args.subject, args.month, out)
 
 
 if __name__ == "__main__":

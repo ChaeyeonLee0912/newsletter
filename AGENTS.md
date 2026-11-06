@@ -58,7 +58,7 @@
    - 고른 월의 뉴스레터(`newsletters/{주제}/YYYYMM*.html`)가 없거나 매우 적으면(10개 미만) 진행 전에 알린다. 이미 `trends/{주제}/YYYYMM`이 있으면 덮어쓸지 묻는다.
 3. **생성**: 폴더를 복사하지 않고 생성기로 만든다. 사람이 쓰는 파일은 `trends/{주제}/YYYYMM/YYYYMM.json` 하나뿐이다.
    1. `python scripts/generate_trend_report.py extract {주제} YYYYMM` → `corpus.json`과 `YYYYMM.json` 뼈대(`TODO`) 생성
-   2. `corpus.json`을 읽고 트렌드 9개·근거 기사 4개씩을 골라 `YYYYMM.json`의 `TODO`를 전부 채운다(작성 예시: `trends/ai/202610/202610.json`).
+   2. `articles` 명령으로 기사 목록을 훑고, 근거 후보는 ID를 붙여 요약까지 확인한 뒤 트렌드 9개·근거 기사 4개씩을 골라 `YYYYMM.json`의 `TODO`를 전부 채운다(작성 예시: `trends/ai/202610/202610.json`, `trends/ai/202609/202609.json`).
    3. `python scripts/generate_trend_report.py build {주제} YYYYMM` → 검사 통과 후 `templates/trend.html` 틀로 `index.html` 생성. 검사 실패 메시지는 데이터를 고쳐서 해결한다.
    - 월·기간·숫자·링크는 build가 자동 계산하므로 손으로 넣지 않는다. `index.html` 등 생성물은 직접 고치지 않는다.
    - AI가 아닌 주제는 `brand`, `groups` 이름, 그림 키(`art`), 용어 풀이를 그 주제에 맞게 쓴다.
