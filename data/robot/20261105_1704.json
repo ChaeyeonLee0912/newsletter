@@ -1,0 +1,232 @@
+{
+  "published_at": "2026-11-05T17:04",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "헬로티",
+    "지디넷코리아",
+    "로봇신문",
+    "The Robot Report",
+    "전자신문",
+    "IEEE Spectrum",
+    "Robohub"
+  ],
+  "articles": [
+    {
+      "category": "humanoid",
+      "title": "비욘드로보틱스, FIX 혁신상·딸기 수확로봇 공급계약…상용화 본격 가동",
+      "url": "https://www.hellot.net/news/article.html?no=116047",
+      "summary": "비욘드로보틱스가 FIX 혁신상 수상과 딸기 자율 수확로봇 공급계약에 이어, 대구 농기계박람회(KIEMSTA)에서 자체 AI를 얹은 농업용 휴머노이드 'PICKY'를 공개하며 상용화에 속도를 내고 있어요.",
+      "source": "헬로티",
+      "time": "11/05 10:27"
+    },
+    {
+      "category": "humanoid",
+      "title": "엄윤설 에이로봇 대표 \"휴머노이드는 주권 산업…3년 안에 승부 난다\"",
+      "url": "https://zdnet.co.kr/view/?no=20261105142144",
+      "summary": "에이로봇 엄윤설 대표가 로보월드에서 휴머노이드를 국가 '주권 산업'으로 규정하고, 3년 안에 글로벌 승패가 갈릴 거라 전망했어요. 피지컬 AI 시대의 병목은 하드웨어라며 핵심 부품 내재화를 강조했습니다.",
+      "source": "지디넷코리아",
+      "time": "11/05 14:36"
+    },
+    {
+      "category": "humanoid",
+      "title": "전기차 공장 8시간 교대 근무 '휴머노이드' 화제",
+      "url": "https://zdnet.co.kr/view/?no=20261105103514",
+      "summary": "샤오미가 자사 전기차 공장에서 휴머노이드 로봇을 8시간 교대 근무에 투입해 센터 콘솔 커버를 꺼내 옮기고 분류하는 영상을 공개했어요. 휴머노이드가 실제 생산라인에서 장시간 일하는 사례로 주목받고 있습니다.",
+      "source": "지디넷코리아",
+      "time": "11/05 11:09"
+    },
+    {
+      "category": "humanoid",
+      "title": "[2026 로보월드] 엑스와이지, '로보월드 2026'서 세미 휴머노이드 '듀스' 기능 확장 모듈 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49395",
+      "summary": "AI 로보틱스 기업 엑스와이지가 로보월드에서 세미 휴머노이드 '듀스(DEUX)'에 끼워 쓰는 기능 확장 액세서리 모듈을 공개했어요. 하나의 로봇으로 여러 작업을 할 수 있게 하려는 전략입니다.",
+      "source": "로봇신문",
+      "time": "11/04 23:47"
+    },
+    {
+      "category": "humanoid",
+      "title": "美 미네르바 휴머노이드, 폭발물 제거용 휴머노이드 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49387",
+      "summary": "미국 스타트업 미네르바 휴머노이드가 폭발물 제거·위험물 대응용 반자율 휴머노이드 '로저 1'을 개발했어요. 사람이 들어가기 위험한 현장에 사람 모양 로봇을 대신 보내려는 시도입니다.",
+      "source": "로봇신문",
+      "time": "11/04 21:20"
+    },
+    {
+      "category": "humanoid",
+      "title": "2026 로보월드 개막식에서 선보인 로보티즈 휴머노이드 로봇의 태권도 품새 공연",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49401",
+      "summary": "로보월드 개막식 무대에서 로보티즈 휴머노이드 로봇들이 태권도 품새를 선보였어요. 관절 제어와 균형 잡기 실력을 보여주는 공연으로 행사장의 시선을 모았습니다.",
+      "source": "로봇신문",
+      "time": "11/05 01:42"
+    },
+    {
+      "category": "physical_ai",
+      "title": "훼스토, 엔비디아 손잡고 Physical AI용 고정밀 디지털 트윈 개발",
+      "url": "https://www.hellot.net/news/article.html?no=116058",
+      "summary": "독일 자동화 기업 훼스토가 엔비디아와 함께 실제 설비 동작을 그대로 옮긴 고정밀 디지털 트윈을 만들어요. 기계 제조사가 가상 공간에서 자동화 설비를 설계·검증하고, 자율 자동화 시스템까지 개발하도록 돕는 게 목표입니다.",
+      "source": "헬로티",
+      "time": "11/05 16:49"
+    },
+    {
+      "category": "physical_ai",
+      "title": "LiberAI, 인간의 경험을 로봇 행동에 연결하는 월드 액션 모델 'Liber-0' 공개",
+      "url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+      "summary": "베이징 스타트업 LiberAI가 220만 시간 넘는 사람 영상·장갑 동작 데이터로 학습한 'Liber-0'를 공개했어요. 로봇 시연 데이터 없이도 60개 작업에서 36% 성공률을 보여, 사람의 손기술을 로봇에 옮기는 가능성을 보였습니다.",
+      "source": "The Robot Report",
+      "time": "11/05 00:02"
+    },
+    {
+      "category": "physical_ai",
+      "title": "클로봇, 73억원 규모 휴머노이드 로봇 AI 국책과제 수주·네이버랩스 출신 박순용 박사 영입…Physical AI·공간지능 육성",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49385",
+      "summary": "클로봇이 73억원 규모 '공간지능 로봇 파운데이션 모델' 국책과제 주관기관으로 선정되고, 네이버랩스 출신 박순용 박사를 영입했어요. 로봇이 공간을 이해하고 움직이는 AI 개발에 힘을 싣습니다.",
+      "source": "로봇신문",
+      "time": "11/04 21:33"
+    },
+    {
+      "category": "physical_ai",
+      "title": "아이벡스, 중기부 R&D성과확산 스마트공장 사업 선정…후성정공에 피지컬 AI 구축",
+      "url": "https://www.hellot.net/news/article.html?no=116045",
+      "summary": "산업용 피지컬 AI 기업 아이벡스가 중기부 스마트공장 지원사업 공급기업으로 뽑혔어요. 자동차 부품사 후성정공의 단조 생산 현장에 AI 기반 검사·물류 자동화 시스템을 구축합니다.",
+      "source": "헬로티",
+      "time": "11/05 10:23"
+    },
+    {
+      "category": "industrial",
+      "title": "美 월마트, 8조원 들여 심보틱 자동화 시스템 추가",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49392",
+      "summary": "미국 월마트가 약 60억달러(8조원)를 들여 25개 물류센터에 심보틱의 로봇 자동화 시스템을 추가 도입해요. 유통 공룡의 대규모 물류 자동화 투자가 이어지고 있습니다.",
+      "source": "로봇신문",
+      "time": "11/04 23:28"
+    },
+    {
+      "category": "industrial",
+      "title": "美 버크셔 그레이, 향상된 AI SW ‘BG파일럿’ 3개 기능 출시",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49399",
+      "summary": "물류 로봇 기업 버크셔 그레이가 자사 창고 로봇 전반에 쓰이는 AI 소프트웨어 'BG파일럿'에 새 기능 3가지를 추가했어요. 창고 로봇이 더 똑똑하게 물건을 다루도록 하는 업데이트입니다.",
+      "source": "로봇신문",
+      "time": "11/05 09:30"
+    },
+    {
+      "category": "industrial",
+      "title": "[2026 로보월드 지면 특별판] 산업용 로봇 주요 출품업체",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49398",
+      "summary": "로보월드에 나온 산업용 로봇 주요 업체들을 한눈에 정리한 특집이에요. 뉴로메카의 '제로샷 피지컬 스킬' 등 부품부터 협동로봇·휴머노이드 플랫폼까지 각 사의 핵심 출품작을 소개합니다.",
+      "source": "로봇신문",
+      "time": "11/05 09:30"
+    },
+    {
+      "category": "industrial",
+      "title": "'정밀위치측정 등 자동화 로봇 총출동' 인아텍앤코포, 로보월드 참가",
+      "url": "https://www.etnews.com/20261105000236",
+      "summary": "인아텍앤코포가 로보월드에서 물류로봇·협동로봇 등 산업자동화 솔루션을 선보였어요. 특히 작업자·설비 위치를 1.5㎜ 수준으로 실시간 측정하는 초음파 기반 '퀀텀 RTLS'를 중점 소개했습니다.",
+      "source": "전자신문",
+      "time": "11/05 11:40"
+    },
+    {
+      "category": "industrial",
+      "title": "KTL, '로봇의 손' 엔드이펙터 신뢰성 검증 지원…시험방법·표준화·인증 연계",
+      "url": "https://www.etnews.com/20261105000424",
+      "summary": "한국산업기술시험원(KTL)이 로봇 팔 끝에 달리는 '손', 엔드이펙터의 시험방법 개발부터 공인시험·표준화·인증까지 한 번에 지원해요. 국내 기업 제품의 성능과 신뢰성을 검증받기 쉬워집니다.",
+      "source": "전자신문",
+      "time": "11/05 16:05"
+    },
+    {
+      "category": "service",
+      "title": "글로벌로직은 어떻게 헤이스택 로보틱스의 UV 소독 로봇 개발을 도왔나",
+      "url": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
+      "summary": "병원 소독은 손이 많이 들고 품질이 들쭉날쭉해요. 글로벌로직이 헤이스택 로보틱스와 함께 자외선(UV)으로 병실을 소독하는 이동 로봇을 개발한 과정과, 여러 환경에 쓸 수 있게 설계한 비결을 소개합니다.",
+      "source": "The Robot Report",
+      "time": "11/05 00:22"
+    },
+    {
+      "category": "service",
+      "title": "[2026 로보월드] 엑스와이지 '바리스브루 맥스' 2026 로보월드서 첫 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49394",
+      "summary": "엑스와이지가 로보월드에서 차세대 로봇 바리스타 '바리스브루 맥스'를 처음 공개했어요. 카페 매장에서 커피를 만드는 서비스 로봇의 최신 버전입니다.",
+      "source": "로봇신문",
+      "time": "11/04 23:41"
+    },
+    {
+      "category": "business",
+      "title": "美 튜터인텔리전스, 범용 로봇 개발 자금 1000억원 유치",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49400",
+      "summary": "미국 튜터인텔리전스가 범용 로봇 개발을 위해 7500만달러(약 1004억원)를 투자받았어요. 여러 일을 할 수 있는 범용 로봇에 대한 투자 열기가 계속되고 있습니다.",
+      "source": "로봇신문",
+      "time": "11/05 09:29"
+    },
+    {
+      "category": "business",
+      "title": "로보틱스 스타트업 레이더 2026",
+      "url": "https://www.therobotreport.com/robotics-startup-radar-2026/",
+      "summary": "더로봇리포트가 설립 5년 이내 유망 로봇 스타트업을 정리한 두 번째 '스타트업 레이더'를 냈어요. 산업 자동화·드론·휴머노이드까지 다양하며, 올해는 데이터·시뮬레이션·AI 모델 등 소프트웨어 기업이 특히 많았습니다.",
+      "source": "The Robot Report",
+      "time": "11/05 01:08"
+    },
+    {
+      "category": "policy_event",
+      "title": "[로보월드 어워드 ①] 로봇 기술의 완성도·시장성을 묻다...올해 로봇 산업의 주역은 누구?",
+      "url": "https://www.hellot.net/news/article.html?no=116052",
+      "summary": "'2026 로보월드 어워드'에서 휴머노이드, 제조 자동화 시스템, 정밀 관절 부품 등 기술 완성도와 시장 경쟁력을 인정받은 로봇들이 상을 받았어요. 올해 로봇 산업을 이끈 주역들을 정리했습니다.",
+      "source": "헬로티",
+      "time": "11/05 12:40"
+    },
+    {
+      "category": "policy_event",
+      "title": "브릴스, '로보월드 어워드' 최우수상…육가공 자동화 솔루션 인정",
+      "url": "https://zdnet.co.kr/view/?no=20261105102119",
+      "summary": "로봇 모듈 플랫폼 기업 브릴스가 '육가공 프라이머 자동화 로봇 솔루션'으로 로보월드 어워드 최우수상을 받으며 4년 연속 수상했어요. 브릴스는 올해 로보월드에 최대 규모로 참가했습니다.",
+      "source": "지디넷코리아",
+      "time": "11/05 10:42"
+    },
+    {
+      "category": "policy_event",
+      "title": "[2026 로보월드] 한국 AI·로봇산업협회, 인도 IIT Delhi 산하 IHFC와 전략적 업무협약 체결",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49388",
+      "summary": "한국AI·로봇산업협회가 로보월드 현장에서 인도공과대학 델리 산하 로봇진흥기관 IHFC와 업무협약을 맺었어요. 한국-인도 로봇 산업 협력의 발판이 될 전망입니다.",
+      "source": "로봇신문",
+      "time": "11/04 21:45"
+    },
+    {
+      "category": "policy_event",
+      "title": "[2026 로보월드] 한국로봇산업진흥원, 2026 로보월드서 K-로봇 공공 프리마켓 홍보관 개관",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49384",
+      "summary": "한국로봇산업진흥원이 로보월드에 'K-로봇 공공 프리마켓 홍보관'을 열었어요. 공공기관이 국산 로봇을 쉽게 찾아 구매할 수 있도록 소개하는 자리로, 7일까지 운영됩니다.",
+      "source": "로봇신문",
+      "time": "11/04 21:25"
+    },
+    {
+      "category": "policy_event",
+      "title": "개인정보위, AI 에이전트·피지컬 AI 개인정보 보호 기술 논의",
+      "url": "https://www.etnews.com/20261105000340",
+      "summary": "개인정보보호위원회가 AI 에이전트·피지컬 AI 확산에 따른 개인정보 보호 문제를 전문가들과 논의했어요. 로봇·AI가 스스로 일할 때 생기는 보호 사각지대와 책임 문제, 보호강화기술(PET)과 국제표준 방향을 짚었습니다.",
+      "source": "전자신문",
+      "time": "11/05 16:00"
+    },
+    {
+      "category": "policy_event",
+      "title": "피지컬 AI, 국방 무인체계의 미래를 열다… 제6회 국방로봇학회 학술대회, 12월 16~18일 제주서 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49390",
+      "summary": "국방로봇학회가 12월 16~18일 제주에서 '피지컬 AI, 국방 무인체계의 미래'를 주제로 제6회 학술대회를 열어요. 국방 분야 로봇·무인체계 기술의 최신 흐름을 공유하는 자리입니다.",
+      "source": "로봇신문",
+      "time": "11/05 09:20"
+    },
+    {
+      "category": "others",
+      "title": "드론 포트, 새로운 골칫거리 이웃이 될까?",
+      "url": "https://spectrum.ieee.org/drone-delivery-noise",
+      "summary": "미국에서 아마존 배송 드론이 주택가 위를 자주 날면서 소음 민원이 커지고 있어요. 배송 로봇 거점(드론 포트) 근처 주민들의 소음·안전 우려를 통해 비행 로봇 상용화의 숙제를 짚었습니다.",
+      "source": "IEEE Spectrum",
+      "time": "11/05 03:47"
+    },
+    {
+      "category": "others",
+      "title": "사회·비즈니스·문화 속 로봇: 2026년 10월",
+      "url": "https://robohub.org/robots-in-society-business-and-culture-october-2026/",
+      "summary": "로보허브의 월간 로봇 소식 모음이에요. 뒤에서 다가오는 로봇이 같은 속도라도 더 빠르게 느껴진다는 실험(참가자 92%), 전기 자극에 반응해 뛰는 바이오하이브리드 로봇 등 흥미로운 연구를 소개합니다.",
+      "source": "Robohub",
+      "time": "11/04 20:51"
+    }
+  ]
+}
