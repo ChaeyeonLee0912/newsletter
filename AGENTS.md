@@ -38,6 +38,22 @@
   - Enterprise Knowledge: https://enterprise-knowledge.com/blog/
   - Graphwise: https://graphwise.ai/blog/
 
+### 하네스 엔지니어링
+- 국내:
+  - AI Times: https://www.aitimes.com
+  - 지디넷코리아: https://zdnet.co.kr
+  - 전자신문: https://www.etnews.com/
+  - 요즘IT: https://yozm.wishket.com
+  - 카카오 기술블로그: https://tech.kakao.com/blog
+  - 네이버 D2: https://d2.naver.com
+- 해외:
+  - Anthropic Engineering: https://www.anthropic.com/engineering
+  - LangChain 블로그: https://blog.langchain.com
+  - Simon Willison's Weblog: https://simonwillison.net
+  - Latent Space: https://www.latent.space
+  - The New Stack: https://thenewstack.io
+  - Hugging Face 블로그: https://huggingface.co/blog
+
 
 ## 월간 트렌드 보고서 작성
 '월간 트렌드 보고서 작성', '트렌드 보고서 작성' 같은 요청을 받으면, 시작 전에 [`references/trend-report-guide.md`](references/trend-report-guide.md)를 끝까지 읽고 그 절차대로 수행한다.

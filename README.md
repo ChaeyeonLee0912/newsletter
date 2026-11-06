@@ -135,23 +135,32 @@ Codex는 가장 좌측 패널에서 세번째 '예약' 아이콘을 클릭하고
 ## 월간 트렌드 보고서 생성
 프롬프트에 아래와 같이 입력하세요.   
 ```
-{주제}에 대한 월간 트렌드 보고서 생성해줘요.
+{주제} {월} 트렌드 보고서 생성해요.
 ```
-결과는 `trends/{SUBJECT}/{YYYYMM}` 폴더에 생성되요.
-푸시하고 GitHub의 html preview 주소 형식으로 index.html을 열면 되요.    
+예시:    
+```
+AI 10월 트렌드 보고서 생성해요. 
+```
+  
+결과는 `trends/{SUBJECT}/{YYYYMM}` 폴더에 생성되고,    
+`.env`의 'RECIPIENTS'와 'RECIPIENTS_{주제}'에 정의한 email로 발송되요.      
 
 URL 형식: https://htmlpreview.github.io/?https://github.com/{ORG}/{REPO}/blob/main/trends/{SUBJECT}/{YYYYMM}/index.html   
 예시) AI 2026년 10월 트렌드 보고서: https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/trends/ai/202610/index.html  
 
-보고서는 공통 틀(`templates/trend.html`)에 달마다 데이터(`trends/{SUBJECT}/{YYYYMM}/{YYYYMM}.json`)를 채워서 만들어요. 직접 만들 때는 아래 순서로 실행해요.
-```
-python scripts/generate_trend_report.py extract {SUBJECT} {YYYYMM}   # 기사 추출 + 데이터 뼈대 생성
-python scripts/generate_trend_report.py build {SUBJECT} {YYYYMM}     # 데이터 검사 + index.html 생성
-python scripts/generate_trend_report.py send {SUBJECT} {YYYYMM}      # (푸시 후) 보고서 링크 + 트렌드 9개 요약 메일 발송
-```
-자세한 절차와 문체 규칙은 [트렌드 보고서 작성 가이드](references/trend-report-guide.md)를 보세요.
+---
 
-
+## 월간 트렌드 보고서 생성 예약   
+스케쥴 작업으로 매월 1일에 이전 달의 월간 트렌드 보고서 생성을 합니다.    
+여러개 주제의 트렌드 보고서를 한꺼번에 생성하려면 주제를 여러개 지정하면 되요.    
+```
+이전 달의 {주제} 트렌드 보고서 생성
+```
+예시:    
+```
+이전 달의 AI, 로봇, 온톨로지, 하네스엔지니어링에 대한 트렌드 보고서 생성
+```
+   
 ---
 
 ## 분류체계 변경법
