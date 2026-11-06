@@ -1,6 +1,7 @@
-# 월간 AI 트렌드 요약 보고서 작성 가이드
+# 월간 트렌드 보고서 작성 가이드
 
-한 달 치 뉴스레터를 읽고 **AI 트렌드 9가지**를 카드형 웹 페이지로 정리하는 방법이에요.
+한 달 치 뉴스레터를 읽고 **트렌드 9가지**를 카드형 웹 페이지로 정리하는 방법이에요.
+예시는 AI 주제 기준이에요. 로봇·게임·GraphRAG도 같은 틀을 쓰고, AI 전용 부분(그룹 이름, SVG 키, 용어 풀이, 히어로 문구)만 주제에 맞게 바꿔요.
 기준 결과물은 [`trends/ai/202610`](../trends/ai/202610/)이고, 다음 달에도 이 폴더를 복사해서 같은 방식으로 만들면 돼요.
 `{SUBJECT}`는 주제 폴더 이름이에요(AI는 `ai`). 뉴스레터 `newsletters/{SUBJECT}/`, 데이터 `data/{SUBJECT}/`와 같은 이름을 써요.
 
@@ -35,8 +36,11 @@ trends/{SUBJECT}/YYYYMM/
 ### 2-1. 이전 달 폴더 복사 후 월 바꾸기
 
 ```powershell
+New-Item -ItemType Directory -Force trends/{SUBJECT} | Out-Null
 Copy-Item -Recurse trends/ai/202610 trends/{SUBJECT}/YYYYMM
 ```
+
+새 주제라 `trends/{SUBJECT}` 폴더가 없으면 `Copy-Item`이 실패하니까 먼저 만들어 둬요.
 
 `__pycache__`는 지우고, 아래 **월이 박혀 있는 곳을 전부** 바꿔요. 주제 폴더 이름은 스크립트가 경로에서 알아서 읽으니까 안 바꿔도 돼요. 하나라도 놓치면 지난달 정보가 그대로 남아요.
 
@@ -48,6 +52,8 @@ Copy-Item -Recurse trends/ai/202610 trends/{SUBJECT}/YYYYMM
 | `build_page.py` | `<meta description>`, `<title>`, 히어로 `OCTOBER 2026`, `<h1>`, 히어로 설명, `art-month` 숫자 |
 | `build_page.py` | 기간 표시 `2026.10.01 — 10.29`, 정리 기준 창의 날짜 범위 설명, 푸터 `2026 OCTOBER EDITION` |
 | `build_page.py` | `분석한 뉴스레터 <span class="muted">26개</span>`(고정 숫자), 필터 버튼 개수 `05/02/02` |
+| `build_page.py` | `PREVIEW` 저장소 이름 `ai-newsletter` → `newsletter` |
+| `build_page.py` | (AI가 아닌 주제) 히어로·`<title>`·`<h1>`·필터 그룹 이름의 "AI" 문구 |
 | `serve.py` | 상단 docstring, argparse 설명의 `October` |
 | `README.md` | 기간·기사 수·명령어 경로(`trends/{SUBJECT}/YYYYMM/...`) |
 
@@ -174,10 +180,14 @@ python trends/{SUBJECT}/YYYYMM/build_page.py
 
 - 근거 기사의 **'이 기사가 실린 뉴스레터 보기'**와 정리 기준 창의 **날짜 링크**는 htmlpreview 주소로 연결해요.
   ```
-  https://htmlpreview.github.io/?https://github.com/unicorn-svc/ai-newsletter/blob/main/newsletters/{SUBJECT}/<파일명>
+  https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/newsletters/{SUBJECT}/<파일명>
   ```
-  `build_page.py`의 `PREVIEW` 상수에 들어 있어요.
-- `newsletters/`는 `.gitignore`에 들어 있지만 파일은 추적되고 있어요. 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 확인).
+  `build_page.py`의 `PREVIEW` 상수에 들어 있어요. 202610 원본에는 옛 저장소 이름(`ai-newsletter`)이 남아 있어요. 리다이렉트로 열리긴 하지만 복사한 뒤 `newsletter`로 바꿔요.
+- 완성된 보고서 자체의 링크는 이렇게 만들어요(결과 보고에 써요).
+  ```
+  https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/trends/{SUBJECT}/YYYYMM/index.html
+  ```
+- 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 확인).
 - `app.js`에 `file:` 프로토콜일 때 링크를 로컬 경로로 바꾸는 코드를 다시 넣지 않아요. 넣으면 htmlpreview 링크를 덮어써요.
 - 기사 원문 링크는 `target="_blank" rel="noopener noreferrer"`로 새 탭에서 열려요.
 

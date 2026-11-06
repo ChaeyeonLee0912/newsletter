@@ -129,6 +129,19 @@ Codex는 가장 좌측 패널에서 세번째 '예약' 아이콘을 클릭하고
 
 ---
 
+## 월간 트렌드 보고서 생성
+프롬프트에 아래와 같이 입력하세요.   
+```
+{주제}에 대한 월간 트렌드 보고서 생성해줘요.
+```
+결과는 `trends/{SUBJECT}/{YYYYMM}` 폴더에 생성되요.
+푸시하고 GitHub의 html preview 주소 형식으로 index.html을 열면 되요.    
+
+URL 형식: https://htmlpreview.github.io/?https://github.com/{ORG}/{REPO}/blob/main/trends/{SUBJECT}/{YYYYMM}/index.html   
+예시) AI 2026년 10월 트렌드 보고서: https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/trends/ai/202610/index.html  
+
+---
+
 ## 분류체계 변경법
 
 분류체계 카테고리는 자동으로 생성됩니다.    
