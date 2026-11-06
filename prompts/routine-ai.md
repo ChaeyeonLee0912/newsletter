@@ -24,7 +24,7 @@
   - UI     : `templates/newsletter.html`                     (HTML 골격 + CSS. 직접 수정하지 않음)
   - 분류   : `data/{SUBJECT_ID}/categories.json`              (카테고리 id/이모지/라벨/색. 주제별로 동적 누적)
   - 데이터 : `data/{SUBJECT_ID}/YYYYMMDD_HHMM.json`           (이번 호 기사 데이터. 이것만 작성)
-  - 렌더러 : `generate_newsletter.py`                         (데이터 → HTML 생성 + 메일 발송)
+  - 렌더러 : `scripts/generate_newsletter.py`                 (데이터 → HTML 생성 + 메일 발송)
   - 출력   : `newsletters/{SUBJECT_ID}/YYYYMMDD_HHMM.html`    (렌더러가 데이터 폴더 이름을 보고 자동 생성)
   - 뉴스사이트 목록: `AGENTS.md` 의 `## 뉴스사이트` 섹션 (주제별 `### {SUBJECT}` 하위 섹션)
 
@@ -92,10 +92,10 @@
   - `source`: URL이 아니라 사이트명으로 표기
   - `articles`는 평면 배열. 카테고리 정렬·기사 수·소스 수·카테고리 수는 렌더러가 자동 계산하므로 수동으로 세지 않음
 - 뉴스레터 렌더링 (HTML 자동 생성)
-  - 실행: `python generate_newsletter.py data/{SUBJECT_ID}/YYYYMMDD_HHMM.json`
+  - 실행: `python scripts/generate_newsletter.py data/{SUBJECT_ID}/YYYYMMDD_HHMM.json`
   - HTML/CSS는 직접 작성·수정하지 않음
 - 뉴스레터 발송
-  - 메일: 위 렌더링 명령 끝에 `--send` 를 붙여 실행 (생성과 동시에 `email_sender.py`로 발송)
+  - 메일: 위 렌더링 명령 끝에 `--send` 를 붙여 실행 (생성과 동시에 `scripts/email_sender.py`로 발송)
     - 메일 제목·보낸사람 이름은 `title` 기준
     - 수신자는 `.env` 의 `RECIPIENTS` 를 항상 포함하고 `RECIPIENTS_{SUBJECT_ID 대문자, 하이픈은 _}` 를 더함 (중복 주소는 한 번만 발송)
     - 메일은 오직 이 명령(SMTP)으로만 발송. Gmail 커넥터/웹으로 보내면 `<style>`·class가 제거되어 스타일이 깨짐
@@ -115,7 +115,7 @@
   - 한국어로 작성
   - 제목은 원문과 동일하게 함. 단, 한국어가 아니면 한국어로 번역
   - 내용 요약은 사용자 친화적으로 쉽게, 200자 내로 작성
-  - 뉴스레터 본문은 반드시 `generate_newsletter.py`로 렌더링 (제목 색·볼드, 카테고리 색 구분, 원문 새 탭 열기는 템플릿이 자동 처리)
+  - 뉴스레터 본문은 반드시 `scripts/generate_newsletter.py`로 렌더링 (제목 색·볼드, 카테고리 색 구분, 원문 새 탭 열기는 템플릿이 자동 처리)
   - 분류는 기존 `data/{SUBJECT_ID}/categories.json`을 우선 재사용. 새 카테고리는 의미가 분명할 때만 추가
   - 모든 기사는 {SUBJECT} 와 직접 관련된 것만 포함
   - 뉴스 사이트는 `AGENTS.md` 에 기록된 곳을 우선 조사. 처음 선정할 때는 반드시 사용자 선택을 받은 뒤 기록
@@ -127,5 +127,5 @@
   - 데이터·분류·HTML을 `data/`, `newsletters/` 최상위에 저장하지 말 것 (반드시 `{SUBJECT_ID}/` 주제 폴더에 저장)
 - 완료조건
   - 데이터 JSON과 뉴스레터 HTML이 [출력] 경로에 생성됨
-  - `generate_newsletter.py --send`(SMTP)로 메일 정상 발송 완료
+  - `scripts/generate_newsletter.py --send`(SMTP)로 메일 정상 발송 완료
   - git push 완료

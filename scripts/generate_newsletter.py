@@ -8,14 +8,14 @@ Newsletter Generator
   - UI       : templates/newsletter.html            (HTML 골격 + CSS. 스타일은 여기만 수정)
   - 분류      : data/<주제>/categories.json           (주제별 카테고리. 새 카테고리는 자동 누적)
   - 데이터    : data/<주제>/YYYYMMDD_HHMM.json         (발행분별 기사 데이터. 기사 추가는 여기만 수정)
-  - 빌드 로직 : 이 파일                                (그룹핑 / 통계 / 날짜 포맷 + 렌더링)
+  - 빌드 로직 : scripts/generate_newsletter.py         (그룹핑 / 통계 / 날짜 포맷 + 렌더링)
   - 출력      : newsletters/<주제>/YYYYMMDD_HHMM.html  (published_at 으로 파일명 자동 결정)
   - 주제는 데이터 JSON 이 들어 있는 폴더 이름으로 정함 (data/ai/... -> ai)
 
 사용법:
-    python generate_newsletter.py data/ai/20260611_0630.json
-    python generate_newsletter.py data/ai/20260611_0630.json --send      # 생성 후 메일 발송
-    python generate_newsletter.py data/ai/20260611_0630.json -o out.html # 출력 경로 지정
+    python scripts/generate_newsletter.py data/ai/20260611_0630.json
+    python scripts/generate_newsletter.py data/ai/20260611_0630.json --send      # 생성 후 메일 발송
+    python scripts/generate_newsletter.py data/ai/20260611_0630.json -o out.html # 출력 경로 지정
 
 데이터 JSON 형식 (UI 정보 없음 — 순수 데이터):
     {
@@ -41,7 +41,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parents[1]  # 저장소 루트 (이 파일은 scripts/ 아래에 있음)
 TEMPLATE_DIR = BASE_DIR / "templates"
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "newsletters"

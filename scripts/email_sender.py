@@ -54,7 +54,7 @@ except ModuleNotFoundError:
             else:
                 os.environ.setdefault(key, value.strip('"'))
 
-env_path = Path(__file__).resolve().parent / ".env"
+env_path = Path(__file__).resolve().parents[1] / ".env"  # 저장소 루트의 .env
 load_dotenv(env_path)
 
 
@@ -173,7 +173,7 @@ def main():
        - Gmail → 설정(톱니바퀴) → '모든 설정 보기'
        - '전달 및 POP/IMAP' 탭 → IMAP 사용 → '변경사항 저장'
 
-    4. .env 파일 생성 (이 파일과 같은 디렉토리)
+    4. .env 파일 생성 (저장소 루트, scripts/ 의 상위 폴더)
        --------------------------------------------------
        SMTP_SERVER=smtp.gmail.com
        SMTP_PORT=587
@@ -186,14 +186,14 @@ def main():
        RECIPIENTS_AI=user3@example.com        # 선택. 주제별 추가 수신자 (RECIPIENTS 에 더해 발송)
 
     6. 의존 패키지 설치
-       pip install -r requirements.txt
+       pip install -r scripts/requirements.txt
 
     7. 실행 예시
-       python email_sender.py "제목" "본문 텍스트"
+       python scripts/email_sender.py "제목" "본문 텍스트"
     ============================================================
     """
     if len(sys.argv) < 3:
-        print("Usage: email_sender.py <subject> <body_text> [<body_html>]")
+        print("Usage: python scripts/email_sender.py <subject> <body_text> [<body_html>]")
         print("Environment variables: SMTP_SERVER, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, RECIPIENTS")
         sys.exit(1)
 

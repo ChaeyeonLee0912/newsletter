@@ -1,0 +1,8 @@
+# scripts/ 아래 프로그램이 쓰는 패키지. 저장소 루트에서 설치:
+#   pip install -r scripts/requirements.txt
+#
+# generate_trend_report.py 는 표준 라이브러리만 써서 설치할 게 없어요.
+
+jinja2          # generate_newsletter.py: 뉴스레터 HTML 렌더링
+python-dotenv   # email_sender.py: .env 읽기 (없으면 내장 파서로 대신 읽음)
+pymupdf         # render-pptx.py: PDF → PNG 변환 (LibreOffice soffice 도 따로 필요)

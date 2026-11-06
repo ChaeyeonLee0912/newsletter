@@ -7,7 +7,7 @@ PowerPoint는 컴퓨터 전체에서 한 프로세스만 떠서, COM으로 붙�
 사용법:
     python scripts/render-pptx.py deck.pptx [--out 출력폴더] [--width 1600]
 
-의존성: LibreOffice(`soffice`), `pip install pymupdf`
+의존성: LibreOffice(`soffice`), `pip install -r scripts/requirements.txt` (pymupdf)
 """
 
 from __future__ import annotations

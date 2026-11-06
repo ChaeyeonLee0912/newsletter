@@ -25,7 +25,7 @@
 - 빌더 스킬은 본 가이드 6절(코드 생성 시 필수 검증 규칙)을 **반드시 준수**
 
 **런타임 요구사항**: `node ≥ 18`, `npm i pptxgenjs`  
-**미리보기 요구사항**: LibreOffice(`soffice`), `pip install pymupdf`
+**미리보기 요구사항**: LibreOffice(`soffice`), `pip install -r scripts/requirements.txt` (pymupdf 포함)
 
 ---
 

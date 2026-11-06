@@ -180,8 +180,9 @@ python scripts/generate_trend_report.py build {SUBJECT} {YYYYMM}     # 데이터
 | `.env` | SMTP 설정과 수신자. 수신자는 'RECIPIENTS_{SUBJECT_ID 대문자}' 형식으로 작성 |
 | `data/{SUBJECT_ID}/categories.json` | 카테고리 목록. 첫 호를 만들 때 자동 생성되고, 새 카테고리가 생기면 자동으로 쌓여요 |
 | `templates/newsletter.html` | 뉴스레터 HTML 골격과 스타일 |
-| `generate_newsletter.py` | 데이터 JSON을 HTML로 렌더링하고 `--send`로 메일 발송 |
-| `email_sender.py` | SMTP 메일 발송 |
+| `scripts/generate_newsletter.py` | 데이터 JSON을 HTML로 렌더링하고 `--send`로 메일 발송 |
+| `scripts/email_sender.py` | SMTP 메일 발송 |
+| `scripts/requirements.txt` | 위 프로그램들이 쓰는 패키지. 저장소 루트에서 `pip install -r scripts/requirements.txt` |
 | `AGENTS.md` | 주제별 뉴스 사이트 목록 (`## 뉴스사이트`) |
 
 결과물은 `data/{SUBJECT_ID}/YYYYMMDD_HHMM.json`(기사 데이터)과 `newsletters/{SUBJECT_ID}/YYYYMMDD_HHMM.html`(뉴스레터)에 저장돼요.
