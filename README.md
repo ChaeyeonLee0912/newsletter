@@ -81,15 +81,18 @@ cp prompts/routine-template.md prompts/routine-{SUBJECT_ID}.md
 ```
 
 복사한 파일의 `[변수]`에서 `{SUBJECT}`(주제, 예: 반도체). `{SUBJECT_ID}`(주제를 나타내는 영문소문자), `{OBJECT}`(뉴스레터를 받는 목적)를 정해요.
+수집·정리·발송 절차는 모든 주제가 같이 쓰는 `prompts/routine-common.md`에 있고, 주제별 파일은 변수만 정해서 그 파일을 참조해요. 그래서 절차를 고칠 때는 `routine-common.md` 하나만 고치면 돼요.
 아래는 예시에요.      
 ```
 [변수]
 - {SUBJECT}: 게임
-  - 이 프롬프트에 나오는 모든 {SUBJECT} 를 입력값으로 바꿔 읽음
 - {SUBJECT_ID}: game
-  - 처음 정할 때 `data/` 아래에 같은 주제의 기존 디렉토리가 있으면 그 이름을 그대로 재사용
-- {OBJECT}: 게임 시장 트렌드를 파악하여 새로운 게임 기획에 참조하고 싶음  
+- {OBJECT}: 게임 시장 트렌드를 파악하여 새로운 게임 기획에 참조하고 싶음
+
+[수행]
+- `prompts/routine-common.md` 를 읽고, 그 안의 {SUBJECT}·{SUBJECT_ID}·{OBJECT} 를 위 [변수] 값으로 바꿔서 그대로 수행함
 ```
+이 주제에만 적용할 규칙이 있으면 `[추가 제약조건]`에 적어요(예: GraphRAG의 "최대 15개까지의 뉴스만 선정"). 필요 없으면 그 절은 지워요.
   
 ### 스케줄 작업을 등록합니다.   
 ```
@@ -147,6 +150,7 @@ python scripts/generate_trend_report.py build {SUBJECT} {YYYYMM}     # 데이터
 ```
 자세한 절차와 문체 규칙은 [트렌드 보고서 작성 가이드](references/trend-report-guide.md)를 보세요.
 
+
 ---
 
 ## 분류체계 변경법
@@ -176,7 +180,8 @@ python scripts/generate_trend_report.py build {SUBJECT} {YYYYMM}     # 데이터
 
 | 파일 | 설명 |
 |---|---|
-| `prompts/routine-{SUBJECT_ID}.md` | 스케줄 작업이 수행하는 주제별 프롬프트 |
+| `prompts/routine-{SUBJECT_ID}.md` | 스케줄 작업이 수행하는 주제별 프롬프트 (변수와 추가 제약조건만) |
+| `prompts/routine-common.md` | 모든 주제가 같이 쓰는 수집·정리·발송 절차 |
 | `.env` | SMTP 설정과 수신자. 수신자는 'RECIPIENTS_{SUBJECT_ID 대문자}' 형식으로 작성 |
 | `data/{SUBJECT_ID}/categories.json` | 카테고리 목록. 첫 호를 만들 때 자동 생성되고, 새 카테고리가 생기면 자동으로 쌓여요 |
 | `templates/newsletter.html` | 뉴스레터 HTML 골격과 스타일 |
