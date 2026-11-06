@@ -50,6 +50,6 @@
 ## 월간 트렌드 보고서 작성
 '월간 트렌드 보고서 작성', '트렌드 보고서 작성' 같은 요청을 받으면, 시작 전에 [`references/trend-report-guide.md`](references/trend-report-guide.md)를 끝까지 읽고 그 절차대로 수행한다.
 - 주제나 월이 요청에 없으면 먼저 고르게 한다(가이드 2-0).
-- 결과는 `trends/{주제}/YYYYMM`에 만들고, GitHub에 푸시한 뒤 htmlpreview 링크로 보고한다(가이드 7장).
+- 결과는 `trends/{주제}/YYYYMM`에 만들고, GitHub에 푸시한 뒤 마지막으로 메일을 보내고 htmlpreview 링크로 보고한다(가이드 7장).
 
 ## Lessons Learned

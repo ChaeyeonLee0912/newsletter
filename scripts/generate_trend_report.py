@@ -4,6 +4,7 @@
     python scripts/generate_trend_report.py extract  ai 202611  # 뉴스레터 → corpus.json (+ 202611.json 뼈대)
     python scripts/generate_trend_report.py articles ai 202611  # 기사 목록 (ID를 붙이면 요약까지)
     python scripts/generate_trend_report.py build    ai 202611  # templates/trend.html + 202611.json → index.html
+    python scripts/generate_trend_report.py send     ai 202611  # (푸시 후) 보고서 링크 + 트렌드 9개 요약 메일 발송
 
 결과 폴더: trends/{SUBJECT}/{YYYYMM}/
     corpus.json      추출된 기사 목록 (id: A0001~)
@@ -393,6 +394,76 @@ def list_articles(subject, month, out, ids=None, category=None):
         print(f"{a['id']} {a['date'][5:]} [{a['category']}] {a['title']}")
 
 
+# ---------------------------------------------------------------- 메일
+
+def build_email(data, corpus, url):
+    """메일 본문. 맨 위에 보고서 링크, 그 아래 트렌드 9개 요약. 메일 앱은 <style>을 지우니까 인라인 스타일만 써요."""
+    groups = {g["id"]: g["name"] for g in data["groups"]}
+    title = escape(data["title"])
+    period = f"{corpus['start'].replace('-', '.')} — {corpus['end'][5:].replace('-', '.')}"
+    stats = f"뉴스레터 {corpus['fileCount']}개 · 중복 뺀 기사 {corpus['uniqueArticleCount']}개 · 트렌드 9가지"
+    rows = []
+    texts = [data["title"], "", f"보고서 전체 보기: {url}", "", f"{period} | {stats}", ""]
+    for t in data["trends"]:
+        line = t["title"].replace("\n", " ")
+        rows.append(f'''<tr><td style="padding:16px 0;border-top:1px solid #e6e8df">
+  <div style="font-size:11px;color:#8a9180;letter-spacing:.5px">{escape(t['number'])} · {escape(t['category'])} · {escape(groups.get(t['group'], ''))}</div>
+  <div style="font-size:17px;font-weight:700;color:#1f2a1c;margin:4px 0 6px;word-break:keep-all">{escape(line)}</div>
+  <div style="font-size:14px;line-height:1.7;color:#4f5a49;word-break:keep-all">{escape(t['summary'])}</div>
+</td></tr>''')
+        texts += [f"{t['number']}. {line}", f"   {t['summary']}", ""]
+    texts.append(f"자세한 설명과 근거 기사는 보고서에서 볼 수 있어: {url}")
+    html = f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{title}</title></head>
+<body style="margin:0;padding:0;background:#f4f5ef">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f5ef"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;background:#ffffff;border-radius:14px;font-family:'Apple SD Gothic Neo','Malgun Gothic',Arial,sans-serif">
+<tr><td style="padding:28px 28px 8px">
+  <div style="font-size:11px;font-weight:700;color:#ed603b;letter-spacing:1.5px">{escape(data['brand'])} · MONTHLY BRIEF</div>
+  <h1 style="font-size:24px;line-height:1.4;color:#1f2a1c;margin:10px 0 6px">{title}</h1>
+  <div style="font-size:12px;color:#7a8273">{period} · {stats}</div>
+  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:20px 0 6px"><tr><td style="background:#1f2a1c;border-radius:8px">
+    <a href="{escape(url, quote=True)}" target="_blank" style="display:inline-block;padding:13px 20px;color:#ffffff;font-size:14px;font-weight:700;text-decoration:none">보고서 전체 보기 →</a>
+  </td></tr></table>
+  <div style="font-size:11px;color:#8a9180;word-break:break-all"><a href="{escape(url, quote=True)}" target="_blank" style="color:#8a9180">{escape(url)}</a></div>
+</td></tr>
+<tr><td style="padding:12px 28px 8px"><div style="font-size:13px;font-weight:700;color:#1f2a1c">이번 달 트렌드 9가지</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{''.join(rows)}</table></td></tr>
+<tr><td style="padding:8px 28px 28px;font-size:12px;color:#7a8273;border-top:1px solid #e6e8df">자세한 설명과 근거 기사는 <a href="{escape(url, quote=True)}" target="_blank" style="color:#ed603b">보고서</a>에서 볼 수 있어.</td></tr>
+</table></td></tr></table>
+</body></html>'''
+    return html, "\n".join(texts)
+
+
+def send_report(subject, month, out, repo_override=None, preview=None):
+    data_path, corpus_path, index_path = out / f"{month}.json", out / "corpus.json", out / "index.html"
+    for path in (data_path, corpus_path, index_path):
+        if not path.exists():
+            raise SystemExit(f"{path.relative_to(ROOT)}이 없어요. extract·build를 먼저 끝내요.")
+    data = json.loads(data_path.read_text(encoding="utf-8"))
+    corpus = json.loads(corpus_path.read_text(encoding="utf-8"))
+    validate(data, {a["id"]: a for a in corpus["articles"]}, month)
+    url = preview_url(github_repo(repo_override), f"trends/{subject}/{month}/index.html")
+    html, text = build_email(data, corpus, url)
+    mail_subject = f"{data['title']} | {data['brand']} 월간 트렌드"
+    if preview:
+        path = Path(preview).resolve()
+        write_text(path, html)
+        print(f"메일 미리보기를 저장했어요(발송 안 함): {path}\n제목: {mail_subject}")
+        return
+    remote_ref = f"origin/{BRANCH}:trends/{subject}/{month}/index.html"
+    pushed = subprocess.run(["git", "-C", str(ROOT), "cat-file", "-e", remote_ref], capture_output=True).returncode == 0
+    if not pushed:
+        raise SystemExit(f"{remote_ref}가 없어요. 보고서를 푸시하고 git fetch 한 뒤에 보내요(링크가 열려야 하니까).")
+    from email_sender import get_recipients, recipients_env, send_email
+    recipients = get_recipients(subject)
+    if not recipients:
+        raise SystemExit(f"수신자가 없어요. .env의 RECIPIENTS / {recipients_env(subject)}를 확인해요.")
+    print(f"제목: {mail_subject}\n발송 대상 {len(recipients)}명: {', '.join(recipients)}")
+    results = [send_email(to, mail_subject, text, html, sender_name=data["brand"]) for to in recipients]
+    if not all(results):
+        raise SystemExit(f"메일 발송 실패: {results.count(False)}/{len(results)}건. 위 오류 메시지를 확인해요.")
+
+
 def write_text(path, text):
     path.write_text(text, encoding="utf-8", newline="\n")
 
@@ -402,13 +473,14 @@ def main():
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="월간 트렌드 보고서 생성기")
-    parser.add_argument("command", choices=["extract", "articles", "build"],
-                        help="extract: 기사 추출 / articles: 기사 목록·요약 보기 / build: 페이지 생성")
+    parser.add_argument("command", choices=["extract", "articles", "build", "send"],
+                        help="extract: 기사 추출 / articles: 기사 목록·요약 보기 / build: 페이지 생성 / send: 메일 발송")
     parser.add_argument("subject", help="newsletters/ 아래 주제 폴더 이름 (예: ai, robot, game, graphrag)")
     parser.add_argument("month", help="YYYYMM (예: 202611)")
     parser.add_argument("ids", nargs="*", help="articles: 요약을 볼 기사 ID (예: A0012 A0345 또는 12 345)")
     parser.add_argument("--category", help="articles: 이 카테고리 기사만 목록으로 보기")
-    parser.add_argument("--repo", help="build: 링크에 쓸 GitHub ORG/REPO (기본: git origin에서 자동으로 읽음)")
+    parser.add_argument("--repo", help="build·send: 링크에 쓸 GitHub ORG/REPO (기본: git origin에서 자동으로 읽음)")
+    parser.add_argument("--preview", metavar="FILE", help="send: 보내지 않고 메일 HTML만 FILE에 저장")
     args = parser.parse_args()
     if not re.fullmatch(r"\d{4}(0[1-9]|1[0-2])", args.month):
         raise SystemExit("month는 YYYYMM 형식이어야 해요.")
@@ -420,6 +492,8 @@ def main():
         list_articles(args.subject, args.month, out, args.ids, args.category)
     elif args.command == "extract":
         extract(args.subject, args.month, out)
+    elif args.command == "send":
+        send_report(args.subject, args.month, out, args.repo, args.preview)
     else:
         build(args.subject, args.month, out, args.repo)
 

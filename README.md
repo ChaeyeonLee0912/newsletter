@@ -147,6 +147,7 @@ URL 형식: https://htmlpreview.github.io/?https://github.com/{ORG}/{REPO}/blob/
 ```
 python scripts/generate_trend_report.py extract {SUBJECT} {YYYYMM}   # 기사 추출 + 데이터 뼈대 생성
 python scripts/generate_trend_report.py build {SUBJECT} {YYYYMM}     # 데이터 검사 + index.html 생성
+python scripts/generate_trend_report.py send {SUBJECT} {YYYYMM}      # (푸시 후) 보고서 링크 + 트렌드 9개 요약 메일 발송
 ```
 자세한 절차와 문체 규칙은 [트렌드 보고서 작성 가이드](references/trend-report-guide.md)를 보세요.
 

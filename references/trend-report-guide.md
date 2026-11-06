@@ -14,7 +14,7 @@
 ## 1. 파일 구조
 
 ```
-scripts/generate_trend_report.py   # extract(뉴스레터 → corpus.json), articles(기사 목록·요약), build(템플릿 + 데이터 → index.html)
+scripts/generate_trend_report.py   # extract(뉴스레터 → corpus.json), articles(기사 목록·요약), build(템플릿 + 데이터 → index.html), send(메일 발송)
 templates/
 ├── trend.html                      # 페이지 틀. 아래쪽 BEGIN/END 블록은 카드·목차·상세·근거 기사 반복 조각
 ├── trend.css / trend.js            # 화면 모양 / 필터·목차·대화상자 동작 (build가 styles.css, app.js로 복사)
@@ -267,10 +267,26 @@ build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 
 - 푸시 전에 `git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 그달 뉴스레터가 추적되는지 확인해요(빠지면 뉴스레터 링크가 안 열려요).
 - `git fetch` 후 원격에 새 커밋이 없는지 보고 `origin main`에 푸시해요.
 
+### 메일 발송 (제일 마지막)
+
+푸시하고 보고서 링크가 열리는 걸 확인한 다음, 마지막으로 메일을 보내요.
+
+```powershell
+python scripts/generate_trend_report.py send {SUBJECT} YYYYMM --preview .temp/trend-mail.html   # 보내지 않고 미리보기만
+python scripts/generate_trend_report.py send {SUBJECT} YYYYMM                                   # 실제 발송
+```
+
+- 메일 내용: 맨 위에 보고서 htmlpreview 링크(버튼 + 주소), 그 아래에 트렌드 9개(번호·카테고리·제목·카드 요약). 데이터는 `YYYYMM.json`에서 읽어요.
+- 제목은 `{title} | {brand} 월간 트렌드`, 보낸 사람 이름은 `brand`예요.
+- 발송은 `scripts/email_sender.py`(SMTP)로만 해요. 수신자는 뉴스레터와 같아요: `.env`의 `RECIPIENTS` + `RECIPIENTS_{SUBJECT 대문자}`.
+- 보고서가 `origin/main`에 없으면 링크가 안 열리니까 send가 멈춰요. 푸시하고 `git fetch` 한 뒤에 다시 보내요.
+- SMTP 발송이 실패하면 Gmail 커넥터나 웹 같은 다른 경로로 대신 보내지 말고, 오류 메시지를 그대로 보고해요.
+- 메일 HTML은 메일 앱이 `<style>`을 지워서 인라인 스타일로만 만들어요. 모양을 바꿀 땐 스크립트의 `build_email()`을 고쳐요.
+
 ### 결과 보고
 
 - 푸시한 뒤 build가 출력한 보고서 htmlpreview 링크(`{ORG}/{REPO}`는 4장 참고)를 직접 열어서 카드·CSS·그림이 뜨는지 확인하고, 그 링크를 알려 줘요.
-- 분석한 뉴스레터 수, 중복 뺀 기사 수, 트렌드 9개 제목을 같이 적어요.
+- 분석한 뉴스레터 수, 중복 뺀 기사 수, 트렌드 9개 제목, 메일 발송 결과(수신자 수)를 같이 적어요.
 
 ---
 
@@ -286,4 +302,5 @@ build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 
 - [ ] 데스크톱·모바일 화면을 서버로 확인했다
 - [ ] 미리보기 PNG 4장을 다시 찍었다
 - [ ] 커밋하고 `main`에 푸시했다
-- [ ] 푸시 후 보고서 htmlpreview 링크를 열어 확인하고 결과를 보고했다
+- [ ] 푸시 후 보고서 htmlpreview 링크를 열어 확인했다
+- [ ] `send`로 메일을 보냈고(SMTP), 결과를 보고했다
