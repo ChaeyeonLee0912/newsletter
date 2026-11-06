@@ -4,7 +4,8 @@
 화면 틀은 `templates/trend.html` 하나를 모든 주제·모든 달이 같이 쓰고, 달마다 바뀌는 내용은 `trends/{SUBJECT}/YYYYMM/YYYYMM.json`에만 적어요. 페이지는 `scripts/generate_trend_report.py`가 만들어요.
 
 - `{SUBJECT}`: 주제 폴더 이름(`ai`, `robot`, `game`, `graphrag`). `newsletters/{SUBJECT}/`와 같은 이름이에요.
-- 기준 결과물: [`trends/ai/202610`](../trends/ai/202610/) — 특히 [`202610.json`](../trends/ai/202610/202610.json)이 데이터 작성 예시예요.
+- 기준 결과물: [`trends/ai/202610`](../trends/ai/202610/), [`trends/ai/202609`](../trends/ai/202609/) — 각 폴더의 `YYYYMM.json`이 데이터 작성 예시예요.
+- AI가 아닌 주제는 같은 틀을 쓰되 `brand`, `groups` 이름, 그림 키(`art`), 용어 풀이를 그 주제에 맞게 바꿔요.
 - 독자: 그 분야를 잘 모르는 일반인도 술술 읽을 수 있어야 해요. 그래서 **친구한테 말하듯 쉬운 반말**로 써요.
 - 원칙: 흐름은 해석하되, **근거는 기사로 남기고 사실은 부풀리지 않아요.**
 
@@ -33,6 +34,13 @@ trends/{SUBJECT}/YYYYMM/
 ---
 
 ## 2. 작업 순서
+
+### 2-0. 주제·월 정하기
+
+- 주제는 `newsletters/` 아래 폴더 이름(`ai`, `robot`, `game`, `graphrag`)에서 골라요. 결과 폴더도 같은 영문 이름을 써요.
+- 요청에 주제가 없으면 주제 목록을 **월별 뉴스레터 개수와 함께** 보여 주고 고르게 해요.
+- 요청에 월이 없으면 뉴스레터가 있는 월 목록을 보여 주고 고르게 해요. 기본 추천은 가장 최근에 끝난 달이에요.
+- 고른 달의 뉴스레터가 없거나 10개 미만이면 진행 전에 알려요. `trends/{SUBJECT}/YYYYMM`이 이미 있으면 덮어쓸지 물어봐요.
 
 ### 2-1. 기사 추출
 
@@ -193,14 +201,15 @@ build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 
 
 - 근거 기사의 **'이 기사가 실린 뉴스레터 보기'**와 정리 기준 창의 **날짜 링크**는 htmlpreview 주소로 자동 연결돼요.
   ```
-  https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/newsletters/{SUBJECT}/<파일명>
+  https://htmlpreview.github.io/?https://github.com/{ORG}/{REPO}/blob/main/newsletters/{SUBJECT}/<파일명>
   ```
-  저장소 주소(`unicorn-svc/newsletter`)는 build가 `git remote get-url origin`에서 읽어요.
+- **`{ORG}/{REPO}`는 고정값이 아니에요.** 이 저장소는 각자 fork해서 쓰니까 원본(`unicorn-svc/newsletter`)과 이름이 달라요. build가 `git remote get-url origin`에서 자동으로 읽고, 못 읽으면 멈춰요. 그럴 땐 `build {SUBJECT} YYYYMM --repo ORG/REPO`로 직접 알려 줘요. 문서나 데이터에 저장소 주소를 손으로 적지 않아요.
 - 해당 월 뉴스레터가 `main`에 푸시돼 있어야 링크가 열려요(`git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 확인).
-- 완성된 보고서 자체의 링크는 이렇게 만들어요(결과 보고에 써요). build가 마지막에 출력해 줘요.
+- 완성된 보고서 자체의 링크는 이렇게 만들어요(결과 보고에 써요). build가 마지막에 실제 주소를 출력해 줘요.
   ```
-  https://htmlpreview.github.io/?https://github.com/unicorn-svc/newsletter/blob/main/trends/{SUBJECT}/YYYYMM/index.html
+  https://htmlpreview.github.io/?https://github.com/{ORG}/{REPO}/blob/main/trends/{SUBJECT}/YYYYMM/index.html
   ```
+- fork한 저장소에 이미 있는 보고서(`trends/ai/202609`, `202610` 등)는 원본 저장소 주소로 링크돼 있어요. 원본이 공개돼 있으면 그대로 열리지만, 내 저장소를 가리키게 하려면 그 달을 `build`만 다시 돌려요.
 - `trend.js`에 `file:` 프로토콜일 때 링크를 로컬 경로로 바꾸는 코드를 넣지 않아요. 넣으면 htmlpreview 링크를 덮어써요.
 - 기사 원문 링크는 `target="_blank" rel="noopener noreferrer"`로 새 탭에서 열려요.
 
@@ -254,7 +263,14 @@ build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 
 
 - 커밋은 보통 두 번으로 나눠요: ① 데이터·생성물(`YYYYMM.json`, `corpus.json`, `index.html`, `styles.css`, `app.js`, `assets/`), ② 미리보기 PNG.
 - 템플릿·스크립트를 고쳤다면 보고서와 섞지 말고 따로 커밋해요.
-- `.playwright-mcp/`, `.temp/`, `__pycache__/`는 커밋하지 않아요.
+- `.playwright-mcp/`, `.temp/`, `__pycache__/`, 그리고 이 작업과 관계없는 변경 파일은 커밋하지 않아요.
+- 푸시 전에 `git ls-files 'newsletters/{SUBJECT}/YYYYMM*'`로 그달 뉴스레터가 추적되는지 확인해요(빠지면 뉴스레터 링크가 안 열려요).
+- `git fetch` 후 원격에 새 커밋이 없는지 보고 `origin main`에 푸시해요.
+
+### 결과 보고
+
+- 푸시한 뒤 build가 출력한 보고서 htmlpreview 링크(`{ORG}/{REPO}`는 4장 참고)를 직접 열어서 카드·CSS·그림이 뜨는지 확인하고, 그 링크를 알려 줘요.
+- 분석한 뉴스레터 수, 중복 뺀 기사 수, 트렌드 9개 제목을 같이 적어요.
 
 ---
 
@@ -270,3 +286,4 @@ build는 먼저 데이터를 검사하고, 문제가 있으면 이유를 보여 
 - [ ] 데스크톱·모바일 화면을 서버로 확인했다
 - [ ] 미리보기 PNG 4장을 다시 찍었다
 - [ ] 커밋하고 `main`에 푸시했다
+- [ ] 푸시 후 보고서 htmlpreview 링크를 열어 확인하고 결과를 보고했다

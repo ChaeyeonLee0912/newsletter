@@ -28,7 +28,6 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATES = ROOT / "templates"
-DEFAULT_REPO = "unicorn-svc/newsletter"
 BRANCH = "main"
 TREND_COUNT = 9
 EVIDENCE_COUNT = 4
@@ -267,21 +266,29 @@ def validate(data, articles, month):
 
 # ---------------------------------------------------------------- 빌드
 
-def github_repo():
+def github_repo(override=None):
+    """링크에 쓸 '{ORG}/{REPO}'. 이 저장소는 fork해서 쓰니까 고정값 대신 git origin에서 읽어요."""
+    if override:
+        if not re.fullmatch(r"[\w.-]+/[\w.-]+", override):
+            raise SystemExit("--repo는 ORG/REPO 형식이어야 해요. 예: my-org/newsletter")
+        return override
     try:
         url = subprocess.run(["git", "-C", str(ROOT), "remote", "get-url", "origin"],
                              capture_output=True, text=True, check=True).stdout.strip()
     except (OSError, subprocess.CalledProcessError):
-        return DEFAULT_REPO
-    match = re.search(r"github\.com[:/]([^/]+/[^/]+?)(?:\.git)?$", url)
-    return match.group(1) if match else DEFAULT_REPO
+        url = ""
+    match = re.search(r"github\.com[:/]([^/]+/[^/]+?)(?:\.git)?/?$", url)
+    if not match:
+        raise SystemExit("git origin에서 GitHub 저장소(ORG/REPO)를 못 읽었어요. "
+                         "--repo ORG/REPO 로 직접 알려 줘요.")
+    return match.group(1)
 
 
 def preview_url(repo, path):
     return f"https://htmlpreview.github.io/?https://github.com/{repo}/blob/{BRANCH}/{path}"
 
 
-def build(subject, month, out):
+def build(subject, month, out, repo_override=None):
     corpus_path, data_path = out / "corpus.json", out / f"{month}.json"
     for path in (corpus_path, data_path):
         if not path.exists():
@@ -292,7 +299,7 @@ def build(subject, month, out):
     validate(data, articles, month)
 
     page, blocks = load_template()
-    repo = github_repo()
+    repo = github_repo(repo_override)
     newsletter_base = f"newsletters/{subject}/"
     year, m = int(month[:4]), int(month[4:])
     prev_m = 12 if m == 1 else m - 1
@@ -401,6 +408,7 @@ def main():
     parser.add_argument("month", help="YYYYMM (예: 202611)")
     parser.add_argument("ids", nargs="*", help="articles: 요약을 볼 기사 ID (예: A0012 A0345 또는 12 345)")
     parser.add_argument("--category", help="articles: 이 카테고리 기사만 목록으로 보기")
+    parser.add_argument("--repo", help="build: 링크에 쓸 GitHub ORG/REPO (기본: git origin에서 자동으로 읽음)")
     args = parser.parse_args()
     if not re.fullmatch(r"\d{4}(0[1-9]|1[0-2])", args.month):
         raise SystemExit("month는 YYYYMM 형식이어야 해요.")
@@ -410,8 +418,10 @@ def main():
     out = ROOT / "trends" / args.subject / args.month
     if args.command == "articles":
         list_articles(args.subject, args.month, out, args.ids, args.category)
+    elif args.command == "extract":
+        extract(args.subject, args.month, out)
     else:
-        (extract if args.command == "extract" else build)(args.subject, args.month, out)
+        build(args.subject, args.month, out, args.repo)
 
 
 if __name__ == "__main__":
