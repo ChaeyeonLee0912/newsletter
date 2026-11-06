@@ -1,0 +1,16 @@
+{
+  "published_at": "2026-11-06T19:02",
+  "title": "게임 뉴스레터",
+  "emoji": "🎮",
+  "sources": ["게임메카", "AUTOMATON"],
+  "articles": [
+    {"category":"new","title":"빠르게 키워 정규 서버로, 레이븐2 '마하' 서버 열린다","url":"https://www.gamemeca.com/view.php?gid=1783113","summary":"넷마블이 18일 성장 속도를 높인 ‘마하’ 서버를 엽니다. 이 서버에서 키운 캐릭터와 장비는 정규 서버로 옮길 수 있어 신규 이용자의 진입을 돕습니다.","source":"게임메카","time":"11/06 18:15"},
+    {"category":"market","title":"원작 저력 입증, 귀혼키우기 사전예약 100만 명 돌파","url":"https://www.gamemeca.com/view.php?gid=1783116","summary":"엠게임의 방치형 RPG ‘귀혼키우기’ 사전예약자가 100만 명을 넘었습니다. 회사는 11월 정식 출시를 준비하고 있습니다.","source":"게임메카","time":"11/06 18:06"},
+    {"category":"new","title":"20년 전 지포스 8800 GTX 체험하는 게임, 스팀에 공개","url":"https://www.gamemeca.com/view.php?gid=1783099","summary":"엔비디아가 2006년 PC 게이밍 환경과 그래픽카드 장착을 체험하는 무료 시뮬레이션 데모를 스팀에 공개했습니다.","source":"게임메카","time":"11/06 17:53"},
+    {"category":"development","title":"[오늘의 스팀] 그저 감자를 깎을 뿐인 게임, 대인기","url":"https://www.gamemeca.com/view.php?gid=1783108","summary":"감자 깎기를 반복하는 ‘포테이토 플리즈’가 스팀에서 ‘매우 긍정적’ 평가를 받았습니다. 단순한 작업에 성장 구조를 더한 설계가 주목받고 있습니다.","source":"게임메카","time":"11/06 17:50"},
+    {"category":"new","title":"3D 액션 로그라이크 '몽환 벚꽃 누각' 스위치·스팀 발매","url":"https://www.gamemeca.com/view.php?gid=1783111","summary":"무작위 미궁을 탐험하며 요괴와 싸우는 3D 액션 로그라이트가 스위치와 스팀에 출시됐습니다. 한국어를 공식 지원합니다.","source":"게임메카","time":"11/06 17:49"},
+    {"category":"industry","title":"글로벌 겨냥, 로한 IP 신작 유저 의견 듣는 간담회 열린다","url":"https://www.gamemeca.com/view.php?gid=1783106","summary":"플레이위드가 ‘로한 온라인’ 기반 신작의 개발 방향을 공유하고 기존 이용자 의견을 듣는 간담회를 엽니다. 원작의 핵심 재미를 글로벌 시장에 맞춰 재정비합니다.","source":"게임메카","time":"11/06 17:42"},
+    {"category":"new","title":"배트맨과 버니가 한 팀, 넷마블 'WB 올스타 키우기' 공개","url":"https://www.gamemeca.com/view.php?gid=1783103","summary":"넷마블 북미 자회사 카밤이 워너브라더스, DC, 루니 툰 등의 캐릭터를 모은 방치형 수집 RPG를 공개했습니다.","source":"게임메카","time":"11/06 17:33"},
+    {"category":"new","title":"‘테일즈위버 모바일’ 발표, 한국에서 집중 테스트 참가 모집","url":"https://automaton-media.com/articles/newsjp/20261106-477890/","summary":"넥슨이 ‘테일즈위버’의 모바일 신작을 발표하고 한국 이용자를 대상으로 집중 테스트 참가 등록을 시작했습니다.","source":"AUTOMATON","time":"11/06 14:34"}
+  ]
+}
