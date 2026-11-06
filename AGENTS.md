@@ -25,17 +25,7 @@
   - Robohub: https://robohub.org
   - TechCrunch: https://techcrunch.com/category/robotics/
 
-### 게임
-- 국내:
-  - 게임메카: https://www.gamemeca.com/
-  - 인벤: https://www.inven.co.kr/webzine/news/
-  - 전자신문: https://rss.etnews.com/03104.xml
-- 해외:
-  - AUTOMATON: https://automaton-media.com/latest-news/
-  - PC Gamer: https://www.pcgamer.com/au/archive/
-  - Nintendo Life: https://www.nintendolife.com/news
-
-### GraphRAG
+### ontology-graphrag
 - 국내:
   - AI Times: https://www.aitimes.com
   - 지디넷코리아: https://zdnet.co.kr
@@ -45,6 +35,8 @@
   - Microsoft Research 블로그: https://www.microsoft.com/en-us/research/blog/
   - arXiv: https://arxiv.org/list/cs.AI/recent
   - VentureBeat: https://venturebeat.com/category/ai/
+  - Enterprise Knowledge: https://enterprise-knowledge.com/blog/
+  - Graphwise: https://graphwise.ai/blog/
 
 
 ## 월간 트렌드 보고서 작성
