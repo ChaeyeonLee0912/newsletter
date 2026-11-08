@@ -1,0 +1,52 @@
+{
+  "published_at": "2026-11-08T17:04",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "지디넷코리아",
+    "전자신문",
+    "The Robot Report"
+  ],
+  "articles": [
+    {
+      "category": "humanoid",
+      "title": "[글로벌 줍줍] 샤오미 로봇, 8시간 교대 근무 vs BMW, 8천명 감원",
+      "url": "https://zdnet.co.kr/view/?no=20261108093513",
+      "summary": "샤오미가 자사 전기차 공장에서 휴머노이드 로봇이 8시간 교대 근무로 부품을 스스로 분류하는 영상을 공개했어요. 바퀴형 지원 로봇과 보행 로봇의 협업도 선보였지만, 작업 성공률·배터리 운용 같은 세부 지표는 공개되지 않아 신중론도 나옵니다.",
+      "source": "지디넷코리아",
+      "time": "11/08 09:37"
+    },
+    {
+      "category": "physical_ai",
+      "title": "로봇 넘어 학습 데이터까지…中 칭무, 한국 피지컬AI 시장 공략",
+      "url": "https://www.etnews.com/20261106000180",
+      "summary": "유니트리·애지봇과 협력해 온 중국 모션캡처 기업 칭무가 한국 지사장을 선임하고 국내 진출에 나섰어요. 사람이 그리퍼형 장비를 들고 작업하면 로봇 학습 데이터로 바꿔주는 휴대용 장비 'OptiUMI'를 연말 한·중 동시 출시할 계획입니다.",
+      "source": "전자신문",
+      "time": "11/08 17:00"
+    },
+    {
+      "category": "physical_ai",
+      "title": "로보로드, '도로파손 피지컬 AI' 시대 연다…탐측부터 복구까지 전 과정 자동화",
+      "url": "https://www.etnews.com/20261106000139",
+      "summary": "F1 엔지니어 출신이 이끄는 로보로드가 AI 카메라로 도로 파손을 찾아내고 무인 복구 로봇 'MK2·MK3'와 전용 아스팔트 소재로 메우는 통합 시스템을 내놨어요. 자체 실증에서 복구 비용을 약 70% 줄였다고 합니다.",
+      "source": "전자신문",
+      "time": "11/08 13:00"
+    },
+    {
+      "category": "policy_event",
+      "title": "새만금·구미·완주·울산 등 피지컬 AI 공공사업 지역 확산",
+      "url": "https://www.etnews.com/20261106000207",
+      "summary": "새만금 피지컬 AI 지원시설 기본구상, 구미 국방반도체 실증 허브, 완주 실증단지 등 지자체 주도의 피지컬 AI 사업이 전국으로 번지고 있어요. 다만 대부분 기획·연구 용역 단계라 실제 구축 예산 확보와 지역 간 중복 조정이 과제로 꼽힙니다.",
+      "source": "전자신문",
+      "time": "11/08 12:00"
+    },
+    {
+      "category": "industrial",
+      "title": "로봇 통합으로 중견 제조사도 고정밀 생산 가능해졌다",
+      "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+      "summary": "한때 대기업 전유물이던 고정밀 제조가 산업용·협동로봇 통합 덕분에 중견·중소 제조사에도 열리고 있어요. 이탈리아 부품사가 SCHUNK 자동화 솔루션으로 정밀도와 공정 안정성을 높인 사례 등, 전체 라인을 바꾸지 않고 일부 공정만 자동화하는 방식을 소개합니다.",
+      "source": "The Robot Report",
+      "time": "11/07 22:32"
+    }
+  ]
+}
