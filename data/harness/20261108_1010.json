@@ -1,0 +1,24 @@
+{
+  "published_at": "2026-11-08T10:10",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["The New Stack"],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "Why AWS wants developers to stop babysitting their AI agents",
+      "url": "https://thenewstack.io/kiro-bots-agent-memory/",
+      "summary": "AWS가 개발자가 AI 에이전트를 일일이 감독하지 않아도 되도록 하는 방향을 밀고 있다는 내용입니다. 기사 주소로 보아 Kiro 봇과 에이전트 메모리가 핵심 주제로 보입니다.",
+      "source": "The New Stack",
+      "time": "11/07 10:30"
+    },
+    {
+      "category": "observability",
+      "title": "How we review 4x more AI code without reading every line",
+      "url": "https://thenewstack.io/scale-ai-code-reviews/",
+      "summary": "AI가 만든 코드를 한 줄씩 읽지 않고도 4배 더 많이 검토하는 방법을 다룹니다. 에이전트 산출물을 대규모로 검증하는 하네스 관점의 사례입니다.",
+      "source": "The New Stack",
+      "time": "11/07 12:30"
+    }
+  ]
+}
