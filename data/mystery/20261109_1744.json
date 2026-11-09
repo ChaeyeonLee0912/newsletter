@@ -1,0 +1,62 @@
+{
+  "published_at": "2026-11-09T17:44",
+  "title": "추리 게임 뉴스레터",
+  "emoji": "🕵️",
+  "sources": [
+    "인벤",
+    "경향게임스",
+    "게임메카",
+    "Room Escape Artist",
+    "BoardGameGeek News"
+  ],
+  "articles": [
+    {
+      "category": "indie",
+      "category_label": "인디·전시",
+      "category_emoji": "🎪",
+      "title": "빅잼 5기 6종, 태국 게임쇼 전시 마무리",
+      "url": "https://www.inven.co.kr/webzine/news/?news=323156",
+      "summary": "부산 인디게임 지원 사업 '빅잼' 5기 6종이 태국 게임쇼 전시를 마쳤어요. 단어를 검색해 불에 탄 기록을 되살리며 미제 사건을 쫓는 글자 추리 게임 '보존계', 일지를 쓰고 용의자를 심문하는 '잭 더 리퍼' 등 추리 작품이 여럿 포함됐어요.",
+      "source": "인벤",
+      "time": "11/09 11:59"
+    },
+    {
+      "category": "indie",
+      "title": "네오위즈, 지스타서 ‘산나비’·‘안녕서울’ 체험 부스 운영",
+      "url": "https://www.khgames.co.kr/news/articleView.html?idxno=310140",
+      "summary": "네오위즈가 11월 19~22일 부산 게임문화축제에서 퍼즐 어드벤처 '안녕서울: 이태원편' 부스를 열어요. 소행성 충돌을 앞둔 근미래 서울에서 우주 대피 계획의 단서를 찾아가는 게임으로, 시연과 체험 미션, 개발자 해설이 함께 준비돼요.",
+      "source": "경향게임스",
+      "time": "11/09 09:56"
+    },
+    {
+      "category": "puzzle",
+      "category_label": "퍼즐·신작",
+      "category_emoji": "🧩",
+      "title": "중세에서 숨은 그림 찾기, 폴리베일 스팀 체험판 공개",
+      "url": "https://www.gamemeca.com/view.php?gid=1783150",
+      "summary": "화가 브뤼헐의 그림에서 영감을 받은 숨은 물건 찾기 퍼즐 '폴리베일' 체험판이 스팀에 나왔어요. 글자 없이 마을 사람이 원하는 물건을 찾아 주면 그림에 색이 채워지는 방식이고, 시간 제한이 없어요. 정식판은 11월 말 출시 예정이에요.",
+      "source": "게임메카",
+      "time": "11/09 11:51"
+    },
+    {
+      "category": "escape",
+      "category_label": "방탈출·체험형",
+      "category_emoji": "🚪",
+      "title": "더 챔버 – 챔코프 더 사이버게임 [리뷰]",
+      "url": "https://roomescapeartist.com/2026/11/08/the-chamber-chamcorp-the-cybergame-review/",
+      "summary": "체코 프라하 방탈출 업체 '더 챔버'가 10주년 기념으로 연 대형 체험형 게임 리뷰예요. 22세기 사이버펑크 도시에서 실종 사건을 조사하는 설정으로, 최대 200명이 배우가 연기하는 인물에게 임무를 받고 단서를 연결해요. 고른 진영에 따라 진행이 달라지고 약 3시간 걸려요.",
+      "source": "Room Escape Artist",
+      "time": "11/09 00:01"
+    },
+    {
+      "category": "boardgame",
+      "category_label": "보드게임",
+      "category_emoji": "🎲",
+      "title": "일러스트레이터 애비뉴: 빌뢰 파르카시(마인드클래시 게임즈)",
+      "url": "https://boardgamegeek.com/blog/1/blogpost/193099/illustrator-avenue-villo-farkas-mindclash-games",
+      "summary": "보드게임 아트 디렉터 인터뷰예요. 신작 '코트룸: 누아르 트릴로지'는 1936년 뉴욕을 배경으로 변호·검찰 팀이 단서를 찾아 자기 쪽 주장을 세우는 팀 대결 수사 게임이에요. 당시 신문·영수증·현장 사진을 고증해 증거 카드를 만든 과정을 소개해요.",
+      "source": "BoardGameGeek News",
+      "time": "11/09 16:00"
+    }
+  ]
+}

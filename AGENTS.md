@@ -54,6 +54,18 @@
   - The New Stack: https://thenewstack.io
   - Hugging Face 블로그: https://huggingface.co/blog
 
+### 추리 게임
+- 국내:
+  - 게임메카: https://www.gamemeca.com
+  - 인벤: https://www.inven.co.kr/webzine/news/
+  - 경향게임스: https://www.khgames.co.kr
+  - 게임동아: https://game.donga.com
+- 해외:
+  - Adventure Gamers: https://adventuregamers.com
+  - Room Escape Artist: https://roomescapeartist.com
+  - BoardGameGeek News: https://boardgamegeek.com/blog/1/boardgamegeek-news
+  - Rock Paper Shotgun: https://www.rockpapershotgun.com
+
 
 ## 월간 트렌드 보고서 작성
 '월간 트렌드 보고서 작성', '트렌드 보고서 작성' 같은 요청을 받으면, 시작 전에 [`references/trend-report-guide.md`](references/trend-report-guide.md)를 끝까지 읽고 그 절차대로 수행한다.
