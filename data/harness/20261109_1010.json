@@ -1,0 +1,48 @@
+{
+  "published_at": "2026-11-09T10:10",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["The New Stack", "AI Times", "전자신문", "지디넷코리아"],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "AWS, 여러 AI 에이전트 지휘하는 '키로 봇' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217141",
+      "summary": "AWS가 여러 AI 에이전트를 조율하고 반복 개발 업무를 자동화하는 '키로 봇'을 내놨습니다. 봇마다 독립된 메모리·작업공간을 갖고 권한, 모델 선택, EC2 실행을 지원합니다. 다만 생산성 벤치마크는 공개되지 않아 비용과 정확성은 운영에서 검증이 필요합니다.",
+      "source": "AI Times",
+      "time": "11/08 11:48"
+    },
+    {
+      "category": "orchestration",
+      "title": "Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework",
+      "url": "https://thenewstack.io/scaling-autonomous-agents-framework/",
+      "summary": "자율 에이전트를 한 팀에서 50개 팀으로 확장할 때 서버리스와 컨테이너 중 무엇을 택할지 정하는 의사결정 프레임워크를 다룹니다. (본문 미확인, 제목·소개 기준)",
+      "source": "The New Stack",
+      "time": "11/08 11:30"
+    },
+    {
+      "category": "orchestration",
+      "title": "[AI리더의 서가] AI 에이전트 시대의 연결 프로토콜",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217029",
+      "summary": "에이전트를 도구·데이터에 잇는 MCP와 에이전트끼리 협업하게 하는 A2A를 샘플 코드로 단계별 실습하는 책 『MCP & A2A』를 소개합니다. 백엔드 개발자와 다중 에이전트 팀이 먼저 읽을 장도 안내합니다.",
+      "source": "AI Times",
+      "time": "11/09 09:00"
+    },
+    {
+      "category": "cost",
+      "title": "앤트로픽, 데이터센터 전력 직접 공급...가스 발전기 4.6조원에 확보",
+      "url": "https://www.etnews.com/20261109000006",
+      "summary": "앤트로픽이 약 34억 달러를 들여 텍사스 업체의 1.7GW 규모 가스 발전기 인수 계약을 넘겨받았습니다. 외부 전력사 의존을 줄여 공급 차질 위험을 낮추려는 전략이며, xAI·알파벳 등도 전력 인프라를 직접 확보하는 추세입니다.",
+      "source": "전자신문",
+      "time": "11/09 06:54"
+    },
+    {
+      "category": "security",
+      "title": "에이전틱·피지컬 AI 확산에 법적책임 안전 기준 논의",
+      "url": "https://zdnet.co.kr/view/?no=20261109095743",
+      "summary": "11월 16일 AI법정책포럼 세미나에서 에이전틱 AI와 피지컬 AI 확산에 따른 법적 책임과 안전 기준, 인공지능기본법 시행 후 기업의 규제 현안을 논의합니다.",
+      "source": "지디넷코리아",
+      "time": "11/09 09:57"
+    }
+  ]
+}
